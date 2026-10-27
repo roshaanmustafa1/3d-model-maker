@@ -1,0 +1,364 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "--grep",
+      "BlackBullet"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/phase2_5/blackbullet-browser/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase2_5\\blackbullet-browser\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/phase2_5/blackbullet-browser/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/phase2_5/blackbullet-browser/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "appearance-modes.spec.mjs",
+      "file": "appearance-modes.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 17908,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0\u001b[7m909\u001b[27m0b\"\u001b[39m\nReceived: \u001b[31m\"0\u001b[7m808\u001b[27m0b\"\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0\u001b[7m909\u001b[27m0b\"\u001b[39m\nReceived: \u001b[31m\"0\u001b[7m808\u001b[27m0b\"\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\appearance-modes.spec.mjs:32:27",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\appearance-modes.spec.mjs",
+                      "column": 27,
+                      "line": 32
+                    },
+                    "snippet": "  30 |   const imported = await materials(page)\n  31 |   for (const material of imported) {\n> 32 |     expect(material.srgb).toBe('09090b')\n     |                           ^\n  33 |     expect(material.roughness).toBeCloseTo(0.65)\n  34 |     expect(material.metalness).toBe(0)\n  35 |     expect(material.map).toBe(8)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\appearance-modes.spec.mjs",
+                        "column": 27,
+                        "line": 32
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0\u001b[7m909\u001b[27m0b\"\u001b[39m\nReceived: \u001b[31m\"0\u001b[7m808\u001b[27m0b\"\u001b[39m\n\n  30 |   const imported = await materials(page)\n  31 |   for (const material of imported) {\n> 32 |     expect(material.srgb).toBe('09090b')\n     |                           ^\n  33 |     expect(material.roughness).toBeCloseTo(0.65)\n  34 |     expect(material.metalness).toBe(0)\n  35 |     expect(material.map).toBe(8)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\appearance-modes.spec.mjs:32:27"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T14:02:59.479Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase2_5\\blackbullet-browser\\browser-artifacts\\appearance-modes-Phase-2-5-b1438-artwork-without-double-tint\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase2_5\\blackbullet-browser\\browser-artifacts\\appearance-modes-Phase-2-5-b1438-artwork-without-double-tint\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase2_5\\blackbullet-browser\\browser-artifacts\\appearance-modes-Phase-2-5-b1438-artwork-without-double-tint\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\appearance-modes.spec.mjs",
+                    "column": 27,
+                    "line": 32
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d2f5b69df33a63de09ba-91a48cdeacc79578a3f7",
+          "file": "appearance-modes.spec.mjs",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "Phase 2.5 BlackBullet existing catalog retains runtime default",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6134,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T14:03:19.951Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d2f5b69df33a63de09ba-07a545a4e36b90e6997e",
+          "file": "appearance-modes.spec.mjs",
+          "line": 61,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "blackbullet.spec.mjs",
+      "file": "blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "BlackBullet actual customizer preserves imported black fabric before user color choice",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6181,
+                  "error": {
+                    "message": "Error: Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0\u001b[7m909\u001b[27m0b\"\u001b[39m\nReceived: \u001b[31m\"0\u001b[7m808\u001b[27m0b\"\u001b[39m",
+                    "stack": "Error: Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0\u001b[7m909\u001b[27m0b\"\u001b[39m\nReceived: \u001b[31m\"0\u001b[7m808\u001b[27m0b\"\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\blackbullet.spec.mjs:32:154",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\blackbullet.spec.mjs",
+                      "column": 154,
+                      "line": 32
+                    },
+                    "snippet": "  30 |   expect(log.materialModuleInstrumented).toBe(true)\n  31 |   expect(log.pageErrors).toEqual([])\n> 32 |   expect(materials[0].srgb.toLowerCase(), 'Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input').toBe('09090b')\n     |                                                                                                                                                          ^\n  33 | })\n  34 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\blackbullet.spec.mjs",
+                        "column": 154,
+                        "line": 32
+                      },
+                      "message": "Error: Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"0\u001b[7m909\u001b[27m0b\"\u001b[39m\nReceived: \u001b[31m\"0\u001b[7m808\u001b[27m0b\"\u001b[39m\n\n  30 |   expect(log.materialModuleInstrumented).toBe(true)\n  31 |   expect(log.pageErrors).toEqual([])\n> 32 |   expect(materials[0].srgb.toLowerCase(), 'Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input').toBe('09090b')\n     |                                                                                                                                                          ^\n  33 | })\n  34 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\blackbullet.spec.mjs:32:154"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T14:03:26.420Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase2_5\\blackbullet-browser\\browser-artifacts\\blackbullet-BlackBullet-ac-009fe-ic-before-user-color-choice\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase2_5\\blackbullet-browser\\browser-artifacts\\blackbullet-BlackBullet-ac-009fe-ic-before-user-color-choice\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase2_5\\blackbullet-browser\\browser-artifacts\\blackbullet-BlackBullet-ac-009fe-ic-before-user-color-choice\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\blackbullet.spec.mjs",
+                    "column": 154,
+                    "line": 32
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a4871b6a43d8d39556bb-cb2214407d6430b7f077",
+          "file": "blackbullet.spec.mjs",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "editor.spec.mjs",
+      "file": "editor.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "BlackBullet validation report is accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9669,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T14:03:33.966Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-2279d65f7e81d381f4fa",
+          "file": "editor.spec.mjs",
+          "line": 144,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T14:02:58.561Z",
+    "duration": 45849.468,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

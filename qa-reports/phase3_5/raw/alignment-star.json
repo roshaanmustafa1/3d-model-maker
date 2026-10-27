@@ -1,0 +1,40 @@
+{
+  "result": {
+    "editor": {
+      "minX": 63.488,
+      "minY": 178.17600000000002,
+      "maxX": 280.576,
+      "maxY": 391.168,
+      "count": 4801
+    },
+    "texture": {
+      "minX": 64.38095238095238,
+      "minY": 177.8222222222222,
+      "maxX": 281.047619047619,
+      "maxY": 393.3777777777778,
+      "count": 7654
+    }
+  },
+  "layers": [
+    {
+      "name": "Star Shape",
+      "type": "shape",
+      "shapeType": "star",
+      "fill": "#10b981",
+      "stroke": "#ffffff",
+      "strokeWidth": 2,
+      "x": 100,
+      "y": 100,
+      "width": 300,
+      "height": 240,
+      "rotation": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "id": "layer_1792869323342_czclt",
+      "zIndex": 1
+    }
+  ]
+}

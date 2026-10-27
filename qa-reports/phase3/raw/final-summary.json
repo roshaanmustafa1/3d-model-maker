@@ -1,0 +1,145 @@
+{
+  "releaseDecision": "FAIL",
+  "createdUtc": "2026-10-24T18:33:35.134Z",
+  "baseline": {
+    "default": {
+      "passed": 39
+    },
+    "independentEngine": {
+      "passed": 38,
+      "skipped": 3
+    },
+    "browser": {
+      "passed": 24
+    }
+  },
+  "phase3Browser": {
+    "counts": {
+      "failed": 8,
+      "passed": 3
+    },
+    "cases": [
+      {
+        "title": "workspace initialization corresponds to selected product",
+        "file": "phase3.spec.mjs",
+        "run": "interactions-final",
+        "status": "failed",
+        "errors": [
+          "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  16 |     await record('initial-workspace', { actual, events })\n  17 |     await page.screenshot({ path: `${directory}/screenshots/initial-workspace.png` })\n> 18 |     expect(actual.meshes.some(mesh => mesh.name === 'Body_Main')).toBe(true)\n     |                                                                   ^\n  19 |   })\n  20 |\n  21 |   test('catalog geometry, live textures, camera controls and resource cycles', async ({ page }) => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:18:67"
+        ],
+        "durationMs": 14723
+      },
+      {
+        "title": "catalog geometry, live textures, camera controls and resource cycles",
+        "file": "phase3.spec.mjs",
+        "run": "interactions-final",
+        "status": "failed",
+        "errors": [
+          "Error: camera presets must actually move camera\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m1\u001b[39m\nReceived:   \u001b[31m1\u001b[39m\n\n  49 |     expect.soft(cycles[1].loaded.meshes).toHaveLength(5)\n  50 |     expect.soft(cycles[2].loaded.meshes).toHaveLength(3)\n> 51 |     expect.soft(new Set(cycles[0].views.map(v => JSON.stringify(v.camera))).size, 'camera presets must actually move camera').toBeGreaterThan(1)\n     |                                                                                                                               ^\n  52 |     expect.soft(cycles[0].artwork.meshes[0].materials[0].texture?.hash, 'artwork must reach real mesh').not.toBe(cycles[0].loaded.meshes[0].materials[0].texture?.hash)\n  53 |   })\n  54 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:51:127"
+        ],
+        "durationMs": 166274
+      },
+      {
+        "title": "UV-ready multipart import preserves original albedo and PBR",
+        "file": "phase3.spec.mjs",
+        "run": "interactions-final",
+        "status": "failed",
+        "errors": [
+          "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m0.65\u001b[39m\nReceived: \u001b[31m0.92\u001b[39m\n\nExpected precision:    2\nExpected difference: < \u001b[32m0.005\u001b[39m\nReceived difference:   \u001b[31m0.27\u001b[39m\n\n  120 |     await inspectGLB('multipart-customizer')\n  121 |     expect.soft(actual.meshes).toHaveLength(12)\n> 122 |     expect.soft(actual.meshes[0].materials[0].roughness).toBeCloseTo(.65)\n      |                                                          ^\n  123 |     expect.soft(actual.meshes[0].materials[0].texture?.width).toBe(8)\n  124 |   })\n  125 | })\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:122:58",
+          "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m8\u001b[39m\nReceived: \u001b[31m1024\u001b[39m\n\n  121 |     expect.soft(actual.meshes).toHaveLength(12)\n  122 |     expect.soft(actual.meshes[0].materials[0].roughness).toBeCloseTo(.65)\n> 123 |     expect.soft(actual.meshes[0].materials[0].texture?.width).toBe(8)\n      |                                                               ^\n  124 |   })\n  125 | })\n  126 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:123:63"
+        ],
+        "durationMs": 51514
+      },
+      {
+        "title": "real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+        "file": "phase3.spec.mjs",
+        "run": "artwork-final",
+        "status": "failed",
+        "errors": [
+          "Error: untouched right sleeve must not share the front/back artwork atlas\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m2537594821\u001b[39m\n\n  103 |     expect.soft(edited.customization.zones.body_front.layers).toHaveLength(3)\n  104 |     expect.soft(redone.customization.zones).toEqual(edited.customization.zones)\n> 105 |     expect.soft(actual.meshes.find(m => m.name === 'Sleeve_Right').materials[0].texture?.hash, 'untouched right sleeve must not share the front/back artwork atlas').not.toBe(actual.meshes.find(m => m.name === 'Body_Main').materials[0].texture?.hash)\n      |                                                                                                                                                                          ^\n  106 |   })\n  107 |\n  108 |   test('UV-ready multipart import preserves original albedo and PBR', async ({ page }) => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:105:170"
+        ],
+        "durationMs": 112325
+      },
+      {
+        "title": "Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors",
+        "file": "phase3-durability.spec.mjs",
+        "run": "durability",
+        "status": "failed",
+        "errors": [
+          "Error: malformed PNG must report a user-facing error\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/invalid image|failed to (load|read|upload)|upload failed/i\u001b[39m\nReceived string:  \u001b[31m\"3D Model Maker\u001b[39m\n\u001b[31mSTUDIO\u001b[39m\n\u001b[31mFile\u001b[39m\n\u001b[31mEdit\u001b[39m\n\u001b[31mAdd\u001b[39m\n\u001b[31mView\u001b[39m\n\u001b[31mTools\u001b[39m\n\u001b[31m3D Studio\u001b[39m\n\u001b[31mCustomizer\u001b[39m\n\u001b[31mAI Generator\u001b[39m\n\u001b[31mUV Lab\u001b[39m\n\u001b[31mValidator\u001b[39m\n\u001b[31mSave\u001b[39m\n\u001b[31mImport\u001b[39m\n\u001b[31mExport GLB\u001b[39m\n\u001b[31m3D Modeling Studio\u001b[39m\n\u001b[31mStreetwear Oversized TeeT-SHIRT\u001b[39m\n\u001b[31mSave Project\u001b[39m\n\u001b[31mExport GLB\u001b[39m\n\u001b[31mArtwork\u001b[39m\n\u001b[31mLayers\u001b[39m\n\u001b[31mZones\u001b[39m\n\u001b[31mLibrary\u001b[39m\n\u001b[31mUPLOAD ARTWORK\u001b[39m\n\u001b[31mUpload Image or SVG\u001b[39m\n\u001b[31mTYPOGRAPHY\u001b[39m\n\u001b[31mADD SHAPE\u001b[39m\n\u001b[31mSplit View (2D + 3D)\u001b[39m\n\u001b[31m2D Design Canvas\u001b[39m\n\u001b[31m3D Product Preview\u001b[39m\n\u001b[31mActive Zone: Front Chest | Canvas: 1024x1024px\u001b[39m\n\u001b[31mObject Mode\u001b[39m\n\u001b[31m[Tab]\u001b[39m\n\u001b[31mWORLD\u001b[39m\n\u001b[31mSolid\u001b[39m\n\u001b[31mPerspective\u001b[39m\n\u001b[31mFront\u001b[39m\n\u001b[31mBack\u001b[39m\n\u001b[31mLeft\u001b[39m\n\u001b[31mRight\u001b[39m\n\u001b[31mTop\u001b[39m\n\u001b[31mNeutral\u001b[39m\n\u001b[31mSoft White\u001b[39m\n\u001b[31mDark\u001b[39m\n\u001b[31mWarm\u001b[39m\n\u001b[31mScreenshot\u001b[39m\n\u001b[31mLayer Inspector\u001b[39m\n\u001b[31mMaterial & Finish\u001b[39m\n\u001b[31mLAYER PROPERTIES\u001b[39m\n\u001b[31mTEXT\u001b[39m\n\u001b[31mPOSITION & DIMENSIONS\u001b[39m\n\u001b[31mX\u001b[39m\n\u001b[31mY\u001b[39m\n\u001b[31mW\u001b[39m\n\u001b[31mH\u001b[39m\n\u001b[31mROTATION: 0°\u001b[39m\n\u001b[31mOPACITY: 100%\u001b[39m\n\u001b[31mTYPOGRAPHY CONTROLS\u001b[39m\n\u001b[31mSans-Serif\u001b[39m\n\u001b[31mSerif\u001b[39m\n\u001b[31mMonospace\u001b[39m\n\u001b[31mImpact\u001b[39m\n\u001b[31mGeorgia\u001b[39m\n\u001b[31mArial Black\u001b[39m\n\u001b[31mSize\u001b[39m\n\u001b[31mColor\u001b[39m\n\u001b[31mZone:\u001b[39m\n\u001b[31mFront Chest\u001b[39m\n\u001b[31mBake Resolution:\u001b[39m\n\u001b[31m1024 x 1024\u001b[39m\n\u001b[31mUV Status:\u001b[39m\n\u001b[31mMapped\u001b[39m\n\u001b[31mSaved at 11:19:04 PM\u001b[39m\n\u001b[31mBlackBullet Compatible\u001b[39m\n\u001b[31mTShirt_Product_Copy\u001b[39m\n\u001b[31mSaved at 11:19:04 PM\u001b[39m\n\u001b[31mVerts:\u001b[39m\n\u001b[31m612\u001b[39m\n\u001b[31mTris:\u001b[39m\n\u001b[31m496\u001b[39m\n\u001b[31m8\u001b[39m\n\u001b[31m2\u001b[39m\n\u001b[31m3 FPS\u001b[39m\n\u001b[31mProject saved to IndexedDB persistent storage!\"\u001b[39m\n\n  48 |   const sanitized = decodeURIComponent(before.customization.zones.body_front.layers.find(l => l.isSvg).src.split(',').slice(1).join(','))\n  49 |   expect.soft(sanitized).not.toMatch(/<script|onload=|foreignObject/)\n> 50 |   expect.soft(malformedBody, 'malformed PNG must report a user-facing error').toMatch(/invalid image|failed to (load|read|upload)|upload failed/i)\n     |                                                                               ^\n  51 |   expect.soft(after.customization.zones.body_front.layers, 'invalid SVG must not create a broken layer').toHaveLength(6)\n  52 | })\n  53 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-durability.spec.mjs:50:79",
+          "Error: invalid SVG must not create a broken layer\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m6\u001b[39m\nReceived length: \u001b[31m7\u001b[39m\nReceived array:  \u001b[31m[{\"assetId\": \"asset_1792865932514\", \"height\": 250, \"id\": \"layer_1792865932514_dlbym\", \"locked\": false, \"name\": \"qa\", \"opacity\": 1, \"originalHeight\": 32, \"originalWidth\": 64, \"rotation\": 0, \"scaleX\": 1, \"scaleY\": 1, \"src\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAAbUlEQVR4AeyVMQ4AIRACif//89rTWG7izF0sKIFBzySzeTK7/wn8MwA4AJEACYAn4ATgAHgJOgEnAE/ACcAB4L0CXbgT6ERoWgJojbdfCehEaFoCaI23XwnoRGhaAmiNt18J6ERoWgJ+b/zl7wIAAP//oSR76gAAAAZJREFUAwABK3/BfgIyFQAAAABJRU5ErkJggg==\", \"type\": \"image\", \"visible\": true, \"width\": 500, \"x\": 250, \"y\": 375, \"zIndex\": 1}, {\"assetId\": \"asset_1792865933608\", \"height\": 250, \"id\": \"layer_1792865933608_cpj0u\", \"locked\": false, \"name\": \"qa\", \"opacity\": 1, \"originalHeight\": 32, \"originalWidth\": 64, \"rotation\": 0, \"scaleX\": 1, \"scaleY\": 1, \"src\": \"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAgAEADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAj/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAcKCf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJ0AQx1TAAWMAiTMeAAjkBbWnAABYwCJMx4AD//Z\", \"type\": \"image\", \"visible\": true, \"width\": 500, \"x\": 250, \"y\": 375, \"zIndex\": 2}, {\"assetId\": \"asset_1792865935063\", \"height\": 250, \"id\": \"layer_1792865935063_gekoi\", \"locked\": false, \"name\": \"qa\", \"opacity\": 1, \"originalHeight\": 32, \"originalWidth\": 64, \"rotation\": 0, \"scaleX\": 1, \"scaleY\": 1, \"src\": \"data:image/webp;base64,UklGRkoCAABXRUJQVlA4WAoAAAAgAAAAPwAAHwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggXAAAABAFAJ0BKkAAIAA+bS6TRqQioaEsCACADYljAMrtjf4B+AGmA/AD9bt4AAdKe0ayVAAA/vCa1xzJx6JKoZPwy/x77LHzMt5TxztWSk/IAY7/Go2c7j5MONlIAAAA\", \"type\": \"image\", \"visible\": true, \"width\": 500, \"x\": 250, \"y\": 375, \"zIndex\": 3}, {\"assetId\": \"asset_1792865935734\", \"height\": 500, \"id\": \"layer_1792865935734_b6wv0\", \"isSvg\": true, \"locked\": false, \"name\": \"sanitized\", \"opacity\": 1, \"rotation\": 0, \"scaleX\": 1, \"scaleY\": 1, \"src\": \"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22blue%22%2F%3E%3C%2Fsvg%3E\", \"type\": \"image\", \"visible\": true, \"width\": 500, \"x\": 250, \"y\": 250, \"zIndex\": 4}, {\"align\": \"center\", \"fill\": \"#ffffff\", \"fontFamily\": \"sans-serif\", \"fontSize\": 54, \"fontStyle\": \"normal\", \"fontWeight\": \"bold\", \"height\": 80, \"id\": \"layer_1792865936191_ydpiw\", \"letterSpacing\": 0, \"lineHeight\": 1.2, \"locked\": false, \"name\": \"Text \\\"KEYBOARD TES\\\"\", \"opacity\": 1, \"rotation\": 0, \"scaleX\": 1, \"scaleY\": 1, \"text\": \"KEYBOARD TEST\", \"type\": \"text\", \"visible\": true, \"width\": 400, \"x\": 300, \"y\": 460, \"zIndex\": 5}, {\"align\": \"center\", \"fill\": \"#ffffff\", \"fontFamily\": \"sans-serif\", \"fontSize\": 54, \"fontStyle\": \"normal\", \"fontWeight\": \"bold\", \"height\": 80, \"id\": \"layer_1792865942303_aovt7\", \"letterSpacing\": 0, \"lineHeight\": 1.2, \"locked\": false, \"name\": \"Text \\\"KEYBOARD TES\\\" (Copy)\", \"opacity\": 1, \"rotation\": 0, \"scaleX\": 1, \"scaleY\": 1, \"text\": \"KEYBOARD TEST\", \"type\": \"text\", \"visible\": true, \"width\": 400, \"x\": 320, \"y\": 480, \"zIndex\": 6}, {\"assetId\": \"asset_1792865947168\", \"height\": 500, \"id\": \"layer_1792865947168_qgp2t\", \"isSvg\": true, \"locked\": false, \"name\": \"invalid\", \"opacity\": 1, \"rotation\": 0, \"scaleX\": 1, \"scaleY\": 1, \"src\": \"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20%3E%3Cpath%20invalid\", \"type\": \"image\", \"visible\": true, \"width\": 500, \"x\": 250, \"y\": 250, \"zIndex\": 7}]\u001b[39m\n\n  49 |   expect.soft(sanitized).not.toMatch(/<script|onload=|foreignObject/)\n  50 |   expect.soft(malformedBody, 'malformed PNG must report a user-facing error').toMatch(/invalid image|failed to (load|read|upload)|upload failed/i)\n> 51 |   expect.soft(after.customization.zones.body_front.layers, 'invalid SVG must not create a broken layer').toHaveLength(6)\n     |                                                                                                          ^\n  52 | })\n  53 |\n  54 | test('Phase 3 editable project survives a new browser process with durable image assets', async () => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-durability.spec.mjs:51:106"
+        ],
+        "durationMs": 35305
+      },
+      {
+        "title": "Phase 3 editable project survives a new browser process with durable image assets",
+        "file": "phase3-durability.spec.mjs",
+        "run": "persistence-stable",
+        "status": "passed",
+        "errors": [],
+        "durationMs": 127072
+      },
+      {
+        "title": "Phase 3 pointer movement updates layer coordinates and actual texture pixels",
+        "file": "phase3-pointer.spec.mjs",
+        "run": "pointer-settled",
+        "status": "passed",
+        "errors": [],
+        "durationMs": 36770
+      },
+      {
+        "title": "Phase 3 star has matching 2D canvas and actual 3D texture coordinates",
+        "file": "phase3-pointer.spec.mjs",
+        "run": "pointer-settled",
+        "status": "failed",
+        "errors": [
+          "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m5\u001b[39m\nReceived:   \u001b[31m148.00799999999998\u001b[39m\n\n  72 |   await record('star-coordinate-comparison', { bounds, events })\n  73 |   await page.screenshot({ path: `${directory}/screenshots/star-coordinate-comparison.png` })\n> 74 |   expect.soft(Math.abs(bounds.editor.minX - bounds.texture.minX)).toBeLessThan(5)\n     |                                                                   ^\n  75 |   expect.soft(Math.abs(bounds.editor.minY - bounds.texture.minY)).toBeLessThan(5)\n  76 | })\n  77 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-pointer.spec.mjs:74:67",
+          "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m5\u001b[39m\nReceived:   \u001b[31m149.2\u001b[39m\n\n  73 |   await page.screenshot({ path: `${directory}/screenshots/star-coordinate-comparison.png` })\n  74 |   expect.soft(Math.abs(bounds.editor.minX - bounds.texture.minX)).toBeLessThan(5)\n> 75 |   expect.soft(Math.abs(bounds.editor.minY - bounds.texture.minY)).toBeLessThan(5)\n     |                                                                   ^\n  76 | })\n  77 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-pointer.spec.mjs:75:67"
+        ],
+        "durationMs": 20366
+      },
+      {
+        "title": "Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+        "file": "phase3-blackbullet.spec.mjs",
+        "run": "blackbullet-final",
+        "status": "failed",
+        "errors": [
+          "Error: exported product must resolve a runtime front region\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m1\u001b[39m\nReceived length: \u001b[31m0\u001b[39m\nReceived array:  \u001b[31m[]\u001b[39m\n\n  58 |   expect.soft(restored.map(({ matrix, ...entry }) => entry)).toEqual(imported.map(({ matrix, ...entry }) => entry))\n  59 |   expect.soft(events.errors).toEqual([])\n> 60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n     |                                                                                                                         ^\n  61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)\n  62 | })\n  63 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:60:121",
+          "Error: exported product must resolve a runtime back region\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m1\u001b[39m\nReceived length: \u001b[31m0\u001b[39m\nReceived array:  \u001b[31m[]\u001b[39m\n\n  59 |   expect.soft(events.errors).toEqual([])\n  60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n> 61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)\n     |                                                                                                                       ^\n  62 | })\n  63 |\n  64 | test('Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes', async ({ page }) => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:61:119"
+        ],
+        "durationMs": 19078
+      },
+      {
+        "title": "Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes",
+        "file": "phase3-blackbullet.spec.mjs",
+        "run": "blackbullet-final",
+        "status": "passed",
+        "errors": [],
+        "durationMs": 19412
+      },
+      {
+        "title": "Phase 3 customized export reimports into Model Maker with artwork textures",
+        "file": "phase3-blackbullet.spec.mjs",
+        "run": "blackbullet-final",
+        "status": "failed",
+        "errors": [
+          "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m1\u001b[39m\nReceived:   \u001b[31m1\u001b[39m\n\n   99 |   await page.screenshot({ path: `${directory}/screenshots/customized-reimport.png` })\n  100 |   expect.soft(actual.meshes).toHaveLength(4)\n> 101 |   expect.soft(new Set(actual.meshes.map(m => m.materials[0].texture?.hash)).size).toBeGreaterThan(1)\n      |                                                                                   ^\n  102 | })\n  103 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:101:83"
+        ],
+        "durationMs": 16100
+      }
+    ]
+  },
+  "phase3NodeRegressions": {
+    "passed": 1,
+    "failed": 4
+  },
+  "productionAsset": {
+    "path": "C:/Users/Roshaan's Pc/Documents/Projects/blackbullet-3d/src/assets/modals/subdivision.glb",
+    "sha256": "41917204466a7a872bef865b6dfb4546c380044fd752afdc93700a31a485d0c1",
+    "matchesRecordedPhase2_5Hash": true
+  },
+  "notes": [
+    "Superseded harness-selector attempts and the pre-readiness persistence comparison are retained but excluded from final case counts.",
+    "Application source and production assets were not edited during this audit."
+  ]
+}

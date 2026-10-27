@@ -1,0 +1,453 @@
+
+Running 2 tests using 1 worker
+
+  x  1 tests\qa\browser\phase3-durability.spec.mjs:10:1 › Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors (35.3s)
+  x  2 tests\qa\browser\phase3-durability.spec.mjs:54:1 › Phase 3 editable project survives a new browser process with durable image assets (1.9m)
+
+
+  1) tests\qa\browser\phase3-durability.spec.mjs:10:1 › Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors 
+
+    Error: malformed PNG must report a user-facing error
+
+    expect(received).toMatch(expected)
+
+    Expected pattern: /invalid image|failed to (load|read|upload)|upload failed/i
+    Received string:  "3D Model Maker
+    STUDIO
+    File
+    Edit
+    Add
+    View
+    Tools
+    3D Studio
+    Customizer
+    AI Generator
+    UV Lab
+    Validator
+    Save
+    Import
+    Export GLB
+    3D Modeling Studio
+    Streetwear Oversized TeeT-SHIRT
+    Save Project
+    Export GLB
+    Artwork
+    Layers
+    Zones
+    Library
+    UPLOAD ARTWORK
+    Upload Image or SVG
+    TYPOGRAPHY
+    ADD SHAPE
+    Split View (2D + 3D)
+    2D Design Canvas
+    3D Product Preview
+    Active Zone: Front Chest | Canvas: 1024x1024px
+    Object Mode
+    [Tab]
+    WORLD
+    Solid
+    Perspective
+    Front
+    Back
+    Left
+    Right
+    Top
+    Neutral
+    Soft White
+    Dark
+    Warm
+    Screenshot
+    Layer Inspector
+    Material & Finish
+    LAYER PROPERTIES
+    TEXT
+    POSITION & DIMENSIONS
+    X
+    Y
+    W
+    H
+    ROTATION: 0°
+    OPACITY: 100%
+    TYPOGRAPHY CONTROLS
+    Sans-Serif
+    Serif
+    Monospace
+    Impact
+    Georgia
+    Arial Black
+    Size
+    Color
+    Zone:
+    Front Chest
+    Bake Resolution:
+    1024 x 1024
+    UV Status:
+    Mapped
+    Saved at 11:19:04 PM
+    BlackBullet Compatible
+    TShirt_Product_Copy
+    Saved at 11:19:04 PM
+    Verts:
+    612
+    Tris:
+    496
+    8
+    2
+    3 FPS
+    Project saved to IndexedDB persistent storage!"
+
+      48 |   const sanitized = decodeURIComponent(before.customization.zones.body_front.layers.find(l => l.isSvg).src.split(',').slice(1).join(','))
+      49 |   expect.soft(sanitized).not.toMatch(/<script|onload=|foreignObject/)
+    > 50 |   expect.soft(malformedBody, 'malformed PNG must report a user-facing error').toMatch(/invalid image|failed to (load|read|upload)|upload failed/i)
+         |                                                                               ^
+      51 |   expect.soft(after.customization.zones.body_front.layers, 'invalid SVG must not create a broken layer').toHaveLength(6)
+      52 | })
+      53 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-durability.spec.mjs:50:79
+
+    Error: invalid SVG must not create a broken layer
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 6
+    Received length: 7
+    Received array:  [{"assetId": "asset_1792865932514", "height": 250, "id": "layer_1792865932514_dlbym", "locked": false, "name": "qa", "opacity": 1, "originalHeight": 32, "originalWidth": 64, "rotation": 0, "scaleX": 1, "scaleY": 1, "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAAbUlEQVR4AeyVMQ4AIRACif//89rTWG7izF0sKIFBzySzeTK7/wn8MwA4AJEACYAn4ATgAHgJOgEnAE/ACcAB4L0CXbgT6ERoWgJojbdfCehEaFoCaI23XwnoRGhaAmiNt18J6ERoWgJ+b/zl7wIAAP//oSR76gAAAAZJREFUAwABK3/BfgIyFQAAAABJRU5ErkJggg==", "type": "image", "visible": true, "width": 500, "x": 250, "y": 375, "zIndex": 1}, {"assetId": "asset_1792865933608", "height": 250, "id": "layer_1792865933608_cpj0u", "locked": false, "name": "qa", "opacity": 1, "originalHeight": 32, "originalWidth": 64, "rotation": 0, "scaleX": 1, "scaleY": 1, "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAgAEADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAj/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAcKCf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJ0AQx1TAAWMAiTMeAAjkBbWnAABYwCJMx4AD//Z", "type": "image", "visible": true, "width": 500, "x": 250, "y": 375, "zIndex": 2}, {"assetId": "asset_1792865935063", "height": 250, "id": "layer_1792865935063_gekoi", "locked": false, "name": "qa", "opacity": 1, "originalHeight": 32, "originalWidth": 64, "rotation": 0, "scaleX": 1, "scaleY": 1, "src": "data:image/webp;base64,UklGRkoCAABXRUJQVlA4WAoAAAAgAAAAPwAAHwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggXAAAABAFAJ0BKkAAIAA+bS6TRqQioaEsCACADYljAMrtjf4B+AGmA/AD9bt4AAdKe0ayVAAA/vCa1xzJx6JKoZPwy/x77LHzMt5TxztWSk/IAY7/Go2c7j5MONlIAAAA", "type": "image", "visible": true, "width": 500, "x": 250, "y": 375, "zIndex": 3}, {"assetId": "asset_1792865935734", "height": 500, "id": "layer_1792865935734_b6wv0", "isSvg": true, "locked": false, "name": "sanitized", "opacity": 1, "rotation": 0, "scaleX": 1, "scaleY": 1, "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22blue%22%2F%3E%3C%2Fsvg%3E", "type": "image", "visible": true, "width": 500, "x": 250, "y": 250, "zIndex": 4}, {"align": "center", "fill": "#ffffff", "fontFamily": "sans-serif", "fontSize": 54, "fontStyle": "normal", "fontWeight": "bold", "height": 80, "id": "layer_1792865936191_ydpiw", "letterSpacing": 0, "lineHeight": 1.2, "locked": false, "name": "Text \"KEYBOARD TES\"", "opacity": 1, "rotation": 0, "scaleX": 1, "scaleY": 1, "text": "KEYBOARD TEST", "type": "text", "visible": true, "width": 400, "x": 300, "y": 460, "zIndex": 5}, {"align": "center", "fill": "#ffffff", "fontFamily": "sans-serif", "fontSize": 54, "fontStyle": "normal", "fontWeight": "bold", "height": 80, "id": "layer_1792865942303_aovt7", "letterSpacing": 0, "lineHeight": 1.2, "locked": false, "name": "Text \"KEYBOARD TES\" (Copy)", "opacity": 1, "rotation": 0, "scaleX": 1, "scaleY": 1, "text": "KEYBOARD TEST", "type": "text", "visible": true, "width": 400, "x": 320, "y": 480, "zIndex": 6}, {"assetId": "asset_1792865947168", "height": 500, "id": "layer_1792865947168_qgp2t", "isSvg": true, "locked": false, "name": "invalid", "opacity": 1, "rotation": 0, "scaleX": 1, "scaleY": 1, "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20%3E%3Cpath%20invalid", "type": "image", "visible": true, "width": 500, "x": 250, "y": 250, "zIndex": 7}]
+
+      49 |   expect.soft(sanitized).not.toMatch(/<script|onload=|foreignObject/)
+      50 |   expect.soft(malformedBody, 'malformed PNG must report a user-facing error').toMatch(/invalid image|failed to (load|read|upload)|upload failed/i)
+    > 51 |   expect.soft(after.customization.zones.body_front.layers, 'invalid SVG must not create a broken layer').toHaveLength(6)
+         |                                                                                                          ^
+      52 | })
+      53 |
+      54 | test('Phase 3 editable project survives a new browser process with durable image assets', async () => {
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-durability.spec.mjs:51:106
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--11988--and-malformed-input-errors\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--11988--and-malformed-input-errors\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--11988--and-malformed-input-errors\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--11988--and-malformed-input-errors\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\phase3-durability.spec.mjs:54:1 › Phase 3 editable project survives a new browser process with durable image assets 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 48
+    + Received  + 48
+
+    @@ -33,17 +33,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -104,17 +104,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -175,17 +175,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -246,17 +246,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -317,17 +317,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -388,17 +388,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -459,17 +459,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -530,17 +530,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -601,17 +601,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -672,17 +672,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -743,17 +743,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+    @@ -814,17 +814,17 @@
+                  255,
+                  255,
+                ],
+                "colorSpace": "srgb",
+                "corner": Array [
+    -             24,
+    -             24,
+    -             27,
+    +             34,
+    +             68,
+    +             102,
+                  255,
+                ],
+                "flipY": true,
+    -           "hash": 765444549,
+    +           "hash": 3523801797,
+                "height": 1024,
+                "width": 1024,
+              },
+              "type": "MeshStandardMaterial",
+            },
+
+      100 |     await exportProduct(page, 'durable-reopened')
+      101 |     expect.soft(after.customization.zones).toEqual(before.customization.zones)
+    > 102 |     expect.soft(appearanceAfter.meshes).toEqual(appearanceBefore.meshes)
+          |                                         ^
+      103 |     expect.soft(after.customization.fabricColor).toBe('#224466')
+      104 |   } finally { await context.close() }
+      105 | })
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-durability.spec.mjs:102:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\test-failed-4.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\error-context.md
+
+    attachment #6: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3\durability\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\qa\browser\phase3-durability.spec.mjs:10:1 › Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors 
+    tests\qa\browser\phase3-durability.spec.mjs:54:1 › Phase 3 editable project survives a new browser process with durable image assets 
+(node:7064) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:896) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

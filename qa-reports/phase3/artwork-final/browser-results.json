@@ -1,0 +1,221 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "phase3.spec.mjs",
+      "--grep",
+      "real artwork"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/phase3/artwork-final/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\artwork-final\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/phase3/artwork-final/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/phase3/artwork-final/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "phase3.spec.mjs",
+      "file": "phase3.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Independent Phase 3",
+          "file": "phase3.spec.mjs",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 112325,
+                      "error": {
+                        "message": "Error: untouched right sleeve must not share the front/back artwork atlas\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m2537594821\u001b[39m",
+                        "stack": "Error: untouched right sleeve must not share the front/back artwork atlas\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m2537594821\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:105:170",
+                        "location": {
+                          "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                          "column": 170,
+                          "line": 105
+                        },
+                        "snippet": "  103 |     expect.soft(edited.customization.zones.body_front.layers).toHaveLength(3)\n  104 |     expect.soft(redone.customization.zones).toEqual(edited.customization.zones)\n> 105 |     expect.soft(actual.meshes.find(m => m.name === 'Sleeve_Right').materials[0].texture?.hash, 'untouched right sleeve must not share the front/back artwork atlas').not.toBe(actual.meshes.find(m => m.name === 'Body_Main').materials[0].texture?.hash)\n      |                                                                                                                                                                          ^\n  106 |   })\n  107 |\n  108 |   test('UV-ready multipart import preserves original albedo and PBR', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                            "column": 170,
+                            "line": 105
+                          },
+                          "message": "Error: untouched right sleeve must not share the front/back artwork atlas\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: not \u001b[32m2537594821\u001b[39m\n\n  103 |     expect.soft(edited.customization.zones.body_front.layers).toHaveLength(3)\n  104 |     expect.soft(redone.customization.zones).toEqual(edited.customization.zones)\n> 105 |     expect.soft(actual.meshes.find(m => m.name === 'Sleeve_Right').materials[0].texture?.hash, 'untouched right sleeve must not share the front/back artwork atlas').not.toBe(actual.meshes.find(m => m.name === 'Body_Main').materials[0].texture?.hash)\n      |                                                                                                                                                                          ^\n  106 |   })\n  107 |\n  108 |   test('UV-ready multipart import preserves original albedo and PBR', async ({ page }) => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:105:170"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T18:24:31.307Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\artwork-final\\browser-artifacts\\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\\test-failed-2.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\artwork-final\\browser-artifacts\\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\artwork-final\\browser-artifacts\\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\artwork-final\\browser-artifacts\\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                        "column": 170,
+                        "line": 105
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-781d95cedef49317e80e",
+              "file": "phase3.spec.mjs",
+              "line": 55,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T18:24:30.406Z",
+    "duration": 115553.01699999999,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

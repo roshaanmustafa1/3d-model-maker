@@ -1,0 +1,42 @@
+{
+  "result": {
+    "editor": {
+      "minX": 0,
+      "minY": 100.352,
+      "maxX": 358.40000000000003,
+      "maxY": 454.656,
+      "count": 17127
+    },
+    "texture": {
+      "minX": 0.09523809523809319,
+      "minY": 101.15555555555552,
+      "maxX": 357.2380952380952,
+      "maxY": 456.7111111111111,
+      "count": 27092
+    }
+  },
+  "layers": [
+    {
+      "name": "alignment",
+      "type": "image",
+      "assetId": "c1f2a5f8-b36a-46ad-ab54-767380861bd2",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAz0lEQVR4AeyVsQ2EQBADERV8y18W1UHuxLKIsOelD063AR7Pwvm7/vfy/zzGfwAYF+DAAAwYJ8AKjAvAS5AVYAXGCbAC4wLsfQW0cFZAiaydMWCtcc2LAUpk7YwBa41rXgxQImtnDFhrXPNigBJZO2NAe+MuHwY4Qu33GNDesMuHAY5Q+z0GtDfs8mGAI9R+jwHtDbt8GOAItd9jQFvDaR4MSIm1zWNAW6NpHgxIibXNY0Bbo2keDEiJtc1jQFujaR4MSIm1zWPA1xt9+/wPAAAA//+WbYP3AAAABklEQVQDAIgTksEv+/ItAAAAAElFTkSuQmCC",
+      "mimeType": "image/png",
+      "originalWidth": 64,
+      "originalHeight": 64,
+      "isSvg": false,
+      "x": 100,
+      "y": 100,
+      "width": 300,
+      "height": 240,
+      "rotation": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "id": "layer_1792869370019_eq1lb",
+      "zIndex": 1
+    }
+  ]
+}

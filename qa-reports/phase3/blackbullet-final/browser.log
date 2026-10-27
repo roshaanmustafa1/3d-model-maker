@@ -1,0 +1,95 @@
+
+Running 3 tests using 1 worker
+
+  x  1 tests\qa\browser\phase3-blackbullet.spec.mjs:32:1 › Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes (19.1s)
+  ok 2 tests\qa\browser\phase3-blackbullet.spec.mjs:64:1 › Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes (19.4s)
+  x  3 tests\qa\browser\phase3-blackbullet.spec.mjs:89:1 › Phase 3 customized export reimports into Model Maker with artwork textures (16.1s)
+
+
+  1) tests\qa\browser\phase3-blackbullet.spec.mjs:32:1 › Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes 
+
+    Error: exported product must resolve a runtime front region
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      58 |   expect.soft(restored.map(({ matrix, ...entry }) => entry)).toEqual(imported.map(({ matrix, ...entry }) => entry))
+      59 |   expect.soft(events.errors).toEqual([])
+    > 60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)
+         |                                                                                                                         ^
+      61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)
+      62 | })
+      63 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:60:121
+
+    Error: exported product must resolve a runtime back region
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      59 |   expect.soft(events.errors).toEqual([])
+      60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)
+    > 61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)
+         |                                                                                                                       ^
+      62 | })
+      63 |
+      64 | test('Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes', async ({ page }) => {
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:61:119
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\phase3-blackbullet.spec.mjs:89:1 › Phase 3 customized export reimports into Model Maker with artwork textures 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 1
+    Received:   1
+
+       99 |   await page.screenshot({ path: `${directory}/screenshots/customized-reimport.png` })
+      100 |   expect.soft(actual.meshes).toHaveLength(4)
+    > 101 |   expect.soft(new Set(actual.meshes.map(m => m.materials[0].texture?.hash)).size).toBeGreaterThan(1)
+          |                                                                                   ^
+      102 | })
+      103 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:101:83
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3\blackbullet-final\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\qa\browser\phase3-blackbullet.spec.mjs:32:1 › Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes 
+    tests\qa\browser\phase3-blackbullet.spec.mjs:89:1 › Phase 3 customized export reimports into Model Maker with artwork textures 
+  1 passed (1.0m)
+(node:16128) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10456) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

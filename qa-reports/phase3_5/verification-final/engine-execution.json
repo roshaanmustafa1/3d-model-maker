@@ -1,0 +1,23 @@
+{
+  "name": "engine",
+  "started": "2026-10-24T19:36:09.104Z",
+  "durationMs": 5766.0133000000005,
+  "exitCode": 0,
+  "signal": null,
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--import",
+    "./scripts/register-typescript.mjs",
+    "--test",
+    "--test-reporter=spec",
+    "--test-reporter-destination=stdout",
+    "--test-reporter=junit",
+    "--test-reporter-destination=qa-reports/phase3_5/verification-final/engine.xml",
+    "tests/qa/*.test.mjs"
+  ],
+  "platform": "win32",
+  "os": "10.0.19045",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2687W v2 @ 3.40GHz",
+  "totalMemory": 25711394816,
+  "node": "v24.21.0"
+}

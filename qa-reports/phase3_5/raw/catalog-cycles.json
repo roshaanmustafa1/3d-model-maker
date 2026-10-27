@@ -1,0 +1,4043 @@
+{
+  "cycles": [
+    {
+      "name": "Streetwear Oversized Tee",
+      "durationMs": 17720,
+      "loaded": {
+        "camera": [
+          5.483231320776373,
+          3.6991003537362714,
+          5.483231320776374
+        ],
+        "memory": {
+          "geometries": 9,
+          "textures": 5
+        },
+        "heap": 49613285,
+        "meshes": [
+          {
+            "name": "Body_Main",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3566146501
+              },
+              "normal": {
+                "count": 96,
+                "hash": 945753157
+              },
+              "uv": {
+                "count": 96,
+                "hash": 2801306053
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Back",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3049144261
+              },
+              "normal": {
+                "count": 96,
+                "hash": 2227277637
+              },
+              "uv": {
+                "count": 96,
+                "hash": 993221189
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Sides",
+            "vertices": 192,
+            "triangles": 64,
+            "attributes": {
+              "position": {
+                "count": 192,
+                "hash": 1775614405
+              },
+              "normal": {
+                "count": 192,
+                "hash": 3761369797
+              },
+              "uv": {
+                "count": 192,
+                "hash": 3978594501
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Collar_Rib",
+            "vertices": 148,
+            "triangles": 96,
+            "attributes": {
+              "position": {
+                "count": 148,
+                "hash": 1711725525
+              },
+              "normal": {
+                "count": 148,
+                "hash": 486780061
+              },
+              "uv": {
+                "count": 148,
+                "hash": 4024721453
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 144,
+                "materialIndex": 0
+              },
+              {
+                "start": 144,
+                "count": 72,
+                "materialIndex": 1
+              },
+              {
+                "start": 216,
+                "count": 72,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.76,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Left",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              0.19866933079506124,
+              0,
+              0,
+              -0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              -0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Right",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              -0.19866933079506124,
+              0,
+              0,
+              0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "artwork": {
+        "camera": [
+          5.483231320776373,
+          3.6991003537362714,
+          5.483231320776374
+        ],
+        "memory": {
+          "geometries": 26,
+          "textures": 6
+        },
+        "heap": 47323335,
+        "meshes": [
+          {
+            "name": "Body_Main",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3566146501
+              },
+              "normal": {
+                "count": 96,
+                "hash": 945753157
+              },
+              "uv": {
+                "count": 96,
+                "hash": 2801306053
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "ffffff",
+                "linear": [
+                  1,
+                  1,
+                  1
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false,
+                "texture": {
+                  "width": 1024,
+                  "height": 1024,
+                  "hash": 2759386053,
+                  "colorSpace": "srgb",
+                  "flipY": false,
+                  "center": [
+                    24,
+                    24,
+                    27,
+                    255
+                  ],
+                  "corner": [
+                    24,
+                    24,
+                    27,
+                    255
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "Body_Back",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3049144261
+              },
+              "normal": {
+                "count": 96,
+                "hash": 2227277637
+              },
+              "uv": {
+                "count": 96,
+                "hash": 993221189
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Sides",
+            "vertices": 192,
+            "triangles": 64,
+            "attributes": {
+              "position": {
+                "count": 192,
+                "hash": 1775614405
+              },
+              "normal": {
+                "count": 192,
+                "hash": 3761369797
+              },
+              "uv": {
+                "count": 192,
+                "hash": 3978594501
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Collar_Rib",
+            "vertices": 148,
+            "triangles": 96,
+            "attributes": {
+              "position": {
+                "count": 148,
+                "hash": 1711725525
+              },
+              "normal": {
+                "count": 148,
+                "hash": 486780061
+              },
+              "uv": {
+                "count": 148,
+                "hash": 4024721453
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 144,
+                "materialIndex": 0
+              },
+              {
+                "start": 144,
+                "count": 72,
+                "materialIndex": 1
+              },
+              {
+                "start": 216,
+                "count": 72,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.76,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Left",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              0.19866933079506124,
+              0,
+              0,
+              -0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              -0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Right",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              -0.19866933079506124,
+              0,
+              0,
+              0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "views": [
+        {
+          "view": "Front",
+          "camera": [
+            0,
+            0.13499999523162895,
+            8.534310915345126
+          ]
+        },
+        {
+          "view": "Back",
+          "camera": [
+            1.0451516545405727e-15,
+            0.13499999523162895,
+            -8.534310915345126
+          ]
+        },
+        {
+          "view": "Left",
+          "camera": [
+            -8.534310915345126,
+            0.13499999523162895,
+            5.225758272702863e-16
+          ]
+        },
+        {
+          "view": "Right",
+          "camera": [
+            8.534310915345126,
+            0.13499999523162895,
+            5.225758272702863e-16
+          ]
+        }
+      ],
+      "fps": {
+        "frames": 5,
+        "durationMs": 1259.7000000014887,
+        "fps": 3.9691990156339534
+      }
+    },
+    {
+      "name": "Heavyweight Streetwear Hoodie",
+      "durationMs": 17557,
+      "loaded": {
+        "camera": [
+          10.364771125658878,
+          0.32699998617172293,
+          -0.049999999999999385
+        ],
+        "memory": {
+          "geometries": 10,
+          "textures": 5
+        },
+        "heap": 50894319,
+        "meshes": [
+          {
+            "name": "Body_Main",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 4060727749
+              },
+              "normal": {
+                "count": 96,
+                "hash": 945753157
+              },
+              "uv": {
+                "count": 96,
+                "hash": 2801306053
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Back",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 1229669829
+              },
+              "normal": {
+                "count": 96,
+                "hash": 2227277637
+              },
+              "uv": {
+                "count": 96,
+                "hash": 993221189
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Sides",
+            "vertices": 192,
+            "triangles": 64,
+            "attributes": {
+              "position": {
+                "count": 192,
+                "hash": 2137202949
+              },
+              "normal": {
+                "count": 192,
+                "hash": 3761369797
+              },
+              "uv": {
+                "count": 192,
+                "hash": 3978594501
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Pocket_Pouch",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 3122472997
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -0.3,
+              0.19,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Hood",
+            "vertices": 289,
+            "triangles": 480,
+            "attributes": {
+              "position": {
+                "count": 289,
+                "hash": 2561907639
+              },
+              "normal": {
+                "count": 289,
+                "hash": 1686133457
+              },
+              "uv": {
+                "count": 289,
+                "hash": 2738206625
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1.2,
+              0,
+              0,
+              0,
+              0,
+              1.1,
+              0,
+              0,
+              0.95,
+              -0.05,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Left",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 2673144485
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9689124217106447,
+              0.24740395925452294,
+              0,
+              0,
+              -0.24740395925452294,
+              0.9689124217106447,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              -0.92,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Right",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 2673144485
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9689124217106447,
+              -0.24740395925452294,
+              0,
+              0,
+              0.24740395925452294,
+              0.9689124217106447,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.92,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "artwork": {
+        "camera": [
+          10.364771125658878,
+          0.32699998617172293,
+          -0.049999999999999385
+        ],
+        "memory": {
+          "geometries": 19,
+          "textures": 6
+        },
+        "heap": 68003741,
+        "meshes": [
+          {
+            "name": "Body_Main",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 4060727749
+              },
+              "normal": {
+                "count": 96,
+                "hash": 945753157
+              },
+              "uv": {
+                "count": 96,
+                "hash": 2801306053
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "ffffff",
+                "linear": [
+                  1,
+                  1,
+                  1
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false,
+                "texture": {
+                  "width": 1024,
+                  "height": 1024,
+                  "hash": 1928620421,
+                  "colorSpace": "srgb",
+                  "flipY": false,
+                  "center": [
+                    39,
+                    39,
+                    42,
+                    255
+                  ],
+                  "corner": [
+                    39,
+                    39,
+                    42,
+                    255
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "Body_Back",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 1229669829
+              },
+              "normal": {
+                "count": 96,
+                "hash": 2227277637
+              },
+              "uv": {
+                "count": 96,
+                "hash": 993221189
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Sides",
+            "vertices": 192,
+            "triangles": 64,
+            "attributes": {
+              "position": {
+                "count": 192,
+                "hash": 2137202949
+              },
+              "normal": {
+                "count": 192,
+                "hash": 3761369797
+              },
+              "uv": {
+                "count": 192,
+                "hash": 3978594501
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Pocket_Pouch",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 3122472997
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -0.3,
+              0.19,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Hood",
+            "vertices": 289,
+            "triangles": 480,
+            "attributes": {
+              "position": {
+                "count": 289,
+                "hash": 2561907639
+              },
+              "normal": {
+                "count": 289,
+                "hash": 1686133457
+              },
+              "uv": {
+                "count": 289,
+                "hash": 2738206625
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1.2,
+              0,
+              0,
+              0,
+              0,
+              1.1,
+              0,
+              0,
+              0.95,
+              -0.05,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Left",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 2673144485
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9689124217106447,
+              0.24740395925452294,
+              0,
+              0,
+              -0.24740395925452294,
+              0.9689124217106447,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              -0.92,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Right",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 2673144485
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9689124217106447,
+              -0.24740395925452294,
+              0,
+              0,
+              0.24740395925452294,
+              0.9689124217106447,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.92,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "27272a",
+                "linear": [
+                  0.02028856305209031,
+                  0.02028856305209031,
+                  0.023153366173251363
+                ],
+                "roughness": 0.96,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "views": [
+        {
+          "view": "Front",
+          "camera": [
+            0,
+            0.32699998617172293,
+            10.314771125658877
+          ]
+        },
+        {
+          "view": "Back",
+          "camera": [
+            1.2693183782933053e-15,
+            0.32699998617172293,
+            -10.414771125658879
+          ]
+        },
+        {
+          "view": "Left",
+          "camera": [
+            -10.364771125658878,
+            0.32699998617172293,
+            -0.049999999999999385
+          ]
+        },
+        {
+          "view": "Right",
+          "camera": [
+            10.364771125658878,
+            0.32699998617172293,
+            -0.049999999999999385
+          ]
+        }
+      ],
+      "fps": {
+        "frames": 5,
+        "durationMs": 1236.500000005959,
+        "fps": 4.043671653842219
+      }
+    },
+    {
+      "name": "Insulated Thermal Bottle",
+      "durationMs": 17356,
+      "loaded": {
+        "camera": [
+          7.347929264216557,
+          0.2375000119209294,
+          4.499309026891987e-16
+        ],
+        "memory": {
+          "geometries": 6,
+          "textures": 5
+        },
+        "heap": 93112527,
+        "meshes": [
+          {
+            "name": "Bottle_Body",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 762990197
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 2636843017
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "e4e4e7",
+                "linear": [
+                  0.775822218312646,
+                  0.775822218312646,
+                  0.7991027380100881
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Neck",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 684821205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2526516183
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "e4e4e7",
+                "linear": [
+                  0.775822218312646,
+                  0.775822218312646,
+                  0.7991027380100881
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Cap",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 3491509205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1.25,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.6,
+                "metalness": 0.1,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "artwork": {
+        "camera": [
+          7.347929264216557,
+          0.2375000119209294,
+          4.499309026891987e-16
+        ],
+        "memory": {
+          "geometries": 15,
+          "textures": 6
+        },
+        "heap": 91565726,
+        "meshes": [
+          {
+            "name": "Bottle_Body",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 762990197
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 2636843017
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "ffffff",
+                "linear": [
+                  1,
+                  1,
+                  1
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false,
+                "texture": {
+                  "width": 1024,
+                  "height": 1024,
+                  "hash": 131465989,
+                  "colorSpace": "srgb",
+                  "flipY": false,
+                  "center": [
+                    16,
+                    185,
+                    129,
+                    255
+                  ],
+                  "corner": [
+                    228,
+                    228,
+                    231,
+                    255
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Neck",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 684821205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2526516183
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "e4e4e7",
+                "linear": [
+                  0.775822218312646,
+                  0.775822218312646,
+                  0.7991027380100881
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Cap",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 3491509205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1.25,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.6,
+                "metalness": 0.1,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "views": [
+        {
+          "view": "Front",
+          "camera": [
+            0,
+            0.2375000119209294,
+            7.347929264216557
+          ]
+        },
+        {
+          "view": "Back",
+          "camera": [
+            8.998618053783973e-16,
+            0.2375000119209294,
+            -7.347929264216557
+          ]
+        },
+        {
+          "view": "Left",
+          "camera": [
+            -7.347929264216557,
+            0.2375000119209294,
+            4.499309026891987e-16
+          ]
+        },
+        {
+          "view": "Right",
+          "camera": [
+            7.347929264216557,
+            0.2375000119209294,
+            4.499309026891987e-16
+          ]
+        }
+      ],
+      "fps": {
+        "frames": 5,
+        "durationMs": 1251.5000000029831,
+        "fps": 3.9952057530867613
+      }
+    },
+    {
+      "name": "Luxury Retail Box",
+      "durationMs": 15381,
+      "loaded": {
+        "camera": [
+          5.479061361798029,
+          3.354957479528947e-16,
+          3.354957479528947e-16
+        ],
+        "memory": {
+          "geometries": 4,
+          "textures": 5
+        },
+        "heap": 67977787,
+        "meshes": [
+          {
+            "name": "Package_Box",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 3262979685
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "d4d4d8",
+                "linear": [
+                  0.6583748172725346,
+                  0.6583748172725346,
+                  0.6866853124288864
+                ],
+                "roughness": 0.82,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "artwork": {
+        "camera": [
+          5.479061361798029,
+          3.354957479528947e-16,
+          3.354957479528947e-16
+        ],
+        "memory": {
+          "geometries": 13,
+          "textures": 6
+        },
+        "heap": 48320337,
+        "meshes": [
+          {
+            "name": "Package_Box",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 3262979685
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "ffffff",
+                "linear": [
+                  1,
+                  1,
+                  1
+                ],
+                "roughness": 0.82,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false,
+                "texture": {
+                  "width": 1024,
+                  "height": 1024,
+                  "hash": 217328709,
+                  "colorSpace": "srgb",
+                  "flipY": false,
+                  "center": [
+                    16,
+                    185,
+                    129,
+                    255
+                  ],
+                  "corner": [
+                    212,
+                    212,
+                    216,
+                    255
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "views": [
+        {
+          "view": "Front",
+          "camera": [
+            0,
+            3.354957479528947e-16,
+            5.479061361798029
+          ]
+        },
+        {
+          "view": "Back",
+          "camera": [
+            6.709914959057894e-16,
+            3.354957479528947e-16,
+            -5.479061361798029
+          ]
+        },
+        {
+          "view": "Left",
+          "camera": [
+            -5.479061361798029,
+            3.354957479528947e-16,
+            3.354957479528947e-16
+          ]
+        },
+        {
+          "view": "Right",
+          "camera": [
+            5.479061361798029,
+            3.354957479528947e-16,
+            3.354957479528947e-16
+          ]
+        }
+      ],
+      "fps": {
+        "frames": 6,
+        "durationMs": 1463.9000000059605,
+        "fps": 4.0986406175118315
+      }
+    },
+    {
+      "name": "Streetwear Oversized Tee",
+      "durationMs": 16168,
+      "loaded": {
+        "camera": [
+          8.534310915345126,
+          0.13499999523162895,
+          5.225758272702863e-16
+        ],
+        "memory": {
+          "geometries": 9,
+          "textures": 5
+        },
+        "heap": 82495837,
+        "meshes": [
+          {
+            "name": "Body_Main",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3566146501
+              },
+              "normal": {
+                "count": 96,
+                "hash": 945753157
+              },
+              "uv": {
+                "count": 96,
+                "hash": 2801306053
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Back",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3049144261
+              },
+              "normal": {
+                "count": 96,
+                "hash": 2227277637
+              },
+              "uv": {
+                "count": 96,
+                "hash": 993221189
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Sides",
+            "vertices": 192,
+            "triangles": 64,
+            "attributes": {
+              "position": {
+                "count": 192,
+                "hash": 1775614405
+              },
+              "normal": {
+                "count": 192,
+                "hash": 3761369797
+              },
+              "uv": {
+                "count": 192,
+                "hash": 3978594501
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Collar_Rib",
+            "vertices": 148,
+            "triangles": 96,
+            "attributes": {
+              "position": {
+                "count": 148,
+                "hash": 1711725525
+              },
+              "normal": {
+                "count": 148,
+                "hash": 486780061
+              },
+              "uv": {
+                "count": 148,
+                "hash": 4024721453
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 144,
+                "materialIndex": 0
+              },
+              {
+                "start": 144,
+                "count": 72,
+                "materialIndex": 1
+              },
+              {
+                "start": 216,
+                "count": 72,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.76,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Left",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              0.19866933079506124,
+              0,
+              0,
+              -0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              -0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Right",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              -0.19866933079506124,
+              0,
+              0,
+              0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "artwork": {
+        "camera": [
+          8.534310915345126,
+          0.13499999523162895,
+          5.225758272702863e-16
+        ],
+        "memory": {
+          "geometries": 18,
+          "textures": 6
+        },
+        "heap": 67064623,
+        "meshes": [
+          {
+            "name": "Body_Main",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3566146501
+              },
+              "normal": {
+                "count": 96,
+                "hash": 945753157
+              },
+              "uv": {
+                "count": 96,
+                "hash": 2801306053
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "ffffff",
+                "linear": [
+                  1,
+                  1,
+                  1
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false,
+                "texture": {
+                  "width": 1024,
+                  "height": 1024,
+                  "hash": 2759386053,
+                  "colorSpace": "srgb",
+                  "flipY": false,
+                  "center": [
+                    24,
+                    24,
+                    27,
+                    255
+                  ],
+                  "corner": [
+                    24,
+                    24,
+                    27,
+                    255
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "Body_Back",
+            "vertices": 96,
+            "triangles": 32,
+            "attributes": {
+              "position": {
+                "count": 96,
+                "hash": 3049144261
+              },
+              "normal": {
+                "count": 96,
+                "hash": 2227277637
+              },
+              "uv": {
+                "count": 96,
+                "hash": 993221189
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Body_Sides",
+            "vertices": 192,
+            "triangles": 64,
+            "attributes": {
+              "position": {
+                "count": 192,
+                "hash": 1775614405
+              },
+              "normal": {
+                "count": 192,
+                "hash": 3761369797
+              },
+              "uv": {
+                "count": 192,
+                "hash": 3978594501
+              }
+            },
+            "groups": [],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Collar_Rib",
+            "vertices": 148,
+            "triangles": 96,
+            "attributes": {
+              "position": {
+                "count": 148,
+                "hash": 1711725525
+              },
+              "normal": {
+                "count": 148,
+                "hash": 486780061
+              },
+              "uv": {
+                "count": 148,
+                "hash": 4024721453
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 144,
+                "materialIndex": 0
+              },
+              {
+                "start": 144,
+                "count": 72,
+                "materialIndex": 1
+              },
+              {
+                "start": 216,
+                "count": 72,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.76,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Left",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              0.19866933079506124,
+              0,
+              0,
+              -0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              -0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Sleeve_Right",
+            "vertices": 24,
+            "triangles": 12,
+            "attributes": {
+              "position": {
+                "count": 24,
+                "hash": 353432229
+              },
+              "normal": {
+                "count": 24,
+                "hash": 3184214117
+              },
+              "uv": {
+                "count": 24,
+                "hash": 317408261
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 6,
+                "materialIndex": 0
+              },
+              {
+                "start": 6,
+                "count": 6,
+                "materialIndex": 1
+              },
+              {
+                "start": 12,
+                "count": 6,
+                "materialIndex": 2
+              },
+              {
+                "start": 18,
+                "count": 6,
+                "materialIndex": 3
+              },
+              {
+                "start": 24,
+                "count": 6,
+                "materialIndex": 4
+              },
+              {
+                "start": 30,
+                "count": 6,
+                "materialIndex": 5
+              }
+            ],
+            "matrix": [
+              0.9800665778412416,
+              -0.19866933079506124,
+              0,
+              0,
+              0.19866933079506124,
+              0.9800665778412416,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.84,
+              0.52,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.92,
+                "metalness": 0,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "views": [
+        {
+          "view": "Front",
+          "camera": [
+            0,
+            0.13499999523162895,
+            8.534310915345126
+          ]
+        },
+        {
+          "view": "Back",
+          "camera": [
+            1.0451516545405727e-15,
+            0.13499999523162895,
+            -8.534310915345126
+          ]
+        },
+        {
+          "view": "Left",
+          "camera": [
+            -8.534310915345126,
+            0.13499999523162895,
+            5.225758272702863e-16
+          ]
+        },
+        {
+          "view": "Right",
+          "camera": [
+            8.534310915345126,
+            0.13499999523162895,
+            5.225758272702863e-16
+          ]
+        }
+      ],
+      "fps": {
+        "frames": 5,
+        "durationMs": 1224.1000000000058,
+        "fps": 4.08463360836531
+      }
+    },
+    {
+      "name": "Insulated Thermal Bottle",
+      "durationMs": 14860,
+      "loaded": {
+        "camera": [
+          7.347929264216557,
+          0.2375000119209294,
+          4.499309026891987e-16
+        ],
+        "memory": {
+          "geometries": 6,
+          "textures": 5
+        },
+        "heap": 65338891,
+        "meshes": [
+          {
+            "name": "Bottle_Body",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 762990197
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 2636843017
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "e4e4e7",
+                "linear": [
+                  0.775822218312646,
+                  0.775822218312646,
+                  0.7991027380100881
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Neck",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 684821205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2526516183
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "e4e4e7",
+                "linear": [
+                  0.775822218312646,
+                  0.775822218312646,
+                  0.7991027380100881
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Cap",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 3491509205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1.25,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.6,
+                "metalness": 0.1,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "artwork": {
+        "camera": [
+          7.347929264216557,
+          0.2375000119209294,
+          4.499309026891987e-16
+        ],
+        "memory": {
+          "geometries": 15,
+          "textures": 6
+        },
+        "heap": 54466312,
+        "meshes": [
+          {
+            "name": "Bottle_Body",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 762990197
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 2636843017
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "ffffff",
+                "linear": [
+                  1,
+                  1,
+                  1
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false,
+                "texture": {
+                  "width": 1024,
+                  "height": 1024,
+                  "hash": 131465989,
+                  "colorSpace": "srgb",
+                  "flipY": false,
+                  "center": [
+                    16,
+                    185,
+                    129,
+                    255
+                  ],
+                  "corner": [
+                    228,
+                    228,
+                    231,
+                    255
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Neck",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 684821205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2526516183
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "e4e4e7",
+                "linear": [
+                  0.775822218312646,
+                  0.775822218312646,
+                  0.7991027380100881
+                ],
+                "roughness": 0.28,
+                "metalness": 0.88,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          },
+          {
+            "name": "Bottle_Cap",
+            "vertices": 196,
+            "triangles": 128,
+            "attributes": {
+              "position": {
+                "count": 196,
+                "hash": 3491509205
+              },
+              "normal": {
+                "count": 196,
+                "hash": 2982528373
+              },
+              "uv": {
+                "count": 196,
+                "hash": 13429965
+              }
+            },
+            "groups": [
+              {
+                "start": 0,
+                "count": 192,
+                "materialIndex": 0
+              },
+              {
+                "start": 192,
+                "count": 96,
+                "materialIndex": 1
+              },
+              {
+                "start": 288,
+                "count": 96,
+                "materialIndex": 2
+              }
+            ],
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1.25,
+              0,
+              1
+            ],
+            "materials": [
+              {
+                "color": "18181b",
+                "linear": [
+                  0.009134058699157796,
+                  0.009134058699157796,
+                  0.010960094003125918
+                ],
+                "roughness": 0.6,
+                "metalness": 0.1,
+                "type": "MeshStandardMaterial",
+                "normalMap": false
+              }
+            ]
+          }
+        ]
+      },
+      "views": [
+        {
+          "view": "Front",
+          "camera": [
+            0,
+            0.2375000119209294,
+            7.347929264216557
+          ]
+        },
+        {
+          "view": "Back",
+          "camera": [
+            8.998618053783973e-16,
+            0.2375000119209294,
+            -7.347929264216557
+          ]
+        },
+        {
+          "view": "Left",
+          "camera": [
+            -7.347929264216557,
+            0.2375000119209294,
+            4.499309026891987e-16
+          ]
+        },
+        {
+          "view": "Right",
+          "camera": [
+            7.347929264216557,
+            0.2375000119209294,
+            4.499309026891987e-16
+          ]
+        }
+      ],
+      "fps": {
+        "frames": 5,
+        "durationMs": 1255.0000000059663,
+        "fps": 3.98406374500098
+      }
+    }
+  ],
+  "events": {
+    "errors": [],
+    "console": [
+      "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    ],
+    "failedRequests": [],
+    "navigations": [
+      "http://localhost:3000/",
+      "http://localhost:3000/"
+    ],
+    "crashes": 0
+  }
+}

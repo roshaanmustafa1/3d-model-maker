@@ -1,0 +1,363 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "phase3_5.spec.mjs"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/phase3_5/acceptance/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/phase3_5/acceptance/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/phase3_5/acceptance/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "phase3_5.spec.mjs",
+      "file": "phase3_5.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 12328,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:18:60",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs",
+                      "column": 60,
+                      "line": 18
+                    },
+                    "snippet": "  16 |   await open(page)\n  17 |   const initial = await scene(page)\n> 18 |   expect(initial.meshes.find(m => m.name === 'Body_Main')).toBeTruthy()\n     |                                                            ^\n  19 |   await page.getByRole('button', { name: '3D Modeling Studio', exact: true }).click()\n  20 |   const modeling = await scene(page)\n  21 |   expect(modeling.meshes.some(m => m.name === 'Studio_Cube')).toBe(true)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs",
+                        "column": 60,
+                        "line": 18
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m\n\n  16 |   await open(page)\n  17 |   const initial = await scene(page)\n> 18 |   expect(initial.meshes.find(m => m.name === 'Body_Main')).toBeTruthy()\n     |                                                            ^\n  19 |   await page.getByRole('button', { name: '3D Modeling Studio', exact: true }).click()\n  20 |   const modeling = await scene(page)\n  21 |   expect(modeling.meshes.some(m => m.name === 'Studio_Cube')).toBe(true)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:18:60"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T18:56:50.583Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-accepta-224c5-source-factors-and-reimport\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-accepta-224c5-source-factors-and-reimport\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-accepta-224c5-source-factors-and-reimport\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs",
+                    "column": 60,
+                    "line": 18
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-3354a6553599a18ee786",
+          "file": "phase3_5.spec.mjs",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Phase 3.5 undo/redo updates actual texture and exported pixels",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 38874,
+                  "error": {
+                    "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /^1024/ })\u001b[22m\n",
+                    "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /^1024/ })\u001b[22m\n\n    at exportProduct (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:90:74)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:82:3",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                      "column": 74,
+                      "line": 90
+                    },
+                    "snippet": "   at ..\\..\\..\\scripts\\qa\\phase3-support.mjs:90\n\n  88 | export async function exportProduct(page, name, resolution = 1024) {\n  89 |   await page.getByRole('button', { name: 'Export GLB', exact: true }).last().click()\n> 90 |   await page.getByRole('button', { name: new RegExp(`^${resolution}`) }).click()\n     |                                                                          ^\n  91 |   const downloads = []\n  92 |   const handler = d => downloads.push(d)\n  93 |   page.on('download', handler)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                        "column": 74,
+                        "line": 90
+                      },
+                      "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /^1024/ })\u001b[22m\n\n\n   at ..\\..\\..\\scripts\\qa\\phase3-support.mjs:90\n\n  88 | export async function exportProduct(page, name, resolution = 1024) {\n  89 |   await page.getByRole('button', { name: 'Export GLB', exact: true }).last().click()\n> 90 |   await page.getByRole('button', { name: new RegExp(`^${resolution}`) }).click()\n     |                                                                          ^\n  91 |   const downloads = []\n  92 |   const handler = d => downloads.push(d)\n  93 |   page.on('download', handler)\n    at exportProduct (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:90:74)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:82:3"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T18:57:05.447Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-undo-re-335dd-texture-and-exported-pixels\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-undo-re-335dd-texture-and-exported-pixels\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-undo-re-335dd-texture-and-exported-pixels\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                    "column": 74,
+                    "line": 90
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-735452b6b8ee831400d5",
+          "file": "phase3_5.spec.mjs",
+          "line": 73,
+          "column": 1
+        },
+        {
+          "title": "Phase 3.5 imported source plus editable artwork survives browser process restart",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 132055,
+                  "error": {
+                    "message": "TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible\u001b[22m\n",
+                    "stack": "TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible\u001b[22m\n\n    at exportProduct (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:96:68)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:129:5",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                      "column": 68,
+                      "line": 96
+                    },
+                    "snippet": "   at ..\\..\\..\\scripts\\qa\\phase3-support.mjs:96\n\n  94 |   page.on('download', handler)\n  95 |   const started = Date.now()\n> 96 |   await page.getByRole('button', { name: 'Export GLB Asset', exact: true }).click()\n     |                                                                    ^\n  97 |   await page.getByText('GLB Verification Passed', { exact: true }).waitFor({ timeout: 60000 })\n  98 |   await page.waitForTimeout(700)\n  99 |   for (const download of downloads) {"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                        "column": 68,
+                        "line": 96
+                      },
+                      "message": "TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible\u001b[22m\n\n\n   at ..\\..\\..\\scripts\\qa\\phase3-support.mjs:96\n\n  94 |   page.on('download', handler)\n  95 |   const started = Date.now()\n> 96 |   await page.getByRole('button', { name: 'Export GLB Asset', exact: true }).click()\n     |                                                                    ^\n  97 |   await page.getByText('GLB Verification Passed', { exact: true }).waitFor({ timeout: 60000 })\n  98 |   await page.waitForTimeout(700)\n  99 |   for (const download of downloads) {\n    at exportProduct (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:96:68)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:129:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T18:57:46.570Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-3.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-2.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\acceptance\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                    "column": 68,
+                    "line": 96
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-b737fa5df4fccabea2fb",
+          "file": "phase3_5.spec.mjs",
+          "line": 96,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T18:56:48.923Z",
+    "duration": 191027.717,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

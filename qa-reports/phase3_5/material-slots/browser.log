@@ -1,0 +1,8 @@
+
+Running 1 test using 1 worker
+
+  ok 1 tests\qa\browser\phase3_5-materials.spec.mjs:5:1 › Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork (39.6s)
+
+  1 passed (46.4s)
+(node:7196) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

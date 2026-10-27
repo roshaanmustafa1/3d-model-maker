@@ -1,0 +1,586 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "phase3.spec.mjs",
+      "phase3-pointer.spec.mjs",
+      "phase3-durability.spec.mjs",
+      "phase3-blackbullet.spec.mjs"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/phase3_5/retained-final/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\retained-final\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/phase3_5/retained-final/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/phase3_5/retained-final/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "phase3-blackbullet.spec.mjs",
+      "file": "phase3-blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:29:28.906Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-7bd6e2c76907b96ffa88",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13483,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:29:44.725Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-e85078cbb5510b099fee",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 customized export reimports into Model Maker with artwork textures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12391,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:29:58.241Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-4cd8b8aeeebb62294074",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 91,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3-durability.spec.mjs",
+      "file": "phase3-durability.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25846,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:30:10.700Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "907a2d22788f098fc69c-29127520fde2232b6368",
+          "file": "phase3-durability.spec.mjs",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 editable project survives a new browser process with durable image assets",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 58390,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   34,\u001b[39m\n\u001b[32m-   68,\u001b[39m\n\u001b[32m-   102,\u001b[39m\n\u001b[31m+   0,\u001b[39m\n\u001b[31m+   1,\u001b[39m\n\u001b[31m+   1,\u001b[39m\n\u001b[2m    255,\u001b[22m\n\u001b[2m  ]\u001b[22m\n\nCall Log:\n- Timeout 30000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   34,\u001b[39m\n\u001b[32m-   68,\u001b[39m\n\u001b[32m-   102,\u001b[39m\n\u001b[31m+   0,\u001b[39m\n\u001b[31m+   1,\u001b[39m\n\u001b[31m+   1,\u001b[39m\n\u001b[2m    255,\u001b[22m\n\u001b[2m  ]\u001b[22m\n\nCall Log:\n- Timeout 30000ms exceeded while waiting on the predicate\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-durability.spec.mjs:81:116",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-durability.spec.mjs",
+                      "column": 116,
+                      "line": 81
+                    },
+                    "snippet": "  79 |     await page.getByRole('button', { name: 'Material & Finish', exact: true }).click()\n  80 |     await page.locator('input[type=color]').first().fill('#224466')\n> 81 |     await expect.poll(async () => (await scene(page)).meshes[0]?.materials[0].texture?.corner, { timeout: 30000 }).toEqual([34, 68, 102, 255])\n     |                                                                                                                    ^\n  82 |     const before = await save(page)\n  83 |     await page.waitForTimeout(1200)\n  84 |     const appearanceBefore = await scene(page)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-durability.spec.mjs",
+                        "column": 116,
+                        "line": 81
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   34,\u001b[39m\n\u001b[32m-   68,\u001b[39m\n\u001b[32m-   102,\u001b[39m\n\u001b[31m+   0,\u001b[39m\n\u001b[31m+   1,\u001b[39m\n\u001b[31m+   1,\u001b[39m\n\u001b[2m    255,\u001b[22m\n\u001b[2m  ]\u001b[22m\n\nCall Log:\n- Timeout 30000ms exceeded while waiting on the predicate\n\n  79 |     await page.getByRole('button', { name: 'Material & Finish', exact: true }).click()\n  80 |     await page.locator('input[type=color]').first().fill('#224466')\n> 81 |     await expect.poll(async () => (await scene(page)).meshes[0]?.materials[0].texture?.corner, { timeout: 30000 }).toEqual([34, 68, 102, 255])\n     |                                                                                                                    ^\n  82 |     const before = await save(page)\n  83 |     await page.waitForTimeout(1200)\n  84 |     const appearanceBefore = await scene(page)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-durability.spec.mjs:81:116"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:30:36.593Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\retained-final\\browser-artifacts\\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\\test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\retained-final\\browser-artifacts\\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\\test-failed-2.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\retained-final\\browser-artifacts\\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\retained-final\\browser-artifacts\\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-durability.spec.mjs",
+                    "column": 116,
+                    "line": 81
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "907a2d22788f098fc69c-93c2848543034e513e6d",
+          "file": "phase3-durability.spec.mjs",
+          "line": 54,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3-pointer.spec.mjs",
+      "file": "phase3-pointer.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 pointer movement updates layer coordinates and actual texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 34198,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:31:36.806Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d63544723dc2da864349-06e6752225188ebd3fc0",
+          "file": "phase3-pointer.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 star has matching 2D canvas and actual 3D texture coordinates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17379,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:32:11.501Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d63544723dc2da864349-0dc7b5633e1ee923631f",
+          "file": "phase3-pointer.spec.mjs",
+          "line": 44,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3.spec.mjs",
+      "file": "phase3.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Independent Phase 3",
+          "file": "phase3.spec.mjs",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "workspace initialization corresponds to selected product",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7969,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T19:32:28.955Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-f3859fa5ea0f268badcf",
+              "file": "phase3.spec.mjs",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "catalog geometry, live textures, camera controls and resource cycles",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 111473,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T19:32:36.955Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-c45db8748e09fd745a2d",
+              "file": "phase3.spec.mjs",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 144111,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T19:34:28.457Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-781d95cedef49317e80e",
+              "file": "phase3.spec.mjs",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "UV-ready multipart import preserves original albedo and PBR",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 26145,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T19:36:52.598Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-3c19cbea94057e18ef7e",
+              "file": "phase3.spec.mjs",
+              "line": 105,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T19:29:27.875Z",
+    "duration": 471714.883,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

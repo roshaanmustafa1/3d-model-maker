@@ -1,0 +1,443 @@
+{
+  "magic": 1179937895,
+  "version": 2,
+  "length": 61232,
+  "declaredLength": 61232,
+  "nodes": [
+    {
+      "name": "TShirt_Product",
+      "extras": {
+        "isCustomizable": true,
+        "customizableZone": "body_front",
+        "semanticTag": "TShirt_Product",
+        "blackBulletMode": "preserve-imported",
+        "nodeId": "node_a05e8fae-ddf3-4a25-9a83-835121f2f31c"
+      },
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Body_Main",
+      "extras": {
+        "isCustomizable": true,
+        "customizableZone": "body_front",
+        "semanticTag": "Front Chest",
+        "blackBulletMode": "preserve-imported",
+        "nodeId": "node_78d11c74-1321-4766-bdd7-d8b62b3386d6"
+      },
+      "mesh": 0
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.76,
+        0,
+        1
+      ],
+      "name": "Collar_Rib",
+      "extras": {
+        "isCustomizable": true,
+        "semanticTag": "Collar_Rib",
+        "customizableZone": "collar",
+        "blackBulletMode": "preserve-imported",
+        "nodeId": "node_bec4a200-09fe-403c-a4ae-13d42fba429b"
+      },
+      "mesh": 1
+    },
+    {
+      "matrix": [
+        0.9800665778412416,
+        0.19866933079506124,
+        0,
+        0,
+        -0.19866933079506124,
+        0.9800665778412416,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.84,
+        0.52,
+        0,
+        1
+      ],
+      "name": "Sleeve_Left",
+      "extras": {
+        "isCustomizable": true,
+        "customizableZone": "sleeve_left",
+        "semanticTag": "Left Sleeve",
+        "blackBulletMode": "preserve-imported",
+        "nodeId": "node_c2fe8a02-01b2-482d-9e40-188ae0ad1f5b"
+      },
+      "mesh": 2
+    },
+    {
+      "matrix": [
+        0.9800665778412416,
+        -0.19866933079506124,
+        0,
+        0,
+        0.19866933079506124,
+        0.9800665778412416,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.84,
+        0.52,
+        0,
+        1
+      ],
+      "name": "Sleeve_Right",
+      "extras": {
+        "isCustomizable": true,
+        "customizableZone": "sleeve_right",
+        "semanticTag": "Right Sleeve",
+        "blackBulletMode": "preserve-imported",
+        "nodeId": "node_4eef397e-0b76-454b-afa2-1c748064f212"
+      },
+      "mesh": 3
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.009134058699157796,
+          0.009134058699157796,
+          0.010960094003125918,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "doubleSided": true,
+      "name": "Combed Cotton"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 110,
+      "max": [
+        0.6000000238418579,
+        0.75,
+        0.14000000059604645
+      ],
+      "min": [
+        -0.6000000238418579,
+        -0.75,
+        -0.14000000059604645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 110,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 110,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 384,
+      "max": [
+        109
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.03999999910593033
+      ],
+      "min": [
+        -0.25999999046325684,
+        -0.25999999046325684,
+        -0.03999999910593033
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        0.9701424837112427,
+        0.9701424837112427,
+        1
+      ],
+      "min": [
+        -0.9701424837112427,
+        -0.9701424837112427,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 288,
+      "max": [
+        147
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.2750000059604645,
+        0.22499999403953552,
+        0.12999999523162842
+      ],
+      "min": [
+        -0.2750000059604645,
+        -0.22499999403953552,
+        -0.12999999523162842
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 36,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.2750000059604645,
+        0.22499999403953552,
+        0.12999999523162842
+      ],
+      "min": [
+        -0.2750000059604645,
+        -0.22499999403953552,
+        -0.12999999523162842
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 36,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "bytes": 44304,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "8012a4c9b536e1424f0e02d9ec9a6f2ab2ab2f896876286d95a255552741a417"
+    }
+  ]
+}

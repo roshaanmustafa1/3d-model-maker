@@ -1,0 +1,47 @@
+✔ black T-shirt GLB import → editor → export preserves fabric, hierarchy, normals, UVs and transforms (59.9832ms)
+✔ all viewport modes preserve every material slot and never mutate source materials or geometry (2.2627ms)
+✔ multi-material groups retain their distinct colors and remain triangle primitives (5.7531ms)
+✔ imported texture references, physical material class, alpha and side survive reconstruction (3.573ms)
+✔ validator detects material, geometry, transform and hierarchy corruption (9.3246ms)
+✔ mirrored transforms remain consistent and produce warnings without blanket DoubleSide (5.7481ms)
+✔ solid surfaces are intersectable from six directions and a full horizontal orbit (9.2074ms)
+✔ selected export retains ancestor transforms without unrelated siblings (5.0717ms)
+✔ material edits retain precise linear colors and can explicitly remove imported textures (1.0461ms)
+✔ ISSUE 1: Select model, deselect by clearObjectSelection, and deselect with Escape (20.3188ms)
+✔ ISSUE 1 (Edit Mode): Topology selection remains separate from object selection (1.1433ms)
+✔ ISSUE 1: Drag threshold prevents accidental deselection during camera orbit (0.2356ms)
+✔ ISSUE 2: Solid mode displays opaque surfaces and does NOT mutate material wireframe (2.2723ms)
+✔ ISSUE 3: Geometry diagnostics differentiate open garment boundaries from non-manifold geometry (2.7524ms)
+✔ ISSUE 4: UV diagnostics distinguish seams from UV coordinates and report 6 separate statuses (1.6763ms)
+✔ ISSUE 5: Black PBR material (#09090B) survives import -> render -> GLB export -> reload round-trip (26.54ms)
+✔ ISSUE 6: Empty selection state is clean and gizmos are hidden when nothing is selected (0.3931ms)
+✔ extrudeFaces produces valid extruded geometry with perimeter sidewalls and cap faces (6.5863ms)
+✔ insetFaces generates inner inset faces and boundary border triangles (1.8777ms)
+✔ subdivideFaces splits triangles into 4 child triangles sharing edge midpoints (1.9259ms)
+✔ mergeVertices welds vertices to center and safely eliminates degenerate triangles (1.3981ms)
+✔ deleteTopologyElements removes elements and cleans up references (0.889ms)
+✔ flipTopologyNormals inverts face normals and winding order (0.6886ms)
+✔ UV unwrappers calculate valid [0, 1] normalized coordinates and islands (8.8461ms)
+✔ Full round-trip GLB export after geometry modeling operations (34.8326ms)
+✔ Product Catalog generates valid 3D product scenes with customizable zones and verified UVs (47.1678ms)
+✔ Model Customization diagnostics accurately inspect meshes, UV channels, and zones (17.2021ms)
+✔ matchZoneFromRaycast correctly identifies target design zone from raycast intersection and UVs (0.7858ms)
+✔ SVG Sanitizer strips malicious script tags, inline handlers, and javascript: URLs (9.6522ms)
+✔ TextureComposer initializes at 1024, 2048, and 4096 resolutions and bakes valid PNG outputs (1.4434ms)
+✔ Customizer Store supports layer additions (image, text, shape), transformations, and transactional undo/redo (19.7708ms)
+✔ Customizer Store sets fabric presets, custom colors, and appearance modes correctly (4.5683ms)
+✔ Export Customized Product GLB bakes artwork textures and passes BlackBullet validation and reload verification (79.2319ms)
+✔ Customization project round-trip serialization preserves all zones, layers, typography, and fabric properties (4.9029ms)
+✔ TopologyGraph unifies cube buffer vertices into 8 unique 3D vertices and preserves 12 triangles (6.7145ms)
+✔ TopologyGraph accurately detects open boundaries on plane geometry (1.2137ms)
+✔ rebuildBufferGeometryFromTopology restores renderable geometry with valid indices and UVs (7.2716ms)
+✔ updateBufferGeometryPositions modifies buffer positions in place and updates stats (2.3087ms)
+✔ Centroid computation and element picking helper calculations (1.1414ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2103.8575

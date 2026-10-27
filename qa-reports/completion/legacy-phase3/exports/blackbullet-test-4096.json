@@ -1,0 +1,294 @@
+{
+  "id": "custom_proj_1792929569946",
+  "name": "Streetwear Oversized Tee",
+  "version": 4,
+  "sourceType": "preset",
+  "workspace": "customizer",
+  "createdAt": "2026-10-25T11:59:29.946Z",
+  "updatedAt": "2026-10-25T11:59:29.946Z",
+  "productId": "t-shirt-oversized",
+  "productName": "Streetwear Oversized Tee",
+  "productCategory": "t-shirt",
+  "activeZoneId": "sleeve_left",
+  "zones": {
+    "body_front": {
+      "id": "body_front",
+      "name": "Front Chest",
+      "targetMeshNodeId": "node_3c105f76-cc87-4036-99ce-c3a3cf381b56",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.04,
+        "maxU": 0.46,
+        "minV": 0.06,
+        "maxV": 0.96
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "qa-logo",
+          "type": "image",
+          "assetId": "8fdcd8ae-650d-4ce7-9622-9bfceeb1b219",
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAzklEQVR4AeyVQQqAMBADF///53rfSwgeiskIHkoLmsmsPmfm3LwvP/48U34BoFyAwQAMKCfACJQLwEeQEWAEygkwAuUC9P0FduGMwCbStsaAtsZ3XgzYRNrWGNDW+M6LAZtI2xoD2hrfeTFgE2lbY0B64yofBihC6fsYkN6wyocBilD6PgakN6zyYYAilL6PAekNq3wYoAil72NAWsNuHgxwiaWdx4C0Rt08GOASSzuPAWmNunkwwCWWdh4D0hp182CASyztPAb8vdGv7/8CAAD//2IBHrAAAAAGSURBVAMADk6AAWA9FEoAAAAASUVORK5CYII=",
+          "mimeType": "image/png",
+          "originalWidth": 64,
+          "originalHeight": 64,
+          "isSvg": false,
+          "x": 250,
+          "y": 250,
+          "width": 500,
+          "height": 500,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792929484496_vutps",
+          "zIndex": 1
+        },
+        {
+          "name": "Text \"FRONT MARK\"",
+          "type": "text",
+          "text": "FRONT MARK",
+          "fontFamily": "sans-serif",
+          "fontSize": 54,
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "fill": "#ffffff",
+          "align": "center",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "x": 300,
+          "y": 460,
+          "width": 400,
+          "height": 80,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792929485692_eo8fi",
+          "zIndex": 2
+        },
+        {
+          "name": "Rectangle Shape",
+          "type": "shape",
+          "shapeType": "rectangle",
+          "fill": "#10b981",
+          "stroke": "#ffffff",
+          "strokeWidth": 2,
+          "cornerRadius": 12,
+          "x": 100,
+          "y": 350,
+          "width": 220,
+          "height": 300,
+          "rotation": 45,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 0.5,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792929487043_v27pg",
+          "zIndex": 3
+        }
+      ],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 350,
+        "height": 450,
+        "unit": "mm"
+      },
+      "targetMeshName": "Body_Main",
+      "target": {
+        "uvBounds": {
+          "minU": 0.04,
+          "maxU": 0.46,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_3c105f76-cc87-4036-99ce-c3a3cf381b56",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "compositionId": "node_3c105f76-cc87-4036-99ce-c3a3cf381b56:0",
+        "blackBulletRegion": "shirt_front",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    },
+    "body_back": {
+      "id": "body_back",
+      "name": "Back Center",
+      "targetMeshNodeId": "node_9169230c-4bfa-45e9-96c2-c924384b4451",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.54,
+        "maxU": 0.96,
+        "minV": 0.06,
+        "maxV": 0.96
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "Text \"BLACKBULLET \"",
+          "type": "text",
+          "text": "BLACKBULLET TEST",
+          "fontFamily": "sans-serif",
+          "fontSize": 54,
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "fill": "#ffffff",
+          "align": "center",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "x": 300,
+          "y": 460,
+          "width": 400,
+          "height": 80,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792929508589_mvqtf",
+          "zIndex": 1
+        }
+      ],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 380,
+        "height": 480,
+        "unit": "mm"
+      },
+      "targetMeshName": "Body_Back",
+      "target": {
+        "uvBounds": {
+          "minU": 0.54,
+          "maxU": 0.96,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_9169230c-4bfa-45e9-96c2-c924384b4451",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "compositionId": "node_9169230c-4bfa-45e9-96c2-c924384b4451:0",
+        "blackBulletRegion": "shirt_back",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    },
+    "sleeve_left": {
+      "id": "sleeve_left",
+      "name": "Left Sleeve",
+      "targetMeshNodeId": "node_da3c3422-1de4-4125-a4c7-a0919ae8473b",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "Star Shape",
+          "type": "shape",
+          "shapeType": "star",
+          "fill": "#10b981",
+          "stroke": "#ffffff",
+          "strokeWidth": 2,
+          "x": 350,
+          "y": 350,
+          "width": 300,
+          "height": 300,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792929513405_f4y4z",
+          "zIndex": 1
+        }
+      ],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 100,
+        "height": 100,
+        "unit": "mm"
+      },
+      "targetMeshName": "Sleeve_Left",
+      "target": {
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_da3c3422-1de4-4125-a4c7-a0919ae8473b",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "compositionId": "node_da3c3422-1de4-4125-a4c7-a0919ae8473b:0",
+        "blackBulletRegion": "shoulder_left",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    },
+    "sleeve_right": {
+      "id": "sleeve_right",
+      "name": "Right Sleeve",
+      "targetMeshNodeId": "node_9e22ae51-848c-475c-baaa-1efaed4c255f",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 100,
+        "height": 100,
+        "unit": "mm"
+      },
+      "targetMeshName": "Sleeve_Right",
+      "target": {
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_9e22ae51-848c-475c-baaa-1efaed4c255f",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "compositionId": "node_9e22ae51-848c-475c-baaa-1efaed4c255f:0",
+        "blackBulletRegion": "shoulder_right",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    }
+  },
+  "fabricColor": "#18181b",
+  "fabricRoughness": 0.92,
+  "fabricMetalness": 0,
+  "fabricPresetId": "cotton-heavyweight",
+  "partMaterials": {},
+  "textureResolution": 4096,
+  "blackBulletMode": "preserve-imported"
+}

@@ -1,0 +1,50 @@
+[zustand persist middleware] Unable to update item '3d_model_maker_projects_meta', the given storage is currently unavailable.
+✔ QA forward extrude: changed geometry remains exportable before history actions (52.4673ms)
+✔ QA topology extrude: geometry, graph, undo, redo and GLB (15.9945ms)
+✔ QA forward inset: changed geometry remains exportable before history actions (9.0767ms)
+✔ QA topology inset: geometry, graph, undo, redo and GLB (8.6222ms)
+✔ QA forward subdivide: changed geometry remains exportable before history actions (11.685ms)
+✔ QA topology subdivide: geometry, graph, undo, redo and GLB (10.6226ms)
+✔ QA forward merge: changed geometry remains exportable before history actions (5.9434ms)
+✔ QA topology merge: geometry, graph, undo, redo and GLB (5.9723ms)
+✔ QA forward weld: changed geometry remains exportable before history actions (6.2922ms)
+✔ QA topology weld: geometry, graph, undo, redo and GLB (15.4459ms)
+✔ QA forward delete: changed geometry remains exportable before history actions (5.6832ms)
+✔ QA topology delete: geometry, graph, undo, redo and GLB (6.5264ms)
+✔ QA forward flip: changed geometry remains exportable before history actions (6.0446ms)
+✔ QA topology flip: geometry, graph, undo, redo and GLB (8.7884ms)
+✔ QA flip normals updates per-corner shading normals as well as winding (0.9347ms)
+✔ QA adding a primitive keeps primary and multi-selection IDs synchronized (7.7292ms)
+✔ QA connected component separation: geometry, history and GLB (11.1706ms)
+✔ QA forward UV box: edited data survives GLB independently of undo (8.03ms)
+✔ QA forward UV planar: edited data survives GLB independently of undo (5.9315ms)
+✔ QA forward UV cylindrical: edited data survives GLB independently of undo (5.1509ms)
+✔ QA UV box: finite data, undo/redo and GLB (8.3978ms)
+✔ QA UV planar: finite data, undo/redo and GLB (5.9979ms)
+✔ QA UV cylindrical: finite data, undo/redo and GLB (6.8912ms)
+✔ QA UV translate: actual data changes and undo restores it (6.7927ms)
+✔ QA UV rotate: actual data changes and undo restores it (7.6458ms)
+✔ QA UV scale: actual data changes and undo restores it (7.0357ms)
+✔ QA material slots: assign selected faces, remove slot, valid groups and GLB (13.173ms)
+✔ QA material face assignment undo from a primitive restores geometry and slots (7.2135ms)
+✔ QA GLTF embedded JSON export reloads with black fabric and customization metadata (47.4134ms)
+✔ QA UV diagnostics rejects non-finite coordinates and distinguishes missing UVs (1.1065ms)
+✔ QA persistence: supported primitive transforms and materials survive JSON save/load (38.0499ms)
+✔ QA persistence: edited/imported geometry bytes survive a fresh process (721.0753ms)
+﹣ QA unsupported feature inventory: joinMeshes (0.1712ms) # joinMeshes is not implemented in the editor store
+﹣ QA unsupported feature inventory: bevelSelectedEdges (0.0913ms) # bevelSelectedEdges is not implemented in the editor store
+﹣ QA unsupported feature inventory: duplicateMaterial (0.1236ms) # duplicateMaterial is not implemented in the editor store
+✔ stabilization: multi-operation geometry/UV/material history restores actual buffers in both directions (56.1216ms)
+✔ stabilization: add, multi-select, delete subtree, undo/redo and duplicate maintain selection invariants (17.095ms)
+✔ stabilization: additional UV channels and groups survive persisted asset hydration (10.7852ms)
+✔ stabilization: repeated scene replacement releases geometry resources without breaking history (37.7178ms)
+✔ stabilization: persisted procedural undo snapshot drops obsolete cache references (4.216ms)
+✔ stabilization: asset serialization preserves non-quantized linear material colors (3.1936ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 2435.6236

@@ -1,0 +1,88 @@
+
+> 3d-model-maker@0.0.1 build
+> next build
+
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config.ts took 66ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 7.5s
+  Running TypeScript ...
+  Finished TypeScript in 6.5s ...
+  Collecting page data using 13 workers ...
+  Generating static pages using 13 workers (0/9) ...
+  Generating static pages using 13 workers (2/9) 
+  Generating static pages using 13 workers (4/9) 
+  Generating static pages using 13 workers (6/9) 
+✓ Generating static pages using 13 workers (9/9) in 1768ms
+  Finalizing page optimization ...
+Turbopack build encountered 2 warnings:
+./integrations/image-to-3d/demo-provider.ts:119:11
+Warning: Dynamic filesystem access causes tracing of the whole project
+  117 |
+  118 |     for (const cand of fixtureCandidates) {
+> 119 |       if (fs.existsSync(cand)) {
+      |           ^^^^^^^^^^^^^^^^^^^
+  120 |         glbBuffer = await fs.promises.readFile(cand)
+  121 |         chosenPath = cand
+  122 |         break
+
+Static analysis determined that this filesystem access causes the whole project to be traced and included in the output.
+This is usually unintentional and leads to all source files (including the public folder) to be deployed as part of the server code.
+This can slow down deployments or lead to failures when size limits are exceeded.
+To resolve this, you can
+- make sure the path is statically scoped to some subfolder, for example path.join(process.cwd(), 'data', bar), or
+- only use them in development, or
+- opt out by adding an ignore comment to the highlighted call: fs.existsSync(/*turbopackIgnore: true*/ ...), or
+- remove them.
+
+Import trace:
+  App Route:
+    ./integrations/image-to-3d/demo-provider.ts
+    ./server/generation/job-orchestrator.ts
+    ./app/api/ai/providers/route.ts
+
+
+./integrations/image-to-3d/demo-provider.ts:120:27
+Warning: Dynamic filesystem access causes tracing of the whole project
+  118 |     for (const cand of fixtureCandidates) {
+  119 |       if (fs.existsSync(cand)) {
+> 120 |         glbBuffer = await fs.promises.readFile(cand)
+      |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  121 |         chosenPath = cand
+  122 |         break
+  123 |       }
+
+Static analysis determined that this filesystem access causes the whole project to be traced and included in the output.
+This is usually unintentional and leads to all source files (including the public folder) to be deployed as part of the server code.
+This can slow down deployments or lead to failures when size limits are exceeded.
+To resolve this, you can
+- make sure the path is statically scoped to some subfolder, for example path.join(process.cwd(), 'data', bar), or
+- only use them in development, or
+- opt out by adding an ignore comment to the highlighted call: fs.readFile(/*turbopackIgnore: true*/ ...), or
+- remove them.
+
+Import trace:
+  App Route:
+    ./integrations/image-to-3d/demo-provider.ts
+    ./server/generation/job-orchestrator.ts
+    ./app/api/ai/providers/route.ts
+
+
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/ai/analyze-reference
+├ ƒ /api/ai/blender/prepare
+├ ƒ /api/ai/blender/status
+├ ƒ /api/ai/jobs
+├ ƒ /api/ai/jobs/[jobId]
+├ ƒ /api/ai/jobs/[jobId]/assets/[assetType]
+├ ƒ /api/ai/jobs/[jobId]/process
+└ ƒ /api/ai/providers
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

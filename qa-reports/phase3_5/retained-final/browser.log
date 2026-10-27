@@ -1,0 +1,70 @@
+
+Running 11 tests using 1 worker
+
+  ok  1 tests\qa\browser\phase3-blackbullet.spec.mjs:33:1 › Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes (15.4s)
+  ok  2 tests\qa\browser\phase3-blackbullet.spec.mjs:65:1 › Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes (13.5s)
+  ok  3 tests\qa\browser\phase3-blackbullet.spec.mjs:91:1 › Phase 3 customized export reimports into Model Maker with artwork textures (12.4s)
+  ok  4 tests\qa\browser\phase3-durability.spec.mjs:10:1 › Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors (25.8s)
+  x   5 tests\qa\browser\phase3-durability.spec.mjs:54:1 › Phase 3 editable project survives a new browser process with durable image assets (58.4s)
+  ok  6 tests\qa\browser\phase3-pointer.spec.mjs:4:1 › Phase 3 pointer movement updates layer coordinates and actual texture pixels (34.2s)
+  ok  7 tests\qa\browser\phase3-pointer.spec.mjs:44:1 › Phase 3 star has matching 2D canvas and actual 3D texture coordinates (17.4s)
+  ok  8 tests\qa\browser\phase3.spec.mjs:8:3 › Independent Phase 3 › workspace initialization corresponds to selected product (8.0s)
+  ok  9 tests\qa\browser\phase3.spec.mjs:18:3 › Independent Phase 3 › catalog geometry, live textures, camera controls and resource cycles (1.9m)
+  ok 10 tests\qa\browser\phase3.spec.mjs:52:3 › Independent Phase 3 › real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet (2.4m)
+  ok 11 tests\qa\browser\phase3.spec.mjs:105:3 › Independent Phase 3 › UV-ready multipart import preserves original albedo and PBR (26.1s)
+
+
+  1) tests\qa\browser\phase3-durability.spec.mjs:54:1 › Phase 3 editable project survives a new browser process with durable image assets 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   34,
+    -   68,
+    -   102,
+    +   0,
+    +   1,
+    +   1,
+        255,
+      ]
+
+    Call Log:
+    - Timeout 30000ms exceeded while waiting on the predicate
+
+      79 |     await page.getByRole('button', { name: 'Material & Finish', exact: true }).click()
+      80 |     await page.locator('input[type=color]').first().fill('#224466')
+    > 81 |     await expect.poll(async () => (await scene(page)).meshes[0]?.materials[0].texture?.corner, { timeout: 30000 }).toEqual([34, 68, 102, 255])
+         |                                                                                                                    ^
+      82 |     const before = await save(page)
+      83 |     await page.waitForTimeout(1200)
+      84 |     const appearanceBefore = await scene(page)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-durability.spec.mjs:81:116
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\retained-final\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\retained-final\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3_5\retained-final\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3_5\retained-final\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3_5\retained-final\browser-artifacts\phase3-durability-Phase-3--2d951-s-with-durable-image-assets\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\qa\browser\phase3-durability.spec.mjs:54:1 › Phase 3 editable project survives a new browser process with durable image assets 
+  10 passed (7.9m)
+(node:1340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19712) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

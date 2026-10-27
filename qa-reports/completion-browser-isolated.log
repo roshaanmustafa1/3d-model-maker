@@ -1,0 +1,44 @@
+
+Running 2 tests using 1 worker
+
+(node:6972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\qa\browser\completion.spec.mjs:12:1 › Completion: local generated GLB inspection and Studio handoff require no generation provider (9.5s)
+  x  2 tests\qa\browser\completion.spec.mjs:23:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls (1.0m)
+
+
+  1) tests\qa\browser\completion.spec.mjs:23:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Split by material', exact: true })
+
+
+      28 |   await page.getByRole('button', { name: 'Geom', exact: true }).click()
+      29 |   const before = await page.evaluate(() => window.__qaSnapshot().meshes.filter(mesh => mesh.name.startsWith('QA_Material_Slots')).reduce((sum, mesh) => sum + mesh.triangles, 0))
+    > 30 |   await page.getByRole('button', { name: 'Split by material', exact: true }).click()
+         |                                                                              ^
+      31 |   await expect(page.getByText('QA_Material_Slots_Part1', { exact: true }).first()).toBeVisible()
+      32 |   await expect(page.getByText('QA_Material_Slots_Part2', { exact: true }).first()).toBeVisible()
+      33 |   await expect.poll(() => page.evaluate(() => window.__qaSnapshot().meshes.filter(mesh => mesh.name.startsWith('QA_Material_Slots')).reduce((sum, mesh) => sum + mesh.triangles, 0))).toBe(before)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\completion.spec.mjs:30:78
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\browser-isolated\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\browser-isolated\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\browser-isolated\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\browser-isolated\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\qa\browser\completion.spec.mjs:23:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls 
+  1 passed (1.2m)

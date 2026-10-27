@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "3d-model-maker",
+    "version": "0.0.1"
+  },
+  "versions": {
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "three": "0.186.1",
+    "@react-three/fiber": "9.8.2",
+    "@react-three/drei": "10.7.9",
+    "@playwright/test": "1.64.1",
+    "zustand": "5.0.16",
+    "immer": "11.2.9"
+  },
+  "sourceSHA256": {
+    "package.json": "98441ec2bb923c211090c34468456d08b14863dab8b63345207252d8ee5a99d4",
+    "package-lock.json": "925169308f666a2b1e61a242ebcd287f6291694e22d69e28f2878b30599cc798",
+    "stores/editor-store.ts": "4f13b176c36df155213a47ab3f5a29e865be2b99be64608cf40c9fbd286cc150",
+    "stores/project-store.ts": "3243335bb6848b1d9f2f893901d81e1e530e50edc9a72a36eecbdf7ce89d296c",
+    "engine/topology/topology-graph.ts": "e177050261548e6361de6360b905cfb508608479152523a24be7a2ee4e2bb7bb",
+    "engine/topology/geometry-operators.ts": "8dca4ce5d07c3c5e332cfa0e897de959e4b8065b0daf533354fa77f00e0a721f",
+    "engine/topology/uv-unwrapper.ts": "83e7f8ab63be97cc713c0c4cc36b2c7a6de5e7f11859f510491df71c17a96481",
+    "engine/loaders/model-importer.ts": "4d2cc99783119800e5849067090df584b387942b4d451c9ccd44c481a31a773a",
+    "engine/exporters/glb-exporter.ts": "8dce681ec333bd7211ee41f682d25dfa83acd531de40d69c8375d77c6ef121e6",
+    "components/viewport/scene-renderer.tsx": "016b09c5c3cd6288ad32446ed04af74bbccb7aafc2ac8859be38e47297d080d0",
+    "components/viewport/viewport-canvas.tsx": "6a037d9b971069a89ff876854c0bc717a019348863b0b16c548827b273d3377a"
+  },
+  "hardware": {
+    "node": "v24.21.0",
+    "os": "win32 10.0.19045",
+    "cpu": "Intel(R) Xeon(R) CPU E5-2687W v2 @ 3.40GHz",
+    "memoryBytes": 25711394816
+  },
+  "browser": {
+    "webgl": true,
+    "vendor": "Google Inc. (Google)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "browserVersion": "155.0.4283.62"
+  },
+  "devServer": "http://localhost:3000",
+  "blackbulletServer": "http://localhost:5173/customizer"
+}

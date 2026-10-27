@@ -1,0 +1,8 @@
+
+Running 1 test using 1 worker
+
+  ok 1 tests\qa\browser\phase3_5-blackbullet.spec.mjs:20:1 › Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork (40.8s)
+
+  1 passed (43.3s)
+(node:10076) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

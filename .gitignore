@@ -10,6 +10,7 @@
 
 # testing
 /coverage
+/qa-reports/phase2_5/profiles/
 
 # next.js
 /.next/
@@ -34,6 +35,11 @@ pnpm-debug.log*
 # vercel
 .vercel
 
+# storage
+/.storage/
+/data/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+

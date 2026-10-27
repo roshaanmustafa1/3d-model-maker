@@ -1,0 +1,178 @@
+{
+  "id": "custom_proj_1792928560606",
+  "name": "Streetwear Oversized Tee",
+  "version": 4,
+  "sourceType": "preset",
+  "workspace": "customizer",
+  "createdAt": "2026-10-25T11:42:40.606Z",
+  "updatedAt": "2026-10-25T11:42:40.606Z",
+  "productId": "t-shirt-oversized",
+  "productName": "Streetwear Oversized Tee",
+  "productCategory": "t-shirt",
+  "activeZoneId": "body_front",
+  "zones": {
+    "body_front": {
+      "id": "body_front",
+      "name": "Front Chest",
+      "targetMeshNodeId": "node_3abf328f-b110-4af7-988a-a5ca934fd3ac",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.04,
+        "maxU": 0.46,
+        "minV": 0.06,
+        "maxV": 0.96
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 350,
+        "height": 450,
+        "unit": "mm"
+      },
+      "targetMeshName": "Body_Main",
+      "target": {
+        "uvBounds": {
+          "minU": 0.04,
+          "maxU": 0.46,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_3abf328f-b110-4af7-988a-a5ca934fd3ac",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "compositionId": "node_3abf328f-b110-4af7-988a-a5ca934fd3ac:0",
+        "blackBulletRegion": "shirt_front",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    },
+    "body_back": {
+      "id": "body_back",
+      "name": "Back Center",
+      "targetMeshNodeId": "node_45209620-cbe1-42af-a0fb-3a6c20f25ee6",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.54,
+        "maxU": 0.96,
+        "minV": 0.06,
+        "maxV": 0.96
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 380,
+        "height": 480,
+        "unit": "mm"
+      },
+      "targetMeshName": "Body_Back",
+      "target": {
+        "uvBounds": {
+          "minU": 0.54,
+          "maxU": 0.96,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_45209620-cbe1-42af-a0fb-3a6c20f25ee6",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "compositionId": "node_45209620-cbe1-42af-a0fb-3a6c20f25ee6:0",
+        "blackBulletRegion": "shirt_back",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    },
+    "sleeve_left": {
+      "id": "sleeve_left",
+      "name": "Left Sleeve",
+      "targetMeshNodeId": "node_3b05d75c-148a-46dd-bc8e-7e1f137a224b",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 100,
+        "height": 100,
+        "unit": "mm"
+      },
+      "targetMeshName": "Sleeve_Left",
+      "target": {
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_3b05d75c-148a-46dd-bc8e-7e1f137a224b",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "compositionId": "node_3b05d75c-148a-46dd-bc8e-7e1f137a224b:0",
+        "blackBulletRegion": "shoulder_left",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    },
+    "sleeve_right": {
+      "id": "sleeve_right",
+      "name": "Right Sleeve",
+      "targetMeshNodeId": "node_4ac39f27-47e1-44e8-89ce-9b65fc67ae28",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 100,
+        "height": 100,
+        "unit": "mm"
+      },
+      "targetMeshName": "Sleeve_Right",
+      "target": {
+        "version": 1,
+        "productId": "t-shirt-oversized",
+        "meshId": "node_4ac39f27-47e1-44e8-89ce-9b65fc67ae28",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "compositionId": "node_4ac39f27-47e1-44e8-89ce-9b65fc67ae28:0",
+        "blackBulletRegion": "shoulder_right",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      }
+    }
+  },
+  "fabricColor": "#18181b",
+  "fabricRoughness": 0.92,
+  "fabricMetalness": 0,
+  "fabricPresetId": "cotton-heavyweight",
+  "partMaterials": {},
+  "textureResolution": 1024,
+  "blackBulletMode": "preserve-imported"
+}

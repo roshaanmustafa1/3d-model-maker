@@ -1,0 +1,66 @@
+[zustand persist middleware] Unable to update item '3d_model_maker_projects_meta', the given storage is currently unavailable.
+✔ QA forward extrude: changed geometry remains exportable before history actions (146.9218ms)
+✔ QA topology extrude: geometry, graph, undo, redo and GLB (21.8884ms)
+✔ QA forward inset: changed geometry remains exportable before history actions (11.9539ms)
+✔ QA topology inset: geometry, graph, undo, redo and GLB (62.3518ms)
+✔ QA forward subdivide: changed geometry remains exportable before history actions (40.8776ms)
+✔ QA topology subdivide: geometry, graph, undo, redo and GLB (39.4928ms)
+✔ QA forward merge: changed geometry remains exportable before history actions (10.0486ms)
+✔ QA topology merge: geometry, graph, undo, redo and GLB (9.9704ms)
+✔ QA forward weld: changed geometry remains exportable before history actions (9.1684ms)
+✔ QA topology weld: geometry, graph, undo, redo and GLB (12.3809ms)
+✔ QA forward delete: changed geometry remains exportable before history actions (14.4646ms)
+✔ QA topology delete: geometry, graph, undo, redo and GLB (11.6378ms)
+✔ QA forward flip: changed geometry remains exportable before history actions (10.1497ms)
+✔ QA topology flip: geometry, graph, undo, redo and GLB (27.9617ms)
+✔ QA flip normals updates per-corner shading normals as well as winding (2.7431ms)
+✔ QA adding a primitive keeps primary and multi-selection IDs synchronized (45.0637ms)
+✔ QA connected component separation: geometry, history and GLB (22.5608ms)
+✔ QA forward UV box: edited data survives GLB independently of undo (7.387ms)
+✔ QA forward UV planar: edited data survives GLB independently of undo (23.1483ms)
+✔ QA forward UV cylindrical: edited data survives GLB independently of undo (11.3568ms)
+✔ QA UV box: finite data, undo/redo and GLB (20.9053ms)
+✔ QA UV planar: finite data, undo/redo and GLB (9.331ms)
+✔ QA UV cylindrical: finite data, undo/redo and GLB (7.3499ms)
+✔ QA UV translate: actual data changes and undo restores it (8.8507ms)
+✔ QA UV rotate: actual data changes and undo restores it (10.9957ms)
+✔ QA UV scale: actual data changes and undo restores it (9.0925ms)
+✔ QA material slots: assign selected faces, remove slot, valid groups and GLB (29.0188ms)
+✔ QA material face assignment undo from a primitive restores geometry and slots (25.4189ms)
+✔ QA GLTF embedded JSON export reloads with black fabric and customization metadata (92.8361ms)
+✔ QA UV diagnostics rejects non-finite coordinates and distinguishes missing UVs (1.6838ms)
+✔ QA persistence: supported primitive transforms and materials survive JSON save/load (60.7846ms)
+✔ QA persistence: edited/imported geometry bytes survive a fresh process (1488.8212ms)
+﹣ QA unsupported feature inventory: joinMeshes (0.23ms) # joinMeshes is not implemented in the editor store
+﹣ QA unsupported feature inventory: bevelSelectedEdges (0.1181ms) # bevelSelectedEdges is not implemented in the editor store
+﹣ QA unsupported feature inventory: duplicateMaterial (0.1659ms) # duplicateMaterial is not implemented in the editor store
+✔ P3 regression: catalog must warn when its box UV surfaces overlap (215.0475ms)
+✔ P3 regression: imported front/back UV zones must use authored atlas bounds (7.6027ms)
+✔ P3 regression: malformed SVG must be rejected before adding an image layer (20.6722ms)
+✔ P3 security: SVG entity-encoded javascript links must be removed (5.1218ms)
+✔ P3 control: real layer state, ordering and consecutive undo/redo remain valid (26.144ms)
+✔ P3.5 UV analysis excludes coincident edges and finds positive-area mirrored islands (27.205ms)
+✔ P3.5 overlapping UVs in different material slots are independently isolated (39.9135ms)
+✔ P3.5 overlap cache invalidates on edited UV attributes and material groups (44.8119ms)
+✔ P3.5 torso partition retains every original face, normal and winding exactly once (30.3267ms)
+✔ P3.5 targets resolve exact BlackBullet regions and isolated composition identities (14.0886ms)
+✔ P3.5 workspace switches retain modeling and customization geometry separately (15.7606ms)
+✔ P3.5 fabric overrides and undo leave original material data unchanged (32.151ms)
+✔ P3.5 XML sanitizer rejects DTDs and malformed XML and strips external/encoded references (8.608ms)
+✔ P3.5 invalid file signatures fail before layer/image creation (36.1273ms)
+✔ P3.5 legacy circle/star anchors migrate once while version-4 projects remain stable (14.5099ms)
+✔ P3.5 runtime export rejects products without a registered BlackBullet front/back contract (5.8908ms)
+✔ stabilization: multi-operation geometry/UV/material history restores actual buffers in both directions (178.655ms)
+✔ stabilization: add, multi-select, delete subtree, undo/redo and duplicate maintain selection invariants (105.4946ms)
+✔ stabilization: additional UV channels and groups survive persisted asset hydration (38.7777ms)
+✔ stabilization: repeated scene replacement releases geometry resources without breaking history (133.3161ms)
+✔ stabilization: persisted procedural undo snapshot drops obsolete cache references (10.9985ms)
+✔ stabilization: asset serialization preserves non-quantized linear material colors (7.5832ms)
+ℹ tests 57
+ℹ suites 0
+ℹ pass 54
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 5609.8239

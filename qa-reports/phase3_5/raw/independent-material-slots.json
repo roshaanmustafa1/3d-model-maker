@@ -1,0 +1,372 @@
+{
+  "before": {
+    "camera": [
+      5.483231320776373,
+      3.6991003537362714,
+      5.483231320776374
+    ],
+    "memory": {
+      "geometries": 3,
+      "textures": 5
+    },
+    "heap": 47096909,
+    "meshes": [
+      {
+        "name": "mesh_0",
+        "vertices": 12,
+        "triangles": 2,
+        "attributes": {
+          "position": {
+            "count": 12,
+            "hash": 3156271893
+          },
+          "uv": {
+            "count": 12,
+            "hash": 1369368613
+          },
+          "normal": {
+            "count": 12,
+            "hash": 1092055445
+          }
+        },
+        "groups": [],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "224466",
+            "linear": [
+              0.015996293361446288,
+              0.057805430183792694,
+              0.13286832154414627
+            ],
+            "roughness": 0.65,
+            "metalness": 0.2,
+            "type": "MeshStandardMaterial",
+            "normalMap": false
+          }
+        ]
+      },
+      {
+        "name": "mesh_0_1",
+        "vertices": 12,
+        "triangles": 2,
+        "attributes": {
+          "position": {
+            "count": 12,
+            "hash": 3156271893
+          },
+          "uv": {
+            "count": 12,
+            "hash": 1369368613
+          },
+          "normal": {
+            "count": 12,
+            "hash": 1092055445
+          }
+        },
+        "groups": [],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "eab308",
+            "linear": [
+              0.8227857543924378,
+              0.450785782828426,
+              0.002428215868235294
+            ],
+            "roughness": 0.2,
+            "metalness": 0.8,
+            "type": "MeshStandardMaterial",
+            "normalMap": false
+          }
+        ]
+      }
+    ]
+  },
+  "after": {
+    "camera": [
+      5.306985705734155,
+      3.4495407087272008,
+      5.306985705734156
+    ],
+    "memory": {
+      "geometries": 22,
+      "textures": 6
+    },
+    "heap": 58773691,
+    "meshes": [
+      {
+        "name": "mesh_0",
+        "vertices": 12,
+        "triangles": 2,
+        "attributes": {
+          "position": {
+            "count": 12,
+            "hash": 3156271893
+          },
+          "uv": {
+            "count": 12,
+            "hash": 1369368613
+          },
+          "normal": {
+            "count": 12,
+            "hash": 1092055445
+          }
+        },
+        "groups": [],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "ffffff",
+            "linear": [
+              1,
+              1,
+              1
+            ],
+            "roughness": 0.65,
+            "metalness": 0.2,
+            "type": "MeshStandardMaterial",
+            "normalMap": false,
+            "texture": {
+              "width": 1024,
+              "height": 1024,
+              "hash": 667825989,
+              "colorSpace": "srgb",
+              "flipY": false,
+              "center": [
+                16,
+                185,
+                129,
+                255
+              ],
+              "corner": [
+                34,
+                68,
+                102,
+                255
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "mesh_0_1",
+        "vertices": 12,
+        "triangles": 2,
+        "attributes": {
+          "position": {
+            "count": 12,
+            "hash": 3156271893
+          },
+          "uv": {
+            "count": 12,
+            "hash": 1369368613
+          },
+          "normal": {
+            "count": 12,
+            "hash": 1092055445
+          }
+        },
+        "groups": [],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "eab308",
+            "linear": [
+              0.8227857543924378,
+              0.450785782828426,
+              0.002428215868235294
+            ],
+            "roughness": 0.2,
+            "metalness": 0.8,
+            "type": "MeshStandardMaterial",
+            "normalMap": false
+          }
+        ]
+      }
+    ]
+  },
+  "binary": {
+    "validHeader": true,
+    "surfaces": [
+      {
+        "name": "mesh_0",
+        "target": {
+          "version": 1,
+          "productId": "custom_1792869885102",
+          "meshId": "node_4560019e-10b2-474a-b3e3-3310c32df9bc",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0,
+            "maxU": 1,
+            "minV": 0,
+            "maxV": 1
+          },
+          "compositionId": "node_4560019e-10b2-474a-b3e3-3310c32df9bc:0",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "primitives": [
+          {
+            "material": {
+              "pbrMetallicRoughness": {
+                "metallicFactor": 0.2,
+                "roughnessFactor": 0.65,
+                "baseColorTexture": {
+                  "index": 0,
+                  "texCoord": 0
+                }
+              },
+              "name": "Blue_Source"
+            },
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "counts": {
+                "red": 0,
+                "blue": 0,
+                "green": 88664,
+                "white": 2308
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "mesh_0_1",
+        "target": {
+          "version": 1,
+          "productId": "custom_1792869885102",
+          "meshId": "node_377b5d7d-a2ba-44bd-8975-e4abbd0a5c38",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0,
+            "maxU": 1,
+            "minV": 0,
+            "maxV": 1
+          },
+          "compositionId": "node_377b5d7d-a2ba-44bd-8975-e4abbd0a5c38:0",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "primitives": [
+          {
+            "material": {
+              "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                  0.8227857543924378,
+                  0.450785782828426,
+                  0.002428215868235294,
+                  1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.2
+              },
+              "name": "Gold_Source"
+            },
+            "image": null
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "counts": {
+          "red": 0,
+          "blue": 0,
+          "green": 88664,
+          "white": 2308
+        }
+      }
+    ]
+  },
+  "events": {
+    "errors": [],
+    "console": [
+      "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    ],
+    "failedRequests": [],
+    "navigations": [
+      "http://localhost:3000/",
+      "http://localhost:3000/"
+    ],
+    "crashes": 0
+  }
+}

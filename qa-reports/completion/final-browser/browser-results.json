@@ -1,0 +1,702 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "completion.spec.mjs",
+      "phase3_5.spec.mjs",
+      "phase3_5-materials.spec.mjs",
+      "phase3_5-alignment.spec.mjs",
+      "phase4-ai-generator.spec.mjs"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/completion/final-browser/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\final-browser\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3011",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/completion/final-browser/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/completion/final-browser/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "completion.spec.mjs",
+      "file": "completion.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Completion: local generated GLB inspection and Studio handoff require no generation provider",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10118,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:37:02.124Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c47812c101a2a7f318d-22d14770c62ce891adf6",
+          "file": "completion.spec.mjs",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "Completion: material split, undo/redo, UV packing and durable save use actual controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20503,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:37:12.638Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c47812c101a2a7f318d-0b5593810ec2e88ff3e4",
+          "file": "completion.spec.mjs",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5-alignment.spec.mjs",
+      "file": "phase3_5-alignment.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 canonical Rectangle coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15643,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:37:33.202Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-efbc64e55cceec7a212b",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Circle coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13241,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:37:48.876Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-188738f9b122055e35a7",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Star coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13454,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:38:02.143Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-6b7c069b26be08d8c935",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Triangle coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12529,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:38:15.623Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-342e217e0618bff66319",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Text coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12281,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:38:28.175Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-ad3d962cf88888dbcc3e",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Image coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12822,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:38:40.479Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-514800da8de834a5a58b",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 repeated artwork/export/replacement releases GPU allocations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 95177,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:38:53.321Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-7d57b34fcef6c45cb69f",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 53,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5-materials.spec.mjs",
+      "file": "phase3_5-materials.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20407,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:40:28.673Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84534f04ff9d85f12599-dc7b5afc4d0e2ae0fc04",
+          "file": "phase3_5-materials.spec.mjs",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5.spec.mjs",
+      "file": "phase3_5.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 98105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:40:49.129Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-3354a6553599a18ee786",
+          "file": "phase3_5.spec.mjs",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Phase 3.5 undo/redo updates actual texture and exported pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 36113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:42:27.296Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-735452b6b8ee831400d5",
+          "file": "phase3_5.spec.mjs",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "Phase 3.5 imported source plus editable artwork survives browser process restart",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 56555,
+                  "error": {
+                    "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: /^Open:/ }).first()\u001b[22m\n",
+                    "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: /^Open:/ }).first()\u001b[22m\n\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:126:66",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs",
+                      "column": 66,
+                      "line": 126
+                    },
+                    "snippet": "  124 |     await setup(page); await page.goto(process.env.QA_BASE_URL || 'http://localhost:3000')\n  125 |     await page.getByRole('button', { name: 'File', exact: true }).click()\n> 126 |     await page.getByRole('menuitem', { name: /^Open:/ }).first().click()\n      |                                                                  ^\n  127 |     await page.getByText('Saved project opened', { exact: true }).waitFor()\n  128 |     await page.getByRole('button', { name: 'Customizer', exact: true }).click()\n  129 |     await ready(page, name)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs",
+                        "column": 66,
+                        "line": 126
+                      },
+                      "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: /^Open:/ }).first()\u001b[22m\n\n\n  124 |     await setup(page); await page.goto(process.env.QA_BASE_URL || 'http://localhost:3000')\n  125 |     await page.getByRole('button', { name: 'File', exact: true }).click()\n> 126 |     await page.getByRole('menuitem', { name: /^Open:/ }).first().click()\n      |                                                                  ^\n  127 |     await page.getByText('Saved project opened', { exact: true }).waitFor()\n  128 |     await page.getByRole('button', { name: 'Customizer', exact: true }).click()\n  129 |     await ready(page, name)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:126:66"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T11:43:03.449Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\final-browser\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\final-browser\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-3.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\final-browser\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-2.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\final-browser\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\final-browser\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs",
+                    "column": 66,
+                    "line": 126
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-b737fa5df4fccabea2fb",
+          "file": "phase3_5.spec.mjs",
+          "line": 102,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase4-ai-generator.spec.mjs",
+      "file": "phase4-ai-generator.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Phase 4: AI Image-to-3D Generation & Asset Pipeline",
+          "file": "phase4-ai-generator.spec.mjs",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "E2E workflow: Upload reference -> Gemini analysis -> 3D Generation -> Mesh Processing -> Studio Handoff",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 36841,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-25T11:44:02.286Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b26bbaf9dd5ec310d8d5-e6066d52dbc5d978f849",
+              "file": "phase4-ai-generator.spec.mjs",
+              "line": 7,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-25T11:37:00.945Z",
+    "duration": 459338.204,
+    "expected": 13,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

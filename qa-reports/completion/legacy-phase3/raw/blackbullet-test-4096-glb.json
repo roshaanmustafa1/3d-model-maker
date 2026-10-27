@@ -1,0 +1,727 @@
+{
+  "magic": 1179937895,
+  "version": 2,
+  "length": 1143332,
+  "declaredLength": 1143332,
+  "nodes": [
+    {
+      "name": "TShirt_Product",
+      "extras": {
+        "nodeId": "node_c2696b4b-d6c5-4aff-81ef-12d22f8f64c7",
+        "semanticTag": "TShirt_Product",
+        "isCustomizable": false,
+        "customizableZone": null
+      },
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Body_Main",
+      "extras": {
+        "partId": "shirt_front",
+        "customizableZone": "body_front",
+        "isCustomizable": true,
+        "blackBulletContract": {
+          "version": 1,
+          "profile": "shirt"
+        },
+        "customizationTarget": {
+          "uvBounds": {
+            "minU": 0.04,
+            "maxU": 0.46,
+            "minV": 0.06,
+            "maxV": 0.96
+          },
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_3c105f76-cc87-4036-99ce-c3a3cf381b56",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "compositionId": "node_3c105f76-cc87-4036-99ce-c3a3cf381b56:0",
+          "blackBulletRegion": "shirt_front",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "nodeId": "node_3c105f76-cc87-4036-99ce-c3a3cf381b56",
+        "semanticTag": "Body_Main"
+      },
+      "mesh": 0
+    },
+    {
+      "name": "Body_Back",
+      "extras": {
+        "partId": "shirt_back",
+        "customizableZone": "body_back",
+        "isCustomizable": true,
+        "blackBulletContract": {
+          "version": 1,
+          "profile": "shirt"
+        },
+        "customizationTarget": {
+          "uvBounds": {
+            "minU": 0.54,
+            "maxU": 0.96,
+            "minV": 0.06,
+            "maxV": 0.96
+          },
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_9169230c-4bfa-45e9-96c2-c924384b4451",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "compositionId": "node_9169230c-4bfa-45e9-96c2-c924384b4451:0",
+          "blackBulletRegion": "shirt_back",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "nodeId": "node_9169230c-4bfa-45e9-96c2-c924384b4451",
+        "semanticTag": "Body_Back"
+      },
+      "mesh": 1
+    },
+    {
+      "name": "Body_Sides",
+      "extras": {
+        "partId": "shirt_base",
+        "customizableZone": null,
+        "isCustomizable": false,
+        "blackBulletContract": {
+          "version": 1,
+          "profile": "shirt"
+        },
+        "nodeId": "node_7a394ccc-c9d7-4aef-81be-9a641c0e0e8a",
+        "semanticTag": "Body_Sides"
+      },
+      "mesh": 2
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.76,
+        0,
+        1
+      ],
+      "name": "Collar_Rib",
+      "extras": {
+        "partId": "collar",
+        "isCustomizable": false,
+        "semanticTag": "Collar_Rib",
+        "nodeId": "node_ffeae280-69e3-4ec3-a993-a7c1cf78484d",
+        "customizableZone": "collar"
+      },
+      "mesh": 3
+    },
+    {
+      "matrix": [
+        0.9800665778412416,
+        0.19866933079506124,
+        0,
+        0,
+        -0.19866933079506124,
+        0.9800665778412416,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.84,
+        0.52,
+        0,
+        1
+      ],
+      "name": "Sleeve_Left",
+      "extras": {
+        "partId": "shoulder_left",
+        "isCustomizable": true,
+        "customizableZone": "sleeve_left",
+        "semanticTag": "Sleeve_Left",
+        "customizationTarget": {
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_da3c3422-1de4-4125-a4c7-a0919ae8473b",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0,
+            "maxU": 1,
+            "minV": 0,
+            "maxV": 1
+          },
+          "compositionId": "node_da3c3422-1de4-4125-a4c7-a0919ae8473b:0",
+          "blackBulletRegion": "shoulder_left",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "blackBulletContract": {
+          "version": 1,
+          "profile": "shirt"
+        },
+        "nodeId": "node_da3c3422-1de4-4125-a4c7-a0919ae8473b"
+      },
+      "mesh": 4
+    },
+    {
+      "matrix": [
+        0.9800665778412416,
+        -0.19866933079506124,
+        0,
+        0,
+        0.19866933079506124,
+        0.9800665778412416,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.84,
+        0.52,
+        0,
+        1
+      ],
+      "name": "Sleeve_Right",
+      "extras": {
+        "partId": "shoulder_right",
+        "isCustomizable": true,
+        "customizableZone": "sleeve_right",
+        "semanticTag": "Sleeve_Right",
+        "customizationTarget": {
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_9e22ae51-848c-475c-baaa-1efaed4c255f",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0,
+            "maxU": 1,
+            "minV": 0,
+            "maxV": 1
+          },
+          "compositionId": "node_9e22ae51-848c-475c-baaa-1efaed4c255f:0",
+          "blackBulletRegion": "shoulder_right",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "blackBulletContract": {
+          "version": 1,
+          "profile": "shirt"
+        },
+        "nodeId": "node_9e22ae51-848c-475c-baaa-1efaed4c255f"
+      },
+      "mesh": 5
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "material": 0
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "material": 1
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "material": 2
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 12,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 16,
+          "material": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "indices": 20,
+          "material": 5
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "name": "Combed Cotton"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92,
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "name": "Combed Cotton"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.009134058699157796,
+          0.009134058699157796,
+          0.010960094003125918,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92
+      },
+      "name": "Combed Cotton"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.009134058699157796,
+          0.009134058699157796,
+          0.010960094003125918,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92
+      },
+      "name": "Combed Cotton"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92,
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "name": "Combed Cotton"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.009134058699157796,
+          0.009134058699157796,
+          0.010960094003125918,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.92
+      },
+      "name": "Combed Cotton"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.6000000238418579,
+        0.75,
+        0.14000000059604645
+      ],
+      "min": [
+        -0.6000000238418579,
+        -0.75,
+        0.14000000059604645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.46000000834465027,
+        0.9399999976158142
+      ],
+      "min": [
+        0.03999999910593033,
+        0.03999999910593033
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.6000000238418579,
+        0.75,
+        -0.14000000059604645
+      ],
+      "min": [
+        -0.6000000238418579,
+        -0.75,
+        -0.14000000059604645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0,
+        0,
+        -1
+      ],
+      "min": [
+        0,
+        0,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.9599999785423279,
+        0.9399999976158142
+      ],
+      "min": [
+        0.5400000214576721,
+        0.03999999910593033
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        0.6000000238418579,
+        0.75,
+        0.14000000059604645
+      ],
+      "min": [
+        -0.6000000238418579,
+        -0.75,
+        -0.14000000059604645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        1,
+        1,
+        0
+      ],
+      "min": [
+        -1,
+        -1,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.03999999910593033
+      ],
+      "min": [
+        -0.25999999046325684,
+        -0.25999999046325684,
+        -0.03999999910593033
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        0.9701424837112427,
+        0.9701424837112427,
+        1
+      ],
+      "min": [
+        -0.9701424837112427,
+        -0.9701424837112427,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5123,
+      "count": 288,
+      "max": [
+        147
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.2750000059604645,
+        0.22499999403953552,
+        0.12999999523162842
+      ],
+      "min": [
+        -0.2750000059604645,
+        -0.22499999403953552,
+        -0.12999999523162842
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5123,
+      "count": 36,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.2750000059604645,
+        0.22499999403953552,
+        0.12999999523162842
+      ],
+      "min": [
+        -0.2750000059604645,
+        -0.22499999403953552,
+        -0.12999999523162842
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5123,
+      "count": 36,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "bytes": 384732,
+      "width": 4096,
+      "height": 4096,
+      "sha256": "560e2b96a80166310746715f4a68b71fb5c37c6b4428326945d0cafc3a60b3ea"
+    },
+    {
+      "mimeType": "image/png",
+      "bytes": 360220,
+      "width": 4096,
+      "height": 4096,
+      "sha256": "50bf0b9b4a6c4616a664d9a5313b84af3dfffc638e9b4cb619ff506e1fd57323"
+    },
+    {
+      "mimeType": "image/png",
+      "bytes": 369060,
+      "width": 4096,
+      "height": 4096,
+      "sha256": "fcbe90ddc3cadbc6260b1e88d09f416b5f55ad6358de8f9dcb131f325119a28c"
+    }
+  ]
+}

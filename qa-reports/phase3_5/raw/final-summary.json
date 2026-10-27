@@ -1,0 +1,406 @@
+{
+  "decision": "PASS",
+  "createdUtc": "2026-10-24T19:54:59.909Z",
+  "nodeResults": {
+    "existing": {
+      "passed": 39,
+      "failed": 0,
+      "skipped": 0,
+      "total": 39
+    },
+    "engine": {
+      "passed": 54,
+      "failed": 0,
+      "skipped": 3,
+      "total": 57
+    }
+  },
+  "browserResults": {
+    "counts": {
+      "passed": 47
+    },
+    "cases": [
+      {
+        "title": "Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+        "file": "phase3-blackbullet.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 15449,
+        "errors": []
+      },
+      {
+        "title": "Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes",
+        "file": "phase3-blackbullet.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 13483,
+        "errors": []
+      },
+      {
+        "title": "Phase 3 customized export reimports into Model Maker with artwork textures",
+        "file": "phase3-blackbullet.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 12391,
+        "errors": []
+      },
+      {
+        "title": "Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors",
+        "file": "phase3-durability.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 25846,
+        "errors": []
+      },
+      {
+        "title": "Phase 3 pointer movement updates layer coordinates and actual texture pixels",
+        "file": "phase3-pointer.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 34198,
+        "errors": []
+      },
+      {
+        "title": "Phase 3 star has matching 2D canvas and actual 3D texture coordinates",
+        "file": "phase3-pointer.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 17379,
+        "errors": []
+      },
+      {
+        "title": "workspace initialization corresponds to selected product",
+        "file": "phase3.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 7969,
+        "errors": []
+      },
+      {
+        "title": "catalog geometry, live textures, camera controls and resource cycles",
+        "file": "phase3.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 111473,
+        "errors": []
+      },
+      {
+        "title": "real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+        "file": "phase3.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 144111,
+        "errors": []
+      },
+      {
+        "title": "UV-ready multipart import preserves original albedo and PBR",
+        "file": "phase3.spec.mjs",
+        "run": "retained-final",
+        "status": "passed",
+        "durationMs": 26145,
+        "errors": []
+      },
+      {
+        "title": "Phase 3 editable project survives a new browser process with durable image assets",
+        "file": "phase3-durability.spec.mjs",
+        "run": "retained-persistence-final",
+        "status": "passed",
+        "durationMs": 82379,
+        "errors": []
+      },
+      {
+        "title": "actual scene selection, material isolation and geometry overlays",
+        "file": "advanced.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 16485,
+        "errors": []
+      },
+      {
+        "title": "real garment renders black through all six camera presets",
+        "file": "advanced.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 47144,
+        "errors": []
+      },
+      {
+        "title": "base-color and normal image uploads survive real browser GLB export/reimport",
+        "file": "advanced.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 12580,
+        "errors": []
+      },
+      {
+        "title": "UV edits survive an export independently of undo",
+        "file": "advanced.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 10303,
+        "errors": []
+      },
+      {
+        "title": "mesh-size rendering FPS and selection latency are measured",
+        "file": "advanced.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 41584,
+        "errors": []
+      },
+      {
+        "title": "Shift click synchronizes multiple Scene Explorer selections",
+        "file": "advanced.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 10121,
+        "errors": []
+      },
+      {
+        "title": "imported packed PBR texture channels survive browser GLB export",
+        "file": "advanced.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 10067,
+        "errors": []
+      },
+      {
+        "title": "Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint",
+        "file": "appearance-modes.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 50141,
+        "errors": []
+      },
+      {
+        "title": "Phase 2.5 BlackBullet existing catalog retains runtime default",
+        "file": "appearance-modes.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 4718,
+        "errors": []
+      },
+      {
+        "title": "BlackBullet actual customizer preserves imported black fabric before user color choice",
+        "file": "blackbullet.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 5509,
+        "errors": []
+      },
+      {
+        "title": "initial editor renders with usable side panels and WebGL",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 8139,
+        "errors": []
+      },
+      {
+        "title": "empty viewport click deselects object and clears inspector",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 9435,
+        "errors": []
+      },
+      {
+        "title": "Escape deselects and Scene Explorer empty space deselects",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 10298,
+        "errors": []
+      },
+      {
+        "title": "camera orbit, pan and zoom retain object selection",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 13209,
+        "errors": []
+      },
+      {
+        "title": "all four shading modes are interactive and render without page errors",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 15747,
+        "errors": []
+      },
+      {
+        "title": "Edit Mode selection and Escape behavior",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 9856,
+        "errors": []
+      },
+      {
+        "title": "GLB browser import, export and reimport",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 14308,
+        "errors": []
+      },
+      {
+        "title": "front, right and top camera presets work on an imported garment",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 17670,
+        "errors": []
+      },
+      {
+        "title": "back, left and bottom camera presets are exposed in the viewport UI",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 5701,
+        "errors": []
+      },
+      {
+        "title": "UV Lab displays layout and exports a real PNG",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 6545,
+        "errors": []
+      },
+      {
+        "title": "BlackBullet validation report is accessible",
+        "file": "editor.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 7410,
+        "errors": []
+      },
+      {
+        "title": "actual Model Maker exports a multi-part black PBR garment with textures",
+        "file": "stabilization.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 15609,
+        "errors": []
+      },
+      {
+        "title": "IndexedDB reconstructs edited textured geometry after browser process restart",
+        "file": "stabilization.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 39919,
+        "errors": []
+      },
+      {
+        "title": "repeated real imports/removals retain bounded renderer geometry resources",
+        "file": "stabilization.spec.mjs",
+        "run": "baseline-sequential-final",
+        "status": "passed",
+        "durationMs": 29335,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 undo/redo updates actual texture and exported pixels",
+        "file": "phase3_5.spec.mjs",
+        "run": "acceptance-final",
+        "status": "passed",
+        "durationMs": 33476,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport",
+        "file": "phase3_5.spec.mjs",
+        "run": "acceptance-current",
+        "status": "passed",
+        "durationMs": 86446,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 imported source plus editable artwork survives browser process restart",
+        "file": "phase3_5.spec.mjs",
+        "run": "persistence-final",
+        "status": "passed",
+        "durationMs": 83892,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 canonical Rectangle coordinates match preview texture pixels",
+        "file": "phase3_5-alignment.spec.mjs",
+        "run": "alignment-lifecycle",
+        "status": "passed",
+        "durationMs": 22567,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 canonical Circle coordinates match preview texture pixels",
+        "file": "phase3_5-alignment.spec.mjs",
+        "run": "alignment-lifecycle",
+        "status": "passed",
+        "durationMs": 22374,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 canonical Star coordinates match preview texture pixels",
+        "file": "phase3_5-alignment.spec.mjs",
+        "run": "alignment-lifecycle",
+        "status": "passed",
+        "durationMs": 15945,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 canonical Triangle coordinates match preview texture pixels",
+        "file": "phase3_5-alignment.spec.mjs",
+        "run": "alignment-lifecycle",
+        "status": "passed",
+        "durationMs": 15352,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 canonical Text coordinates match preview texture pixels",
+        "file": "phase3_5-alignment.spec.mjs",
+        "run": "alignment-lifecycle",
+        "status": "passed",
+        "durationMs": 14559,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 canonical Image coordinates match preview texture pixels",
+        "file": "phase3_5-alignment.spec.mjs",
+        "run": "alignment-lifecycle",
+        "status": "passed",
+        "durationMs": 16967,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 repeated artwork/export/replacement releases GPU allocations",
+        "file": "phase3_5-alignment.spec.mjs",
+        "run": "resource-current",
+        "status": "passed",
+        "durationMs": 114531,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork",
+        "file": "phase3_5-blackbullet.spec.mjs",
+        "run": "blackbullet-contract-current",
+        "status": "passed",
+        "durationMs": 20127,
+        "errors": []
+      },
+      {
+        "title": "Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork",
+        "file": "phase3_5-materials.spec.mjs",
+        "run": "material-slots",
+        "status": "passed",
+        "durationMs": 39573,
+        "errors": []
+      }
+    ]
+  },
+  "notes": [
+    "Final results select each case once. Earlier readiness, hot-reload, host-contention and superseded fixture failures remain separately retained.",
+    "The retained persistence case uses source-albedo-aware expected pixels; its superseded flat-fill oracle failure is excluded.",
+    "Typecheck/build execution metadata and BlackBullet build log are separate evidence."
+  ]
+}

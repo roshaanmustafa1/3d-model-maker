@@ -1,0 +1,28 @@
+{
+  "bounds": {
+    "editor": {
+      "minX": 212.99200000000002,
+      "minY": 204.8,
+      "maxX": 485.37600000000003,
+      "maxY": 466.944
+    },
+    "texture": {
+      "minX": 361,
+      "minY": 354,
+      "maxX": 638,
+      "maxY": 617
+    }
+  },
+  "events": {
+    "errors": [],
+    "console": [
+      "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    ],
+    "failedRequests": []
+  }
+}

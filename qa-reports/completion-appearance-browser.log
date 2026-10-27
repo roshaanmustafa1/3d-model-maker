@@ -1,0 +1,180 @@
+
+Running 7 tests using 1 worker
+
+(node:12236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\qa\browser\appearance-modes.spec.mjs:22:1 › Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint (48.1s)
+  ok 2 tests\qa\browser\appearance-modes.spec.mjs:61:1 › Phase 2.5 BlackBullet existing catalog retains runtime default (4.2s)
+  ok 3 tests\qa\browser\blackbullet.spec.mjs:4:1 › BlackBullet actual customizer preserves imported black fabric before user color choice (6.0s)
+  x  4 tests\qa\browser\phase3_5-blackbullet.spec.mjs:20:1 › Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork (2.9s)
+(node:18348) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  5 tests\qa\browser\phase3-blackbullet.spec.mjs:33:1 › Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes (16.6s)
+(node:5356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  6 tests\qa\browser\phase3-blackbullet.spec.mjs:65:1 › Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes (1.7m)
+(node:16684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  7 tests\qa\browser\phase3-blackbullet.spec.mjs:91:1 › Phase 3 customized export reimports into Model Maker with artwork textures (15.8s)
+
+
+  1) tests\qa\browser\phase3_5-blackbullet.spec.mjs:20:1 › Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork 
+
+    Error: ENOENT: no such file or directory, open 'C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\qa-reports\phase3\exports\acceptance-isolated.glb'
+
+    Error: page.evaluate: Target page, context or browser has been closed
+
+      30 |   await page.route('**/src/assets/modals/raglan_shirt.glb', route => { routed++; return route.fulfill({ path: `${directory}/exports/acceptance-isolated.glb`, contentType: 'model/gltf-binary' }) })
+      31 |   await page.goto('http://localhost:5173/customizer?garment=shirt&appearance=imported')
+    > 32 |   await expect.poll(() => page.evaluate(() => window.__qaAppearanceRecords.size), { timeout: 30000 }).toBe(6)
+         |                                ^
+      33 |   const spin = page.getByRole('button', { name: 'Toggle automatic rotation', exact: true })
+      34 |   if (await spin.getAttribute('aria-pressed') === 'true') await spin.click()
+      35 |   const imported = await materials(page)
+        at expect.poll.timeout (C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3_5-blackbullet.spec.mjs:32:32)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3_5-blackbullet.spec.mjs:32:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\appearance-browser\browser-artifacts\phase3_5-blackbullet-Phase-95a08-ates-runtime-colors-artwork\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\appearance-browser\browser-artifacts\phase3_5-blackbullet-Phase-95a08-ates-runtime-colors-artwork\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\appearance-browser\browser-artifacts\phase3_5-blackbullet-Phase-95a08-ates-runtime-colors-artwork\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\appearance-browser\browser-artifacts\phase3_5-blackbullet-Phase-95a08-ates-runtime-colors-artwork\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\phase3-blackbullet.spec.mjs:33:1 › Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Expected length: 6
+    Received length: 4
+    Received array:  [{"attributes": {"normal": {"count": 110, "first": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, "position": {"count": 110, "first": [0.6000000238418579, 0.75, 0.14000000059604645, 0.6000000238418579, 0.75, -0, 0.6000000238418579, 0.75, -0.14000000059604645, 0.6000000238418579, …]}, "uv": {"count": 110, "first": [0, 1, 0.5, 1, 1, 1, 0, 0.75, 0.5, 0.75, …]}}, "materials": [{"linear": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], "metalness": 0, "normalMap": false, "roughness": 0.92, "texture": {"center": [16, 185, 129, 255], "flipY": false, "hash": 3532909171, "height": 1024, "width": 1024}, "type": "MeshStandardMaterial"}], "matrix": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], "name": "Body_Main", "partId": null}, {"attributes": {"normal": {"count": 148, "first": [0, -0.9701424837112427, 0.24253562092781067, 0.2510913610458374, -0.9370856881141663, 0.24253562092781067, 0.48507124185562134, -0.8401680588722229, 0.24253562092781067, 0.6859943270683289, …]}, "position": {"count": 148, "first": [0, -0.23999999463558197, 0.03999999910593033, 0.06211657077074051, -0.2318221926689148, 0.03999999910593033, 0.11999999731779099, -0.20784609019756317, 0.03999999910593033, 0.16970562934875488, …]}, "uv": {"count": 148, "first": [0, 1, 0.0416666679084301, 1, 0.0833333358168602, 1, 0.125, 1, 0.1666666716337204, 1, …]}}, "materials": [{"linear": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], "metalness": 0, "normalMap": false, "roughness": 0.92, "texture": {"center": [16, 185, 129, 255], "flipY": false, "hash": 3532909171, "height": 1024, "width": 1024}, "type": "MeshStandardMaterial"}], "matrix": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], "name": "Collar_Rib", "partId": "cuffs"}, {"attributes": {"normal": {"count": 24, "first": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, "position": {"count": 24, "first": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, "uv": {"count": 24, "first": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, "materials": [{"linear": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], "metalness": 0, "normalMap": false, "roughness": 0.92, "texture": {"center": [16, 185, 129, 255], "flipY": false, "hash": 3532909171, "height": 1024, "width": 1024}, "type": "MeshStandardMaterial"}], "matrix": [1.2726562761495888, 0.2581867207667834, -0.0509334184338021, 0, -0.25798019892861807, 1.2736750803624493, 0.010324715059294099, 0, 0.051969345333652085, 0, …], "name": "Sleeve_Left", "partId": "left-arm"}, {"attributes": {"normal": {"count": 24, "first": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, "position": {"count": 24, "first": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, "uv": {"count": 24, "first": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, "materials": [{"linear": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], "metalness": 0, "normalMap": false, "roughness": 0.92, "texture": {"center": [16, 185, 129, 255], "flipY": false, "hash": 3532909171, "height": 1024, "width": 1024}, "type": "MeshStandardMaterial"}], "matrix": [1.2726562761495888, -0.2581867207667834, -0.0509334184338021, 0, 0.25798019892861807, 1.2736750803624493, -0.010324715059294099, 0, 0.051969345333652085, 0, …], "name": "Sleeve_Right", "partId": "right-arm"}]
+
+      56 |   await record('blackbullet-modes', { routed, imported, runtime, restored, events })
+      57 |   expect.soft(routed).toBe(1)
+    > 58 |   expect.soft(imported).toHaveLength(6)
+         |                         ^
+      59 |   expect.soft(restored.map(({ matrix, ...entry }) => entry)).toEqual(imported.map(({ matrix, ...entry }) => entry))
+      60 |   expect.soft(events.errors).toEqual([])
+      61 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:58:25
+
+    Error: exported product must resolve a runtime front region
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      59 |   expect.soft(restored.map(({ matrix, ...entry }) => entry)).toEqual(imported.map(({ matrix, ...entry }) => entry))
+      60 |   expect.soft(events.errors).toEqual([])
+    > 61 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)
+         |                                                                                                                         ^
+      62 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)
+      63 | })
+      64 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:61:121
+
+    Error: exported product must resolve a runtime back region
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 1
+    Received length: 0
+    Received array:  []
+
+      60 |   expect.soft(events.errors).toEqual([])
+      61 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)
+    > 62 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)
+         |                                                                                                                       ^
+      63 | })
+      64 |
+      65 | test('Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes', async ({ page }) => {
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:62:119
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests\qa\browser\phase3-blackbullet.spec.mjs:65:1 › Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes 
+
+    TimeoutError: locator.selectOption: Timeout 15000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Garment appearance')
+
+
+      73 |   const imported = await trace(page)
+      74 |   await page.screenshot({ path: `${directory}/screenshots/blackbullet-multipart-imported.png` })
+    > 75 |   await page.getByLabel('Garment appearance').selectOption('runtime')
+         |                                               ^
+      76 |   await page.getByLabel('HEX Code', { exact: true }).fill('#224466')
+      77 |   await page.getByLabel('HEX Code', { exact: true }).press('Enter')
+      78 |   await page.getByRole('button', { name: 'Text', exact: true }).click()
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:75:47
+
+    Error Context: qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-f9177-lackBullet-appearance-modes\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-f9177-lackBullet-appearance-modes\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-f9177-lackBullet-appearance-modes\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) tests\qa\browser\phase3-blackbullet.spec.mjs:91:1 › Phase 3 customized export reimports into Model Maker with artwork textures 
+
+    TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /^solid$/i }) to be visible
+
+
+       at ..\..\..\scripts\qa\phase3-support.mjs:27
+
+      25 | export async function open(page) {
+      26 |   await page.goto(process.env.QA_BASE_URL || 'http://localhost:3000')
+    > 27 |   await page.getByRole('button', { name: /^solid$/i }).waitFor()
+         |                                                        ^
+      28 |   await page.getByRole('button', { name: 'Customizer', exact: true }).click()
+      29 |   await page.getByRole('button', { name: 'Library', exact: true }).waitFor()
+      30 |   await expect.poll(() => page.evaluate(() => window.__qaSceneObjects?.().some(object => object.isMesh && object.name === 'Body_Main') || false), { timeout: 30000 }).toBe(true)
+        at open (C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\scripts\qa\phase3-support.mjs:27:56)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-blackbullet.spec.mjs:94:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\appearance-browser\browser-artifacts\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    tests\qa\browser\phase3_5-blackbullet.spec.mjs:20:1 › Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork 
+    tests\qa\browser\phase3-blackbullet.spec.mjs:33:1 › Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes 
+    tests\qa\browser\phase3-blackbullet.spec.mjs:65:1 › Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes 
+    tests\qa\browser\phase3-blackbullet.spec.mjs:91:1 › Phase 3 customized export reimports into Model Maker with artwork textures 
+  3 passed (3.4m)

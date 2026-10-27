@@ -1,0 +1,256 @@
+{
+  "textures": [
+    {
+      "slot": "map",
+      "width": 8,
+      "colorSpace": "srgb"
+    },
+    {
+      "slot": "normalMap",
+      "width": 8,
+      "colorSpace": ""
+    },
+    {
+      "slot": "roughnessMap",
+      "width": 8,
+      "colorSpace": ""
+    },
+    {
+      "slot": "metalnessMap",
+      "width": 8,
+      "colorSpace": ""
+    }
+  ],
+  "metadata": {
+    "asset": {
+      "version": "2.0",
+      "generator": "THREE.GLTFExporter r186"
+    },
+    "scenes": [
+      {
+        "name": "ExportRoot",
+        "nodes": [
+          0
+        ]
+      }
+    ],
+    "scene": 0,
+    "nodes": [
+      {
+        "name": "QA_small",
+        "extras": {
+          "name": "QA_small",
+          "nodeId": "node_a1152c23-0866-4dea-8098-28b51d4601d7",
+          "semanticTag": "QA_small",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "mesh": 0
+      }
+    ],
+    "bufferViews": [
+      {
+        "buffer": 0,
+        "byteOffset": 0,
+        "byteLength": 6552,
+        "target": 34962,
+        "byteStride": 12
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 6552,
+        "byteLength": 6552,
+        "target": 34962,
+        "byteStride": 12
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 13104,
+        "byteLength": 4368,
+        "target": 34962,
+        "byteStride": 8
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 17472,
+        "byteLength": 6000,
+        "target": 34963
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 23472,
+        "byteLength": 104
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 23576,
+        "byteLength": 108
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 23684,
+        "byteLength": 108
+      }
+    ],
+    "buffers": [
+      {
+        "byteLength": 23792
+      }
+    ],
+    "accessors": [
+      {
+        "bufferView": 0,
+        "componentType": 5126,
+        "count": 546,
+        "max": [
+          1,
+          1,
+          0
+        ],
+        "min": [
+          -1,
+          -1,
+          0
+        ],
+        "type": "VEC3"
+      },
+      {
+        "bufferView": 1,
+        "componentType": 5126,
+        "count": 546,
+        "max": [
+          0,
+          0,
+          1
+        ],
+        "min": [
+          0,
+          0,
+          1
+        ],
+        "type": "VEC3"
+      },
+      {
+        "bufferView": 2,
+        "componentType": 5126,
+        "count": 546,
+        "max": [
+          1,
+          1
+        ],
+        "min": [
+          0,
+          0
+        ],
+        "type": "VEC2"
+      },
+      {
+        "bufferView": 3,
+        "componentType": 5123,
+        "count": 3000,
+        "max": [
+          545
+        ],
+        "min": [
+          0
+        ],
+        "type": "SCALAR"
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.0027317428517647058,
+            0.0027317428517647058,
+            0.0033465357620980074,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.65,
+          "metallicRoughnessTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "baseColorTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        },
+        "normalTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "doubleSided": true,
+        "name": "QA Black Cotton"
+      }
+    ],
+    "textures": [
+      {
+        "sampler": 0,
+        "source": 0,
+        "name": "qa-map-2"
+      },
+      {
+        "sampler": 1,
+        "source": 1,
+        "name": "qa-map-0"
+      },
+      {
+        "sampler": 2,
+        "source": 2,
+        "name": "qa-map-1"
+      }
+    ],
+    "images": [
+      {
+        "mimeType": "image/png",
+        "bufferView": 4
+      },
+      {
+        "mimeType": "image/png",
+        "bufferView": 5
+      },
+      {
+        "mimeType": "image/png",
+        "bufferView": 6
+      }
+    ],
+    "samplers": [
+      {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      },
+      {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      },
+      {
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+      }
+    ],
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "mode": 4,
+            "attributes": {
+              "POSITION": 0,
+              "NORMAL": 1,
+              "TEXCOORD_0": 2
+            },
+            "indices": 3,
+            "material": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "id": "custom_proj_1792929627319",
+  "name": "multipart-textured-input",
+  "version": 4,
+  "sourceType": "imported",
+  "workspace": "customizer",
+  "createdAt": "2026-10-25T12:00:27.319Z",
+  "updatedAt": "2026-10-25T12:00:27.319Z",
+  "productId": "custom_1792929611358",
+  "productName": "multipart-textured-input",
+  "productCategory": "other",
+  "activeZoneId": "body_front",
+  "zones": {
+    "body_front": {
+      "id": "body_front",
+      "name": "shirt_front",
+      "targetMeshNodeId": "node_06d73fb8-c857-41df-9fdd-8ba4519909a9",
+      "targetMeshName": "shirt_front",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.04,
+        "maxU": 0.46,
+        "minV": 0.06,
+        "maxV": 0.96
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_06d73fb8-c857-41df-9fdd-8ba4519909a9",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.04,
+          "maxU": 0.46,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "compositionId": "node_06d73fb8-c857-41df-9fdd-8ba4519909a9:0",
+        "blackBulletRegion": "shirt_front",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "body_back": {
+      "id": "body_back",
+      "name": "shirt_back",
+      "targetMeshNodeId": "node_250eccb9-f274-4896-95cf-24ed50e1dccf",
+      "targetMeshName": "shirt_back",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.54,
+        "maxU": 0.96,
+        "minV": 0.06,
+        "maxV": 0.96
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_250eccb9-f274-4896-95cf-24ed50e1dccf",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.54,
+          "maxU": 0.96,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "compositionId": "node_250eccb9-f274-4896-95cf-24ed50e1dccf:0",
+        "blackBulletRegion": "shirt_back",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_2_shirt_base": {
+      "id": "zone_2_shirt_base",
+      "name": "shirt_base",
+      "targetMeshNodeId": "node_dab56f66-0fae-4037-b756-5186d764f146",
+      "targetMeshName": "shirt_base",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.11166659742593765,
+        "maxU": 0.8883333802223206,
+        "minV": 0.5626733303070068,
+        "maxV": 0.8777710199356079
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_dab56f66-0fae-4037-b756-5186d764f146",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.11166659742593765,
+          "maxU": 0.8883333802223206,
+          "minV": 0.5626733303070068,
+          "maxV": 0.8777710199356079
+        },
+        "compositionId": "node_dab56f66-0fae-4037-b756-5186d764f146:0",
+        "blackBulletRegion": "shirt_base",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_3_shoulder_left": {
+      "id": "zone_3_shoulder_left",
+      "name": "shoulder_left",
+      "targetMeshNodeId": "node_feaabeff-c6a8-498e-b706-e70e7ceef923",
+      "targetMeshName": "shoulder_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.609003484249115,
+        "maxU": 0.9466333985328674,
+        "minV": 0.60161292552948,
+        "maxV": 0.977587878704071
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_feaabeff-c6a8-498e-b706-e70e7ceef923",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.609003484249115,
+          "maxU": 0.9466333985328674,
+          "minV": 0.60161292552948,
+          "maxV": 0.977587878704071
+        },
+        "compositionId": "node_feaabeff-c6a8-498e-b706-e70e7ceef923:0",
+        "blackBulletRegion": "shoulder_left",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_4_shoulder_right": {
+      "id": "zone_4_shoulder_right",
+      "name": "shoulder_right",
+      "targetMeshNodeId": "node_39091615-0507-4e88-a145-c8181be58c11",
+      "targetMeshName": "shoulder_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.053366582840681076,
+        "maxU": 0.3909964859485626,
+        "minV": 0.60161292552948,
+        "maxV": 0.977587878704071
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_39091615-0507-4e88-a145-c8181be58c11",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.053366582840681076,
+          "maxU": 0.3909964859485626,
+          "minV": 0.60161292552948,
+          "maxV": 0.977587878704071
+        },
+        "compositionId": "node_39091615-0507-4e88-a145-c8181be58c11:0",
+        "blackBulletRegion": "shoulder_right",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_5_shoulder_patch_left": {
+      "id": "zone_5_shoulder_patch_left",
+      "name": "shoulder_patch_left",
+      "targetMeshNodeId": "node_5c61083d-7980-4fb8-b0ce-e74bcb5e83d6",
+      "targetMeshName": "shoulder_patch_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.7984505891799927,
+        "maxU": 0.9628278613090515,
+        "minV": 0.6317082047462463,
+        "maxV": 0.8886234760284424
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_5c61083d-7980-4fb8-b0ce-e74bcb5e83d6",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.7984505891799927,
+          "maxU": 0.9628278613090515,
+          "minV": 0.6317082047462463,
+          "maxV": 0.8886234760284424
+        },
+        "compositionId": "node_5c61083d-7980-4fb8-b0ce-e74bcb5e83d6:0",
+        "blackBulletRegion": "shoulder_patch_left",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_6_shoulder_patch_right": {
+      "id": "zone_6_shoulder_patch_right",
+      "name": "shoulder_patch_right",
+      "targetMeshNodeId": "node_edbdfdf9-a946-424f-8549-89bbbf389c9f",
+      "targetMeshName": "shoulder_patch_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.03717215731739998,
+        "maxU": 0.20154939591884613,
+        "minV": 0.6317082047462463,
+        "maxV": 0.8886234760284424
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_edbdfdf9-a946-424f-8549-89bbbf389c9f",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.03717215731739998,
+          "maxU": 0.20154939591884613,
+          "minV": 0.6317082047462463,
+          "maxV": 0.8886234760284424
+        },
+        "compositionId": "node_edbdfdf9-a946-424f-8549-89bbbf389c9f:0",
+        "blackBulletRegion": "shoulder_patch_right",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "collar": {
+      "id": "collar",
+      "name": "collar",
+      "targetMeshNodeId": "node_e28b6d7e-55c7-435c-ae1c-60edce47923c",
+      "targetMeshName": "collar",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.38576436042785645,
+        "maxU": 0.6142356395721436,
+        "minV": 0.8395166397094727,
+        "maxV": 0.9788182377815247
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_e28b6d7e-55c7-435c-ae1c-60edce47923c",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.38576436042785645,
+          "maxU": 0.6142356395721436,
+          "minV": 0.8395166397094727,
+          "maxV": 0.9788182377815247
+        },
+        "compositionId": "node_e28b6d7e-55c7-435c-ae1c-60edce47923c:0",
+        "blackBulletRegion": "collar",
+        "textureFlipY": false,
+        "intentionalSharedUVs": true
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "body_front_8_0": {
+      "id": "body_front_8_0",
+      "name": "neck_patch_front",
+      "targetMeshNodeId": "node_33be5b39-8d25-4ec0-b9e3-84e1e21630e5",
+      "targetMeshName": "neck_patch_front",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.3856174945831299,
+        "maxU": 0.6143825054168701,
+        "minV": 0.7728049159049988,
+        "maxV": 0.9579666256904602
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_33be5b39-8d25-4ec0-b9e3-84e1e21630e5",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.3856174945831299,
+          "maxU": 0.6143825054168701,
+          "minV": 0.7728049159049988,
+          "maxV": 0.9579666256904602
+        },
+        "compositionId": "node_33be5b39-8d25-4ec0-b9e3-84e1e21630e5:0",
+        "blackBulletRegion": "neck_patch_front",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "body_back_9_0": {
+      "id": "body_back_9_0",
+      "name": "neck_patch_back",
+      "targetMeshNodeId": "node_84dc7239-aab9-417e-a691-9000c2e978a8",
+      "targetMeshName": "neck_patch_back",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.38560861349105835,
+        "maxU": 0.6143913865089417,
+        "minV": 0.8081931471824646,
+        "maxV": 0.9604085683822632
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_84dc7239-aab9-417e-a691-9000c2e978a8",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.38560861349105835,
+          "maxU": 0.6143913865089417,
+          "minV": 0.8081931471824646,
+          "maxV": 0.9604085683822632
+        },
+        "compositionId": "node_84dc7239-aab9-417e-a691-9000c2e978a8:0",
+        "blackBulletRegion": "neck_patch_back",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_10_side_patch_left": {
+      "id": "zone_10_side_patch_left",
+      "name": "side_patch_left",
+      "targetMeshNodeId": "node_b49787b1-e3ec-4ae0-b56e-b811fb7ce39a",
+      "targetMeshName": "side_patch_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.5915968418121338,
+        "maxU": 0.7307035326957703,
+        "minV": 0.07744073867797852,
+        "maxV": 0.26767998933792114
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_b49787b1-e3ec-4ae0-b56e-b811fb7ce39a",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.5915968418121338,
+          "maxU": 0.7307035326957703,
+          "minV": 0.07744073867797852,
+          "maxV": 0.26767998933792114
+        },
+        "compositionId": "node_b49787b1-e3ec-4ae0-b56e-b811fb7ce39a:0",
+        "blackBulletRegion": "side_patch_left",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_11_side_patch_right": {
+      "id": "zone_11_side_patch_right",
+      "name": "side_patch_right",
+      "targetMeshNodeId": "node_890b5c34-970b-4121-9634-bcb21d68004d",
+      "targetMeshName": "side_patch_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0.26929643750190735,
+        "maxU": 0.4084482192993164,
+        "minV": 0.07744073867797852,
+        "maxV": 0.26767998933792114
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792929611358",
+        "meshId": "node_890b5c34-970b-4121-9634-bcb21d68004d",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0.26929643750190735,
+          "maxU": 0.4084482192993164,
+          "minV": 0.07744073867797852,
+          "maxV": 0.26767998933792114
+        },
+        "compositionId": "node_890b5c34-970b-4121-9634-bcb21d68004d:0",
+        "blackBulletRegion": "side_patch_right",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    }
+  },
+  "fabricColor": "#09090b",
+  "fabricRoughness": 0.65,
+  "fabricMetalness": 0,
+  "partMaterials": {},
+  "textureResolution": 1024,
+  "blackBulletMode": "preserve-imported"
+}

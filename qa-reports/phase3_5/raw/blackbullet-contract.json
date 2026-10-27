@@ -1,0 +1,431 @@
+{
+  "imported": [
+    {
+      "name": "Body_Sides",
+      "partId": "shirt_base",
+      "linear": [
+        0.009134058699157796,
+        0.009134058699157796,
+        0.010960094003125918
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "uvCount": 192,
+      "positionCount": 192
+    },
+    {
+      "name": "Collar_Rib",
+      "partId": "collar",
+      "linear": [
+        0.009134058699157796,
+        0.009134058699157796,
+        0.010960094003125918
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "uvCount": 148,
+      "positionCount": 148
+    },
+    {
+      "name": "Sleeve_Right",
+      "partId": "shoulder_right",
+      "linear": [
+        0.009134058699157796,
+        0.009134058699157796,
+        0.010960094003125918
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "uvCount": 24,
+      "positionCount": 24
+    },
+    {
+      "name": "Body_Back",
+      "partId": "shirt_back",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "texture": {
+        "width": 1024,
+        "height": 1024,
+        "hash": 528062923,
+        "sample": [
+          24,
+          24,
+          27,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Body_Main",
+      "partId": "shirt_front",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "texture": {
+        "width": 1024,
+        "height": 1024,
+        "hash": 524604367,
+        "sample": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Sleeve_Left",
+      "partId": "shoulder_left",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "texture": {
+        "width": 1024,
+        "height": 1024,
+        "hash": 3607766085,
+        "sample": [
+          24,
+          24,
+          27,
+          255
+        ]
+      },
+      "uvCount": 24,
+      "positionCount": 24
+    }
+  ],
+  "frontRuntime": [
+    {
+      "name": "Body_Sides",
+      "partId": "shirt_base",
+      "linear": [
+        0.7835377915215659,
+        0.7991027380100881,
+        0.8307698767709715
+      ],
+      "uvCount": 192,
+      "positionCount": 192
+    },
+    {
+      "name": "Collar_Rib",
+      "partId": "collar",
+      "linear": [
+        0.7835377915215659,
+        0.7991027380100881,
+        0.8307698767709715
+      ],
+      "uvCount": 148,
+      "positionCount": 148
+    },
+    {
+      "name": "Sleeve_Right",
+      "partId": "shoulder_right",
+      "linear": [
+        0.7835377915215659,
+        0.7991027380100881,
+        0.8307698767709715
+      ],
+      "uvCount": 24,
+      "positionCount": 24
+    },
+    {
+      "name": "Body_Back",
+      "partId": "shirt_back",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "hash": 4236001957,
+        "sample": [
+          51,
+          85,
+          119,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Body_Main",
+      "partId": "shirt_front",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "hash": 4236001957,
+        "sample": [
+          51,
+          85,
+          119,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Sleeve_Left",
+      "partId": "shoulder_left",
+      "linear": [
+        0.7835377915215659,
+        0.7991027380100881,
+        0.8307698767709715
+      ],
+      "uvCount": 24,
+      "positionCount": 24
+    }
+  ],
+  "runtime": [
+    {
+      "name": "Body_Sides",
+      "partId": "shirt_base",
+      "linear": [
+        0.7835377915215659,
+        0.7991027380100881,
+        0.8307698767709715
+      ],
+      "uvCount": 192,
+      "positionCount": 192
+    },
+    {
+      "name": "Collar_Rib",
+      "partId": "collar",
+      "linear": [
+        0.7835377915215659,
+        0.7991027380100881,
+        0.8307698767709715
+      ],
+      "uvCount": 148,
+      "positionCount": 148
+    },
+    {
+      "name": "Sleeve_Right",
+      "partId": "shoulder_right",
+      "linear": [
+        0.7835377915215659,
+        0.7991027380100881,
+        0.8307698767709715
+      ],
+      "uvCount": 24,
+      "positionCount": 24
+    },
+    {
+      "name": "Body_Back",
+      "partId": "shirt_back",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "hash": 2436107252,
+        "sample": [
+          45,
+          73,
+          100,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Body_Main",
+      "partId": "shirt_front",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "texture": {
+        "width": 2048,
+        "height": 2048,
+        "hash": 2436107252,
+        "sample": [
+          45,
+          73,
+          100,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Sleeve_Left",
+      "partId": "shoulder_left",
+      "linear": [
+        0,
+        1,
+        0
+      ],
+      "uvCount": 24,
+      "positionCount": 24
+    }
+  ],
+  "restored": [
+    {
+      "name": "Body_Sides",
+      "partId": "shirt_base",
+      "linear": [
+        0.009134058699157796,
+        0.009134058699157796,
+        0.010960094003125918
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "uvCount": 192,
+      "positionCount": 192
+    },
+    {
+      "name": "Collar_Rib",
+      "partId": "collar",
+      "linear": [
+        0.009134058699157796,
+        0.009134058699157796,
+        0.010960094003125918
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "uvCount": 148,
+      "positionCount": 148
+    },
+    {
+      "name": "Sleeve_Right",
+      "partId": "shoulder_right",
+      "linear": [
+        0.009134058699157796,
+        0.009134058699157796,
+        0.010960094003125918
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "uvCount": 24,
+      "positionCount": 24
+    },
+    {
+      "name": "Body_Back",
+      "partId": "shirt_back",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "texture": {
+        "width": 1024,
+        "height": 1024,
+        "hash": 528062923,
+        "sample": [
+          24,
+          24,
+          27,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Body_Main",
+      "partId": "shirt_front",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "texture": {
+        "width": 1024,
+        "height": 1024,
+        "hash": 524604367,
+        "sample": [
+          0,
+          0,
+          255,
+          255
+        ]
+      },
+      "uvCount": 96,
+      "positionCount": 96
+    },
+    {
+      "name": "Sleeve_Left",
+      "partId": "shoulder_left",
+      "linear": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.92,
+      "metalness": 0,
+      "texture": {
+        "width": 1024,
+        "height": 1024,
+        "hash": 3607766085,
+        "sample": [
+          24,
+          24,
+          27,
+          255
+        ]
+      },
+      "uvCount": 24,
+      "positionCount": 24
+    }
+  ],
+  "routed": 1,
+  "events": {
+    "errors": [],
+    "console": [
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    ],
+    "failedRequests": [],
+    "navigations": [
+      "http://localhost:5173/customizer?garment=shirt&appearance=imported",
+      "http://localhost:5173/customizer?garment=shirt&appearance=imported",
+      "http://localhost:5173/customizer?garment=shirt&appearance=imported"
+    ],
+    "crashes": 0
+  }
+}

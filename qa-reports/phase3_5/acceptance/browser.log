@@ -1,0 +1,121 @@
+
+Running 3 tests using 1 worker
+
+  x  1 tests\qa\browser\phase3_5.spec.mjs:14:1 › Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport (12.3s)
+  x  2 tests\qa\browser\phase3_5.spec.mjs:73:1 › Phase 3.5 undo/redo updates actual texture and exported pixels (38.9s)
+  x  3 tests\qa\browser\phase3_5.spec.mjs:96:1 › Phase 3.5 imported source plus editable artwork survives browser process restart (2.2m)
+
+
+  1) tests\qa\browser\phase3_5.spec.mjs:14:1 › Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: undefined
+
+      16 |   await open(page)
+      17 |   const initial = await scene(page)
+    > 18 |   expect(initial.meshes.find(m => m.name === 'Body_Main')).toBeTruthy()
+         |                                                            ^
+      19 |   await page.getByRole('button', { name: '3D Modeling Studio', exact: true }).click()
+      20 |   const modeling = await scene(page)
+      21 |   expect(modeling.meshes.some(m => m.name === 'Studio_Cube')).toBe(true)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3_5.spec.mjs:18:60
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-accepta-224c5-source-factors-and-reimport\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-accepta-224c5-source-factors-and-reimport\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-accepta-224c5-source-factors-and-reimport\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-accepta-224c5-source-factors-and-reimport\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\phase3_5.spec.mjs:73:1 › Phase 3.5 undo/redo updates actual texture and exported pixels 
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /^1024/ })
+
+
+       at ..\..\..\scripts\qa\phase3-support.mjs:90
+
+      88 | export async function exportProduct(page, name, resolution = 1024) {
+      89 |   await page.getByRole('button', { name: 'Export GLB', exact: true }).last().click()
+    > 90 |   await page.getByRole('button', { name: new RegExp(`^${resolution}`) }).click()
+         |                                                                          ^
+      91 |   const downloads = []
+      92 |   const handler = d => downloads.push(d)
+      93 |   page.on('download', handler)
+        at exportProduct (C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\scripts\qa\phase3-support.mjs:90:74)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3_5.spec.mjs:82:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-undo-re-335dd-texture-and-exported-pixels\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-undo-re-335dd-texture-and-exported-pixels\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-undo-re-335dd-texture-and-exported-pixels\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-undo-re-335dd-texture-and-exported-pixels\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests\qa\browser\phase3_5.spec.mjs:96:1 › Phase 3.5 imported source plus editable artwork survives browser process restart 
+
+    TimeoutError: locator.waitFor: Timeout 60000ms exceeded.
+    Call log:
+      - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible
+
+
+       at ..\..\..\scripts\qa\phase3-support.mjs:96
+
+      94 |   page.on('download', handler)
+      95 |   const started = Date.now()
+    > 96 |   await page.getByRole('button', { name: 'Export GLB Asset', exact: true }).click()
+         |                                                                    ^
+      97 |   await page.getByText('GLB Verification Passed', { exact: true }).waitFor({ timeout: 60000 })
+      98 |   await page.waitForTimeout(700)
+      99 |   for (const download of downloads) {
+        at exportProduct (C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\scripts\qa\phase3-support.mjs:96:68)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3_5.spec.mjs:129:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3_5\acceptance\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    tests\qa\browser\phase3_5.spec.mjs:14:1 › Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport 
+    tests\qa\browser\phase3_5.spec.mjs:73:1 › Phase 3.5 undo/redo updates actual texture and exported pixels 
+    tests\qa\browser\phase3_5.spec.mjs:96:1 › Phase 3.5 imported source plus editable artwork survives browser process restart 
+(node:12944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

@@ -1,0 +1,6971 @@
+[
+  {
+    "label": "small",
+    "browserImportToVisibleMs": 1229.8955999999962,
+    "sceneExplorerClickToInspectorMs": 646.3213000000032,
+    "rafFPS": 3.264417845484222,
+    "snapshot": {
+      "meshes": [
+        {
+          "name": "QA_small",
+          "uuid": "376cd2ad-4f63-4c83-b703-c4b1ff681426",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 546,
+          "triangles": 1000,
+          "materials": [
+            {
+              "uuid": "2171b133-d2a9-4485-a9c4-a46145322dc5",
+              "name": "QA Black Cotton",
+              "type": "MeshStandardMaterial",
+              "color": "09090b",
+              "linearColor": [
+                0.0027317428517647058,
+                0.0027317428517647058,
+                0.0033465357620980074
+              ],
+              "roughness": 0.65,
+              "metalness": 0,
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null,
+              "normalMap": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "8edd0b44-5c1c-4f17-adbb-ba1998884e28",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "04ed89cd-cfb0-4356-b1e4-8f3576dfde68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "c781df6a-8ce4-45ac-b54f-9827fe6b07b1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "04ed89cd-cfb0-4356-b1e4-8f3576dfde68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "6b6f133c-a8a8-4896-8bf6-ba14a6e28ee3",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "6daf3ea8-edfd-4e02-b361-b8a53a0564a7",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "c502db9e-1278-457b-bb30-3c82861681f8",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "6daf3ea8-edfd-4e02-b361-b8a53a0564a7",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "9e330982-7547-4bc4-a541-4bf3ca9dc679",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "eb9da407-5545-4dc2-9a27-eac0ce7690d2",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "d4daa8be-1506-4734-9d5c-21abc6f5f95d",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "eb9da407-5545-4dc2-9a27-eac0ce7690d2",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZ",
+          "uuid": "ec9c5df1-ae42-4d5f-8ce7-44f9bbfffb4f",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "17411c83-20b0-49dd-9bf2-dae62952a1f9",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "ce9003c2-12a5-428a-9751-ce53438e1aa0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "bd843bf3-f412-4199-a6d3-4149eb4be346",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "2ad646e7-d093-4898-ae16-2dc755d7ee12",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "4dcc1105-cd17-40ad-b861-3d5e0caf57c7",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ffff",
+              "linearColor": [
+                0,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "f4db582a-7782-46fd-ad00-92dee4925aa8",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "2b0decb6-25cb-4a92-92be-6004572df8e5",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff00ff",
+              "linearColor": [
+                1,
+                0,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "a1bd4765-d831-4bea-af46-625a43f2237c",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "04ed89cd-cfb0-4356-b1e4-8f3576dfde68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "7d1e0a8d-c93d-4a6b-a6b6-479d4f920b47",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "6daf3ea8-edfd-4e02-b361-b8a53a0564a7",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "a5e9f9be-f3e6-4b63-b3a9-aa57ac7a5869",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "eb9da407-5545-4dc2-9a27-eac0ce7690d2",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "0751a96b-aa01-449b-965f-c9a3de3ce0e2",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "31799daf-badc-4a66-9cce-d7cfbf7d1ccc",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "dad80e27-3857-4376-9476-bdfcfd7860e3",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "31799daf-badc-4a66-9cce-d7cfbf7d1ccc",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "1987c12c-2d85-44fc-9f51-cd3c817bddb2",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "31799daf-badc-4a66-9cce-d7cfbf7d1ccc",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "a3043520-dc98-4d28-8819-a6e6fb8c480b",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "31799daf-badc-4a66-9cce-d7cfbf7d1ccc",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "9019c7ed-b79e-4f42-a5aa-3c0f6f1dc068",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "04ed89cd-cfb0-4356-b1e4-8f3576dfde68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "b08a1eb4-911c-4de2-8660-8fa9f8625f8c",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "6daf3ea8-edfd-4e02-b361-b8a53a0564a7",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "78b68bde-b784-41fa-bbe8-01e7410ecc42",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "eb9da407-5545-4dc2-9a27-eac0ce7690d2",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "7ea44d9a-bac1-4ab5-9570-e157df3bb984",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "3b6f23b6-f237-453c-959d-cee8b240d8a4",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "5bafe575-5b62-42f5-80eb-21d13750150e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f230f052-6b5b-4617-b070-9c3c38708a77",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ffff",
+              "linearColor": [
+                0,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "e8530695-5977-4c5b-b41c-5d9ab80a3ecc",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f354be11-555c-42b8-9efb-4c1c0cdca9fa",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff00ff",
+              "linearColor": [
+                1,
+                0,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZX",
+          "uuid": "7ad3bbfa-7067-426f-9fad-233896051ea0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "808de050-415c-4c23-b7f1-06133d31ab10",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZY",
+          "uuid": "600bbe03-cc22-4449-a41b-34f655c0cd50",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "eabd0162-9940-4345-b401-6d6e278621fe",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZZ",
+          "uuid": "7d553255-2714-47ec-83fa-8052d6ba8979",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "0ebbd93c-c1c1-4124-ab78-8360a868ac1a",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "9169f684-bb79-41df-b963-04139bb7f591",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "0e93f01c-9f0f-4087-ae3e-8df38d5c52b4",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "ec79f0ea-5cea-4c5f-a466-efbd9780a82f",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZ",
+          "uuid": "cebe3805-6d4c-41f3-94f5-f08e50b866c6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "21d4961b-cf48-4c40-8ec3-7995eb1b28bd",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "99af91a4-93e7-4f79-930e-b5f5dacd7da6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "93582477-e9b6-4765-b613-69c14285dbdf",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "5787267b-a8b3-48df-a575-c1f89e8c1852",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "55783623-fd59-46b0-b3b5-9dc12936df11",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "8521d2c9-1fda-487b-9c0a-b1f6a6756b8a",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "8f935fee-7c54-46e1-bd7b-d3a9dbd4c204",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 75,
+          "triangles": 96,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZE",
+          "uuid": "87ddfaf3-ae18-43af-93ce-6176c705717e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 99,
+          "triangles": 140,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "0f88798e-3449-450b-bc12-f794d09ae6e3",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "37730901-064a-4a2f-9014-77531ab45a29",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "f7b4dfb9-f702-453f-827f-300afb169c36",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "5aba2a26-7c63-4338-9940-4653caf0e2d4",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "769050d9-df2f-4c16-9b19-46f29a13a9ea",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "4ab9e411-8522-4d6d-9a8c-a8c1fec8b48f",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZX",
+          "uuid": "27ec7c4c-0940-47ac-84b5-e813ac544642",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZY",
+          "uuid": "456a42ad-465f-41a5-a2d3-310a6419a0d1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZZ",
+          "uuid": "631f8ff3-fabd-4608-9ade-43c3a5acb3b7",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a445cf60-f653-4864-baeb-ead82dc3af68",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "START",
+          "uuid": "f81d14c1-f93f-42b0-b13a-21f286fca540",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 216,
+          "triangles": 72,
+          "materials": [
+            {
+              "uuid": "13e65183-4f71-42ad-856d-5e24ae3dcb8e",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.33,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "END",
+          "uuid": "99a86ec2-2ed1-4034-b7cf-869cca1c0410",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 216,
+          "triangles": 72,
+          "materials": [
+            {
+              "uuid": "13e65183-4f71-42ad-856d-5e24ae3dcb8e",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.33,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        }
+      ],
+      "renderer": {
+        "calls": 6,
+        "triangles": 2004,
+        "memory": {
+          "geometries": 5,
+          "textures": 5
+        }
+      },
+      "camera": [
+        5.000000000000002,
+        4.000000000000002,
+        7.000000000000001
+      ],
+      "heap": 20379625
+    }
+  },
+  {
+    "label": "medium",
+    "browserImportToVisibleMs": 2814.9496999999974,
+    "sceneExplorerClickToInspectorMs": 822.5268000000069,
+    "rafFPS": 3.1119363505285103,
+    "snapshot": {
+      "meshes": [
+        {
+          "name": "QA_medium",
+          "uuid": "ff4759d9-3f13-4836-80d4-005d3d5ea7c0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 10201,
+          "triangles": 20000,
+          "materials": [
+            {
+              "uuid": "3846a32d-4064-4078-ba56-a42fbe489e96",
+              "name": "QA Black Cotton",
+              "type": "MeshStandardMaterial",
+              "color": "09090b",
+              "linearColor": [
+                0.0027317428517647058,
+                0.0027317428517647058,
+                0.0033465357620980074
+              ],
+              "roughness": 0.65,
+              "metalness": 0,
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null,
+              "normalMap": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "175508a2-2339-403c-b898-232d75930564",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "c391274f-1b66-4fcd-9437-2260a435f184",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "f68157fc-5bb5-442c-a85e-ed2c44defbb1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "c391274f-1b66-4fcd-9437-2260a435f184",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "57e5f14a-4692-4665-b278-b3776d5f4db6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "a8b14592-d4ab-4756-b5ad-17714f7a4e24",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "d28b9885-49a8-45e2-b30b-03c6e4d5e8bd",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "a8b14592-d4ab-4756-b5ad-17714f7a4e24",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "5a946133-5cf7-4a48-a713-0537e211c4b0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "d59a0ec8-9766-43cb-8e0f-fd70cebfe638",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "67bcdce7-16ee-4cd6-a19e-a12ac9dbe95b",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "d59a0ec8-9766-43cb-8e0f-fd70cebfe638",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZ",
+          "uuid": "290343bd-5b01-4b9e-aa43-5778b5a7f78b",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "809ed1bf-b30e-4b5d-a2ab-975dfab5316a",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "523b945a-1406-471c-a8d9-00506acdb749",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "c9602388-0c56-4485-a16c-61942d62fe06",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "eab8bf00-1fda-47d5-8055-627432f711ae",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "99e07b90-7b50-410d-9f4b-57cd01eba07f",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ffff",
+              "linearColor": [
+                0,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "a8b1b1a5-e6d7-4542-af12-383f0d92538c",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "f91ceee6-6726-4c05-b4ed-9d9c656577eb",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff00ff",
+              "linearColor": [
+                1,
+                0,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "8790134e-ac6a-4983-a4b8-90f9160db44c",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "c391274f-1b66-4fcd-9437-2260a435f184",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "8e907da7-822b-45a3-b058-f8c3525069e0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "a8b14592-d4ab-4756-b5ad-17714f7a4e24",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "39fc0295-bf3f-4e69-90b4-40bbd23e2df0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "d59a0ec8-9766-43cb-8e0f-fd70cebfe638",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "7ad2f178-9cb9-471a-a86d-16e7d543f3fb",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "df79dbef-eb45-4d3a-adf1-425af07abb25",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "d784e764-aa22-44eb-a7b0-d732ba323fd1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "df79dbef-eb45-4d3a-adf1-425af07abb25",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "5b573938-6a5e-48a2-9b8d-5215719909a0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "df79dbef-eb45-4d3a-adf1-425af07abb25",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "ff8ca2ac-f322-489a-8911-d26e65f17156",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "df79dbef-eb45-4d3a-adf1-425af07abb25",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "deef1838-963d-4a09-8748-11dfca15e8cb",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "c391274f-1b66-4fcd-9437-2260a435f184",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "9de400ac-548b-49d4-a51a-3a79708c63d8",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a8b14592-d4ab-4756-b5ad-17714f7a4e24",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "dd4816ff-3de0-4a6e-aaf7-12dff15c860d",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "d59a0ec8-9766-43cb-8e0f-fd70cebfe638",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "3ee2a381-adcf-4c9d-94e1-a53bb0fd4375",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "05bf9582-e9a1-459d-8e6c-289c006e82f1",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "31d70e61-9778-40a6-abc5-84da3f17cfa4",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "256ee90c-ccca-421c-9398-eef28b177d80",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ffff",
+              "linearColor": [
+                0,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "104285e5-9f76-424e-8eb1-13613bebc142",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "04ed0163-5e7e-4518-b877-ab459bdb90ff",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff00ff",
+              "linearColor": [
+                1,
+                0,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZX",
+          "uuid": "13326cd9-5ac5-44cb-a1a5-0ef0f477da55",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "a0f5f2ba-4f9d-4cc5-aa8e-94b923bd4dca",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZY",
+          "uuid": "fc488007-2692-48f3-a196-436e4781b786",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "b7ff6f42-d702-4c32-bdd2-b1bcb258f835",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZZ",
+          "uuid": "42a420b5-55b0-4e47-acd1-007257524b53",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "489caa82-8f0a-4bda-a6ae-817dae556c5a",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "ce560f87-8b80-4dbb-9608-e84ccf9cc762",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "0c2f9c14-91ec-4e3b-ac62-d798101b3fd6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "4da69ef2-30df-461a-a42c-7d518ab8ebbf",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZ",
+          "uuid": "bb6eb646-e528-4f87-88d2-4a22adaa6e6c",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "379d4146-dd05-42cb-8fbb-15694c639370",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "ee7440d5-3089-4f91-8bbb-eb44e395f78a",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "76412b0f-5061-43c0-b78f-7576a26c785e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "388e26fc-cee2-40f6-b52c-3de013f928c1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "30ab8fd7-1d1c-47ef-940c-35a08ff874a1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "eb238a0b-dd01-4068-8122-d0429d2e79c9",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "b8d8e6a4-95ca-4948-8f2c-0749167c3e37",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 75,
+          "triangles": 96,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZE",
+          "uuid": "963bed4b-7749-404a-be92-3fbfe926a838",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 99,
+          "triangles": 140,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "cf59341b-4f4e-497b-b217-c9780f610de5",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "52bd0e4f-c21d-4da9-ad4a-3e0699d7a43e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "901fcd5e-9ba6-4297-a67b-358aceb22fa1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "019fe0aa-68a7-4d43-b8fd-f00f352354f7",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "e57190eb-4d57-4046-9a2e-2806da960326",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "02db6a92-cac6-41fe-a1e6-4eea0c8f5ac6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZX",
+          "uuid": "a649f135-88e1-42da-af53-60104cd81d6f",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZY",
+          "uuid": "9c68e2d8-54eb-4328-9238-3b002315862e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZZ",
+          "uuid": "c49f736e-bfab-48c8-98b3-ff3831fdda8f",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "08dc3292-cb31-42eb-9601-b35546b9bf73",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "START",
+          "uuid": "e2f014e8-5da4-49fc-8a60-61a7fbbff0d9",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 216,
+          "triangles": 72,
+          "materials": [
+            {
+              "uuid": "69aea94a-50cc-4b2b-89d3-1c09834ffebe",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.33,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "END",
+          "uuid": "cfd9497e-5589-4d59-89f0-7df7878786c0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 216,
+          "triangles": 72,
+          "materials": [
+            {
+              "uuid": "69aea94a-50cc-4b2b-89d3-1c09834ffebe",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.33,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        }
+      ],
+      "renderer": {
+        "calls": 6,
+        "triangles": 40004,
+        "memory": {
+          "geometries": 5,
+          "textures": 5
+        }
+      },
+      "camera": [
+        5.000000000000002,
+        4.000000000000002,
+        7.000000000000001
+      ],
+      "heap": 24083135
+    }
+  },
+  {
+    "label": "large",
+    "browserImportToVisibleMs": 1969.406299999995,
+    "sceneExplorerClickToInspectorMs": 836.508799999996,
+    "rafFPS": 2.629687417822268,
+    "snapshot": {
+      "meshes": [
+        {
+          "name": "QA_large",
+          "uuid": "26daf137-fdf4-46e0-909e-39d49fc19974",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 40401,
+          "triangles": 80000,
+          "materials": [
+            {
+              "uuid": "624becd1-e671-4d0c-8f7f-ea68cce31a6b",
+              "name": "QA Black Cotton",
+              "type": "MeshStandardMaterial",
+              "color": "09090b",
+              "linearColor": [
+                0.0027317428517647058,
+                0.0027317428517647058,
+                0.0033465357620980074
+              ],
+              "roughness": 0.65,
+              "metalness": 0,
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null,
+              "normalMap": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "06c49592-d6f6-4d60-948e-efca065367e6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "d169877f-b893-4e0d-8b29-a3a992dd7b6f",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "a6c024ea-2584-4804-a438-31be1f34122b",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "d169877f-b893-4e0d-8b29-a3a992dd7b6f",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "ccaa90af-97fe-41b3-a630-a25ee6ced476",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "2250b343-b59e-497b-8805-8425453830fd",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "7e87741b-6535-4cd8-be93-277ead608ef1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "2250b343-b59e-497b-8805-8425453830fd",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "9fab725d-7d68-4aea-a62c-7c5cbdf6422b",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "624b13f4-7950-4ad3-9529-b80e0d65a380",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "5947f754-4de7-441d-a6fe-31582b6c4f63",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 51,
+          "triangles": 24,
+          "materials": [
+            {
+              "uuid": "624b13f4-7950-4ad3-9529-b80e0d65a380",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZ",
+          "uuid": "69b22b26-fee9-44c3-b661-b1d1686ab30e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "b4859002-5d75-44cd-9281-50585c717edb",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "f54e83fd-e840-404f-b33a-abd534667f0c",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "656f072b-507a-4fd2-a983-339cd0929eb1",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "ea6b209c-164f-4bcb-aa56-b821dc7756d2",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "eaa65ea1-530e-49be-8a15-dfb2e5a2332e",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ffff",
+              "linearColor": [
+                0,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "202693b2-bdaf-4e1f-9544-415cc291011e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "26031525-049d-4b40-8bc2-d9879393e4c5",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff00ff",
+              "linearColor": [
+                1,
+                0,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "8292f231-6383-4889-9334-321b0b9f7823",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "d169877f-b893-4e0d-8b29-a3a992dd7b6f",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "4a92bde6-baf9-497f-921e-c9716333cc50",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "2250b343-b59e-497b-8805-8425453830fd",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "dda4f419-3381-4047-bf5d-649e3940e580",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "624b13f4-7950-4ad3-9529-b80e0d65a380",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "a5c7aba4-06e2-4612-82bd-feb01be47f98",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f0412b51-11f6-4386-a43c-d16de5b7b4de",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "ecf48b8c-dcc4-4513-a197-5f0fdea6126e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f0412b51-11f6-4386-a43c-d16de5b7b4de",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "7c7c6561-ddf1-4eea-8023-764665c6c96f",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f0412b51-11f6-4386-a43c-d16de5b7b4de",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "0297302d-b12c-42d7-9583-442b11b0458d",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f0412b51-11f6-4386-a43c-d16de5b7b4de",
+              "name": "",
+              "type": "LineBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 0,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "4b4c310d-b182-45d8-9062-8f75acfe8436",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "d169877f-b893-4e0d-8b29-a3a992dd7b6f",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff0000",
+              "linearColor": [
+                1,
+                0,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "1abc7586-294d-43a6-9687-9f226095432e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "2250b343-b59e-497b-8805-8425453830fd",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ff00",
+              "linearColor": [
+                0,
+                1,
+                0
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "904e811d-33f0-4072-a0cd-56ad6ee34d51",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "624b13f4-7950-4ad3-9529-b80e0d65a380",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "0000ff",
+              "linearColor": [
+                0,
+                0,
+                1
+              ],
+              "opacity": 1,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "d9648b62-2021-4e13-acbc-ab9d582995f9",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "c7793495-2bf4-4a66-9817-d8bcdf3c6668",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffff00",
+              "linearColor": [
+                1,
+                1,
+                0
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "6b3e2ba9-8d9f-4b6f-b177-7a90995d8ff7",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "3bbd521f-c1fb-4d06-bc86-f37995743692",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "00ffff",
+              "linearColor": [
+                0,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "3cc82e97-da9f-4eb3-b59d-397961e020d6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "5ee994f5-6959-4926-82fa-1c018b859a23",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ff00ff",
+              "linearColor": [
+                1,
+                0,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZX",
+          "uuid": "b557551d-e4df-4966-810d-8eb6f5d50805",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "1cd85ac8-9f71-4f6f-b5e0-91789df6d519",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZY",
+          "uuid": "b3c9bf00-9e6f-4971-9b4e-53b605074ff6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "b13c1fc6-747b-447d-9516-835bfed37717",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZZ",
+          "uuid": "7a3f62fb-666b-41eb-9e0d-36297f0f6af1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "b4d05781-c4b8-45d7-94b4-956cd14fd971",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.25,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "af8d3c40-7175-430c-bc89-17e550221da1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "d7f22961-19dc-4336-971e-76e91fbee9c5",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "77bd7190-b285-403e-bf2f-fb707fa79292",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZ",
+          "uuid": "cd5813b8-03bc-4e83-a7bb-8934f7e0feae",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "9e8080ec-5286-4cb2-b64a-7675590dce86",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "2898cc3e-50a1-4b02-ab39-a4ae79c0b0d2",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "6e335236-3f3f-4a30-ad93-a624493e0894",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "bee6a5b5-077e-4ec7-9bcb-753255286567",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "925d8168-a3cf-4840-95d0-498d6f3bba1e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "bbb7e16d-3aa0-4ffc-9fae-bfaf8e95bed5",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 125,
+          "triangles": 192,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "uuid": "940528d1-6257-4d01-beed-f25d1539ade6",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 75,
+          "triangles": 96,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZE",
+          "uuid": "6328b903-2c48-477b-ab39-2c4673348be7",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 99,
+          "triangles": 140,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "uuid": "c8eba2ad-a3a3-45fc-bc0a-f76ff63751c1",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "uuid": "7f8a2bc6-2060-4f57-90a4-9bd0e138258b",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "uuid": "115012d2-b68b-423f-be63-55773b995384",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 19,
+          "triangles": 8,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XY",
+          "uuid": "6310319e-bf0a-420a-b65d-b8a23ff395f7",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "YZ",
+          "uuid": "82696c10-8d95-40e6-88e3-7d17d4ba8f77",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XZ",
+          "uuid": "b259a027-0c1b-41d4-85c1-c303d3961a76",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZX",
+          "uuid": "ff10dd9b-e859-4502-86bd-5be6e3fa21e0",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZY",
+          "uuid": "28f19ba1-5658-49f2-8172-6865e33fc20e",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "XYZZ",
+          "uuid": "43d3f98b-be1e-4c6b-947b-1316ab68ea0a",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 24,
+          "triangles": 12,
+          "materials": [
+            {
+              "uuid": "f5d2d5f8-ba17-452b-a2d0-28c2917d9539",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.15,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "START",
+          "uuid": "e58e96c2-15ee-491f-9e55-5ae77c8b19cf",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 216,
+          "triangles": 72,
+          "materials": [
+            {
+              "uuid": "cf371687-f26f-4596-87fd-26369f6fc9a1",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.33,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        },
+        {
+          "name": "END",
+          "uuid": "4293e3ab-457b-413b-9410-ad6d1b890b8d",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "matrixWorld": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "vertices": 216,
+          "triangles": 72,
+          "materials": [
+            {
+              "uuid": "cf371687-f26f-4596-87fd-26369f6fc9a1",
+              "name": "",
+              "type": "MeshBasicMaterial",
+              "color": "ffffff",
+              "linearColor": [
+                1,
+                1,
+                1
+              ],
+              "opacity": 0.33,
+              "side": 2,
+              "wireframe": false,
+              "map": null
+            }
+          ]
+        }
+      ],
+      "renderer": {
+        "calls": 6,
+        "triangles": 160004,
+        "memory": {
+          "geometries": 5,
+          "textures": 5
+        }
+      },
+      "camera": [
+        5.000000000000002,
+        4.000000000000002,
+        7.000000000000001
+      ],
+      "heap": 22400442
+    }
+  }
+]

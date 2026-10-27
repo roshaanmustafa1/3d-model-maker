@@ -1,0 +1,1273 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "--list"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/test-results/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\test-results\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./qa-reports/test-results/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "./qa-reports/test-results/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "advanced.spec.mjs",
+      "file": "advanced.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "advanced QA",
+          "file": "advanced.spec.mjs",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "actual scene selection, material isolation and geometry overlays",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff620e898df2a43099a5-1c511877bf481d3ea6d4",
+              "file": "advanced.spec.mjs",
+              "line": 13,
+              "column": 3
+            },
+            {
+              "title": "real garment renders black through all six camera presets",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff620e898df2a43099a5-e851049e473b05c95e9d",
+              "file": "advanced.spec.mjs",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "base-color and normal image uploads survive real browser GLB export/reimport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff620e898df2a43099a5-9525a50a87164b4807c0",
+              "file": "advanced.spec.mjs",
+              "line": 62,
+              "column": 3
+            },
+            {
+              "title": "UV edits survive an export independently of undo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff620e898df2a43099a5-15834e8843e95524607c",
+              "file": "advanced.spec.mjs",
+              "line": 87,
+              "column": 3
+            },
+            {
+              "title": "mesh-size rendering FPS and selection latency are measured",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff620e898df2a43099a5-ebf15ded2a69f9b1ab4e",
+              "file": "advanced.spec.mjs",
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "Shift click synchronizes multiple Scene Explorer selections",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff620e898df2a43099a5-4a9225c58bef1fab8d58",
+              "file": "advanced.spec.mjs",
+              "line": 121,
+              "column": 3
+            },
+            {
+              "title": "imported packed PBR texture channels survive browser GLB export",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff620e898df2a43099a5-6495e209c14064fe7e0a",
+              "file": "advanced.spec.mjs",
+              "line": 134,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "appearance-modes.spec.mjs",
+      "file": "appearance-modes.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d2f5b69df33a63de09ba-91a48cdeacc79578a3f7",
+          "file": "appearance-modes.spec.mjs",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "Phase 2.5 BlackBullet existing catalog retains runtime default",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d2f5b69df33a63de09ba-07a545a4e36b90e6997e",
+          "file": "appearance-modes.spec.mjs",
+          "line": 61,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "blackbullet.spec.mjs",
+      "file": "blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "BlackBullet actual customizer preserves imported black fabric before user color choice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a4871b6a43d8d39556bb-cb2214407d6430b7f077",
+          "file": "blackbullet.spec.mjs",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "completion.spec.mjs",
+      "file": "completion.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Completion: local generated GLB inspection and Studio handoff require no generation provider",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5c47812c101a2a7f318d-22d14770c62ce891adf6",
+          "file": "completion.spec.mjs",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "Completion: material split, undo/redo, UV packing and durable save use actual controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5c47812c101a2a7f318d-0b5593810ec2e88ff3e4",
+          "file": "completion.spec.mjs",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "editor.spec.mjs",
+      "file": "editor.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "initial editor renders with usable side panels and WebGL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-685edebba6d4628e68c0",
+          "file": "editor.spec.mjs",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "empty viewport click deselects object and clears inspector",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-2882b76a82f416aa2546",
+          "file": "editor.spec.mjs",
+          "line": 39,
+          "column": 1
+        },
+        {
+          "title": "Escape deselects and Scene Explorer empty space deselects",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-cfb0eda6bf1770d60ba5",
+          "file": "editor.spec.mjs",
+          "line": 50,
+          "column": 1
+        },
+        {
+          "title": "camera orbit, pan and zoom retain object selection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-fefe2c4a1637d34c3572",
+          "file": "editor.spec.mjs",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "all four shading modes are interactive and render without page errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-f83cda2c22fa3eee52d1",
+          "file": "editor.spec.mjs",
+          "line": 74,
+          "column": 1
+        },
+        {
+          "title": "Edit Mode selection and Escape behavior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-9b325de79633805d66f1",
+          "file": "editor.spec.mjs",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "GLB browser import, export and reimport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-c5ceae6fde3d826044bb",
+          "file": "editor.spec.mjs",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "front, right and top camera presets work on an imported garment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-191ac0b0ce313d11b9d7",
+          "file": "editor.spec.mjs",
+          "line": 117,
+          "column": 1
+        },
+        {
+          "title": "back, left and bottom camera presets are exposed in the viewport UI",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-e843edb19fcfd2878af3",
+          "file": "editor.spec.mjs",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "UV Lab displays layout and exports a real PNG",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-0199512e5ff41a0a675f",
+          "file": "editor.spec.mjs",
+          "line": 133,
+          "column": 1
+        },
+        {
+          "title": "BlackBullet validation report is accessible",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3c4243f16f26f48720e0-2279d65f7e81d381f4fa",
+          "file": "editor.spec.mjs",
+          "line": 144,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5-alignment.spec.mjs",
+      "file": "phase3_5-alignment.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 canonical Rectangle coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-efbc64e55cceec7a212b",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Circle coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-188738f9b122055e35a7",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Star coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-6b7c069b26be08d8c935",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Triangle coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-342e217e0618bff66319",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Text coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-ad3d962cf88888dbcc3e",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 canonical Image coordinates match preview texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-514800da8de834a5a58b",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "Phase 3.5 repeated artwork/export/replacement releases GPU allocations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44658b642c5adbd01f1c-7d57b34fcef6c45cb69f",
+          "file": "phase3_5-alignment.spec.mjs",
+          "line": 53,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5-blackbullet.spec.mjs",
+      "file": "phase3_5-blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "09598c9b4239186e49d6-55a29760b9837286c407",
+          "file": "phase3_5-blackbullet.spec.mjs",
+          "line": 20,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5-materials.spec.mjs",
+      "file": "phase3_5-materials.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "84534f04ff9d85f12599-dc7b5afc4d0e2ae0fc04",
+          "file": "phase3_5-materials.spec.mjs",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5.spec.mjs",
+      "file": "phase3_5.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-3354a6553599a18ee786",
+          "file": "phase3_5.spec.mjs",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Phase 3.5 undo/redo updates actual texture and exported pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-735452b6b8ee831400d5",
+          "file": "phase3_5.spec.mjs",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "Phase 3.5 imported source plus editable artwork survives browser process restart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-b737fa5df4fccabea2fb",
+          "file": "phase3_5.spec.mjs",
+          "line": 102,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3-blackbullet.spec.mjs",
+      "file": "phase3-blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-7bd6e2c76907b96ffa88",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-e85078cbb5510b099fee",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 customized export reimports into Model Maker with artwork textures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-4cd8b8aeeebb62294074",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 91,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3-durability.spec.mjs",
+      "file": "phase3-durability.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "907a2d22788f098fc69c-29127520fde2232b6368",
+          "file": "phase3-durability.spec.mjs",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 editable project survives a new browser process with durable image assets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "907a2d22788f098fc69c-93c2848543034e513e6d",
+          "file": "phase3-durability.spec.mjs",
+          "line": 54,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3-pointer.spec.mjs",
+      "file": "phase3-pointer.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 pointer movement updates layer coordinates and actual texture pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d63544723dc2da864349-06e6752225188ebd3fc0",
+          "file": "phase3-pointer.spec.mjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 star has matching 2D canvas and actual 3D texture coordinates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d63544723dc2da864349-0dc7b5633e1ee923631f",
+          "file": "phase3-pointer.spec.mjs",
+          "line": 44,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3.spec.mjs",
+      "file": "phase3.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Independent Phase 3",
+          "file": "phase3.spec.mjs",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "workspace initialization corresponds to selected product",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-f3859fa5ea0f268badcf",
+              "file": "phase3.spec.mjs",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "catalog geometry, live textures, camera controls and resource cycles",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-c45db8748e09fd745a2d",
+              "file": "phase3.spec.mjs",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-781d95cedef49317e80e",
+              "file": "phase3.spec.mjs",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "UV-ready multipart import preserves original albedo and PBR",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-3c19cbea94057e18ef7e",
+              "file": "phase3.spec.mjs",
+              "line": 105,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "phase4-ai-generator.spec.mjs",
+      "file": "phase4-ai-generator.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Phase 4: AI Image-to-3D Generation & Asset Pipeline",
+          "file": "phase4-ai-generator.spec.mjs",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "E2E workflow: Upload reference -> Gemini analysis -> 3D Generation -> Mesh Processing -> Studio Handoff",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b26bbaf9dd5ec310d8d5-e6066d52dbc5d978f849",
+              "file": "phase4-ai-generator.spec.mjs",
+              "line": 7,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "stabilization.spec.mjs",
+      "file": "stabilization.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Phase 2.5",
+          "file": "stabilization.spec.mjs",
+          "line": 48,
+          "column": 6,
+          "specs": [
+            {
+              "title": "actual Model Maker exports a multi-part black PBR garment with textures",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3068a35af2a05814d5fb-1f8e90f1336c199e5be8",
+              "file": "stabilization.spec.mjs",
+              "line": 51,
+              "column": 3
+            },
+            {
+              "title": "IndexedDB reconstructs edited textured geometry after browser process restart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3068a35af2a05814d5fb-6d30b8781e3a77f83b99",
+              "file": "stabilization.spec.mjs",
+              "line": 58,
+              "column": 3
+            },
+            {
+              "title": "repeated real imports/removals retain bounded renderer geometry resources",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3068a35af2a05814d5fb-bba95e4984bac6d58ea5",
+              "file": "stabilization.spec.mjs",
+              "line": 109,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-25T11:42:27.782Z",
+    "duration": 2482.0290000000005,
+    "expected": 0,
+    "skipped": 50,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

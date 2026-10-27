@@ -1,0 +1,76 @@
+[zustand persist middleware] Unable to update item '3d_model_maker_projects_meta', the given storage is currently unavailable.
+✔ QA forward extrude: changed geometry remains exportable before history actions (47.3297ms)
+✔ QA topology extrude: geometry, graph, undo, redo and GLB (11.1783ms)
+✔ QA forward inset: changed geometry remains exportable before history actions (8.5728ms)
+✔ QA topology inset: geometry, graph, undo, redo and GLB (8.3268ms)
+✔ QA forward subdivide: changed geometry remains exportable before history actions (8.1535ms)
+✔ QA topology subdivide: geometry, graph, undo, redo and GLB (8.9508ms)
+✔ QA forward merge: changed geometry remains exportable before history actions (8.934ms)
+✔ QA topology merge: geometry, graph, undo, redo and GLB (7.1335ms)
+✔ QA forward weld: changed geometry remains exportable before history actions (6.4969ms)
+✔ QA topology weld: geometry, graph, undo, redo and GLB (8.0247ms)
+✔ QA forward delete: changed geometry remains exportable before history actions (7.1943ms)
+✔ QA topology delete: geometry, graph, undo, redo and GLB (7.848ms)
+✔ QA forward flip: changed geometry remains exportable before history actions (7.0996ms)
+✔ QA topology flip: geometry, graph, undo, redo and GLB (9.8393ms)
+✔ QA flip normals updates per-corner shading normals as well as winding (0.6841ms)
+✔ QA adding a primitive keeps primary and multi-selection IDs synchronized (9.7692ms)
+✔ QA connected component separation: geometry, history and GLB (16.3141ms)
+✔ QA forward UV box: edited data survives GLB independently of undo (10.7204ms)
+✔ QA forward UV planar: edited data survives GLB independently of undo (9.0799ms)
+✔ QA forward UV cylindrical: edited data survives GLB independently of undo (8.5737ms)
+✔ QA UV box: finite data, undo/redo and GLB (13.9386ms)
+✔ QA UV planar: finite data, undo/redo and GLB (6.1641ms)
+✔ QA UV cylindrical: finite data, undo/redo and GLB (6.4553ms)
+✔ QA UV translate: actual data changes and undo restores it (6.2446ms)
+✔ QA UV rotate: actual data changes and undo restores it (4.7939ms)
+✔ QA UV scale: actual data changes and undo restores it (4.8043ms)
+✔ QA material slots: assign selected faces, remove slot, valid groups and GLB (11.8998ms)
+✔ QA material face assignment undo from a primitive restores geometry and slots (6.4774ms)
+✔ QA GLTF embedded JSON export reloads with black fabric and customization metadata (42.8003ms)
+✔ QA UV diagnostics rejects non-finite coordinates and distinguishes missing UVs (1.2356ms)
+✔ QA persistence: supported primitive transforms and materials survive JSON save/load (31.9725ms)
+✔ QA persistence: edited/imported geometry bytes survive a fresh process (725.7358ms)
+﹣ QA unsupported feature inventory: joinMeshes (0.1501ms) # joinMeshes is not implemented in the editor store
+﹣ QA unsupported feature inventory: bevelSelectedEdges (0.0811ms) # bevelSelectedEdges is not implemented in the editor store
+﹣ QA unsupported feature inventory: duplicateMaterial (0.1122ms) # duplicateMaterial is not implemented in the editor store
+✖ P3 regression: catalog must warn when its box UV surfaces overlap (24.2739ms)
+✔ P3 regression: imported front/back UV zones must use authored atlas bounds (4.3354ms)
+✔ P3 regression: malformed SVG must be rejected before adding an image layer (3.9179ms)
+✔ P3 security: SVG entity-encoded javascript links must be removed (3.6591ms)
+✔ P3 control: real layer state, ordering and consecutive undo/redo remain valid (9.8631ms)
+✔ stabilization: multi-operation geometry/UV/material history restores actual buffers in both directions (69.3924ms)
+✔ stabilization: add, multi-select, delete subtree, undo/redo and duplicate maintain selection invariants (15.7001ms)
+✔ stabilization: additional UV channels and groups survive persisted asset hydration (11.1433ms)
+✔ stabilization: repeated scene replacement releases geometry resources without breaking history (38.1472ms)
+✔ stabilization: persisted procedural undo snapshot drops obsolete cache references (4.3279ms)
+✔ stabilization: asset serialization preserves non-quantized linear material colors (3.1874ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 42
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 2580.2116
+
+✖ failing tests:
+
+test at tests\qa\phase3-regressions.test.mjs:9:1
+✖ P3 regression: catalog must warn when its box UV surfaces overlap (24.2739ms)
+  AssertionError [ERR_ASSERTION]: fixture actually contains overlapping UV charts
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///C:/Users/Roshaan's%20Pc/Documents/Projects/3d-model-maker/tests/qa/phase3-regressions.test.mjs:14:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

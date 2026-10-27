@@ -1,0 +1,217 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "phase3_5.spec.mjs",
+      "--grep",
+      "browser process restart"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/phase3_5/persistence-diagnostic/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\persistence-diagnostic\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/phase3_5/persistence-diagnostic/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/phase3_5/persistence-diagnostic/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "phase3_5.spec.mjs",
+      "file": "phase3_5.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 imported source plus editable artwork survives browser process restart",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 167134,
+                  "error": {
+                    "message": "TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible\u001b[22m\n",
+                    "stack": "TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible\u001b[22m\n\n    at exportProduct (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:101:70)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:131:5",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                      "column": 70,
+                      "line": 101
+                    },
+                    "snippet": "   at ..\\..\\..\\scripts\\qa\\phase3-support.mjs:101\n\n   99 |   await page.getByRole('button', { name: 'Export GLB Asset', exact: true }).click()\n  100 |   try {\n> 101 |     await page.getByText('GLB Verification Passed', { exact: true }).waitFor({ timeout: 60000 })\n      |                                                                      ^\n  102 |   } catch (error) {\n  103 |     await record(`${name}-export-failure`, { url: page.url(), events: page.__qaEvents, body: await page.locator('body').innerText().catch(() => '') })\n  104 |     throw error"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                        "column": 70,
+                        "line": 101
+                      },
+                      "message": "TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible\u001b[22m\n\n\n   at ..\\..\\..\\scripts\\qa\\phase3-support.mjs:101\n\n   99 |   await page.getByRole('button', { name: 'Export GLB Asset', exact: true }).click()\n  100 |   try {\n> 101 |     await page.getByText('GLB Verification Passed', { exact: true }).waitFor({ timeout: 60000 })\n      |                                                                      ^\n  102 |   } catch (error) {\n  103 |     await record(`${name}-export-failure`, { url: page.url(), events: page.__qaEvents, body: await page.locator('body').innerText().catch(() => '') })\n  104 |     throw error\n    at exportProduct (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:101:70)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5.spec.mjs:131:5"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T19:08:27.960Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\persistence-diagnostic\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\persistence-diagnostic\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\persistence-diagnostic\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\test-failed-3.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\persistence-diagnostic\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3_5\\persistence-diagnostic\\browser-artifacts\\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                    "column": 70,
+                    "line": 101
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "21bfb2e720e6c4743ebb-b737fa5df4fccabea2fb",
+          "file": "phase3_5.spec.mjs",
+          "line": 98,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T19:08:26.394Z",
+    "duration": 170258.29200000002,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

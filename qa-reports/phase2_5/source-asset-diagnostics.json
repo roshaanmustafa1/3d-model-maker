@@ -1,0 +1,42 @@
+{
+  "source": "../blackbullet-3d/src/assets/modals/subdivision.glb",
+  "sha256Before": "41917204466a7a872bef865b6dfb4546c380044fd752afdc93700a31a485d0c1",
+  "sha256After": "41917204466a7a872bef865b6dfb4546c380044fd752afdc93700a31a485d0c1",
+  "modified": false,
+  "meshes": [
+    {
+      "name": "athletic_shirt_3d_model",
+      "missingUV": true,
+      "opposingNormals": 297,
+      "zeroAreaTriangles": 1,
+      "uniqueVertices": 19267,
+      "bufferVertices": 20965,
+      "totalEdges": 56386,
+      "boundaryEdges": 5053,
+      "nonManifoldEdges": 1043,
+      "totalFaces": 36346,
+      "degenerateFaces": 2,
+      "materialSlots": 1,
+      "surfaceArea": 2.7798148750373923,
+      "bounds": {
+        "min": [
+          -0.499267578125,
+          0,
+          -0.217529296875
+        ],
+        "max": [
+          0.499267578125,
+          0.90478515625,
+          0.217529296875
+        ],
+        "size": [
+          0.99853515625,
+          0.90478515625,
+          0.43505859375
+        ]
+      }
+    }
+  ],
+  "artworkReady": false,
+  "note": "Original retained. Missing UVs prevent atlas artwork readiness; boundary edges can represent intentional garment openings."
+}

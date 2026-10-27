@@ -1,0 +1,86 @@
+
+Running 2 tests using 1 worker
+
+  x  1 tests\qa\browser\phase3-pointer.spec.mjs:4:1 › Phase 3 pointer movement updates layer coordinates and actual texture pixels (40.7s)
+  x  2 tests\qa\browser\phase3-pointer.spec.mjs:41:1 › Phase 3 star has matching 2D canvas and actual 3D texture coordinates (25.9s)
+
+
+  1) tests\qa\browser\phase3-pointer.spec.mjs:4:1 › Phase 3 pointer movement updates layer coordinates and actual texture pixels 
+
+    Error: expect(received).not.toBe(expected) // Object.is equality
+
+    Expected: not 851487301
+
+      35 |   await page.screenshot({ path: `${directory}/screenshots/pointer-drag.png` })
+      36 |   expect.soft(after.customization.zones.body_front.layers[0].x).not.toBe(before.customization.zones.body_front.layers[0].x)
+    > 37 |   expect.soft(textureAfter.meshes[0].materials[0].texture?.hash).not.toBe(textureBefore.meshes[0].materials[0].texture?.hash)
+         |                                                                      ^
+      38 |   expect.soft(deselected).toBe(true)
+      39 | })
+      40 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-pointer.spec.mjs:37:70
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-poi-8985c-s-and-actual-texture-pixels\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-poi-8985c-s-and-actual-texture-pixels\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-poi-8985c-s-and-actual-texture-pixels\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-poi-8985c-s-and-actual-texture-pixels\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\phase3-pointer.spec.mjs:41:1 › Phase 3 star has matching 2D canvas and actual 3D texture coordinates 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 5
+    Received:   170.536
+
+      66 |   await record('star-coordinate-comparison', { bounds, events })
+      67 |   await page.screenshot({ path: `${directory}/screenshots/star-coordinate-comparison.png` })
+    > 68 |   expect.soft(Math.abs(bounds.editor.minX - bounds.texture.minX)).toBeLessThan(5)
+         |                                                                   ^
+      69 |   expect.soft(Math.abs(bounds.editor.minY - bounds.texture.minY)).toBeLessThan(5)
+      70 | })
+      71 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-pointer.spec.mjs:68:67
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 5
+    Received:   265.936
+
+      67 |   await page.screenshot({ path: `${directory}/screenshots/star-coordinate-comparison.png` })
+      68 |   expect.soft(Math.abs(bounds.editor.minX - bounds.texture.minX)).toBeLessThan(5)
+    > 69 |   expect.soft(Math.abs(bounds.editor.minY - bounds.texture.minY)).toBeLessThan(5)
+         |                                                                   ^
+      70 | })
+      71 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3-pointer.spec.mjs:69:67
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-sta-abca4-tual-3D-texture-coordinates\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-sta-abca4-tual-3D-texture-coordinates\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-sta-abca4-tual-3D-texture-coordinates\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3\pointer-final\browser-artifacts\phase3-pointer-Phase-3-sta-abca4-tual-3D-texture-coordinates\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\qa\browser\phase3-pointer.spec.mjs:4:1 › Phase 3 pointer movement updates layer coordinates and actual texture pixels 
+    tests\qa\browser\phase3-pointer.spec.mjs:41:1 › Phase 3 star has matching 2D canvas and actual 3D texture coordinates 
+(node:17604) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

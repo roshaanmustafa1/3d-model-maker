@@ -1,0 +1,45 @@
+{
+  "result": {
+    "editor": {
+      "minX": 122.88,
+      "minY": 151.552,
+      "maxX": 290.81600000000003,
+      "maxY": 303.104,
+      "count": 1547
+    },
+    "texture": {
+      "minX": 123.9047619047619,
+      "minY": 152.26666666666665,
+      "maxX": 290.5714285714285,
+      "maxY": 302.26666666666665,
+      "count": 1997
+    }
+  },
+  "layers": [
+    {
+      "name": "Text \"ALIGN TEST\"",
+      "type": "text",
+      "text": "ALIGN TEST",
+      "fontFamily": "sans-serif",
+      "fontSize": 54,
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "fill": "#ffffff",
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "x": 100,
+      "y": 100,
+      "width": 300,
+      "height": 240,
+      "rotation": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "id": "layer_1792869353436_hj7ak",
+      "zIndex": 1
+    }
+  ]
+}

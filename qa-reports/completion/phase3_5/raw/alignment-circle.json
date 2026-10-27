@@ -1,0 +1,40 @@
+{
+  "result": {
+    "editor": {
+      "minX": 51.2,
+      "minY": 159.744,
+      "maxX": 286.72,
+      "maxY": 395.264,
+      "count": 10560
+    },
+    "texture": {
+      "minX": 50.09523809523809,
+      "minY": 160.04444444444442,
+      "maxX": 285.80952380952374,
+      "maxY": 396.7111111111111,
+      "count": 16790
+    }
+  },
+  "layers": [
+    {
+      "name": "Circle Shape",
+      "type": "shape",
+      "shapeType": "circle",
+      "fill": "#10b981",
+      "stroke": "#ffffff",
+      "strokeWidth": 2,
+      "x": 100,
+      "y": 100,
+      "width": 300,
+      "height": 240,
+      "rotation": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "id": "layer_1792928272110_82c6v",
+      "zIndex": 1
+    }
+  ]
+}

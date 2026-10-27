@@ -1,0 +1,17 @@
+{
+  "name": "typecheck",
+  "started": "2026-10-24T19:36:15.036Z",
+  "durationMs": 7873.0135,
+  "exitCode": 0,
+  "signal": null,
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "node_modules/typescript/bin/tsc",
+    "--noEmit"
+  ],
+  "platform": "win32",
+  "os": "10.0.19045",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2687W v2 @ 3.40GHz",
+  "totalMemory": 25711394816,
+  "node": "v24.21.0"
+}

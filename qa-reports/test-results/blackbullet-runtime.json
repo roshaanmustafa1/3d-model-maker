@@ -1,0 +1,37 @@
+{
+  "pageErrors": [],
+  "console": [],
+  "modelRequests": 1,
+  "materialModuleInstrumented": true,
+  "materials": [
+    {
+      "type": "MeshStandardMaterial",
+      "linear": [
+        0.0027317428517647058,
+        0.0027317428517647058,
+        0.0033465357620980074
+      ],
+      "srgb": "09090b",
+      "roughness": 0.65,
+      "metalness": 0,
+      "map": false
+    }
+  ],
+  "colorCalls": [],
+  "exportedMaterials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0027317428517647058,
+          0.0027317428517647058,
+          0.0033465357620980074,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.65
+      },
+      "doubleSided": true,
+      "name": "tripo_mat_6d28b199"
+    }
+  ]
+}

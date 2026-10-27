@@ -1,0 +1,80 @@
+
+Running 4 tests using 1 worker
+
+  x  1 tests\qa\browser\appearance-modes.spec.mjs:22:1 › Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint (17.9s)
+  ok 2 tests\qa\browser\appearance-modes.spec.mjs:61:1 › Phase 2.5 BlackBullet existing catalog retains runtime default (6.1s)
+  x  3 tests\qa\browser\blackbullet.spec.mjs:4:1 › BlackBullet actual customizer preserves imported black fabric before user color choice (6.2s)
+  ok 4 tests\qa\browser\editor.spec.mjs:144:1 › BlackBullet validation report is accessible (9.7s)
+
+
+  1) tests\qa\browser\appearance-modes.spec.mjs:22:1 › Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "09090b"
+    Received: "08080b"
+
+      30 |   const imported = await materials(page)
+      31 |   for (const material of imported) {
+    > 32 |     expect(material.srgb).toBe('09090b')
+         |                           ^
+      33 |     expect(material.roughness).toBeCloseTo(0.65)
+      34 |     expect(material.metalness).toBe(0)
+      35 |     expect(material.map).toBe(8)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\appearance-modes.spec.mjs:32:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase2_5\blackbullet-browser\browser-artifacts\appearance-modes-Phase-2-5-b1438-artwork-without-double-tint\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase2_5\blackbullet-browser\browser-artifacts\appearance-modes-Phase-2-5-b1438-artwork-without-double-tint\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase2_5\blackbullet-browser\browser-artifacts\appearance-modes-Phase-2-5-b1438-artwork-without-double-tint\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase2_5\blackbullet-browser\browser-artifacts\appearance-modes-Phase-2-5-b1438-artwork-without-double-tint\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\blackbullet.spec.mjs:4:1 › BlackBullet actual customizer preserves imported black fabric before user color choice 
+
+    Error: Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "09090b"
+    Received: "08080b"
+
+      30 |   expect(log.materialModuleInstrumented).toBe(true)
+      31 |   expect(log.pageErrors).toEqual([])
+    > 32 |   expect(materials[0].srgb.toLowerCase(), 'Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input').toBe('09090b')
+         |                                                                                                                                                          ^
+      33 | })
+      34 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\blackbullet.spec.mjs:32:154
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase2_5\blackbullet-browser\browser-artifacts\blackbullet-BlackBullet-ac-009fe-ic-before-user-color-choice\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase2_5\blackbullet-browser\browser-artifacts\blackbullet-BlackBullet-ac-009fe-ic-before-user-color-choice\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase2_5\blackbullet-browser\browser-artifacts\blackbullet-BlackBullet-ac-009fe-ic-before-user-color-choice\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase2_5\blackbullet-browser\browser-artifacts\blackbullet-BlackBullet-ac-009fe-ic-before-user-color-choice\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\qa\browser\appearance-modes.spec.mjs:22:1 › Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint 
+    tests\qa\browser\blackbullet.spec.mjs:4:1 › BlackBullet actual customizer preserves imported black fabric before user color choice 
+  2 passed (45.8s)
+(node:19508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18592) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

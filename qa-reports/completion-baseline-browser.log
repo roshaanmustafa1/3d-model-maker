@@ -1,0 +1,60 @@
+
+Running 21 tests using 1 worker
+
+(node:11660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\qa\browser\advanced.spec.mjs:13:3 › advanced QA › actual scene selection, material isolation and geometry overlays (19.4s)
+  x   2 tests\qa\browser\advanced.spec.mjs:44:3 › advanced QA › real garment renders black through all six camera presets (1.1m)
+(node:14024) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  3 tests\qa\browser\advanced.spec.mjs:62:3 › advanced QA › base-color and normal image uploads survive real browser GLB export/reimport (20.6s)
+  ok  4 tests\qa\browser\advanced.spec.mjs:87:3 › advanced QA › UV edits survive an export independently of undo (13.2s)
+  ok  5 tests\qa\browser\advanced.spec.mjs:100:3 › advanced QA › mesh-size rendering FPS and selection latency are measured (44.9s)
+  ok  6 tests\qa\browser\advanced.spec.mjs:121:3 › advanced QA › Shift click synchronizes multiple Scene Explorer selections (7.6s)
+  ok  7 tests\qa\browser\advanced.spec.mjs:134:3 › advanced QA › imported packed PBR texture channels survive browser GLB export (10.8s)
+  ok  8 tests\qa\browser\editor.spec.mjs:23:1 › initial editor renders with usable side panels and WebGL (6.8s)
+  ok  9 tests\qa\browser\editor.spec.mjs:39:1 › empty viewport click deselects object and clears inspector (14.9s)
+  ok 10 tests\qa\browser\editor.spec.mjs:50:1 › Escape deselects and Scene Explorer empty space deselects (8.4s)
+  ok 11 tests\qa\browser\editor.spec.mjs:61:1 › camera orbit, pan and zoom retain object selection (10.6s)
+  ok 12 tests\qa\browser\editor.spec.mjs:74:1 › all four shading modes are interactive and render without page errors (14.2s)
+  ok 13 tests\qa\browser\editor.spec.mjs:84:1 › Edit Mode selection and Escape behavior (6.8s)
+  ok 14 tests\qa\browser\editor.spec.mjs:98:1 › GLB browser import, export and reimport (11.7s)
+  ok 15 tests\qa\browser\editor.spec.mjs:117:1 › front, right and top camera presets work on an imported garment (14.9s)
+  ok 16 tests\qa\browser\editor.spec.mjs:128:1 › back, left and bottom camera presets are exposed in the viewport UI (4.1s)
+  ok 17 tests\qa\browser\editor.spec.mjs:133:1 › UV Lab displays layout and exports a real PNG (5.1s)
+  ok 18 tests\qa\browser\editor.spec.mjs:144:1 › BlackBullet validation report is accessible (5.8s)
+  ok 19 tests\qa\browser\stabilization.spec.mjs:51:3 › Phase 2.5 › actual Model Maker exports a multi-part black PBR garment with textures (14.3s)
+  ok 20 tests\qa\browser\stabilization.spec.mjs:58:3 › Phase 2.5 › IndexedDB reconstructs edited textured geometry after browser process restart (34.7s)
+  ok 21 tests\qa\browser\stabilization.spec.mjs:109:3 › Phase 2.5 › repeated real imports/removals retain bounded renderer geometry resources (20.3s)
+
+
+  1) tests\qa\browser\advanced.spec.mjs:44:3 › advanced QA › real garment renders black through all six camera presets 
+
+    Error: Test timeout of 60000ms exceeded
+
+      50 |       await page.locator('button').filter({ has: page.locator('svg.lucide-compass') }).click()
+      51 |       await page.getByRole('menuitem', { name: new RegExp(`^${name}( |$)`) }).click()
+    > 52 |       await expect.poll(() => page.evaluate(() => window.__qaSnapshot().meshes.filter((m) => m.name.startsWith('shirt_')).length)).toBeGreaterThan(0)
+         |                                                                                                                                    ^
+      53 |       const snapshot = await page.evaluate(() => window.__qaSnapshot())
+      54 |       const garment = snapshot.meshes.filter((m) => m.name === 'shirt_front')
+      55 |       expect(garment[0].materials[0].color).toBe('09090b')
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\advanced.spec.mjs:52:132
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\baseline-browser\browser-artifacts\advanced-advanced-QA-real--d0d17-ough-all-six-camera-presets\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\baseline-browser\browser-artifacts\advanced-advanced-QA-real--d0d17-ough-all-six-camera-presets\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\baseline-browser\browser-artifacts\advanced-advanced-QA-real--d0d17-ough-all-six-camera-presets\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\baseline-browser\browser-artifacts\advanced-advanced-QA-real--d0d17-ough-all-six-camera-presets\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\qa\browser\advanced.spec.mjs:44:3 › advanced QA › real garment renders black through all six camera presets 
+  20 passed (6.1m)

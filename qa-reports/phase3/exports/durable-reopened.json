@@ -1,0 +1,272 @@
+{
+  "id": "custom_proj_1792866436699",
+  "name": "multipart-textured-input",
+  "version": 3,
+  "createdAt": "2026-10-24T18:27:16.699Z",
+  "updatedAt": "2026-10-24T18:27:16.699Z",
+  "productId": "custom_1792866344384",
+  "productName": "multipart-textured-input",
+  "productCategory": "other",
+  "activeZoneId": "zone_1792866371925_qa_durable_zone",
+  "zones": {
+    "body_front": {
+      "id": "body_front",
+      "name": "neck_patch_front",
+      "targetMeshNodeId": "node_42637c01-ce75-4559-b665-b8fa12ac09c8",
+      "targetMeshName": "neck_patch_front",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "persistent",
+          "type": "image",
+          "assetId": "asset_1792866351402",
+          "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22red%22%2F%3E%3C%2Fsvg%3E",
+          "x": 250,
+          "y": 250,
+          "width": 500,
+          "height": 500,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "isSvg": true,
+          "id": "layer_1792866351402_olbga",
+          "zIndex": 1
+        },
+        {
+          "name": "persistent",
+          "type": "image",
+          "assetId": "asset_1792866357384",
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAO0lEQVR4AezXwQkAMAgDwND9d27rBD4FOdB3wv1yktzJrwI/f+4UIECAAAECBAgQIECAAAEC+wW63f0AAAD//+3aM8YAAAAGSURBVAMABkQgIT13JVIAAAAASUVORK5CYII=",
+          "x": 250,
+          "y": 250,
+          "width": 500,
+          "height": 500,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "originalWidth": 32,
+          "originalHeight": 32,
+          "id": "layer_1792866357384_x3p1d",
+          "zIndex": 2
+        },
+        {
+          "name": "Text \"PERSISTENT T\"",
+          "type": "text",
+          "text": "PERSISTENT TEXT",
+          "fontFamily": "sans-serif",
+          "fontSize": 54,
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "fill": "#ffffff",
+          "align": "center",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "x": 300,
+          "y": 460,
+          "width": 400,
+          "height": 80,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792866363182_kapi4",
+          "zIndex": 3
+        }
+      ],
+      "enabled": true
+    },
+    "body_back": {
+      "id": "body_back",
+      "name": "neck_patch_back",
+      "targetMeshNodeId": "node_be58eddc-722f-4ce9-8ff0-f1ac93bdc88b",
+      "targetMeshName": "neck_patch_back",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_2_shirt_base": {
+      "id": "zone_2_shirt_base",
+      "name": "shirt_base",
+      "targetMeshNodeId": "node_499e6323-100d-4e3c-a2aa-1efa3126cc24",
+      "targetMeshName": "shirt_base",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_3_shoulder_left": {
+      "id": "zone_3_shoulder_left",
+      "name": "shoulder_left",
+      "targetMeshNodeId": "node_ddb510d6-3458-4180-b0da-2ebba095181d",
+      "targetMeshName": "shoulder_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_4_shoulder_right": {
+      "id": "zone_4_shoulder_right",
+      "name": "shoulder_right",
+      "targetMeshNodeId": "node_e4b78415-6f7f-452f-9302-b3271c7bfbb0",
+      "targetMeshName": "shoulder_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_5_shoulder_patch_left": {
+      "id": "zone_5_shoulder_patch_left",
+      "name": "shoulder_patch_left",
+      "targetMeshNodeId": "node_9d58b8ab-2582-46be-a088-2a438969f367",
+      "targetMeshName": "shoulder_patch_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_6_shoulder_patch_right": {
+      "id": "zone_6_shoulder_patch_right",
+      "name": "shoulder_patch_right",
+      "targetMeshNodeId": "node_3d9dee93-93d9-4219-ac6e-0e27dc898c5d",
+      "targetMeshName": "shoulder_patch_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "collar": {
+      "id": "collar",
+      "name": "collar",
+      "targetMeshNodeId": "node_868ae050-935e-4143-80b8-34362dcc901c",
+      "targetMeshName": "collar",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_10_side_patch_left": {
+      "id": "zone_10_side_patch_left",
+      "name": "side_patch_left",
+      "targetMeshNodeId": "node_6a8c3632-e448-46ba-b0ce-45dd43939b73",
+      "targetMeshName": "side_patch_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_11_side_patch_right": {
+      "id": "zone_11_side_patch_right",
+      "name": "side_patch_right",
+      "targetMeshNodeId": "node_69171f0d-ea9a-4bf2-984f-389c5ef24e3c",
+      "targetMeshName": "side_patch_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_1792866371925_qa_durable_zone": {
+      "id": "zone_1792866371925_qa_durable_zone",
+      "name": "QA Durable Zone",
+      "targetMeshNodeId": "node_780a4e32-3a8e-409b-954f-87c47d656613",
+      "targetMeshName": "shirt_front",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    }
+  },
+  "fabricColor": "#224466",
+  "fabricRoughness": 0.92,
+  "fabricMetalness": 0,
+  "fabricPresetId": "cotton-heavyweight",
+  "partMaterials": {},
+  "textureResolution": 1024,
+  "blackBulletMode": "preserve-imported"
+}

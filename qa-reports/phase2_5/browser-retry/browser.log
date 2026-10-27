@@ -1,0 +1,10 @@
+
+Running 3 tests using 1 worker
+
+  ok 1 tests\qa\browser\stabilization.spec.mjs:49:3 › Phase 2.5 › actual Model Maker exports a multi-part black PBR garment with textures (17.0s)
+  ok 2 tests\qa\browser\stabilization.spec.mjs:56:3 › Phase 2.5 › IndexedDB reconstructs edited textured geometry after browser process restart (41.3s)
+  ok 3 tests\qa\browser\stabilization.spec.mjs:105:3 › Phase 2.5 › repeated real imports/removals retain bounded renderer geometry resources (27.2s)
+
+  3 passed (1.5m)
+(node:3672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

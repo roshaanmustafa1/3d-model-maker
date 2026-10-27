@@ -1,0 +1,31 @@
+{
+  "byteSize": 2404,
+  "verified": true,
+  "reloadedMeshCount": 1,
+  "reloadedTriangleCount": 12,
+  "uvCheckPassed": true,
+  "hasMaterials": true,
+  "issues": [],
+  "warnings": [],
+  "exportedMaterials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.03954623527052923,
+          0.508881320845802,
+          0.9386857284565036,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.35
+      },
+      "doubleSided": true,
+      "name": "Default Studio Material",
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 0
+        }
+      }
+    }
+  ]
+}

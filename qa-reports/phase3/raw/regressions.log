@@ -1,0 +1,91 @@
+✖ P3 regression: catalog must warn when its box UV surfaces overlap (44.1502ms)
+✖ P3 regression: imported front/back UV zones must use authored atlas bounds (6.0362ms)
+✖ P3 regression: malformed SVG must be rejected before adding an image layer (1.2894ms)
+✖ P3 security: SVG entity-encoded javascript links must be removed (0.7783ms)
+✔ P3 control: real layer state, ordering and consecutive undo/redo remain valid (15.6902ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 1
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2316.3816
+
+✖ failing tests:
+
+test at tests\qa\phase3-regressions.test.mjs:10:1
+✖ P3 regression: catalog must warn when its box UV surfaces overlap (44.1502ms)
+  AssertionError [ERR_ASSERTION]: readiness diagnostics must propagate overlap warning
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///C:/Users/Roshaan's%20Pc/Documents/Projects/3d-model-maker/tests/qa/phase3-regressions.test.mjs:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\qa\phase3-regressions.test.mjs:19:1
+✖ P3 regression: imported front/back UV zones must use authored atlas bounds (6.0362ms)
+  AssertionError [ERR_ASSERTION]: independent authored front/back islands cannot both default to the full atlas
+      at TestContext.<anonymous> (file:///C:/Users/Roshaan's%20Pc/Documents/Projects/3d-model-maker/tests/qa/phase3-regressions.test.mjs:22:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: { minU: 0, maxU: 1, minV: 0, maxV: 1 },
+    expected: { minU: 0, maxU: 1, minV: 0, maxV: 1 },
+    operator: 'notDeepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\qa\phase3-regressions.test.mjs:25:1
+✖ P3 regression: malformed SVG must be rejected before adding an image layer (1.2894ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///C:/Users/Roshaan's%20Pc/Documents/Projects/3d-model-maker/tests/qa/phase3-regressions.test.mjs:26:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /invalid|malformed/i,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests\qa\phase3-regressions.test.mjs:29:1
+✖ P3 security: SVG entity-encoded javascript links must be removed (0.7783ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /href=/i. Input:
+  
+  '<svg xmlns="http://www.w3.org/2000/svg" ><a href="&#106;avascript:alert(1)"><text>X</text></a></svg>'
+  
+      at TestContext.<anonymous> (file:///C:/Users/Roshaan's%20Pc/Documents/Projects/3d-model-maker/tests/qa/phase3-regressions.test.mjs:31:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<svg xmlns="http://www.w3.org/2000/svg" ><a href="&#106;avascript:alert(1)"><text>X</text></a></svg>',
+    expected: /href=/i,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }

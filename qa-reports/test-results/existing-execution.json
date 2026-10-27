@@ -1,0 +1,23 @@
+{
+  "name": "existing",
+  "started": "2026-10-25T09:26:38.816Z",
+  "durationMs": 2308.7693,
+  "exitCode": 0,
+  "signal": null,
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--import",
+    "./scripts/register-typescript.mjs",
+    "--test",
+    "--test-reporter=spec",
+    "--test-reporter-destination=stdout",
+    "--test-reporter=junit",
+    "--test-reporter-destination=qa-reports/test-results/existing.xml",
+    "tests/*.test.mjs"
+  ],
+  "platform": "win32",
+  "os": "10.0.19045",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2687W v2 @ 3.40GHz",
+  "totalMemory": 25711394816,
+  "node": "v24.21.0"
+}

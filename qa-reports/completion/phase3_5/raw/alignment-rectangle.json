@@ -1,0 +1,41 @@
+{
+  "result": {
+    "editor": {
+      "minX": 0,
+      "minY": 106.49600000000001,
+      "maxX": 352.25600000000003,
+      "maxY": 450.56,
+      "count": 16668
+    },
+    "texture": {
+      "minX": 0.09523809523809319,
+      "minY": 105.59999999999997,
+      "maxX": 352.4761904761904,
+      "maxY": 451.15555555555557,
+      "count": 26576
+    }
+  },
+  "layers": [
+    {
+      "name": "Rectangle Shape",
+      "type": "shape",
+      "shapeType": "rectangle",
+      "fill": "#10b981",
+      "stroke": "#ffffff",
+      "strokeWidth": 2,
+      "cornerRadius": 12,
+      "x": 100,
+      "y": 100,
+      "width": 300,
+      "height": 240,
+      "rotation": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "id": "layer_1792928256523_8l1fp",
+      "zIndex": 1
+    }
+  ]
+}

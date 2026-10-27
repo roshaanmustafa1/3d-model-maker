@@ -1,0 +1,15 @@
+
+Running 8 tests using 1 worker
+
+(node:16688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\qa\browser\phase3-durability.spec.mjs:10:1 › Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors (29.9s)
+  ok 2 tests\qa\browser\phase3-durability.spec.mjs:54:1 › Phase 3 editable project survives a new browser process with durable image assets (1.3m)
+  ok 3 tests\qa\browser\phase3-pointer.spec.mjs:4:1 › Phase 3 pointer movement updates layer coordinates and actual texture pixels (30.6s)
+  ok 4 tests\qa\browser\phase3-pointer.spec.mjs:44:1 › Phase 3 star has matching 2D canvas and actual 3D texture coordinates (15.3s)
+  ok 5 tests\qa\browser\phase3.spec.mjs:8:3 › Independent Phase 3 › workspace initialization corresponds to selected product (9.3s)
+  ok 6 tests\qa\browser\phase3.spec.mjs:18:3 › Independent Phase 3 › catalog geometry, live textures, camera controls and resource cycles (1.8m)
+  ok 7 tests\qa\browser\phase3.spec.mjs:52:3 › Independent Phase 3 › real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet (2.1m)
+  ok 8 tests\qa\browser\phase3.spec.mjs:105:3 › Independent Phase 3 › UV-ready multipart import preserves original albedo and PBR (30.4s)
+
+  8 passed (7.1m)

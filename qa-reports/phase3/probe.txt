@@ -1,0 +1,69 @@
+3D Model Maker
+STUDIO
+File
+Edit
+Add
+View
+Tools
+3D Studio
+Customizer
+AI Generator
+UV Lab
+Validator
+Save
+Import
+Export GLB
+3D Modeling Studio
+Streetwear Oversized TeeT-SHIRT
+Save Project
+Export GLB
+Artwork
+Layers
+Zones
+Library
+UPLOAD ARTWORK
+Upload Image or SVG
+TYPOGRAPHY
+ADD SHAPE
+Split View (2D + 3D)
+2D Design Canvas
+3D Product Preview
+Active Zone: Front Chest | Canvas: 1024x1024px
+Object Mode
+[Tab]
+WORLD
+Solid
+Perspective
+Front
+Back
+Left
+Right
+Top
+Neutral
+Soft White
+Dark
+Warm
+Screenshot
+Layer Inspector
+Material & Finish
+
+No Layer Selected
+
+Click an element on the canvas or select a layer from the list to edit its properties.
+
+Zone:
+Front Chest
+Bake Resolution:
+1024 x 1024
+UV Status:
+Mapped
+BlackBullet Compatible
+Studio_Cube
+Saved
+Verts:
+24
+Tris:
+12
+1
+1
+1 FPS

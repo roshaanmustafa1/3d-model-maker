@@ -1,0 +1,422 @@
+{
+  "generatedAt": "2026-10-24T13:11:37.814Z",
+  "releaseGate": "FAIL",
+  "totals": {
+    "passed": 64,
+    "failed": 17,
+    "skipped": 3,
+    "total": 84
+  },
+  "groups": {
+    "existing": {
+      "passed": 30,
+      "failed": 0,
+      "skipped": 0,
+      "total": 30
+    },
+    "independentEngine": {
+      "passed": 17,
+      "failed": 15,
+      "skipped": 3,
+      "total": 35
+    },
+    "browser": {
+      "passed": 17,
+      "failed": 2,
+      "skipped": 0,
+      "total": 19
+    }
+  },
+  "typecheck": 0,
+  "build": 0,
+  "tests": {
+    "existing": [
+      {
+        "name": "black T-shirt GLB import → editor → export preserves fabric, hierarchy, normals, UVs and transforms",
+        "status": "passed"
+      },
+      {
+        "name": "all viewport modes preserve every material slot and never mutate source materials or geometry",
+        "status": "passed"
+      },
+      {
+        "name": "multi-material groups retain their distinct colors and remain triangle primitives",
+        "status": "passed"
+      },
+      {
+        "name": "imported texture references, physical material class, alpha and side survive reconstruction",
+        "status": "passed"
+      },
+      {
+        "name": "validator detects material, geometry, transform and hierarchy corruption",
+        "status": "passed"
+      },
+      {
+        "name": "mirrored transforms remain consistent and produce warnings without blanket DoubleSide",
+        "status": "passed"
+      },
+      {
+        "name": "solid surfaces are intersectable from six directions and a full horizontal orbit",
+        "status": "passed"
+      },
+      {
+        "name": "selected export retains ancestor transforms without unrelated siblings",
+        "status": "passed"
+      },
+      {
+        "name": "material edits retain precise linear colors and can explicitly remove imported textures",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 1: Select model, deselect by clearObjectSelection, and deselect with Escape",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 1 (Edit Mode): Topology selection remains separate from object selection",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 1: Drag threshold prevents accidental deselection during camera orbit",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 2: Solid mode displays opaque surfaces and does NOT mutate material wireframe",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 3: Geometry diagnostics differentiate open garment boundaries from non-manifold geometry",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 4: UV diagnostics distinguish seams from UV coordinates and report 6 separate statuses",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 5: Black PBR material (#09090B) survives import -> render -> GLB export -> reload round-trip",
+        "status": "passed"
+      },
+      {
+        "name": "ISSUE 6: Empty selection state is clean and gizmos are hidden when nothing is selected",
+        "status": "passed"
+      },
+      {
+        "name": "extrudeFaces produces valid extruded geometry with perimeter sidewalls and cap faces",
+        "status": "passed"
+      },
+      {
+        "name": "insetFaces generates inner inset faces and boundary border triangles",
+        "status": "passed"
+      },
+      {
+        "name": "subdivideFaces splits triangles into 4 child triangles sharing edge midpoints",
+        "status": "passed"
+      },
+      {
+        "name": "mergeVertices welds vertices to center and safely eliminates degenerate triangles",
+        "status": "passed"
+      },
+      {
+        "name": "deleteTopologyElements removes elements and cleans up references",
+        "status": "passed"
+      },
+      {
+        "name": "flipTopologyNormals inverts face normals and winding order",
+        "status": "passed"
+      },
+      {
+        "name": "UV unwrappers calculate valid [0, 1] normalized coordinates and islands",
+        "status": "passed"
+      },
+      {
+        "name": "Full round-trip GLB export after geometry modeling operations",
+        "status": "passed"
+      },
+      {
+        "name": "TopologyGraph unifies cube buffer vertices into 8 unique 3D vertices and preserves 12 triangles",
+        "status": "passed"
+      },
+      {
+        "name": "TopologyGraph accurately detects open boundaries on plane geometry",
+        "status": "passed"
+      },
+      {
+        "name": "rebuildBufferGeometryFromTopology restores renderable geometry with valid indices and UVs",
+        "status": "passed"
+      },
+      {
+        "name": "updateBufferGeometryPositions modifies buffer positions in place and updates stats",
+        "status": "passed"
+      },
+      {
+        "name": "Centroid computation and element picking helper calculations",
+        "status": "passed"
+      }
+    ],
+    "engine": [
+      {
+        "name": "QA forward extrude: changed geometry remains exportable before history actions",
+        "status": "passed"
+      },
+      {
+        "name": "QA topology extrude: geometry, graph, undo, redo and GLB",
+        "status": "passed"
+      },
+      {
+        "name": "QA forward inset: changed geometry remains exportable before history actions",
+        "status": "passed"
+      },
+      {
+        "name": "QA topology inset: geometry, graph, undo, redo and GLB",
+        "status": "passed"
+      },
+      {
+        "name": "QA forward subdivide: changed geometry remains exportable before history actions",
+        "status": "passed"
+      },
+      {
+        "name": "QA topology subdivide: geometry, graph, undo, redo and GLB",
+        "status": "passed"
+      },
+      {
+        "name": "QA forward merge: changed geometry remains exportable before history actions",
+        "status": "passed"
+      },
+      {
+        "name": "QA topology merge: geometry, graph, undo, redo and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA forward weld: changed geometry remains exportable before history actions",
+        "status": "passed"
+      },
+      {
+        "name": "QA topology weld: geometry, graph, undo, redo and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA forward delete: changed geometry remains exportable before history actions",
+        "status": "passed"
+      },
+      {
+        "name": "QA topology delete: geometry, graph, undo, redo and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA forward flip: changed geometry remains exportable before history actions",
+        "status": "passed"
+      },
+      {
+        "name": "QA topology flip: geometry, graph, undo, redo and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA flip normals updates per-corner shading normals as well as winding",
+        "status": "failed"
+      },
+      {
+        "name": "QA adding a primitive keeps primary and multi-selection IDs synchronized",
+        "status": "failed"
+      },
+      {
+        "name": "QA connected component separation: geometry, history and GLB",
+        "status": "passed"
+      },
+      {
+        "name": "QA forward UV box: edited data survives GLB independently of undo",
+        "status": "passed"
+      },
+      {
+        "name": "QA forward UV planar: edited data survives GLB independently of undo",
+        "status": "passed"
+      },
+      {
+        "name": "QA forward UV cylindrical: edited data survives GLB independently of undo",
+        "status": "passed"
+      },
+      {
+        "name": "QA UV box: finite data, undo/redo and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA UV planar: finite data, undo/redo and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA UV cylindrical: finite data, undo/redo and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA UV translate: actual data changes and undo restores it",
+        "status": "failed"
+      },
+      {
+        "name": "QA UV rotate: actual data changes and undo restores it",
+        "status": "failed"
+      },
+      {
+        "name": "QA UV scale: actual data changes and undo restores it",
+        "status": "failed"
+      },
+      {
+        "name": "QA material slots: assign selected faces, remove slot, valid groups and GLB",
+        "status": "failed"
+      },
+      {
+        "name": "QA material face assignment undo from a primitive restores geometry and slots",
+        "status": "failed"
+      },
+      {
+        "name": "QA GLTF embedded JSON export reloads with black fabric and customization metadata",
+        "status": "passed"
+      },
+      {
+        "name": "QA UV diagnostics rejects non-finite coordinates and distinguishes missing UVs",
+        "status": "passed"
+      },
+      {
+        "name": "QA persistence: supported primitive transforms and materials survive JSON save/load",
+        "status": "passed"
+      },
+      {
+        "name": "QA persistence: edited/imported geometry bytes survive a fresh process",
+        "status": "failed"
+      },
+      {
+        "name": "QA unsupported feature inventory: joinMeshes",
+        "status": "skipped"
+      },
+      {
+        "name": "QA unsupported feature inventory: bevelSelectedEdges",
+        "status": "skipped"
+      },
+      {
+        "name": "QA unsupported feature inventory: duplicateMaterial",
+        "status": "skipped"
+      }
+    ],
+    "browser": [
+      {
+        "name": "advanced QA / actual scene selection, material isolation and geometry overlays",
+        "status": "passed"
+      },
+      {
+        "name": "advanced QA / real garment renders black through all six camera presets",
+        "status": "passed"
+      },
+      {
+        "name": "advanced QA / base-color and normal image uploads survive real browser GLB export/reimport",
+        "status": "passed"
+      },
+      {
+        "name": "advanced QA / UV edits survive an export independently of undo",
+        "status": "passed"
+      },
+      {
+        "name": "advanced QA / mesh-size rendering FPS and selection latency are measured",
+        "status": "passed"
+      },
+      {
+        "name": "advanced QA / Shift click synchronizes multiple Scene Explorer selections",
+        "status": "failed",
+        "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveClass\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('[data-slot=\"resizable-panel\"]').first().locator('div.group').filter({ hasText: 'Studio_Cube' })\nExpected pattern: \u001b[32m/bg-emerald/\u001b[39m\nReceived string:  \u001b[31m\"group flex items-center justify-between py-1 px-2 text-xs transition-colors rounded cursor-pointer text-zinc-300 hover:bg-white/5\"\u001b[39m\nTimeout: 12000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveClass\" locator('[data-slot=\"resizable-panel\"]').first().locator('div.group').filter({ hasText: 'Studio_Cube' }) with timeout 12000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-slot=\"resizable-panel\"]').first().locator('div.group').filter({ hasText: 'Studio_Cube' })\u001b[22m\n\u001b[2m    26 × locator resolved to <div class=\"group flex it"
+      },
+      {
+        "name": "advanced QA / imported packed PBR texture channels survive browser GLB export",
+        "status": "passed"
+      },
+      {
+        "name": "BlackBullet actual customizer preserves imported black fabric before user color choice",
+        "status": "failed",
+        "error": "Error: Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m09090\u001b[27mb\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7me5e7e\u001b[27mb\"\u001b[39m\n\n  32 |   expect(log.materialModuleInstrumented).toBe(true)\n  33 |   expect(log.pageErrors).toEqual([])\n> 34 |   expect(materials[0].srgb.toLowerCase(), 'Actual BlackBullet runtime material after loading the exported black GLB must remain black until user input').toBe('09090b')\n     |                                                                                                                                                          ^\n  35 | })\n  36 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\"
+      },
+      {
+        "name": "initial editor renders with usable side panels and WebGL",
+        "status": "passed"
+      },
+      {
+        "name": "empty viewport click deselects object and clears inspector",
+        "status": "passed"
+      },
+      {
+        "name": "Escape deselects and Scene Explorer empty space deselects",
+        "status": "passed"
+      },
+      {
+        "name": "camera orbit, pan and zoom retain object selection",
+        "status": "passed"
+      },
+      {
+        "name": "all four shading modes are interactive and render without page errors",
+        "status": "passed"
+      },
+      {
+        "name": "Edit Mode selection and Escape behavior",
+        "status": "passed"
+      },
+      {
+        "name": "GLB browser import, export and reimport",
+        "status": "passed"
+      },
+      {
+        "name": "front, right and top camera presets work on an imported garment",
+        "status": "passed"
+      },
+      {
+        "name": "back, left and bottom camera presets are exposed in the viewport UI",
+        "status": "passed"
+      },
+      {
+        "name": "UV Lab displays layout and exports a real PNG",
+        "status": "passed"
+      },
+      {
+        "name": "BlackBullet validation report is accessible",
+        "status": "passed"
+      }
+    ]
+  },
+  "environment": {
+    "app": {
+      "name": "3d-model-maker",
+      "version": "0.0.1"
+    },
+    "versions": {
+      "next": "16.4.2",
+      "react": "19.3.0",
+      "three": "0.186.1",
+      "@react-three/fiber": "9.8.2",
+      "@react-three/drei": "10.7.9",
+      "@playwright/test": "1.64.1",
+      "zustand": "5.0.16",
+      "immer": "11.2.9"
+    },
+    "sourceSHA256": {
+      "package.json": "98441ec2bb923c211090c34468456d08b14863dab8b63345207252d8ee5a99d4",
+      "package-lock.json": "925169308f666a2b1e61a242ebcd287f6291694e22d69e28f2878b30599cc798",
+      "stores/editor-store.ts": "4f13b176c36df155213a47ab3f5a29e865be2b99be64608cf40c9fbd286cc150",
+      "stores/project-store.ts": "3243335bb6848b1d9f2f893901d81e1e530e50edc9a72a36eecbdf7ce89d296c",
+      "engine/topology/topology-graph.ts": "e177050261548e6361de6360b905cfb508608479152523a24be7a2ee4e2bb7bb",
+      "engine/topology/geometry-operators.ts": "8dca4ce5d07c3c5e332cfa0e897de959e4b8065b0daf533354fa77f00e0a721f",
+      "engine/topology/uv-unwrapper.ts": "83e7f8ab63be97cc713c0c4cc36b2c7a6de5e7f11859f510491df71c17a96481",
+      "engine/loaders/model-importer.ts": "4d2cc99783119800e5849067090df584b387942b4d451c9ccd44c481a31a773a",
+      "engine/exporters/glb-exporter.ts": "8dce681ec333bd7211ee41f682d25dfa83acd531de40d69c8375d77c6ef121e6",
+      "components/viewport/scene-renderer.tsx": "016b09c5c3cd6288ad32446ed04af74bbccb7aafc2ac8859be38e47297d080d0",
+      "components/viewport/viewport-canvas.tsx": "6a037d9b971069a89ff876854c0bc717a019348863b0b16c548827b273d3377a"
+    },
+    "hardware": {
+      "node": "v24.21.0",
+      "os": "win32 10.0.19045",
+      "cpu": "Intel(R) Xeon(R) CPU E5-2687W v2 @ 3.40GHz",
+      "memoryBytes": 25711394816
+    },
+    "browser": {
+      "webgl": true,
+      "vendor": "Google Inc. (Google)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "browserVersion": "155.0.4283.62"
+    },
+    "devServer": "http://localhost:3000",
+    "blackbulletServer": "http://localhost:5173/customizer"
+  }
+}

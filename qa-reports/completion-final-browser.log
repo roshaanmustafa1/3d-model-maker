@@ -1,0 +1,64 @@
+
+Running 14 tests using 1 worker
+
+(node:19820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 tests\qa\browser\completion.spec.mjs:13:1 › Completion: local generated GLB inspection and Studio handoff require no generation provider (10.1s)
+  ok  2 tests\qa\browser\completion.spec.mjs:24:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls (20.5s)
+  ok  3 tests\qa\browser\phase3_5-alignment.spec.mjs:5:3 › Phase 3.5 canonical Rectangle coordinates match preview texture pixels (15.6s)
+  ok  4 tests\qa\browser\phase3_5-alignment.spec.mjs:5:3 › Phase 3.5 canonical Circle coordinates match preview texture pixels (13.2s)
+  ok  5 tests\qa\browser\phase3_5-alignment.spec.mjs:5:3 › Phase 3.5 canonical Star coordinates match preview texture pixels (13.5s)
+  ok  6 tests\qa\browser\phase3_5-alignment.spec.mjs:5:3 › Phase 3.5 canonical Triangle coordinates match preview texture pixels (12.5s)
+  ok  7 tests\qa\browser\phase3_5-alignment.spec.mjs:5:3 › Phase 3.5 canonical Text coordinates match preview texture pixels (12.3s)
+  ok  8 tests\qa\browser\phase3_5-alignment.spec.mjs:5:3 › Phase 3.5 canonical Image coordinates match preview texture pixels (12.8s)
+  ok  9 tests\qa\browser\phase3_5-alignment.spec.mjs:53:1 › Phase 3.5 repeated artwork/export/replacement releases GPU allocations (1.6m)
+  ok 10 tests\qa\browser\phase3_5-materials.spec.mjs:5:1 › Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork (20.4s)
+  ok 11 tests\qa\browser\phase3_5.spec.mjs:14:1 › Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport (1.6m)
+  ok 12 tests\qa\browser\phase3_5.spec.mjs:79:1 › Phase 3.5 undo/redo updates actual texture and exported pixels (36.1s)
+  x  13 tests\qa\browser\phase3_5.spec.mjs:102:1 › Phase 3.5 imported source plus editable artwork survives browser process restart (56.6s)
+(node:7272) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 14 tests\qa\browser\phase4-ai-generator.spec.mjs:7:3 › Phase 4: AI Image-to-3D Generation & Asset Pipeline › E2E workflow: Upload reference -> Gemini analysis -> 3D Generation -> Mesh Processing -> Studio Handoff (36.8s)
+
+
+  1) tests\qa\browser\phase3_5.spec.mjs:102:1 › Phase 3.5 imported source plus editable artwork survives browser process restart 
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+      - waiting for getByRole('menuitem', { name: /^Open:/ }).first()
+
+
+      124 |     await setup(page); await page.goto(process.env.QA_BASE_URL || 'http://localhost:3000')
+      125 |     await page.getByRole('button', { name: 'File', exact: true }).click()
+    > 126 |     await page.getByRole('menuitem', { name: /^Open:/ }).first().click()
+          |                                                                  ^
+      127 |     await page.getByText('Saved project opened', { exact: true }).waitFor()
+      128 |     await page.getByRole('button', { name: 'Customizer', exact: true }).click()
+      129 |     await ready(page, name)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3_5.spec.mjs:126:66
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\final-browser\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\final-browser\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\final-browser\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\final-browser\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\final-browser\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\final-browser\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\qa\browser\phase3_5.spec.mjs:102:1 › Phase 3.5 imported source plus editable artwork survives browser process restart 
+  13 passed (7.7m)

@@ -1,0 +1,234 @@
+{
+  "before": {
+    "meshes": [
+      {
+        "name": "Studio_Cube",
+        "uuid": "7318a957-8d6d-48cd-ae34-2140dfb6052b",
+        "position": [
+          0,
+          0.5,
+          0
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.5,
+          0,
+          1
+        ],
+        "vertices": 24,
+        "triangles": 12,
+        "uv": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "materials": [
+          {
+            "uuid": "aa840993-cfba-4de5-94ab-3bc9957e6b8b",
+            "name": "Default Studio Material",
+            "type": "MeshStandardMaterial",
+            "color": "38bdf8",
+            "linearColor": [
+              0.03954623527052923,
+              0.508881320845802,
+              0.9386857284565036
+            ],
+            "roughness": 0.35,
+            "metalness": 0.1,
+            "opacity": 1,
+            "side": 2,
+            "wireframe": false,
+            "map": null,
+            "normalMap": null
+          }
+        ]
+      }
+    ],
+    "renderer": {
+      "calls": 6,
+      "triangles": 28,
+      "memory": {
+        "geometries": 5,
+        "textures": 5
+      }
+    },
+    "camera": [
+      5.000000000000002,
+      4.000000000000002,
+      7.000000000000001
+    ]
+  },
+  "after": {
+    "meshes": [
+      {
+        "name": "Studio_Cube",
+        "uuid": "7318a957-8d6d-48cd-ae34-2140dfb6052b",
+        "position": [
+          0,
+          0.5,
+          0
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.5,
+          0,
+          1
+        ],
+        "vertices": 24,
+        "triangles": 12,
+        "uv": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "materials": [
+          {
+            "uuid": "38a5dd00-be7e-4b52-9021-d1356c7c0544",
+            "name": "Default Studio Material",
+            "type": "MeshStandardMaterial",
+            "color": "38bdf8",
+            "linearColor": [
+              0.03954623527052923,
+              0.508881320845802,
+              0.9386857284565036
+            ],
+            "roughness": 0.35,
+            "metalness": 0.1,
+            "opacity": 1,
+            "side": 2,
+            "wireframe": false,
+            "map": null,
+            "normalMap": null
+          }
+        ]
+      }
+    ],
+    "renderer": {
+      "calls": 6,
+      "triangles": 28,
+      "memory": {
+        "geometries": 5,
+        "textures": 5
+      }
+    },
+    "camera": [
+      5.000000000000002,
+      4.000000000000002,
+      7.000000000000001
+    ]
+  }
+}

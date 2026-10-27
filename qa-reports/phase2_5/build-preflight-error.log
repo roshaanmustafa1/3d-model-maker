@@ -1,0 +1,10 @@
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config.ts took 75ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 9.5s
+  Running TypeScript ...
+engine/persistence/project-assets.ts(69,47): error TS2339: Property 'geometries' does not exist on type 'Object3DJSON & { materials?: MaterialJSON[] | undefined; textures?: { uuid: string; image?: string | undefined; }[] | undefined; images?: { uuid: string; }[] | undefined; linearColors?: Record<...> | undefined; }'.
+engine/persistence/project-assets.ts(69,64): error TS7006: Parameter 'geometry' implicitly has an 'any' type.
+Failed to type check.
+

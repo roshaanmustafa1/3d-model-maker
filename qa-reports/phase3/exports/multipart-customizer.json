@@ -1,0 +1,190 @@
+{
+  "id": "custom_proj_1792866217925",
+  "name": "multipart-textured-input",
+  "version": 3,
+  "createdAt": "2026-10-24T18:23:37.925Z",
+  "updatedAt": "2026-10-24T18:23:37.925Z",
+  "productId": "custom_1792866202027",
+  "productName": "multipart-textured-input",
+  "productCategory": "other",
+  "activeZoneId": "body_front",
+  "zones": {
+    "body_front": {
+      "id": "body_front",
+      "name": "neck_patch_front",
+      "targetMeshNodeId": "node_48bbd2dc-af0c-4ed8-92f5-b1a648de5ab6",
+      "targetMeshName": "neck_patch_front",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "body_back": {
+      "id": "body_back",
+      "name": "neck_patch_back",
+      "targetMeshNodeId": "node_fd6d1248-4f65-482b-ad83-f4e491e55761",
+      "targetMeshName": "neck_patch_back",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_2_shirt_base": {
+      "id": "zone_2_shirt_base",
+      "name": "shirt_base",
+      "targetMeshNodeId": "node_44d7e8cc-f896-4153-b3f3-b163eef68c9a",
+      "targetMeshName": "shirt_base",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_3_shoulder_left": {
+      "id": "zone_3_shoulder_left",
+      "name": "shoulder_left",
+      "targetMeshNodeId": "node_9d6fa087-bb64-43a0-9302-b7077d96fa08",
+      "targetMeshName": "shoulder_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_4_shoulder_right": {
+      "id": "zone_4_shoulder_right",
+      "name": "shoulder_right",
+      "targetMeshNodeId": "node_f40ea6e0-da7b-4a61-841a-5209bd4f13ad",
+      "targetMeshName": "shoulder_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_5_shoulder_patch_left": {
+      "id": "zone_5_shoulder_patch_left",
+      "name": "shoulder_patch_left",
+      "targetMeshNodeId": "node_68c27270-e073-403a-9b43-c725d3b852fa",
+      "targetMeshName": "shoulder_patch_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_6_shoulder_patch_right": {
+      "id": "zone_6_shoulder_patch_right",
+      "name": "shoulder_patch_right",
+      "targetMeshNodeId": "node_7ab413c7-33e5-4044-8236-40cacb41cbde",
+      "targetMeshName": "shoulder_patch_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "collar": {
+      "id": "collar",
+      "name": "collar",
+      "targetMeshNodeId": "node_32028ad3-100a-442d-98df-ef63f22e502e",
+      "targetMeshName": "collar",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_10_side_patch_left": {
+      "id": "zone_10_side_patch_left",
+      "name": "side_patch_left",
+      "targetMeshNodeId": "node_7582df5f-fc23-48e3-afb1-0a460cc5f863",
+      "targetMeshName": "side_patch_left",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    },
+    "zone_11_side_patch_right": {
+      "id": "zone_11_side_patch_right",
+      "name": "side_patch_right",
+      "targetMeshNodeId": "node_b271d90f-ce81-47c5-8d8a-c290179b5921",
+      "targetMeshName": "side_patch_right",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    }
+  },
+  "fabricColor": "#18181b",
+  "fabricRoughness": 0.92,
+  "fabricMetalness": 0,
+  "fabricPresetId": "cotton-heavyweight",
+  "partMaterials": {},
+  "textureResolution": 1024,
+  "blackBulletMode": "preserve-imported"
+}

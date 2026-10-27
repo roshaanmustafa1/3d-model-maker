@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="black T-shirt GLB import → editor → export preserves fabric, hierarchy, normals, UVs and transforms" time="0.095100" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="all viewport modes preserve every material slot and never mutate source materials or geometry" time="0.003738" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="multi-material groups retain their distinct colors and remain triangle primitives" time="0.010590" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="imported texture references, physical material class, alpha and side survive reconstruction" time="0.015432" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="validator detects material, geometry, transform and hierarchy corruption" time="0.005401" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="mirrored transforms remain consistent and produce warnings without blanket DoubleSide" time="0.008485" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="solid surfaces are intersectable from six directions and a full horizontal orbit" time="0.014184" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="selected export retains ancestor transforms without unrelated siblings" time="0.011947" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="material edits retain precise linear colors and can explicitly remove imported textures" time="0.001444" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\black-shirt.test.mjs"/>
+	<testcase name="ISSUE 1: Select model, deselect by clearObjectSelection, and deselect with Escape" time="0.035327" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="ISSUE 1 (Edit Mode): Topology selection remains separate from object selection" time="0.001499" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="ISSUE 1: Drag threshold prevents accidental deselection during camera orbit" time="0.000358" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="ISSUE 2: Solid mode displays opaque surfaces and does NOT mutate material wireframe" time="0.003279" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="ISSUE 3: Geometry diagnostics differentiate open garment boundaries from non-manifold geometry" time="0.004131" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="ISSUE 4: UV diagnostics distinguish seams from UV coordinates and report 6 separate statuses" time="0.002457" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="ISSUE 5: Black PBR material (#09090B) survives import -> render -> GLB export -> reload round-trip" time="0.037642" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="ISSUE 6: Empty selection state is clean and gizmos are hidden when nothing is selected" time="0.000474" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-bugfixes.test.mjs"/>
+	<testcase name="extrudeFaces produces valid extruded geometry with perimeter sidewalls and cap faces" time="0.016992" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="insetFaces generates inner inset faces and boundary border triangles" time="0.002497" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="subdivideFaces splits triangles into 4 child triangles sharing edge midpoints" time="0.001756" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="mergeVertices welds vertices to center and safely eliminates degenerate triangles" time="0.001664" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="deleteTopologyElements removes elements and cleans up references" time="0.000916" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="flipTopologyNormals inverts face normals and winding order" time="0.000647" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="UV unwrappers calculate valid [0, 1] normalized coordinates and islands" time="0.002557" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="Full round-trip GLB export after geometry modeling operations" time="0.056206" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase2-modeling.test.mjs"/>
+	<testcase name="Product Catalog generates valid 3D product scenes with customizable zones and verified UVs" time="0.056021" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="Model Customization diagnostics accurately inspect meshes, UV channels, and zones" time="0.022448" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="matchZoneFromRaycast correctly identifies target design zone from raycast intersection and UVs" time="0.000961" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="SVG Sanitizer strips malicious script tags, inline handlers, and javascript: URLs" time="0.011412" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="TextureComposer initializes at 1024, 2048, and 4096 resolutions and bakes valid PNG outputs" time="0.001095" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="Customizer Store supports layer additions (image, text, shape), transformations, and transactional undo/redo" time="0.013726" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="Customizer Store sets fabric presets, custom colors, and appearance modes correctly" time="0.003783" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="Export Customized Product GLB bakes artwork textures and passes BlackBullet validation and reload verification" time="0.192725" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="Customization project round-trip serialization preserves all zones, layers, typography, and fabric properties" time="0.007079" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\phase3-customizer.test.mjs"/>
+	<testcase name="TopologyGraph unifies cube buffer vertices into 8 unique 3D vertices and preserves 12 triangles" time="0.005950" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\topology.test.mjs"/>
+	<testcase name="TopologyGraph accurately detects open boundaries on plane geometry" time="0.000959" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\topology.test.mjs"/>
+	<testcase name="rebuildBufferGeometryFromTopology restores renderable geometry with valid indices and UVs" time="0.006149" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\topology.test.mjs"/>
+	<testcase name="updateBufferGeometryPositions modifies buffer positions in place and updates stats" time="0.002238" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\topology.test.mjs"/>
+	<testcase name="Centroid computation and element picking helper calculations" time="0.021067" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\topology.test.mjs"/>
+	<!-- tests 39 -->
+	<!-- suites 0 -->
+	<!-- pass 39 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 3260.4344 -->
+</testsuites>

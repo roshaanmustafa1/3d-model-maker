@@ -1,0 +1,45 @@
+
+Running 1 test using 1 worker
+
+  x  1 tests\qa\browser\phase3.spec.mjs:55:3 › Independent Phase 3 › real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet (1.9m)
+
+
+  1) tests\qa\browser\phase3.spec.mjs:55:3 › Independent Phase 3 › real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet 
+
+    Error: untouched right sleeve must not share the front/back artwork atlas
+
+    expect(received).not.toBe(expected) // Object.is equality
+
+    Expected: not 2537594821
+
+      103 |     expect.soft(edited.customization.zones.body_front.layers).toHaveLength(3)
+      104 |     expect.soft(redone.customization.zones).toEqual(edited.customization.zones)
+    > 105 |     expect.soft(actual.meshes.find(m => m.name === 'Sleeve_Right').materials[0].texture?.hash, 'untouched right sleeve must not share the front/back artwork atlas').not.toBe(actual.meshes.find(m => m.name === 'Body_Main').materials[0].texture?.hash)
+          |                                                                                                                                                                          ^
+      106 |   })
+      107 |
+      108 |   test('UV-ready multipart import preserves original albedo and PBR', async ({ page }) => {
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3.spec.mjs:105:170
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\artwork-final\browser-artifacts\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3\artwork-final\browser-artifacts\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3\artwork-final\browser-artifacts\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3\artwork-final\browser-artifacts\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3\artwork-final\browser-artifacts\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\qa\browser\phase3.spec.mjs:55:3 › Independent Phase 3 › real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet 
+(node:5936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

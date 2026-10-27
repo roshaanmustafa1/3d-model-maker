@@ -1,0 +1,16 @@
+✔ P3.5 UV analysis excludes coincident edges and finds positive-area mirrored islands (13.4662ms)
+✔ P3.5 overlapping UVs in different material slots are independently isolated (21.8978ms)
+✔ P3.5 torso partition retains every original face, normal and winding exactly once (24.131ms)
+✔ P3.5 targets resolve exact BlackBullet regions and isolated composition identities (10.6849ms)
+✔ P3.5 workspace switches retain modeling and customization geometry separately (23.1442ms)
+✔ P3.5 fabric overrides and undo leave original material data unchanged (30.6868ms)
+✔ P3.5 XML sanitizer rejects DTDs and malformed XML and strips external/encoded references (12.2439ms)
+✔ P3.5 invalid file signatures fail before layer/image creation (1.9086ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2638.2028

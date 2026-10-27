@@ -1,0 +1,250 @@
+{
+  "before": {
+    "meshes": [
+      {
+        "name": "Studio_Cube",
+        "uuid": "44e46cd2-b61b-40ab-b062-3e3eb6704c36",
+        "position": [
+          0,
+          0.5,
+          0
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.5,
+          0,
+          1
+        ],
+        "vertices": 24,
+        "triangles": 12,
+        "uv": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "materials": [
+          {
+            "uuid": "58c49bc1-0a26-466d-87ee-fe9fb656352d",
+            "name": "Default Studio Material",
+            "type": "MeshStandardMaterial",
+            "color": "38bdf8",
+            "linearColor": [
+              0.03954623527052923,
+              0.508881320845802,
+              0.9386857284565036
+            ],
+            "roughness": 0.35,
+            "metalness": 0.1,
+            "opacity": 1,
+            "side": 2,
+            "wireframe": false,
+            "map": {
+              "uuid": "6e674f3e-21be-4aed-bc79-dcf4e11fbde0",
+              "width": 8,
+              "height": 8,
+              "colorSpace": "srgb"
+            },
+            "normalMap": {
+              "colorSpace": "",
+              "width": 8
+            }
+          }
+        ]
+      }
+    ],
+    "renderer": {
+      "calls": 6,
+      "triangles": 28,
+      "memory": {
+        "geometries": 5,
+        "textures": 6
+      }
+    },
+    "camera": [
+      5.000000000000002,
+      4.000000000000002,
+      7.000000000000001
+    ]
+  },
+  "after": {
+    "meshes": [
+      {
+        "name": "Studio_Cube",
+        "uuid": "fd1b6477-47ad-4c22-a741-c6ab6ff8f42c",
+        "position": [
+          0,
+          0.5,
+          0
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "vertices": 24,
+        "triangles": 12,
+        "uv": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "materials": [
+          {
+            "uuid": "e1dde70a-5203-4f39-a745-6a41cf2c5061",
+            "name": "Default Studio Material",
+            "type": "MeshStandardMaterial",
+            "color": "38bdf8",
+            "linearColor": [
+              0.03954623527052923,
+              0.508881320845802,
+              0.9386857284565036
+            ],
+            "roughness": 0.35,
+            "metalness": 0.1,
+            "opacity": 1,
+            "side": 2,
+            "wireframe": false,
+            "map": {
+              "uuid": "d833d79a-45c7-41db-b275-2213fbe245db",
+              "width": 8,
+              "height": 8,
+              "colorSpace": "srgb"
+            },
+            "normalMap": {
+              "colorSpace": "",
+              "width": 8
+            }
+          }
+        ]
+      }
+    ],
+    "renderer": {
+      "calls": 6,
+      "triangles": 28,
+      "memory": {
+        "geometries": 3,
+        "textures": 7
+      }
+    },
+    "camera": [
+      5.000000000000002,
+      4.000000000000002,
+      7.000000000000001
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+import { test, expect } from '@playwright/test'
+import { directory, setup, open, scene, record, exportProduct } from '../../../scripts/qa/phase3-support.mjs'
+import { inspectSurfaces } from '../../../scripts/qa/phase3_5-pixels.mjs'
+
+test('Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork', async ({ page }) => {
+  test.setTimeout(120000); page.setDefaultTimeout(15000)
+  const events = await setup(page)
+  await open(page)
+  await page.getByRole('button', { name: 'Library', exact: true }).click()
+  await page.locator('input[type=file][accept*=".glb"]').setInputFiles(`${directory}/fixtures/independent-slots.glb`)
+  await page.getByText(/Successfully imported/).waitFor()
+  await expect.poll(async () => (await scene(page)).meshes.length).toBe(2)
+  const before = await scene(page)
+  const goldBefore = before.meshes.find(mesh => mesh.materials[0].color === 'eab308')
+  expect(goldBefore).toBeTruthy()
+  await page.getByRole('button', { name: 'Artwork', exact: true }).click()
+  await page.getByTitle('Rectangle', { exact: true }).click()
+  await expect.poll(async () => (await scene(page)).meshes.some(mesh => mesh.materials[0].texture?.width === 1024)).toBe(true)
+  const after = await scene(page)
+  const goldAfter = after.meshes.find(mesh => mesh.materials[0].color === 'eab308')
+  expect(goldAfter).toEqual(goldBefore)
+  await exportProduct(page, 'independent-slots')
+  const binary = await inspectSurfaces(`${directory}/exports/independent-slots.glb`)
+  const untouched = binary.surfaces.flatMap(surface => surface.primitives).find(primitive => primitive.material.name === 'Gold_Source')
+  expect(untouched.image).toBeNull()
+  expect(untouched.material.pbrMetallicRoughness.roughnessFactor).toBe(.2)
+  expect(untouched.material.pbrMetallicRoughness.metallicFactor).toBe(.8)
+  await record('independent-material-slots', { before, after, binary, events })
+  await page.screenshot({ path: `${directory}/screenshots/independent-material-slots.png` })
+})

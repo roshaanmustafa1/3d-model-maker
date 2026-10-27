@@ -1,0 +1,222 @@
+{
+  "id": "custom_proj_1792866357116",
+  "name": "Streetwear Oversized Tee",
+  "version": 3,
+  "createdAt": "2026-10-24T18:25:57.116Z",
+  "updatedAt": "2026-10-24T18:25:57.116Z",
+  "productId": "t-shirt-oversized",
+  "productName": "Streetwear Oversized Tee",
+  "productCategory": "t-shirt",
+  "activeZoneId": "sleeve_left",
+  "zones": {
+    "body_front": {
+      "id": "body_front",
+      "name": "Front Chest",
+      "targetMeshNodeId": "node_78d11c74-1321-4766-bdd7-d8b62b3386d6",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "qa-logo",
+          "type": "image",
+          "assetId": "asset_1792866282659",
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAzklEQVR4AeyVQQqAMBADF///53rfSwgeiskIHkoLmsmsPmfm3LwvP/48U34BoFyAwQAMKCfACJQLwEeQEWAEygkwAuUC9P0FduGMwCbStsaAtsZ3XgzYRNrWGNDW+M6LAZtI2xoD2hrfeTFgE2lbY0B64yofBihC6fsYkN6wyocBilD6PgakN6zyYYAilL6PAekNq3wYoAil72NAWsNuHgxwiaWdx4C0Rt08GOASSzuPAWmNunkwwCWWdh4D0hp182CASyztPAb8vdGv7/8CAAD//2IBHrAAAAAGSURBVAMADk6AAWA9FEoAAAAASUVORK5CYII=",
+          "x": 250,
+          "y": 250,
+          "width": 500,
+          "height": 500,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "originalWidth": 64,
+          "originalHeight": 64,
+          "id": "layer_1792866282659_oh6rh",
+          "zIndex": 1
+        },
+        {
+          "name": "Text \"FRONT MARK\"",
+          "type": "text",
+          "text": "FRONT MARK",
+          "fontFamily": "sans-serif",
+          "fontSize": 54,
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "fill": "#ffffff",
+          "align": "center",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "x": 300,
+          "y": 460,
+          "width": 400,
+          "height": 80,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792866284586_jpzr4",
+          "zIndex": 2
+        },
+        {
+          "name": "Rectangle Shape",
+          "type": "shape",
+          "shapeType": "rectangle",
+          "fill": "#10b981",
+          "stroke": "#ffffff",
+          "strokeWidth": 2,
+          "cornerRadius": 12,
+          "x": 100,
+          "y": 350,
+          "width": 220,
+          "height": 300,
+          "rotation": 45,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 0.5,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792866286080_mlhln",
+          "zIndex": 3
+        }
+      ],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 350,
+        "height": 450,
+        "unit": "mm"
+      },
+      "targetMeshName": "Body_Main"
+    },
+    "body_back": {
+      "id": "body_back",
+      "name": "Back Center",
+      "targetMeshNodeId": "node_78d11c74-1321-4766-bdd7-d8b62b3386d6",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "Text \"BLACKBULLET \"",
+          "type": "text",
+          "text": "BLACKBULLET TEST",
+          "fontFamily": "sans-serif",
+          "fontSize": 54,
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "fill": "#ffffff",
+          "align": "center",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "x": 300,
+          "y": 460,
+          "width": 400,
+          "height": 80,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792866311138_26oah",
+          "zIndex": 1
+        }
+      ],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 380,
+        "height": 480,
+        "unit": "mm"
+      },
+      "targetMeshName": "Body_Main"
+    },
+    "sleeve_left": {
+      "id": "sleeve_left",
+      "name": "Left Sleeve",
+      "targetMeshNodeId": "node_c2fe8a02-01b2-482d-9e40-188ae0ad1f5b",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "Star Shape",
+          "type": "shape",
+          "shapeType": "star",
+          "fill": "#10b981",
+          "stroke": "#ffffff",
+          "strokeWidth": 2,
+          "x": 350,
+          "y": 350,
+          "width": 300,
+          "height": 300,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792866314849_7a9in",
+          "zIndex": 1
+        }
+      ],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 100,
+        "height": 100,
+        "unit": "mm"
+      },
+      "targetMeshName": "Sleeve_Left"
+    },
+    "sleeve_right": {
+      "id": "sleeve_right",
+      "name": "Right Sleeve",
+      "targetMeshNodeId": "node_4eef397e-0b76-454b-afa2-1c748064f212",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true,
+      "recommendedDimensions": {
+        "width": 100,
+        "height": 100,
+        "unit": "mm"
+      },
+      "targetMeshName": "Sleeve_Right"
+    }
+  },
+  "fabricColor": "#18181b",
+  "fabricRoughness": 0.92,
+  "fabricMetalness": 0,
+  "fabricPresetId": "cotton-heavyweight",
+  "partMaterials": {},
+  "textureResolution": 4096,
+  "blackBulletMode": "preserve-imported"
+}

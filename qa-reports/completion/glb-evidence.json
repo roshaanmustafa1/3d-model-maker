@@ -1,0 +1,88 @@
+[
+  {
+    "file": "qa-reports/completion/exports/separated-roundtrip.glb",
+    "bytes": 5380,
+    "sha256": "ac871de80ae7ef4d7006bca7d28369e96791c45aea04f61cca4c3eb6383fa431",
+    "validLength": true,
+    "meshes": 3,
+    "primitives": 3,
+    "triangles": 24,
+    "allHaveNormals": true,
+    "allHaveUV0": true,
+    "materialCount": 2,
+    "embeddedImages": [],
+    "meshNames": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "qa-reports/completion/phase3_5/exports/acceptance-isolated.glb",
+    "bytes": 118324,
+    "sha256": "b7090b09d6b917358f3782bf17104d84dea936fb5ea32c718de7103a23b89587",
+    "validLength": true,
+    "meshes": 6,
+    "primitives": 6,
+    "triangles": 248,
+    "allHaveNormals": true,
+    "allHaveUV0": true,
+    "materialCount": 6,
+    "embeddedImages": [
+      {
+        "mimeType": "image/png",
+        "embedded": true
+      },
+      {
+        "mimeType": "image/png",
+        "embedded": true
+      },
+      {
+        "mimeType": "image/png",
+        "embedded": true
+      }
+    ],
+    "meshNames": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "qa-reports/completion/legacy-phase3/exports/blackbullet-test-1024.glb",
+    "bytes": 130700,
+    "sha256": "4643c4e673db938b8ab4190f252899f2eff71cdd0afd5933a670f3d483741c5b",
+    "validLength": true,
+    "meshes": 6,
+    "primitives": 6,
+    "triangles": 248,
+    "allHaveNormals": true,
+    "allHaveUV0": true,
+    "materialCount": 6,
+    "embeddedImages": [
+      {
+        "mimeType": "image/png",
+        "embedded": true
+      },
+      {
+        "mimeType": "image/png",
+        "embedded": true
+      },
+      {
+        "mimeType": "image/png",
+        "embedded": true
+      }
+    ],
+    "meshNames": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "memory": {
+      "geometries": 4,
+      "textures": 8
+    },
+    "heap": 24809367
+  },
+  {
+    "memory": {
+      "geometries": 4,
+      "textures": 8
+    },
+    "heap": 19952551
+  },
+  {
+    "memory": {
+      "geometries": 4,
+      "textures": 8
+    },
+    "heap": 25426283
+  },
+  {
+    "memory": {
+      "geometries": 4,
+      "textures": 8
+    },
+    "heap": 28944461
+  },
+  {
+    "memory": {
+      "geometries": 4,
+      "textures": 8
+    },
+    "heap": 34283747
+  },
+  {
+    "memory": {
+      "geometries": 4,
+      "textures": 8
+    },
+    "heap": 37030769
+  }
+]

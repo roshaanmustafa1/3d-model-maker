@@ -1,0 +1,312 @@
+{
+  "actual": {
+    "camera": [
+      5.000000000000001,
+      4,
+      6.999999999999999
+    ],
+    "memory": {
+      "geometries": 7,
+      "textures": 7
+    },
+    "heap": 44342977,
+    "meshes": [
+      {
+        "name": "Body_Main",
+        "vertices": 110,
+        "triangles": 128,
+        "attributes": {
+          "position": {
+            "count": 110,
+            "hash": 850374893
+          },
+          "normal": {
+            "count": 110,
+            "hash": 2217772781
+          },
+          "uv": {
+            "count": 110,
+            "hash": 1972843317
+          }
+        },
+        "groups": [],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "18181b",
+            "linear": [
+              0.009134058699157796,
+              0.009134058699157796,
+              0.010960094003125918
+            ],
+            "roughness": 0.92,
+            "metalness": 0,
+            "type": "MeshStandardMaterial",
+            "normalMap": false,
+            "texture": {
+              "width": 1024,
+              "height": 1024,
+              "hash": 1227439813,
+              "colorSpace": "srgb",
+              "flipY": false,
+              "center": [
+                16,
+                185,
+                129,
+                255
+              ],
+              "corner": [
+                24,
+                24,
+                27,
+                255
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Collar_Rib",
+        "vertices": 148,
+        "triangles": 96,
+        "attributes": {
+          "position": {
+            "count": 148,
+            "hash": 1711725525
+          },
+          "normal": {
+            "count": 148,
+            "hash": 486780061
+          },
+          "uv": {
+            "count": 148,
+            "hash": 4024721453
+          }
+        },
+        "groups": [],
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.76,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "18181b",
+            "linear": [
+              0.009134058699157796,
+              0.009134058699157796,
+              0.010960094003125918
+            ],
+            "roughness": 0.92,
+            "metalness": 0,
+            "type": "MeshStandardMaterial",
+            "normalMap": false,
+            "texture": {
+              "width": 1024,
+              "height": 1024,
+              "hash": 1227439813,
+              "colorSpace": "srgb",
+              "flipY": false,
+              "center": [
+                16,
+                185,
+                129,
+                255
+              ],
+              "corner": [
+                24,
+                24,
+                27,
+                255
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sleeve_Left",
+        "vertices": 24,
+        "triangles": 12,
+        "attributes": {
+          "position": {
+            "count": 24,
+            "hash": 353432229
+          },
+          "normal": {
+            "count": 24,
+            "hash": 3184214117
+          },
+          "uv": {
+            "count": 24,
+            "hash": 1276889349
+          }
+        },
+        "groups": [],
+        "matrix": [
+          0.9800665778412416,
+          0.19866933079506124,
+          0,
+          0,
+          -0.19866933079506124,
+          0.9800665778412416,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -0.84,
+          0.52,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "18181b",
+            "linear": [
+              0.009134058699157796,
+              0.009134058699157796,
+              0.010960094003125918
+            ],
+            "roughness": 0.92,
+            "metalness": 0,
+            "type": "MeshStandardMaterial",
+            "normalMap": false,
+            "texture": {
+              "width": 1024,
+              "height": 1024,
+              "hash": 1227439813,
+              "colorSpace": "srgb",
+              "flipY": false,
+              "center": [
+                16,
+                185,
+                129,
+                255
+              ],
+              "corner": [
+                24,
+                24,
+                27,
+                255
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sleeve_Right",
+        "vertices": 24,
+        "triangles": 12,
+        "attributes": {
+          "position": {
+            "count": 24,
+            "hash": 353432229
+          },
+          "normal": {
+            "count": 24,
+            "hash": 3184214117
+          },
+          "uv": {
+            "count": 24,
+            "hash": 1276889349
+          }
+        },
+        "groups": [],
+        "matrix": [
+          0.9800665778412416,
+          -0.19866933079506124,
+          0,
+          0,
+          0.19866933079506124,
+          0.9800665778412416,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0.84,
+          0.52,
+          0,
+          1
+        ],
+        "materials": [
+          {
+            "color": "18181b",
+            "linear": [
+              0.009134058699157796,
+              0.009134058699157796,
+              0.010960094003125918
+            ],
+            "roughness": 0.92,
+            "metalness": 0,
+            "type": "MeshStandardMaterial",
+            "normalMap": false,
+            "texture": {
+              "width": 1024,
+              "height": 1024,
+              "hash": 1227439813,
+              "colorSpace": "srgb",
+              "flipY": false,
+              "center": [
+                16,
+                185,
+                129,
+                255
+              ],
+              "corner": [
+                24,
+                24,
+                27,
+                255
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "events": {
+    "errors": [],
+    "console": [
+      "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    ],
+    "failedRequests": []
+  }
+}

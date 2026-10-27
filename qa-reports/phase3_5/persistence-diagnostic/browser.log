@@ -1,0 +1,51 @@
+
+Running 1 test using 1 worker
+
+  x  1 tests\qa\browser\phase3_5.spec.mjs:98:1 › Phase 3.5 imported source plus editable artwork survives browser process restart (2.8m)
+
+
+  1) tests\qa\browser\phase3_5.spec.mjs:98:1 › Phase 3.5 imported source plus editable artwork survives browser process restart 
+
+    TimeoutError: locator.waitFor: Timeout 60000ms exceeded.
+    Call log:
+      - waiting for getByText('GLB Verification Passed', { exact: true }) to be visible
+
+
+       at ..\..\..\scripts\qa\phase3-support.mjs:101
+
+       99 |   await page.getByRole('button', { name: 'Export GLB Asset', exact: true }).click()
+      100 |   try {
+    > 101 |     await page.getByText('GLB Verification Passed', { exact: true }).waitFor({ timeout: 60000 })
+          |                                                                      ^
+      102 |   } catch (error) {
+      103 |     await record(`${name}-export-failure`, { url: page.url(), events: page.__qaEvents, body: await page.locator('body').innerText().catch(() => '') })
+      104 |     throw error
+        at exportProduct (C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\scripts\qa\phase3-support.mjs:101:70)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\phase3_5.spec.mjs:131:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\persistence-diagnostic\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\persistence-diagnostic\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase3_5\persistence-diagnostic\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase3_5\persistence-diagnostic\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase3_5\persistence-diagnostic\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase3_5\persistence-diagnostic\browser-artifacts\phase3_5-Phase-3-5-importe-9e8bc-ves-browser-process-restart\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\qa\browser\phase3_5.spec.mjs:98:1 › Phase 3.5 imported source plus editable artwork survives browser process restart 
+(node:20444) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

@@ -1,0 +1,449 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "phase3.spec.mjs"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/phase3/interactions-rerun/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/phase3/interactions-rerun/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/phase3/interactions-rerun/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "phase3.spec.mjs",
+      "file": "phase3.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Independent Phase 3",
+          "file": "phase3.spec.mjs",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "workspace initialization corresponds to selected product",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 18897,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:18:67",
+                        "location": {
+                          "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                          "column": 67,
+                          "line": 18
+                        },
+                        "snippet": "  16 |     await record('initial-workspace', { actual, events })\n  17 |     await page.screenshot({ path: `${directory}/screenshots/initial-workspace.png` })\n> 18 |     expect(actual.meshes.some(mesh => mesh.name === 'Body_Main')).toBe(true)\n     |                                                                   ^\n  19 |   })\n  20 |\n  21 |   test('catalog geometry, live textures, camera controls and resource cycles', async ({ page }) => {"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                            "column": 67,
+                            "line": 18
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  16 |     await record('initial-workspace', { actual, events })\n  17 |     await page.screenshot({ path: `${directory}/screenshots/initial-workspace.png` })\n> 18 |     expect(actual.meshes.some(mesh => mesh.name === 'Body_Main')).toBe(true)\n     |                                                                   ^\n  19 |   })\n  20 |\n  21 |   test('catalog geometry, live textures, camera controls and resource cycles', async ({ page }) => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:18:67"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T18:15:25.054Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-c91f2-esponds-to-selected-product\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-c91f2-esponds-to-selected-product\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-c91f2-esponds-to-selected-product\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                        "column": 67,
+                        "line": 18
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-f3859fa5ea0f268badcf",
+              "file": "phase3.spec.mjs",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "catalog geometry, live textures, camera controls and resource cycles",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 35081,
+                      "error": {
+                        "message": "TimeoutError: locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Front', exact: true })\u001b[22m\n",
+                        "stack": "TimeoutError: locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Front', exact: true })\u001b[22m\n\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:35:69",
+                        "location": {
+                          "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                          "column": 69,
+                          "line": 35
+                        },
+                        "snippet": "  33 |       const views = []\n  34 |       for (const view of ['Front', 'Back', 'Left', 'Right']) {\n> 35 |         await page.getByRole('button', { name: view, exact: true }).click()\n     |                                                                     ^\n  36 |         await page.waitForTimeout(450)\n  37 |         views.push({ view, camera: (await scene(page)).camera })\n  38 |       }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                            "column": 69,
+                            "line": 35
+                          },
+                          "message": "TimeoutError: locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Front', exact: true })\u001b[22m\n\n\n  33 |       const views = []\n  34 |       for (const view of ['Front', 'Back', 'Left', 'Right']) {\n> 35 |         await page.getByRole('button', { name: view, exact: true }).click()\n     |                                                                     ^\n  36 |         await page.waitForTimeout(450)\n  37 |         views.push({ view, camera: (await scene(page)).camera })\n  38 |       }\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:35:69"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T18:15:46.785Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-8693d-ontrols-and-resource-cycles\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-8693d-ontrols-and-resource-cycles\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-8693d-ontrols-and-resource-cycles\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                        "column": 69,
+                        "line": 35
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-c45db8748e09fd745a2d",
+              "file": "phase3.spec.mjs",
+              "line": 21,
+              "column": 3
+            },
+            {
+              "title": "real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 56202,
+                      "error": {
+                        "message": "Error: locator.click: Error: strict mode violation: getByTitle('Undo (Ctrl+Z)', { exact: true }) resolved to 2 elements:\n    1) <button disabled tabindex=\"0\" type=\"button\" data-disabled=\"\" data-slot=\"button\" title=\"Undo (Ctrl+Z)\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destruct…>…</button> aka getByRole('banner').getByRole('button', { name: 'Undo (Ctrl+Z)' })\n    2) <button tabindex=\"0\" type=\"button\" data-slot=\"button\" title=\"Undo (Ctrl+Z)\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:b…>…</button> aka getByRole('button', { name: 'Undo (Ctrl+Z)' }).nth(1)\n\nCall log:\n\u001b[2m  - waiting for getByTitle('Undo (Ctrl+Z)', { exact: true })\u001b[22m\n",
+                        "stack": "Error: locator.click: Error: strict mode violation: getByTitle('Undo (Ctrl+Z)', { exact: true }) resolved to 2 elements:\n    1) <button disabled tabindex=\"0\" type=\"button\" data-disabled=\"\" data-slot=\"button\" title=\"Undo (Ctrl+Z)\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destruct…>…</button> aka getByRole('banner').getByRole('button', { name: 'Undo (Ctrl+Z)' })\n    2) <button tabindex=\"0\" type=\"button\" data-slot=\"button\" title=\"Undo (Ctrl+Z)\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:b…>…</button> aka getByRole('button', { name: 'Undo (Ctrl+Z)' }).nth(1)\n\nCall log:\n\u001b[2m  - waiting for getByTitle('Undo (Ctrl+Z)', { exact: true })\u001b[22m\n\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:84:61",
+                        "location": {
+                          "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                          "column": 61,
+                          "line": 84
+                        },
+                        "snippet": "  82 |     await page.getByTitle('Delete layer', { exact: true }).first().click()\n  83 |     const edited = await save(page)\n> 84 |     await page.getByTitle('Undo (Ctrl+Z)', { exact: true }).last().click()\n     |                                                             ^\n  85 |     const undone = await save(page)\n  86 |     await page.getByTitle('Redo (Ctrl+Y)', { exact: true }).last().click()\n  87 |     const redone = await save(page)"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                            "column": 61,
+                            "line": 84
+                          },
+                          "message": "Error: locator.click: Error: strict mode violation: getByTitle('Undo (Ctrl+Z)', { exact: true }) resolved to 2 elements:\n    1) <button disabled tabindex=\"0\" type=\"button\" data-disabled=\"\" data-slot=\"button\" title=\"Undo (Ctrl+Z)\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destruct…>…</button> aka getByRole('banner').getByRole('button', { name: 'Undo (Ctrl+Z)' })\n    2) <button tabindex=\"0\" type=\"button\" data-slot=\"button\" title=\"Undo (Ctrl+Z)\" class=\"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:b…>…</button> aka getByRole('button', { name: 'Undo (Ctrl+Z)' }).nth(1)\n\nCall log:\n\u001b[2m  - waiting for getByTitle('Undo (Ctrl+Z)', { exact: true })\u001b[22m\n\n\n  82 |     await page.getByTitle('Delete layer', { exact: true }).first().click()\n  83 |     const edited = await save(page)\n> 84 |     await page.getByTitle('Undo (Ctrl+Z)', { exact: true }).last().click()\n     |                                                             ^\n  85 |     const undone = await save(page)\n  86 |     await page.getByTitle('Redo (Ctrl+Y)', { exact: true }).last().click()\n  87 |     const redone = await save(page)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:84:61"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T18:16:24.454Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-23040-resolutions-and-BlackBullet\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                        "column": 61,
+                        "line": 84
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-781d95cedef49317e80e",
+              "file": "phase3.spec.mjs",
+              "line": 55,
+              "column": 3
+            },
+            {
+              "title": "UV-ready multipart import preserves original albedo and PBR",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 54208,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m0.65\u001b[39m\nReceived: \u001b[31m0.92\u001b[39m\n\nExpected precision:    2\nExpected difference: < \u001b[32m0.005\u001b[39m\nReceived difference:   \u001b[31m0.27\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m0.65\u001b[39m\nReceived: \u001b[31m0.92\u001b[39m\n\nExpected precision:    2\nExpected difference: < \u001b[32m0.005\u001b[39m\nReceived difference:   \u001b[31m0.27\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:122:58",
+                        "location": {
+                          "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                          "column": 58,
+                          "line": 122
+                        },
+                        "snippet": "  120 |     await inspectGLB('multipart-customizer')\n  121 |     expect.soft(actual.meshes).toHaveLength(12)\n> 122 |     expect.soft(actual.meshes[0].materials[0].roughness).toBeCloseTo(.65)\n      |                                                          ^\n  123 |     expect.soft(actual.meshes[0].materials[0].texture?.width).toBe(8)\n  124 |   })\n  125 | })"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                            "column": 58,
+                            "line": 122
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeCloseTo\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: \u001b[32m0.65\u001b[39m\nReceived: \u001b[31m0.92\u001b[39m\n\nExpected precision:    2\nExpected difference: < \u001b[32m0.005\u001b[39m\nReceived difference:   \u001b[31m0.27\u001b[39m\n\n  120 |     await inspectGLB('multipart-customizer')\n  121 |     expect.soft(actual.meshes).toHaveLength(12)\n> 122 |     expect.soft(actual.meshes[0].materials[0].roughness).toBeCloseTo(.65)\n      |                                                          ^\n  123 |     expect.soft(actual.meshes[0].materials[0].texture?.width).toBe(8)\n  124 |   })\n  125 | })\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:122:58"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                            "column": 63,
+                            "line": 123
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m8\u001b[39m\nReceived: \u001b[31m1024\u001b[39m\n\n  121 |     expect.soft(actual.meshes).toHaveLength(12)\n  122 |     expect.soft(actual.meshes[0].materials[0].roughness).toBeCloseTo(.65)\n> 123 |     expect.soft(actual.meshes[0].materials[0].texture?.width).toBe(8)\n      |                                                               ^\n  124 |   })\n  125 | })\n  126 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs:123:63"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-24T18:17:23.147Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-afe2c-ves-original-albedo-and-PBR\\test-failed-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-afe2c-ves-original-albedo-and-PBR\\test-failed-2.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-afe2c-ves-original-albedo-and-PBR\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\interactions-rerun\\browser-artifacts\\phase3-Independent-Phase-3-afe2c-ves-original-albedo-and-PBR\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3.spec.mjs",
+                        "column": 58,
+                        "line": 122
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3cf2a003783f4b3cb02d-3c19cbea94057e18ef7e",
+              "file": "phase3.spec.mjs",
+              "line": 108,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T18:15:23.624Z",
+    "duration": 175183.657,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}

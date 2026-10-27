@@ -1,0 +1,159 @@
+:host([hidden]) {
+    display: none;
+}
+:host {
+    display: grid;
+}
+
+:host {
+    --_squircle-modifier: 1;
+    --_col-indicator-width: 0px;
+    --_col-start-width: 0px;
+    --_col-content-width: 1fr;
+    --_col-end-width: 0px;
+    --_col-submenu-width: 0px;
+    --_col-icon-width: calc(20px + var(--smtc-gap-inside-ctrl-default));
+
+    block-size: auto;
+    border: var(--smtc-stroke-width-default) solid
+        var(--smtc-stroke-flyout, var(--smtc-null-color));
+    border-radius: calc(
+        var(--smtc-corner-flyout-rest) * var(--_squircle-modifier)
+    );
+    box-shadow:
+        var(--smtc-shadow-flyout-key), var(--smtc-shadow-flyout-ambient),
+        var(--mai-smtc-shadow-flyout-contour);
+    corner-shape: squircle;
+    contain: layout style;
+    inline-size: auto;
+    max-block-size: var(--menu-max-height, auto);
+    max-inline-size: 300px;
+    min-inline-size: 160px;
+    margin: 0;
+    padding: var(
+        --smtc-padding-flyout-default,
+        var(--smtc-padding-content-align-outdent-text-on-subtle)
+    );
+    grid-template-columns:
+        10px
+        var(--_col-indicator-width)
+        var(--_col-start-width)
+        var(--_col-content-width)
+        var(--_col-end-width)
+        var(--_col-submenu-width)
+        10px;
+    gap: var(
+            --smtc-gap-between-list-item,
+            var(--smtc-gap-between-content-xx-small)
+        )
+        0;
+    backdrop-filter: blur(var(--smtc-material-acrylic-blur));
+    background:
+        linear-gradient(
+            0deg,
+            var(
+                    --smtc-material-acrylic-default-solid,
+                    var(--smtc-background-layer-primary-solid)
+                )
+                0%,
+            var(
+                    --smtc-material-acrylic-default-solid,
+                    var(--smtc-background-layer-primary-solid)
+                )
+                100%
+        ),
+        linear-gradient(
+            0deg,
+            var(
+                    --smtc-material-acrylic-default-lum-blend,
+                    var(--smtc-background-layer-primary-solid)
+                )
+                0%,
+            var(
+                    --smtc-material-acrylic-default-lum-blend,
+                    var(--smtc-background-layer-primary-solid)
+                )
+                100%
+        ),
+        linear-gradient(
+            0deg,
+            var(
+                    --smtc-material-acrylic-default-color-blend,
+                    var(--smtc-background-layer-primary-solid)
+                )
+                0%,
+            var(
+                    --smtc-material-acrylic-default-color-blend,
+                    var(--smtc-background-layer-primary-solid)
+                )
+                100%
+        ),
+        var(
+            --mai-smtc-background-flyout-saturation-blend,
+            var(--smtc-null-color)
+        );
+    background-blend-mode: normal, luminosity, color, saturation;
+}
+
+:host([popover]:not(:popover-open)) {
+    display: none;
+    
+    pointer-events: none;
+}
+
+::slotted(*) {
+    grid-column: 1 / -1;
+}
+
+:host(:has(> [role="menuitemradio"], > [role="menuitemcheckbox"])) {
+    --_col-indicator-width: var(--_col-icon-width);
+}
+
+:host(:has(> * > [slot="start"])) {
+    --_col-start-width: var(--_col-icon-width);
+}
+
+:host(:has(> * > [slot="end"])) {
+    --_col-end-width: var(--_col-icon-width);
+}
+
+:host(:has(> * > [slot="submenu"])) {
+    --_col-submenu-width: var(--_col-icon-width);
+}
+
+@scope {
+    :scope:has(> [role="menuitemradio"], > [role="menuitemcheckbox"]) {
+        --_col-indicator-width: var(--_col-icon-width);
+    }
+
+    :scope:has(> * > [slot="start"]) {
+        --_col-start-width: var(--_col-icon-width);
+    }
+
+    :scope:has(> * > [slot="end"]) {
+        --_col-end-width: var(--_col-icon-width);
+    }
+
+    :scope:has(> * > [slot="submenu"]) {
+        --_col-submenu-width: var(--_col-icon-width);
+    }
+}
+
+::slotted(mai-divider) {
+    margin-block: calc(
+        var(
+                --smtc-padding-flyout-default,
+                var(--smtc-padding-content-align-outdent-text-on-subtle)
+            ) -
+            var(
+                --smtc-gap-between-list-item,
+                var(--smtc-gap-between-content-xx-small)
+            )
+    );
+}
+
+@supports (corner-shape: squircle) {
+    :host {
+        --_squircle-modifier: 1.8;
+    }
+}

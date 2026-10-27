@@ -1,0 +1,557 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "appearance-modes.spec.mjs",
+      "blackbullet.spec.mjs"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/completion/appearance-browser/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3012",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/completion/appearance-browser/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/completion/appearance-browser/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "appearance-modes.spec.mjs",
+      "file": "appearance-modes.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 48130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T12:13:06.694Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d2f5b69df33a63de09ba-91a48cdeacc79578a3f7",
+          "file": "appearance-modes.spec.mjs",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "Phase 2.5 BlackBullet existing catalog retains runtime default",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4225,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T12:13:55.201Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d2f5b69df33a63de09ba-07a545a4e36b90e6997e",
+          "file": "appearance-modes.spec.mjs",
+          "line": 61,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "blackbullet.spec.mjs",
+      "file": "blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "BlackBullet actual customizer preserves imported black fabric before user color choice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5973,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T12:13:59.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a4871b6a43d8d39556bb-cb2214407d6430b7f077",
+          "file": "blackbullet.spec.mjs",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3_5-blackbullet.spec.mjs",
+      "file": "phase3_5-blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 2901,
+                  "error": {
+                    "message": "Error: ENOENT: no such file or directory, open 'C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\exports\\acceptance-isolated.glb'",
+                    "stack": "Error: ENOENT: no such file or directory, open 'C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\exports\\acceptance-isolated.glb'"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: ENOENT: no such file or directory, open 'C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\exports\\acceptance-isolated.glb'"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5-blackbullet.spec.mjs",
+                        "column": 32,
+                        "line": 32
+                      },
+                      "message": "Error: page.evaluate: Target page, context or browser has been closed\n\n  30 |   await page.route('**/src/assets/modals/raglan_shirt.glb', route => { routed++; return route.fulfill({ path: `${directory}/exports/acceptance-isolated.glb`, contentType: 'model/gltf-binary' }) })\n  31 |   await page.goto('http://localhost:5173/customizer?garment=shirt&appearance=imported')\n> 32 |   await expect.poll(() => page.evaluate(() => window.__qaAppearanceRecords.size), { timeout: 30000 }).toBe(6)\n     |                                ^\n  33 |   const spin = page.getByRole('button', { name: 'Toggle automatic rotation', exact: true })\n  34 |   if (await spin.getAttribute('aria-pressed') === 'true') await spin.click()\n  35 |   const imported = await materials(page)\n    at expect.poll.timeout (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5-blackbullet.spec.mjs:32:32)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3_5-blackbullet.spec.mjs:32:3"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T12:14:05.563Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3_5-blackbullet-Phase-95a08-ates-runtime-colors-artwork\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3_5-blackbullet-Phase-95a08-ates-runtime-colors-artwork\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3_5-blackbullet-Phase-95a08-ates-runtime-colors-artwork\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "09598c9b4239186e49d6-55a29760b9837286c407",
+          "file": "phase3_5-blackbullet.spec.mjs",
+          "line": 20,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase3-blackbullet.spec.mjs",
+      "file": "phase3-blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 16636,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m6\u001b[39m\nReceived length: \u001b[31m4\u001b[39m\nReceived array:  \u001b[31m[{\"attributes\": {\"normal\": {\"count\": 110, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 110, \"first\": [0.6000000238418579, 0.75, 0.14000000059604645, 0.6000000238418579, 0.75, -0, 0.6000000238418579, 0.75, -0.14000000059604645, 0.6000000238418579, …]}, \"uv\": {\"count\": 110, \"first\": [0, 1, 0.5, 1, 1, 1, 0, 0.75, 0.5, 0.75, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], \"name\": \"Body_Main\", \"partId\": null}, {\"attributes\": {\"normal\": {\"count\": 148, \"first\": [0, -0.9701424837112427, 0.24253562092781067, 0.2510913610458374, -0.9370856881141663, 0.24253562092781067, 0.48507124185562134, -0.8401680588722229, 0.24253562092781067, 0.6859943270683289, …]}, \"position\": {\"count\": 148, \"first\": [0, -0.23999999463558197, 0.03999999910593033, 0.06211657077074051, -0.2318221926689148, 0.03999999910593033, 0.11999999731779099, -0.20784609019756317, 0.03999999910593033, 0.16970562934875488, …]}, \"uv\": {\"count\": 148, \"first\": [0, 1, 0.0416666679084301, 1, 0.0833333358168602, 1, 0.125, 1, 0.1666666716337204, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], \"name\": \"Collar_Rib\", \"partId\": \"cuffs\"}, {\"attributes\": {\"normal\": {\"count\": 24, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 24, \"first\": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, \"uv\": {\"count\": 24, \"first\": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.2726562761495888, 0.2581867207667834, -0.0509334184338021, 0, -0.25798019892861807, 1.2736750803624493, 0.010324715059294099, 0, 0.051969345333652085, 0, …], \"name\": \"Sleeve_Left\", \"partId\": \"left-arm\"}, {\"attributes\": {\"normal\": {\"count\": 24, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 24, \"first\": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, \"uv\": {\"count\": 24, \"first\": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.2726562761495888, -0.2581867207667834, -0.0509334184338021, 0, 0.25798019892861807, 1.2736750803624493, -0.010324715059294099, 0, 0.051969345333652085, 0, …], \"name\": \"Sleeve_Right\", \"partId\": \"right-arm\"}]\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m6\u001b[39m\nReceived length: \u001b[31m4\u001b[39m\nReceived array:  \u001b[31m[{\"attributes\": {\"normal\": {\"count\": 110, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 110, \"first\": [0.6000000238418579, 0.75, 0.14000000059604645, 0.6000000238418579, 0.75, -0, 0.6000000238418579, 0.75, -0.14000000059604645, 0.6000000238418579, …]}, \"uv\": {\"count\": 110, \"first\": [0, 1, 0.5, 1, 1, 1, 0, 0.75, 0.5, 0.75, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], \"name\": \"Body_Main\", \"partId\": null}, {\"attributes\": {\"normal\": {\"count\": 148, \"first\": [0, -0.9701424837112427, 0.24253562092781067, 0.2510913610458374, -0.9370856881141663, 0.24253562092781067, 0.48507124185562134, -0.8401680588722229, 0.24253562092781067, 0.6859943270683289, …]}, \"position\": {\"count\": 148, \"first\": [0, -0.23999999463558197, 0.03999999910593033, 0.06211657077074051, -0.2318221926689148, 0.03999999910593033, 0.11999999731779099, -0.20784609019756317, 0.03999999910593033, 0.16970562934875488, …]}, \"uv\": {\"count\": 148, \"first\": [0, 1, 0.0416666679084301, 1, 0.0833333358168602, 1, 0.125, 1, 0.1666666716337204, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], \"name\": \"Collar_Rib\", \"partId\": \"cuffs\"}, {\"attributes\": {\"normal\": {\"count\": 24, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 24, \"first\": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, \"uv\": {\"count\": 24, \"first\": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.2726562761495888, 0.2581867207667834, -0.0509334184338021, 0, -0.25798019892861807, 1.2736750803624493, 0.010324715059294099, 0, 0.051969345333652085, 0, …], \"name\": \"Sleeve_Left\", \"partId\": \"left-arm\"}, {\"attributes\": {\"normal\": {\"count\": 24, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 24, \"first\": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, \"uv\": {\"count\": 24, \"first\": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.2726562761495888, -0.2581867207667834, -0.0509334184338021, 0, 0.25798019892861807, 1.2736750803624493, -0.010324715059294099, 0, 0.051969345333652085, 0, …], \"name\": \"Sleeve_Right\", \"partId\": \"right-arm\"}]\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:58:25",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                      "column": 25,
+                      "line": 58
+                    },
+                    "snippet": "  56 |   await record('blackbullet-modes', { routed, imported, runtime, restored, events })\n  57 |   expect.soft(routed).toBe(1)\n> 58 |   expect.soft(imported).toHaveLength(6)\n     |                         ^\n  59 |   expect.soft(restored.map(({ matrix, ...entry }) => entry)).toEqual(imported.map(({ matrix, ...entry }) => entry))\n  60 |   expect.soft(events.errors).toEqual([])\n  61 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 25,
+                        "line": 58
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m6\u001b[39m\nReceived length: \u001b[31m4\u001b[39m\nReceived array:  \u001b[31m[{\"attributes\": {\"normal\": {\"count\": 110, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 110, \"first\": [0.6000000238418579, 0.75, 0.14000000059604645, 0.6000000238418579, 0.75, -0, 0.6000000238418579, 0.75, -0.14000000059604645, 0.6000000238418579, …]}, \"uv\": {\"count\": 110, \"first\": [0, 1, 0.5, 1, 1, 1, 0, 0.75, 0.5, 0.75, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], \"name\": \"Body_Main\", \"partId\": null}, {\"attributes\": {\"normal\": {\"count\": 148, \"first\": [0, -0.9701424837112427, 0.24253562092781067, 0.2510913610458374, -0.9370856881141663, 0.24253562092781067, 0.48507124185562134, -0.8401680588722229, 0.24253562092781067, 0.6859943270683289, …]}, \"position\": {\"count\": 148, \"first\": [0, -0.23999999463558197, 0.03999999910593033, 0.06211657077074051, -0.2318221926689148, 0.03999999910593033, 0.11999999731779099, -0.20784609019756317, 0.03999999910593033, 0.16970562934875488, …]}, \"uv\": {\"count\": 148, \"first\": [0, 1, 0.0416666679084301, 1, 0.0833333358168602, 1, 0.125, 1, 0.1666666716337204, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.298540634813631, 0, -0.051969345333652085, 0, 0, 1.2995801603274022, 0, 0, 0.051969345333652085, 0, …], \"name\": \"Collar_Rib\", \"partId\": \"cuffs\"}, {\"attributes\": {\"normal\": {\"count\": 24, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 24, \"first\": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, \"uv\": {\"count\": 24, \"first\": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.2726562761495888, 0.2581867207667834, -0.0509334184338021, 0, -0.25798019892861807, 1.2736750803624493, 0.010324715059294099, 0, 0.051969345333652085, 0, …], \"name\": \"Sleeve_Left\", \"partId\": \"left-arm\"}, {\"attributes\": {\"normal\": {\"count\": 24, \"first\": [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, …]}, \"position\": {\"count\": 24, \"first\": [0.2750000059604645, 0.22499999403953552, 0.12999999523162842, 0.2750000059604645, 0.22499999403953552, -0.12999999523162842, 0.2750000059604645, -0.22499999403953552, 0.12999999523162842, 0.2750000059604645, …]}, \"uv\": {\"count\": 24, \"first\": [0, 1, 1, 1, 0, 0, 1, 0, 0, 1, …]}}, \"materials\": [{\"linear\": [0.009134058699157796, 0.009134058699157796, 0.010960094003125918], \"metalness\": 0, \"normalMap\": false, \"roughness\": 0.92, \"texture\": {\"center\": [16, 185, 129, 255], \"flipY\": false, \"hash\": 3532909171, \"height\": 1024, \"width\": 1024}, \"type\": \"MeshStandardMaterial\"}], \"matrix\": [1.2726562761495888, -0.2581867207667834, -0.0509334184338021, 0, 0.25798019892861807, 1.2736750803624493, -0.010324715059294099, 0, 0.051969345333652085, 0, …], \"name\": \"Sleeve_Right\", \"partId\": \"right-arm\"}]\u001b[39m\n\n  56 |   await record('blackbullet-modes', { routed, imported, runtime, restored, events })\n  57 |   expect.soft(routed).toBe(1)\n> 58 |   expect.soft(imported).toHaveLength(6)\n     |                         ^\n  59 |   expect.soft(restored.map(({ matrix, ...entry }) => entry)).toEqual(imported.map(({ matrix, ...entry }) => entry))\n  60 |   expect.soft(events.errors).toEqual([])\n  61 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:58:25"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 121,
+                        "line": 61
+                      },
+                      "message": "Error: exported product must resolve a runtime front region\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m1\u001b[39m\nReceived length: \u001b[31m0\u001b[39m\nReceived array:  \u001b[31m[]\u001b[39m\n\n  59 |   expect.soft(restored.map(({ matrix, ...entry }) => entry)).toEqual(imported.map(({ matrix, ...entry }) => entry))\n  60 |   expect.soft(events.errors).toEqual([])\n> 61 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n     |                                                                                                                         ^\n  62 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)\n  63 | })\n  64 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:61:121"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 119,
+                        "line": 62
+                      },
+                      "message": "Error: exported product must resolve a runtime back region\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m1\u001b[39m\nReceived length: \u001b[31m0\u001b[39m\nReceived array:  \u001b[31m[]\u001b[39m\n\n  60 |   expect.soft(events.errors).toEqual([])\n  61 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n> 62 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)\n     |                                                                                                                       ^\n  63 | })\n  64 |\n  65 | test('Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes', async ({ page }) => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:62:119"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T12:14:09.710Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                    "column": 25,
+                    "line": 58
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-7bd6e2c76907b96ffa88",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 100272,
+                  "error": {
+                    "message": "TimeoutError: locator.selectOption: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Garment appearance')\u001b[22m\n",
+                    "stack": "TimeoutError: locator.selectOption: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Garment appearance')\u001b[22m\n\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:75:47",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                      "column": 47,
+                      "line": 75
+                    },
+                    "snippet": "  73 |   const imported = await trace(page)\n  74 |   await page.screenshot({ path: `${directory}/screenshots/blackbullet-multipart-imported.png` })\n> 75 |   await page.getByLabel('Garment appearance').selectOption('runtime')\n     |                                               ^\n  76 |   await page.getByLabel('HEX Code', { exact: true }).fill('#224466')\n  77 |   await page.getByLabel('HEX Code', { exact: true }).press('Enter')\n  78 |   await page.getByRole('button', { name: 'Text', exact: true }).click()"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 47,
+                        "line": 75
+                      },
+                      "message": "TimeoutError: locator.selectOption: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Garment appearance')\u001b[22m\n\n\n  73 |   const imported = await trace(page)\n  74 |   await page.screenshot({ path: `${directory}/screenshots/blackbullet-multipart-imported.png` })\n> 75 |   await page.getByLabel('Garment appearance').selectOption('runtime')\n     |                                               ^\n  76 |   await page.getByLabel('HEX Code', { exact: true }).fill('#224466')\n  77 |   await page.getByLabel('HEX Code', { exact: true }).press('Enter')\n  78 |   await page.getByRole('button', { name: 'Text', exact: true }).click()\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:75:47"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T12:14:29.174Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-f9177-lackBullet-appearance-modes\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-f9177-lackBullet-appearance-modes\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                    "column": 47,
+                    "line": 75
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-e85078cbb5510b099fee",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 customized export reimports into Model Maker with artwork textures",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 15772,
+                  "error": {
+                    "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /^solid$/i }) to be visible\u001b[22m\n",
+                    "stack": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /^solid$/i }) to be visible\u001b[22m\n\n    at open (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:27:56)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:94:3",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                      "column": 56,
+                      "line": 27
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\..\\..\\scripts\\qa\\phase3-support.mjs:27\n\n  25 | export async function open(page) {\n  26 |   await page.goto(process.env.QA_BASE_URL || 'http://localhost:3000')\n> 27 |   await page.getByRole('button', { name: /^solid$/i }).waitFor()\n     |                                                        ^\n  28 |   await page.getByRole('button', { name: 'Customizer', exact: true }).click()\n  29 |   await page.getByRole('button', { name: 'Library', exact: true }).waitFor()\n  30 |   await expect.poll(() => page.evaluate(() => window.__qaSceneObjects?.().some(object => object.isMesh && object.name === 'Body_Main') || false), { timeout: 30000 }).toBe(true)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                        "column": 56,
+                        "line": 27
+                      },
+                      "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /^solid$/i }) to be visible\u001b[22m\n\n\n   at ..\\..\\..\\scripts\\qa\\phase3-support.mjs:27\n\n  25 | export async function open(page) {\n  26 |   await page.goto(process.env.QA_BASE_URL || 'http://localhost:3000')\n> 27 |   await page.getByRole('button', { name: /^solid$/i }).waitFor()\n     |                                                        ^\n  28 |   await page.getByRole('button', { name: 'Customizer', exact: true }).click()\n  29 |   await page.getByRole('button', { name: 'Library', exact: true }).waitFor()\n  30 |   await expect.poll(() => page.evaluate(() => window.__qaSceneObjects?.().some(object => object.isMesh && object.name === 'Body_Main') || false), { timeout: 30000 }).toBe(true)\n    at open (C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs:27:56)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:94:3"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T12:16:12.598Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\completion\\appearance-browser\\browser-artifacts\\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\scripts\\qa\\phase3-support.mjs",
+                    "column": 56,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-4cd8b8aeeebb62294074",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 91,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-25T12:13:05.817Z",
+    "duration": 203782.226,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}

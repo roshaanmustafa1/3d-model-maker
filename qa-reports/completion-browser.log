@@ -1,0 +1,83 @@
+
+Running 2 tests using 1 worker
+
+(node:17756) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\qa\browser\completion.spec.mjs:12:1 › Completion: local generated GLB inspection and Studio handoff require no generation provider (13.1s)
+(node:20248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 tests\qa\browser\completion.spec.mjs:23:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls (1.0m)
+
+
+  1) tests\qa\browser\completion.spec.mjs:12:1 › Completion: local generated GLB inspection and Studio handoff require no generation provider 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Local AI GLB handoff', { exact: true })
+    Expected: visible
+    Timeout: 12000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('Local AI GLB handoff', { exact: true }) with timeout 12000ms
+      - waiting for getByText('Local AI GLB handoff', { exact: true })
+
+
+      12 | test('Completion: local generated GLB inspection and Studio handoff require no generation provider', async ({ page }) => {
+      13 |   await page.getByRole('button', { name: /AI Generator|AI Image/i }).click()
+    > 14 |   await expect(page.getByText('Local AI GLB handoff', { exact: true })).toBeVisible()
+         |                                                                         ^
+      15 |   await page.getByLabel('Generated GLB file').setInputFiles('docs/fixtures/black-shirt.glb')
+      16 |   await expect(page.getByRole('button', { name: 'Open in Modeling Studio', exact: true })).toBeEnabled()
+      17 |   await page.screenshot({ path: 'qa-reports/completion/screenshots/local-handoff.png' })
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\completion.spec.mjs:14:73
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\browser\browser-artifacts\completion-Completion-loca-0663c-uire-no-generation-provider\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\browser\browser-artifacts\completion-Completion-loca-0663c-uire-no-generation-provider\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\browser\browser-artifacts\completion-Completion-loca-0663c-uire-no-generation-provider\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\browser\browser-artifacts\completion-Completion-loca-0663c-uire-no-generation-provider\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\completion.spec.mjs:23:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.setInputFiles: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('input[type=file][accept*=".glb"]')
+
+
+      23 | test('Completion: material split, undo/redo, UV packing and durable save use actual controls', async ({ page }) => {
+      24 |   await page.getByRole('button', { name: 'Import', exact: true }).click()
+    > 25 |   await page.locator('input[type=file][accept*=".glb"]').setInputFiles('qa-reports/phase3_5/fixtures/independent-slots.glb')
+         |   ^
+      26 |   await expect(page.getByRole('heading', { name: 'Import 3D Asset' })).toHaveCount(0)
+      27 |   await page.getByText('QA_Material_Slots', { exact: true }).first().click()
+      28 |   await page.getByRole('button', { name: 'Geom', exact: true }).click()
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\completion.spec.mjs:25:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\browser\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\browser\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\browser\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\browser\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\qa\browser\completion.spec.mjs:12:1 › Completion: local generated GLB inspection and Studio handoff require no generation provider 
+    tests\qa\browser\completion.spec.mjs:23:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls 

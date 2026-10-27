@@ -1,0 +1,21 @@
+{
+  "name": "browser",
+  "started": "2026-10-24T18:24:29.561Z",
+  "durationMs": 116666.0955,
+  "exitCode": 1,
+  "signal": null,
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "node_modules/@playwright/test/cli.js",
+    "test",
+    "--config=playwright.qa.config.mjs",
+    "phase3.spec.mjs",
+    "--grep",
+    "real artwork"
+  ],
+  "platform": "win32",
+  "os": "10.0.19045",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2687W v2 @ 3.40GHz",
+  "totalMemory": 25711394816,
+  "node": "v24.21.0"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "custom_proj_1792869898630",
+  "name": "independent-slots",
+  "version": 4,
+  "sourceType": "imported",
+  "workspace": "customizer",
+  "createdAt": "2026-10-24T19:24:58.630Z",
+  "updatedAt": "2026-10-24T19:24:58.630Z",
+  "productId": "custom_1792869885102",
+  "productName": "independent-slots",
+  "productCategory": "other",
+  "activeZoneId": "zone_0_mesh_0",
+  "zones": {
+    "zone_0_mesh_0": {
+      "id": "zone_0_mesh_0",
+      "name": "mesh_0",
+      "targetMeshNodeId": "node_4560019e-10b2-474a-b3e3-3310c32df9bc",
+      "targetMeshName": "mesh_0",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792869885102",
+        "meshId": "node_4560019e-10b2-474a-b3e3-3310c32df9bc",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "compositionId": "node_4560019e-10b2-474a-b3e3-3310c32df9bc:0",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [
+        {
+          "name": "Rectangle Shape",
+          "type": "shape",
+          "shapeType": "rectangle",
+          "fill": "#10b981",
+          "stroke": "#ffffff",
+          "strokeWidth": 2,
+          "cornerRadius": 12,
+          "x": 350,
+          "y": 350,
+          "width": 300,
+          "height": 300,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "opacity": 1,
+          "visible": true,
+          "locked": false,
+          "id": "layer_1792869888690_niglg",
+          "zIndex": 1
+        }
+      ],
+      "enabled": true
+    },
+    "zone_1_mesh_0_1": {
+      "id": "zone_1_mesh_0_1",
+      "name": "mesh_0_1",
+      "targetMeshNodeId": "node_377b5d7d-a2ba-44bd-8975-e4abbd0a5c38",
+      "targetMeshName": "mesh_0_1",
+      "materialSlotIndex": 0,
+      "uvBounds": {
+        "minU": 0,
+        "maxU": 1,
+        "minV": 0,
+        "maxV": 1
+      },
+      "target": {
+        "version": 1,
+        "productId": "custom_1792869885102",
+        "meshId": "node_377b5d7d-a2ba-44bd-8975-e4abbd0a5c38",
+        "materialSlot": 0,
+        "uvChannel": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "compositionId": "node_377b5d7d-a2ba-44bd-8975-e4abbd0a5c38:0",
+        "textureFlipY": false,
+        "intentionalSharedUVs": false
+      },
+      "canvasWidth": 1024,
+      "canvasHeight": 1024,
+      "layers": [],
+      "enabled": true
+    }
+  },
+  "fabricColor": "#224466",
+  "fabricRoughness": 0.65,
+  "fabricMetalness": 0.2,
+  "partMaterials": {},
+  "textureResolution": 1024,
+  "blackBulletMode": "preserve-imported"
+}

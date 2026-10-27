@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="QA forward extrude: changed geometry remains exportable before history actions" time="0.146922" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA topology extrude: geometry, graph, undo, redo and GLB" time="0.021888" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward inset: changed geometry remains exportable before history actions" time="0.011954" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA topology inset: geometry, graph, undo, redo and GLB" time="0.062352" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward subdivide: changed geometry remains exportable before history actions" time="0.040878" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA topology subdivide: geometry, graph, undo, redo and GLB" time="0.039493" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward merge: changed geometry remains exportable before history actions" time="0.010049" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA topology merge: geometry, graph, undo, redo and GLB" time="0.009970" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward weld: changed geometry remains exportable before history actions" time="0.009168" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA topology weld: geometry, graph, undo, redo and GLB" time="0.012381" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward delete: changed geometry remains exportable before history actions" time="0.014465" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA topology delete: geometry, graph, undo, redo and GLB" time="0.011638" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward flip: changed geometry remains exportable before history actions" time="0.010150" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA topology flip: geometry, graph, undo, redo and GLB" time="0.027962" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA flip normals updates per-corner shading normals as well as winding" time="0.002743" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA adding a primitive keeps primary and multi-selection IDs synchronized" time="0.045064" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA connected component separation: geometry, history and GLB" time="0.022561" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward UV box: edited data survives GLB independently of undo" time="0.007387" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward UV planar: edited data survives GLB independently of undo" time="0.023148" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA forward UV cylindrical: edited data survives GLB independently of undo" time="0.011357" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA UV box: finite data, undo/redo and GLB" time="0.020905" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA UV planar: finite data, undo/redo and GLB" time="0.009331" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA UV cylindrical: finite data, undo/redo and GLB" time="0.007350" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA UV translate: actual data changes and undo restores it" time="0.008851" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA UV rotate: actual data changes and undo restores it" time="0.010996" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA UV scale: actual data changes and undo restores it" time="0.009092" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA material slots: assign selected faces, remove slot, valid groups and GLB" time="0.029019" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA material face assignment undo from a primitive restores geometry and slots" time="0.025419" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA GLTF embedded JSON export reloads with black fabric and customization metadata" time="0.092836" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA UV diagnostics rejects non-finite coordinates and distinguishes missing UVs" time="0.001684" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA persistence: supported primitive transforms and materials survive JSON save/load" time="0.060785" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA persistence: edited/imported geometry bytes survive a fresh process" time="1.488821" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs"/>
+	<testcase name="QA unsupported feature inventory: joinMeshes" time="0.000230" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs">
+		<skipped type="skipped" message="joinMeshes is not implemented in the editor store"/>
+	</testcase>
+	<testcase name="QA unsupported feature inventory: bevelSelectedEdges" time="0.000118" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs">
+		<skipped type="skipped" message="bevelSelectedEdges is not implemented in the editor store"/>
+	</testcase>
+	<testcase name="QA unsupported feature inventory: duplicateMaterial" time="0.000166" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\engine.test.mjs">
+		<skipped type="skipped" message="duplicateMaterial is not implemented in the editor store"/>
+	</testcase>
+	<testcase name="P3 regression: catalog must warn when its box UV surfaces overlap" time="0.215048" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3-regressions.test.mjs"/>
+	<testcase name="P3 regression: imported front/back UV zones must use authored atlas bounds" time="0.007603" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3-regressions.test.mjs"/>
+	<testcase name="P3 regression: malformed SVG must be rejected before adding an image layer" time="0.020672" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3-regressions.test.mjs"/>
+	<testcase name="P3 security: SVG entity-encoded javascript links must be removed" time="0.005122" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3-regressions.test.mjs"/>
+	<testcase name="P3 control: real layer state, ordering and consecutive undo/redo remain valid" time="0.026144" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3-regressions.test.mjs"/>
+	<testcase name="P3.5 UV analysis excludes coincident edges and finds positive-area mirrored islands" time="0.027205" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 overlapping UVs in different material slots are independently isolated" time="0.039913" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 overlap cache invalidates on edited UV attributes and material groups" time="0.044812" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 torso partition retains every original face, normal and winding exactly once" time="0.030327" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 targets resolve exact BlackBullet regions and isolated composition identities" time="0.014089" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 workspace switches retain modeling and customization geometry separately" time="0.015761" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 fabric overrides and undo leave original material data unchanged" time="0.032151" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 XML sanitizer rejects DTDs and malformed XML and strips external/encoded references" time="0.008608" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 invalid file signatures fail before layer/image creation" time="0.036127" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 legacy circle/star anchors migrate once while version-4 projects remain stable" time="0.014510" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="P3.5 runtime export rejects products without a registered BlackBullet front/back contract" time="0.005891" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\phase3_5.test.mjs"/>
+	<testcase name="stabilization: multi-operation geometry/UV/material history restores actual buffers in both directions" time="0.178655" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\stabilization.test.mjs"/>
+	<testcase name="stabilization: add, multi-select, delete subtree, undo/redo and duplicate maintain selection invariants" time="0.105495" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\stabilization.test.mjs"/>
+	<testcase name="stabilization: additional UV channels and groups survive persisted asset hydration" time="0.038778" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\stabilization.test.mjs"/>
+	<testcase name="stabilization: repeated scene replacement releases geometry resources without breaking history" time="0.133316" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\stabilization.test.mjs"/>
+	<testcase name="stabilization: persisted procedural undo snapshot drops obsolete cache references" time="0.010998" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\stabilization.test.mjs"/>
+	<testcase name="stabilization: asset serialization preserves non-quantized linear material colors" time="0.007583" classname="test" file="C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\stabilization.test.mjs"/>
+	<!-- tests 57 -->
+	<!-- suites 0 -->
+	<!-- pass 54 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 3 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 5609.8239 -->
+</testsuites>

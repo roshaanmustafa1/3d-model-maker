@@ -1,0 +1,51 @@
+
+Running 2 tests using 1 worker
+
+(node:16124) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\qa\browser\completion.spec.mjs:13:1 › Completion: local generated GLB inspection and Studio handoff require no generation provider (10.5s)
+  x  2 tests\qa\browser\completion.spec.mjs:24:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls (18.5s)
+
+
+  1) tests\qa\browser\completion.spec.mjs:24:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls 
+
+    Error: expect(locator).toBeEnabled() failed
+
+    Locator:  getByRole('button', { name: /Assign to Selected Faces/ })
+    Expected: enabled
+    Received: disabled
+    Timeout:  12000ms
+
+    Call log:
+      - Expect "toBeEnabled" getByRole('button', { name: /Assign to Selected Faces/ }) with timeout 12000ms
+      - waiting for getByRole('button', { name: /Assign to Selected Faces/ })
+        25 × locator resolved to <button disabled tabindex="0" type="button" data-disabled="" data-slot="button" class="group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-de…>Assign to Selected Faces (0)</button>
+           - unexpected value "disabled"
+
+
+      39 |   })
+      40 |   await page.mouse.click(target.x, target.y)
+    > 41 |   await expect(page.getByRole('button', { name: /Assign to Selected Faces/ })).toBeEnabled()
+         |                                                                                ^
+      42 |   await page.getByRole('button', { name: /Assign to Selected Faces/ }).click()
+      43 |   await page.getByRole('button', { name: 'Geom', exact: true }).click()
+      44 |   const before = await page.evaluate(() => window.__qaSnapshot().meshes.filter(mesh => mesh.name.startsWith('Studio_Cube')).reduce((sum, mesh) => sum + mesh.triangles, 0))
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\completion.spec.mjs:41:80
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\completion\browser-controls\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\completion\browser-controls\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\completion\browser-controls\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\completion\browser-controls\browser-artifacts\completion-Completion-mate-65ae5-le-save-use-actual-controls\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\qa\browser\completion.spec.mjs:24:1 › Completion: material split, undo/redo, UV packing and durable save use actual controls 
+  1 passed (31.0s)

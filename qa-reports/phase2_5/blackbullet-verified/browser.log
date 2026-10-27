@@ -1,0 +1,11 @@
+
+Running 4 tests using 1 worker
+
+  ok 1 tests\qa\browser\appearance-modes.spec.mjs:22:1 › Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint (53.6s)
+  ok 2 tests\qa\browser\appearance-modes.spec.mjs:61:1 › Phase 2.5 BlackBullet existing catalog retains runtime default (4.7s)
+  ok 3 tests\qa\browser\blackbullet.spec.mjs:4:1 › BlackBullet actual customizer preserves imported black fabric before user color choice (5.5s)
+  ok 4 tests\qa\browser\editor.spec.mjs:144:1 › BlackBullet validation report is accessible (7.9s)
+
+  4 passed (1.2m)
+(node:17052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

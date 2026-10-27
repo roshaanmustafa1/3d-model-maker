@@ -1,0 +1,83 @@
+{
+  "cycles": [
+    {
+      "cycle": 0,
+      "elapsedMs": 23109,
+      "memory": {
+        "geometries": 26,
+        "textures": 6
+      },
+      "heap": 54035189
+    },
+    {
+      "cycle": 1,
+      "elapsedMs": 15543,
+      "memory": {
+        "geometries": 26,
+        "textures": 6
+      },
+      "heap": 74787762
+    },
+    {
+      "cycle": 2,
+      "elapsedMs": 16925,
+      "memory": {
+        "geometries": 26,
+        "textures": 6
+      },
+      "heap": 44763524
+    },
+    {
+      "cycle": 3,
+      "elapsedMs": 18084,
+      "memory": {
+        "geometries": 26,
+        "textures": 6
+      },
+      "heap": 59915700
+    },
+    {
+      "cycle": 4,
+      "elapsedMs": 17923,
+      "memory": {
+        "geometries": 26,
+        "textures": 6
+      },
+      "heap": 58865165
+    },
+    {
+      "cycle": 5,
+      "elapsedMs": 16225,
+      "memory": {
+        "geometries": 26,
+        "textures": 6
+      },
+      "heap": 59692663
+    }
+  ],
+  "events": {
+    "errors": [],
+    "console": [
+      "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+      "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+    ],
+    "failedRequests": [],
+    "navigations": [
+      "http://localhost:3000/",
+      "http://localhost:3000/"
+    ],
+    "crashes": 0
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.qa.config.mjs",
+      "phase3-blackbullet.spec.mjs"
+    ],
+    "configFile": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\playwright.qa.config.mjs",
+    "rootDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/qa-reports/phase3/blackbullet/browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Roshaan's Pc/Documents/Projects/3d-model-maker/tests/qa/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\blackbullet\\browser-artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "snapshotDir": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "launchOptions": {
+            "executablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-reports/phase3/blackbullet/browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "qa-reports/phase3/blackbullet/browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "phase3-blackbullet.spec.mjs",
+      "file": "phase3-blackbullet.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 21003,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 24\u001b[39m\n\u001b[31m+ Received  + 24\u001b[39m\n\n\u001b[33m@@ -77,21 +77,21 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.051969345333652085,\u001b[39m\n\u001b[31m+       -0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1.2995801603274022,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        -0.37544331544731824,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1,\u001b[22m\n\u001b[33m@@ -177,21 +177,21 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.051969345333652085,\u001b[39m\n\u001b[31m+       -0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1.2995801603274022,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0.6122376064015075,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1,\u001b[22m\n\u001b[33m@@ -277,25 +277,25 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.2726562761495888,\u001b[39m\n\u001b[31m+       1.2705558504132375,\u001b[39m\n\u001b[2m        0.2581867207667834,\u001b[22m\n\u001b[32m-       -0.0509334184338021,\u001b[39m\n\u001b[31m+       -0.08908446170341056,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.25798019892861807,\u001b[39m\n\u001b[31m+       -0.257554421553019,\u001b[39m\n\u001b[2m        1.2736750803624493,\u001b[22m\n\u001b[32m-       0.010324715059294099,\u001b[39m\n\u001b[31m+       0.01805831439516933,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -1.09077413324345,\u001b[39m\n\u001b[31m+       -1.0889738906288908,\u001b[39m\n\u001b[2m        0.3003383679229309,\u001b[22m\n\u001b[32m-       0.04365425008026775,\u001b[39m\n\u001b[31m+       0.0763529228755993,\u001b[39m\n\u001b[2m        1,\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"name\": \"Sleeve_Left\",\u001b[22m\n\u001b[2m      \"partId\": \"left-arm\",\u001b[22m\n\u001b[2m    },\u001b[22m\n\u001b[33m@@ -377,25 +377,25 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.2726562761495888,\u001b[39m\n\u001b[31m+       1.2705558504132375,\u001b[39m\n\u001b[2m        -0.2581867207667834,\u001b[22m\n\u001b[32m-       -0.0509334184338021,\u001b[39m\n\u001b[31m+       -0.08908446170341056,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.25798019892861807,\u001b[39m\n\u001b[31m+       0.257554421553019,\u001b[39m\n\u001b[2m        1.2736750803624493,\u001b[22m\n\u001b[32m-       -0.010324715059294099,\u001b[39m\n\u001b[31m+       -0.01805831439516933,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.09077413324345,\u001b[39m\n\u001b[31m+       1.0889738906288908,\u001b[39m\n\u001b[2m        0.3003383679229309,\u001b[22m\n\u001b[32m-       -0.04365425008026775,\u001b[39m\n\u001b[31m+       -0.0763529228755993,\u001b[39m\n\u001b[2m        1,\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"name\": \"Sleeve_Right\",\u001b[22m\n\u001b[2m      \"partId\": \"right-arm\",\u001b[22m\n\u001b[2m    },\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 24\u001b[39m\n\u001b[31m+ Received  + 24\u001b[39m\n\n\u001b[33m@@ -77,21 +77,21 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.051969345333652085,\u001b[39m\n\u001b[31m+       -0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1.2995801603274022,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        -0.37544331544731824,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1,\u001b[22m\n\u001b[33m@@ -177,21 +177,21 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.051969345333652085,\u001b[39m\n\u001b[31m+       -0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1.2995801603274022,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0.6122376064015075,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1,\u001b[22m\n\u001b[33m@@ -277,25 +277,25 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.2726562761495888,\u001b[39m\n\u001b[31m+       1.2705558504132375,\u001b[39m\n\u001b[2m        0.2581867207667834,\u001b[22m\n\u001b[32m-       -0.0509334184338021,\u001b[39m\n\u001b[31m+       -0.08908446170341056,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.25798019892861807,\u001b[39m\n\u001b[31m+       -0.257554421553019,\u001b[39m\n\u001b[2m        1.2736750803624493,\u001b[22m\n\u001b[32m-       0.010324715059294099,\u001b[39m\n\u001b[31m+       0.01805831439516933,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -1.09077413324345,\u001b[39m\n\u001b[31m+       -1.0889738906288908,\u001b[39m\n\u001b[2m        0.3003383679229309,\u001b[22m\n\u001b[32m-       0.04365425008026775,\u001b[39m\n\u001b[31m+       0.0763529228755993,\u001b[39m\n\u001b[2m        1,\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"name\": \"Sleeve_Left\",\u001b[22m\n\u001b[2m      \"partId\": \"left-arm\",\u001b[22m\n\u001b[2m    },\u001b[22m\n\u001b[33m@@ -377,25 +377,25 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.2726562761495888,\u001b[39m\n\u001b[31m+       1.2705558504132375,\u001b[39m\n\u001b[2m        -0.2581867207667834,\u001b[22m\n\u001b[32m-       -0.0509334184338021,\u001b[39m\n\u001b[31m+       -0.08908446170341056,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.25798019892861807,\u001b[39m\n\u001b[31m+       0.257554421553019,\u001b[39m\n\u001b[2m        1.2736750803624493,\u001b[22m\n\u001b[32m-       -0.010324715059294099,\u001b[39m\n\u001b[31m+       -0.01805831439516933,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.09077413324345,\u001b[39m\n\u001b[31m+       1.0889738906288908,\u001b[39m\n\u001b[2m        0.3003383679229309,\u001b[22m\n\u001b[32m-       -0.04365425008026775,\u001b[39m\n\u001b[31m+       -0.0763529228755993,\u001b[39m\n\u001b[2m        1,\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"name\": \"Sleeve_Right\",\u001b[22m\n\u001b[2m      \"partId\": \"right-arm\",\u001b[22m\n\u001b[2m    },\u001b[22m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:58:25",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                      "column": 25,
+                      "line": 58
+                    },
+                    "snippet": "  56 |   expect.soft(routed).toBe(1)\n  57 |   expect.soft(imported).toHaveLength(4)\n> 58 |   expect.soft(restored).toEqual(imported)\n     |                         ^\n  59 |   expect.soft(events.errors).toEqual([])\n  60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n  61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 25,
+                        "line": 58
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 24\u001b[39m\n\u001b[31m+ Received  + 24\u001b[39m\n\n\u001b[33m@@ -77,21 +77,21 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.051969345333652085,\u001b[39m\n\u001b[31m+       -0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1.2995801603274022,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        -0.37544331544731824,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1,\u001b[22m\n\u001b[33m@@ -177,21 +177,21 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.051969345333652085,\u001b[39m\n\u001b[31m+       -0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1.2995801603274022,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        0.6122376064015075,\u001b[22m\n\u001b[2m        0,\u001b[22m\n\u001b[2m        1,\u001b[22m\n\u001b[33m@@ -277,25 +277,25 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.2726562761495888,\u001b[39m\n\u001b[31m+       1.2705558504132375,\u001b[39m\n\u001b[2m        0.2581867207667834,\u001b[22m\n\u001b[32m-       -0.0509334184338021,\u001b[39m\n\u001b[31m+       -0.08908446170341056,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -0.25798019892861807,\u001b[39m\n\u001b[31m+       -0.257554421553019,\u001b[39m\n\u001b[2m        1.2736750803624493,\u001b[22m\n\u001b[32m-       0.010324715059294099,\u001b[39m\n\u001b[31m+       0.01805831439516933,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       -1.09077413324345,\u001b[39m\n\u001b[31m+       -1.0889738906288908,\u001b[39m\n\u001b[2m        0.3003383679229309,\u001b[22m\n\u001b[32m-       0.04365425008026775,\u001b[39m\n\u001b[31m+       0.0763529228755993,\u001b[39m\n\u001b[2m        1,\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"name\": \"Sleeve_Left\",\u001b[22m\n\u001b[2m      \"partId\": \"left-arm\",\u001b[22m\n\u001b[2m    },\u001b[22m\n\u001b[33m@@ -377,25 +377,25 @@\u001b[39m\n\u001b[2m          },\u001b[22m\n\u001b[2m          \"type\": \"MeshStandardMaterial\",\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"matrix\": Array [\u001b[22m\n\u001b[32m-       1.2726562761495888,\u001b[39m\n\u001b[31m+       1.2705558504132375,\u001b[39m\n\u001b[2m        -0.2581867207667834,\u001b[22m\n\u001b[32m-       -0.0509334184338021,\u001b[39m\n\u001b[31m+       -0.08908446170341056,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.25798019892861807,\u001b[39m\n\u001b[31m+       0.257554421553019,\u001b[39m\n\u001b[2m        1.2736750803624493,\u001b[22m\n\u001b[32m-       -0.010324715059294099,\u001b[39m\n\u001b[31m+       -0.01805831439516933,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       0.051969345333652085,\u001b[39m\n\u001b[31m+       0.09089633675666584,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.298540634813631,\u001b[39m\n\u001b[31m+       1.2963974888439176,\u001b[39m\n\u001b[2m        0,\u001b[22m\n\u001b[32m-       1.09077413324345,\u001b[39m\n\u001b[31m+       1.0889738906288908,\u001b[39m\n\u001b[2m        0.3003383679229309,\u001b[22m\n\u001b[32m-       -0.04365425008026775,\u001b[39m\n\u001b[31m+       -0.0763529228755993,\u001b[39m\n\u001b[2m        1,\u001b[22m\n\u001b[2m      ],\u001b[22m\n\u001b[2m      \"name\": \"Sleeve_Right\",\u001b[22m\n\u001b[2m      \"partId\": \"right-arm\",\u001b[22m\n\u001b[2m    },\u001b[22m\n\n  56 |   expect.soft(routed).toBe(1)\n  57 |   expect.soft(imported).toHaveLength(4)\n> 58 |   expect.soft(restored).toEqual(imported)\n     |                         ^\n  59 |   expect.soft(events.errors).toEqual([])\n  60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n  61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:58:25"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 121,
+                        "line": 60
+                      },
+                      "message": "Error: exported product must resolve a runtime front region\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m1\u001b[39m\nReceived length: \u001b[31m0\u001b[39m\nReceived array:  \u001b[31m[]\u001b[39m\n\n  58 |   expect.soft(restored).toEqual(imported)\n  59 |   expect.soft(events.errors).toEqual([])\n> 60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n     |                                                                                                                         ^\n  61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)\n  62 | })\n  63 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:60:121"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 119,
+                        "line": 61
+                      },
+                      "message": "Error: exported product must resolve a runtime back region\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m1\u001b[39m\nReceived length: \u001b[31m0\u001b[39m\nReceived array:  \u001b[31m[]\u001b[39m\n\n  59 |   expect.soft(events.errors).toEqual([])\n  60 |   expect.soft(imported.filter(m => m.partId === 'shirt_front'), 'exported product must resolve a runtime front region').toHaveLength(1)\n> 61 |   expect.soft(imported.filter(m => m.partId === 'shirt_back'), 'exported product must resolve a runtime back region').toHaveLength(1)\n     |                                                                                                                       ^\n  62 | })\n  63 |\n  64 | test('Phase 3 customized export reimports into Model Maker with artwork textures', async ({ page }) => {\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:61:119"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T18:26:47.298Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\blackbullet\\browser-artifacts\\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\blackbullet\\browser-artifacts\\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\blackbullet\\browser-artifacts\\phase3-blackbullet-Phase-3-fec61--imported-and-runtime-modes\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                    "column": 25,
+                    "line": 58
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-7bd6e2c76907b96ffa88",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "Phase 3 customized export reimports into Model Maker with artwork textures",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 24713,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m1\u001b[39m\nReceived:   \u001b[31m1\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m1\u001b[39m\nReceived:   \u001b[31m1\u001b[39m\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:76:83",
+                    "location": {
+                      "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                      "column": 83,
+                      "line": 76
+                    },
+                    "snippet": "  74 |   await page.screenshot({ path: `${directory}/screenshots/customized-reimport.png` })\n  75 |   expect.soft(actual.meshes).toHaveLength(4)\n> 76 |   expect.soft(new Set(actual.meshes.map(m => m.materials[0].texture?.hash)).size).toBeGreaterThan(1)\n     |                                                                                   ^\n  77 | })\n  78 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                        "column": 83,
+                        "line": 76
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m1\u001b[39m\nReceived:   \u001b[31m1\u001b[39m\n\n  74 |   await page.screenshot({ path: `${directory}/screenshots/customized-reimport.png` })\n  75 |   expect.soft(actual.meshes).toHaveLength(4)\n> 76 |   expect.soft(new Set(actual.meshes.map(m => m.materials[0].texture?.hash)).size).toBeGreaterThan(1)\n     |                                                                                   ^\n  77 | })\n  78 |\n    at C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs:76:83"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T18:27:11.383Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\blackbullet\\browser-artifacts\\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\blackbullet\\browser-artifacts\\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\qa-reports\\phase3\\blackbullet\\browser-artifacts\\phase3-blackbullet-Phase-3-e6033-Maker-with-artwork-textures\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Roshaan's Pc\\Documents\\Projects\\3d-model-maker\\tests\\qa\\browser\\phase3-blackbullet.spec.mjs",
+                    "column": 83,
+                    "line": 76
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "97e4dae7538e10a79a2a-4cd8b8aeeebb62294074",
+          "file": "phase3-blackbullet.spec.mjs",
+          "line": 64,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T18:26:46.271Z",
+    "duration": 51673.446,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,31 @@
+
+Running 24 tests using 1 worker
+
+  ok  1 tests\qa\browser\advanced.spec.mjs:13:3 › advanced QA › actual scene selection, material isolation and geometry overlays (17.2s)
+  ok  2 tests\qa\browser\advanced.spec.mjs:44:3 › advanced QA › real garment renders black through all six camera presets (48.1s)
+  ok  3 tests\qa\browser\advanced.spec.mjs:62:3 › advanced QA › base-color and normal image uploads survive real browser GLB export/reimport (14.5s)
+  ok  4 tests\qa\browser\advanced.spec.mjs:87:3 › advanced QA › UV edits survive an export independently of undo (10.3s)
+  ok  5 tests\qa\browser\advanced.spec.mjs:100:3 › advanced QA › mesh-size rendering FPS and selection latency are measured (40.8s)
+  ok  6 tests\qa\browser\advanced.spec.mjs:121:3 › advanced QA › Shift click synchronizes multiple Scene Explorer selections (9.8s)
+  ok  7 tests\qa\browser\advanced.spec.mjs:134:3 › advanced QA › imported packed PBR texture channels survive browser GLB export (10.3s)
+  ok  8 tests\qa\browser\appearance-modes.spec.mjs:22:1 › Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint (49.3s)
+  ok  9 tests\qa\browser\appearance-modes.spec.mjs:61:1 › Phase 2.5 BlackBullet existing catalog retains runtime default (4.4s)
+  ok 10 tests\qa\browser\blackbullet.spec.mjs:4:1 › BlackBullet actual customizer preserves imported black fabric before user color choice (6.1s)
+  ok 11 tests\qa\browser\editor.spec.mjs:23:1 › initial editor renders with usable side panels and WebGL (6.7s)
+  ok 12 tests\qa\browser\editor.spec.mjs:39:1 › empty viewport click deselects object and clears inspector (9.3s)
+  ok 13 tests\qa\browser\editor.spec.mjs:50:1 › Escape deselects and Scene Explorer empty space deselects (7.7s)
+  ok 14 tests\qa\browser\editor.spec.mjs:61:1 › camera orbit, pan and zoom retain object selection (12.5s)
+  ok 15 tests\qa\browser\editor.spec.mjs:74:1 › all four shading modes are interactive and render without page errors (15.7s)
+  ok 16 tests\qa\browser\editor.spec.mjs:84:1 › Edit Mode selection and Escape behavior (10.4s)
+  ok 17 tests\qa\browser\editor.spec.mjs:98:1 › GLB browser import, export and reimport (13.3s)
+  ok 18 tests\qa\browser\editor.spec.mjs:117:1 › front, right and top camera presets work on an imported garment (18.5s)
+  ok 19 tests\qa\browser\editor.spec.mjs:128:1 › back, left and bottom camera presets are exposed in the viewport UI (5.8s)
+  ok 20 tests\qa\browser\editor.spec.mjs:133:1 › UV Lab displays layout and exports a real PNG (6.2s)
+  ok 21 tests\qa\browser\editor.spec.mjs:144:1 › BlackBullet validation report is accessible (7.4s)
+  ok 22 tests\qa\browser\stabilization.spec.mjs:49:3 › Phase 2.5 › actual Model Maker exports a multi-part black PBR garment with textures (15.4s)
+  ok 23 tests\qa\browser\stabilization.spec.mjs:56:3 › Phase 2.5 › IndexedDB reconstructs edited textured geometry after browser process restart (39.0s)
+  ok 24 tests\qa\browser\stabilization.spec.mjs:105:3 › Phase 2.5 › repeated real imports/removals retain bounded renderer geometry resources (24.7s)
+
+  24 passed (6.8m)
+(node:16288) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

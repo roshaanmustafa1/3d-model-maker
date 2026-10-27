@@ -1,0 +1,9 @@
+
+> 3d-model-maker@0.0.1 start
+> next start --port 3010
+
+▲ Next.js 16.4.2
+- Local:         http://localhost:3010
+- Network:       http://192.168.1.7:3010
+✓ Ready in 296ms
+✓ Running next.config.ts took 72ms

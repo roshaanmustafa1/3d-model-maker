@@ -1,0 +1,84 @@
+
+Running 3 tests using 1 worker
+
+  ok 1 tests\qa\browser\stabilization.spec.mjs:49:3 › Phase 2.5 › actual Model Maker exports a multi-part black PBR garment with textures (17.5s)
+  x  2 tests\qa\browser\stabilization.spec.mjs:56:3 › Phase 2.5 › IndexedDB reconstructs edited textured geometry after browser process restart (16.0s)
+  x  3 tests\qa\browser\stabilization.spec.mjs:105:3 › Phase 2.5 › repeated real imports/removals retain bounded renderer geometry resources (28.9s)
+
+
+  1) tests\qa\browser\stabilization.spec.mjs:56:3 › Phase 2.5 › IndexedDB reconstructs edited textured geometry after browser process restart 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: /^solid$/i })
+    Expected: visible
+    Timeout: 12000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: /^solid$/i }) with timeout 12000ms
+      - waiting for getByRole('button', { name: /^solid$/i })
+
+
+       8 |   await page.addInitScript(observeReactScenes)
+       9 |   await page.goto('http://localhost:3000')
+    > 10 |   await expect(page.getByRole('button', { name: /^solid$/i })).toBeVisible()
+         |                                                                ^
+      11 | }
+      12 | async function importFile(page, file, name) {
+      13 |   await page.getByRole('button', { name: 'Import', exact: true }).click()
+        at editor (C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\stabilization.spec.mjs:10:64)
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\stabilization.spec.mjs:61:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-In-63969-ter-browser-process-restart\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-In-63969-ter-browser-process-restart\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-In-63969-ter-browser-process-restart\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-In-63969-ter-browser-process-restart\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\qa\browser\stabilization.spec.mjs:105:3 › Phase 2.5 › repeated real imports/removals retain bounded renderer geometry resources 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 43
+    Received:    72
+
+      122 |     }
+      123 |     await writeFile(directory + '/resource-cycles.json', JSON.stringify(measurements, null, 2))
+    > 124 |     expect(measurements.at(-1).memory.geometries).toBeLessThanOrEqual(measurements[1].memory.geometries + 5)
+          |                                                   ^
+      125 |   })
+      126 | })
+      127 |
+        at C:\Users\Roshaan's Pc\Documents\Projects\3d-model-maker\tests\qa\browser\stabilization.spec.mjs:124:51
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-re-a2823-renderer-geometry-resources\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-re-a2823-renderer-geometry-resources\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-re-a2823-renderer-geometry-resources\trace.zip
+    Usage:
+
+        npx playwright show-trace qa-reports\phase2_5\browser-core\browser-artifacts\stabilization-Phase-2-5-re-a2823-renderer-geometry-resources\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\qa\browser\stabilization.spec.mjs:56:3 › Phase 2.5 › IndexedDB reconstructs edited textured geometry after browser process restart 
+    tests\qa\browser\stabilization.spec.mjs:105:3 › Phase 2.5 › repeated real imports/removals retain bounded renderer geometry resources 
+  1 passed (1.1m)
+(node:14428) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

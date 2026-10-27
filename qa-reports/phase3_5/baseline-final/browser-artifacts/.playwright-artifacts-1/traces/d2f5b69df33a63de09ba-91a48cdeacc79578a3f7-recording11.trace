@@ -1,0 +1,23 @@
+{"version":10,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.64.1","options":{},"platform":"win32","wallTime":1792870005780,"monotonicTime":228014.381,"sdkLanguage":"javascript","title":"appearance-modes.spec.mjs:22 › Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint"}
+{"type":"before","callId":"nszx@683","startTime":229323.217,"class":"APIRequestContext","method":"fetch","params":{"url":"http://localhost:5173/src/lib/garment-appearance.js","method":"GET","headers":[{"name":"accept","value":"*/*"},{"name":"accept-language","value":"en-US"},{"name":"origin","value":"http://localhost:5173"},{"name":"referer","value":"http://localhost:5173/src/components/customizer/preview/GarmentPreview.vue"},{"name":"user-agent","value":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0"},{"name":"sec-ch-ua","value":"\"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\", \"Microsoft Edge\";v=\"156\""},{"name":"sec-ch-ua-mobile","value":"?0"},{"name":"sec-ch-ua-platform","value":"\"Windows\""}]}}
+{"type":"log","callId":"nszx@683","time":229361.906,"message":"→ GET http://localhost:5173/src/lib/garment-appearance.js"}
+{"type":"log","callId":"nszx@683","time":229361.948,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0"}
+{"type":"log","callId":"nszx@683","time":229361.959,"message":"  accept: */*"}
+{"type":"log","callId":"nszx@683","time":229361.967,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"nszx@683","time":229361.976,"message":"  accept-language: en-US"}
+{"type":"log","callId":"nszx@683","time":229361.985,"message":"  origin: http://localhost:5173"}
+{"type":"log","callId":"nszx@683","time":229361.993,"message":"  referer: http://localhost:5173/src/components/customizer/preview/GarmentPreview.vue"}
+{"type":"log","callId":"nszx@683","time":229362.001,"message":"  sec-ch-ua: \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\", \"Microsoft Edge\";v=\"156\""}
+{"type":"log","callId":"nszx@683","time":229362.01,"message":"  sec-ch-ua-mobile: ?0"}
+{"type":"log","callId":"nszx@683","time":229362.018,"message":"  sec-ch-ua-platform: \"Windows\""}
+{"type":"log","callId":"nszx@683","time":229393.895,"message":"← 200 OK"}
+{"type":"log","callId":"nszx@683","time":229393.912,"message":"  access-control-allow-origin: http://localhost:5173"}
+{"type":"log","callId":"nszx@683","time":229393.922,"message":"  vary: Origin"}
+{"type":"log","callId":"nszx@683","time":229393.931,"message":"  content-type: text/javascript"}
+{"type":"log","callId":"nszx@683","time":229393.939,"message":"  cache-control: no-cache"}
+{"type":"log","callId":"nszx@683","time":229393.948,"message":"  etag: W/\"5be-EXAi+zpPGWKawbPrsi+IhrbFYX8\""}
+{"type":"log","callId":"nszx@683","time":229393.957,"message":"  date: Sat, 24 Oct 2026 19:26:47 GMT"}
+{"type":"log","callId":"nszx@683","time":229393.965,"message":"  connection: keep-alive"}
+{"type":"log","callId":"nszx@683","time":229393.974,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"nszx@683","time":229393.983,"message":"  content-length: 7421"}
+{"type":"after","callId":"nszx@683","endTime":229394.231,"result":{"response":{"url":"http://localhost:5173/src/lib/garment-appearance.js","status":200,"statusText":"OK","headers":[{"name":"Access-Control-Allow-Origin","value":"http://localhost:5173"},{"name":"Vary","value":"Origin"},{"name":"Content-Type","value":"text/javascript"},{"name":"Cache-Control","value":"no-cache"},{"name":"Etag","value":"W/\"5be-EXAi+zpPGWKawbPrsi+IhrbFYX8\""},{"name":"Date","value":"Sat, 24 Oct 2026 19:26:47 GMT"},{"name":"Connection","value":"keep-alive"},{"name":"Keep-Alive","value":"timeout=5"},{"name":"Content-Length","value":"7421"}],"serverAddr":{"ipAddress":"127.0.0.1","port":5173},"timing":{"startTime":1792870007104,"domainLookupStart":0,"domainLookupEnd":38.11200000002282,"connectStart":38.11200000002282,"secureConnectionStart":-1,"connectEnd":44.50300000002608,"requestStart":44.50300000002608,"responseStart":50.46400000000722},"responseEndTiming":53.19900000002235,"fetchUid":"16c5da287558005b912365a90127b848"}}}

@@ -1,0 +1,6012 @@
+[
+  {
+    "path": "qa-reports/phase2_5/fixtures/multipart-textured-input.glb",
+    "validHeader": true,
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 89856,
+              "components": 1,
+              "finite": true,
+              "hash": "ae006cb03cfad230b288485ca10fe8b4b0f9f227d6c73af5a87eb01436cefcc2",
+              "min": 0,
+              "max": 15425
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 15426,
+                "components": 3,
+                "finite": true,
+                "hash": "b2b4bf011acee802c5e65175df24b077eabf19a1c39957cdde0c737b33125f14",
+                "min": -0.777429461479187,
+                "max": 2.324335813522339
+              },
+              "NORMAL": {
+                "count": 15426,
+                "components": 3,
+                "finite": true,
+                "hash": "c294f260ffc08e9bfb72537097b4893a4700ed6acb9d5dd7ad7b2d0d0384ae29",
+                "min": -0.9999923706054688,
+                "max": 0.9999923706054688
+              },
+              "TEXCOORD_0": {
+                "count": 15426,
+                "components": 2,
+                "finite": true,
+                "hash": "66d194f158583ec9d864865fddba34925de98dbfb6023c015625a0777a2a6430",
+                "min": 0.04592476785182953,
+                "max": 0.9361646771430969
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 99072,
+              "components": 1,
+              "finite": true,
+              "hash": "6bd3a636dc8cd537fd0a2b08eb3f704ca99e78db78a97b52f95b2f7d5b56071e",
+              "min": 0,
+              "max": 16769
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 16770,
+                "components": 3,
+                "finite": true,
+                "hash": "8483181eba3482c8386dfc4f881ec34090f98bb0c1f45a0c64f75304f25b1c45",
+                "min": -0.777429461479187,
+                "max": 2.386521339416504
+              },
+              "NORMAL": {
+                "count": 16770,
+                "components": 3,
+                "finite": true,
+                "hash": "09cf61536c4acfcfa3fdfa033a76a85569696bf0b34c79818a87cdcdfd8fa47c",
+                "min": -0.9999984502792358,
+                "max": 0.9999984502792358
+              },
+              "TEXCOORD_0": {
+                "count": 16770,
+                "components": 2,
+                "finite": true,
+                "hash": "bc999360452190cb44b1f5de28e0d1818a1e2e3a5371bd0ff3c438efed3e9f50",
+                "min": 0.04503351449966431,
+                "max": 0.9540752172470093
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 69504,
+              "components": 1,
+              "finite": true,
+              "hash": "77703e29cf92b6ed6a7928853c22e78b70bf6b3ee4a04d9129d799a9c9278b45",
+              "min": 0,
+              "max": 12279
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 12280,
+                "components": 3,
+                "finite": true,
+                "hash": "1456761cf9eebb6c4c32230a2afd3fe66f6d37b37094dbe5b19b965c38b1123b",
+                "min": -1.1650002002716064,
+                "max": 2.721090078353882
+              },
+              "NORMAL": {
+                "count": 12280,
+                "components": 3,
+                "finite": true,
+                "hash": "bcc95177ddd98dc3a3183c053acb107181aae9911a27d8a0833e0590d4158a40",
+                "min": -0.9999923706054688,
+                "max": 0.9999923706054688
+              },
+              "TEXCOORD_0": {
+                "count": 12280,
+                "components": 2,
+                "finite": true,
+                "hash": "af0b5df8ba764fa20ccb369356b457bad90a2466686a8125deceb00ab8513f5d",
+                "min": 0.11166659742593765,
+                "max": 0.8883333802223206
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 28944,
+              "components": 1,
+              "finite": true,
+              "hash": "e78402b0a6c8b4d918f51680191f72778451d5ff41fa0efe73c43cdd57ca5cc4",
+              "min": 0,
+              "max": 5105
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "ce15b04d3a8ba5a5bfe41b29de51c4b6683c25a2cf775a9fc501cacbfcf42a87",
+                "min": -0.2721098065376282,
+                "max": 3.030522346496582
+              },
+              "NORMAL": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "acf5b27cf38ebae924075d0de4ea3c7f9984542f05c6071b7b13022bee085134",
+                "min": -0.9993231296539307,
+                "max": 0.9993265867233276
+              },
+              "TEXCOORD_0": {
+                "count": 5106,
+                "components": 2,
+                "finite": true,
+                "hash": "cdc511e578af049ec596b006bacce411f42c8cd9c70ac7cbede0881260d95d01",
+                "min": 0.022412121295928955,
+                "max": 0.9466333985328674
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 28944,
+              "components": 1,
+              "finite": true,
+              "hash": "6eb5946d31577e0c020a8ca765aab3ade7a3d37bab6608453d158210c3039740",
+              "min": 0,
+              "max": 5105
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "bbcf5a7caf1058c1cc180953bbd69281281e997569657fbd4271fd88e089f78a",
+                "min": -1.339900255203247,
+                "max": 3.030522346496582
+              },
+              "NORMAL": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "87f395395d1d3315e6ca35c91aa6eaa8ba3ba4218abfe8e9a723493015bd11d2",
+                "min": -0.9993231296539307,
+                "max": 0.9993265867233276
+              },
+              "TEXCOORD_0": {
+                "count": 5106,
+                "components": 2,
+                "finite": true,
+                "hash": "50e38e296ce253d50beeb695794e7743583a32dd3b9bd7e7b9363daa6331ea0b",
+                "min": 0.022412121295928955,
+                "max": 0.39838707447052
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3504,
+              "components": 1,
+              "finite": true,
+              "hash": "c1bc63f57cf2677c90239f769113a6593ccffa13843c13986dbd98a04b3a442f",
+              "min": 0,
+              "max": 665
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "945c59b9f45d84805228ac426eb0e6a90cb0acad42ba2b44617cc6ecdee4cd7d",
+                "min": -0.1544647216796875,
+                "max": 2.754732847213745
+              },
+              "NORMAL": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "57e2ec5362c54e8df175cd84b543b017624032634d219d31b76f1120cd5d67c4",
+                "min": -0.9392991065979004,
+                "max": 0.9392991065979004
+              },
+              "TEXCOORD_0": {
+                "count": 666,
+                "components": 2,
+                "finite": true,
+                "hash": "da1b62823f00c4e30ce90a60f73d463c42cbe44fc8a4205436b8fbd35a5c6311",
+                "min": 0.11137652397155762,
+                "max": 0.9628278613090515
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3504,
+              "components": 1,
+              "finite": true,
+              "hash": "cb2c64a2558008a4a5fd35dd587ed9e5ad57f56dcb65cd67404a19a313eded4a",
+              "min": 0,
+              "max": 665
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "4db098289abdf2dad22ddb79066e19f0df56cd56779ec424cc3f67b2f32956f4",
+                "min": -1.3884835243225098,
+                "max": 2.754732847213745
+              },
+              "NORMAL": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "294cde4b7306c4d98741153cb937f5f66cee368e76f0dcabbe38f6521cd5c7dd",
+                "min": -0.9392991065979004,
+                "max": 0.9392991065979004
+              },
+              "TEXCOORD_0": {
+                "count": 666,
+                "components": 2,
+                "finite": true,
+                "hash": "a3fa359c989ffde580edf7bc7e74a84be3245e7145834d9fdabd52defb130c63",
+                "min": 0.03717215731739998,
+                "max": 0.36829179525375366
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3456,
+              "components": 1,
+              "finite": true,
+              "hash": "6461a3652fb372a9cfdbfeac323cd43a01147d5b879b4514f22a8f9d8a085f25",
+              "min": 0,
+              "max": 655
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 656,
+                "components": 3,
+                "finite": true,
+                "hash": "38de71a5eb723980d7f74bae5b220591ea8c1686de0c5734f44c3b957f06e746",
+                "min": -0.34270691871643066,
+                "max": 3.034336566925049
+              },
+              "NORMAL": {
+                "count": 656,
+                "components": 3,
+                "finite": true,
+                "hash": "116c41fd424ab86c7a86918e9cb60842bc29aac3672072551b6b2d1fd42e24b6",
+                "min": -0.9994252324104309,
+                "max": 0.9994252324104309
+              },
+              "TEXCOORD_0": {
+                "count": 656,
+                "components": 2,
+                "finite": true,
+                "hash": "0de7e14f7d4c7ce1c518afcf7ec7d0cf7aedc877ec79b3d0831f80b4299beb72",
+                "min": 0.021181762218475342,
+                "max": 0.6142356395721436
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 8448,
+              "components": 1,
+              "finite": true,
+              "hash": "e00b6e5d0176b925c24b503160084e1e41e29149db9e9c03fa3dae49e009804e",
+              "min": 0,
+              "max": 1517
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "7dd87842f5810a8635d795c6174ac3e4394859f8d4637784c43c2018859c8568",
+                "min": -0.34314748644828796,
+                "max": 2.969696521759033
+              },
+              "NORMAL": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "352355e2038434235d0df4804c90c54e062f0cfc6f93ff5ce2967afc5c7dc47e",
+                "min": -0.9934343099594116,
+                "max": 0.9934343099594116
+              },
+              "TEXCOORD_0": {
+                "count": 1518,
+                "components": 2,
+                "finite": true,
+                "hash": "2c0c7db792cf15803adc46efd757e69b1e74e16323a9f347b5652cb78f794f2a",
+                "min": 0.042033374309539795,
+                "max": 0.6143825054168701
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 8448,
+              "components": 1,
+              "finite": true,
+              "hash": "2db863111a1dd1d4e0a93053f8c3960fb8d2298d6fa4a62cd5c37321da48bdb1",
+              "min": 0,
+              "max": 1517
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "14681bec2fe0e75dd86efaf0b32643cb62efe0c60d4281bae4fd511e1db3ed9f",
+                "min": -0.34566730260849,
+                "max": 2.977266550064087
+              },
+              "NORMAL": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "5e2a0c1762780afd6aa8e7e42b453c46c9cedc3b5325ce7f7725a7acb1b8fd6a",
+                "min": -0.9974403977394104,
+                "max": 0.9974403977394104
+              },
+              "TEXCOORD_0": {
+                "count": 1518,
+                "components": 2,
+                "finite": true,
+                "hash": "8d215f9775d2918f37ec9e0f8e2aab6f6900885945744ef85c965e825ca0dcf5",
+                "min": 0.039591431617736816,
+                "max": 0.6143913865089417
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 4608,
+              "components": 1,
+              "finite": true,
+              "hash": "92a0cae850560925138b81a7f42aff8fe3695b34d89585b5807881a37a77fbad",
+              "min": 0,
+              "max": 881
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "2695a638315070fb2815519f3d7e9e3a36bea052230c672a23686e1cb8f8ef06",
+                "min": -2.4684325694579456e-8,
+                "max": 0.8298079371452332
+              },
+              "NORMAL": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "d75cac126989b25080b65d323770c5469d6c1bf8173d131e479a7ff3cc861dfa",
+                "min": -0.997183620929718,
+                "max": 0.997183620929718
+              },
+              "TEXCOORD_0": {
+                "count": 882,
+                "components": 2,
+                "finite": true,
+                "hash": "e5c8cca685c38d630be64ce5844f7fc1651ebbf6d485cc9094e4e74b9e8c4cd6",
+                "min": 0.5915968418121338,
+                "max": 0.9225592613220215
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 4608,
+              "components": 1,
+              "finite": true,
+              "hash": "92a0cae850560925138b81a7f42aff8fe3695b34d89585b5807881a37a77fbad",
+              "min": 0,
+              "max": 881
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "0e389fac167448e8c1b8272d6c298a2c31b4dc561092af0a20a526c40872a62a",
+                "min": -0.6921106576919556,
+                "max": 0.8298079371452332
+              },
+              "NORMAL": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "095d9247d8f5e198efeda847708a77dec4152783193da81077d1676788c0f69d",
+                "min": -0.997183620929718,
+                "max": 0.997183620929718
+              },
+              "TEXCOORD_0": {
+                "count": 882,
+                "components": 2,
+                "finite": true,
+                "hash": "098b34a962d805c4b9adcf7f45fb5f9768a1ec6a604639b9aa0e1d94400ac7a5",
+                "min": 0.26929643750190735,
+                "max": 0.9225592613220215
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.0027317428517647058,
+            0.0027317428517647058,
+            0.0033465357620980074,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.65,
+          "baseColorTexture": {
+            "index": 0
+          }
+        },
+        "doubleSided": true,
+        "name": "shirt_front_Mat",
+        "normalTexture": {
+          "index": 1
+        }
+      }
+    ],
+    "images": [
+      {
+        "width": 8,
+        "height": 8,
+        "sha256": "ccd1c5eed644226f2e4bf3e501652b9f65aaf8755fe9d0e98a200da429ab80ae",
+        "colors": [
+          [
+            "9,9,11,255",
+            64
+          ]
+        ],
+        "center": [
+          9,
+          9,
+          11,
+          255
+        ]
+      },
+      {
+        "width": 8,
+        "height": 8,
+        "sha256": "b07095fe36d4f870d3ee94116cf05bfaa38770444e1d15b4dfcbe3d63c3f0eb0",
+        "colors": [
+          [
+            "128,128,255,255",
+            64
+          ]
+        ],
+        "center": [
+          128,
+          128,
+          255,
+          255
+        ]
+      }
+    ],
+    "surfaceSamples": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 3650,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    3650
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 262,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    262
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 11192,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    11192
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 3650,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    3650
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 11198,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    11198
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 4163,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    4163
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 12215,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    12215
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 261,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    261
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 4164,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    4164
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 12221,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    12221
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 1822,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    1822
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 372,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    372
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 9455,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    9455
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 1822,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    1822
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 9454,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    9454
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 243,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    243
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 3847,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    3847
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 317,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    317
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 639,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    639
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 3847,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    3847
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 311,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    311
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 687,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    687
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 318,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    318
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 3843,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    3843
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 642,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    642
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 3842,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    3842
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 314,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    314
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 689,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    689
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 150,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    150
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 26,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    26
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 149,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    149
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 401,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    401
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 51,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    51
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 391,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    391
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 150,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    150
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 26,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    26
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 149,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    149
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 401,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    401
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 51,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    51
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 391,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    391
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 93,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    93
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 393,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    393
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 94,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    94
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 158,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    158
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 411,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    411
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 3,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    3
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 1406,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    1406
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    2
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    2
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 1406,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    1406
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z-": {
+                "triangles": 1385,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    1385
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 23,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    23
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 23,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    23
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 1385,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    1385
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    512
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    256
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    512
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    256
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    256
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    512
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    256
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "9,9,11,255",
+                    512
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "qa-reports/phase3/exports/blackbullet-test-1024.glb",
+    "validHeader": true,
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 384,
+              "components": 1,
+              "finite": true,
+              "hash": "984d82b5e715e4896bf4392fa9b3309f0ea2374ecbbe31b330f69d6e7f9de3dc",
+              "min": 0,
+              "max": 109
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 110,
+                "components": 3,
+                "finite": true,
+                "hash": "eca2b148446816777cd521ec969f3d5c3a988be491829a3bd431f15e9101ebaf",
+                "min": -0.75,
+                "max": 0.75
+              },
+              "NORMAL": {
+                "count": 110,
+                "components": 3,
+                "finite": true,
+                "hash": "f4f00be48014d5af21bffa7c089aad9801b58351c15f755bfe86945909ad655d",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 110,
+                "components": 2,
+                "finite": true,
+                "hash": "221531c18d40494d54a9b5a6b9ac86c29aadc59747b585994ce0ba0b3d5d967b",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 288,
+              "components": 1,
+              "finite": true,
+              "hash": "bf4edb3044d4d66ccfe10f0d00af7ca2f2105ee703a90a7cbbab161579fd077d",
+              "min": 0,
+              "max": 147
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 148,
+                "components": 3,
+                "finite": true,
+                "hash": "022efce05be5582798880d6ccb393da4b2904035567212ff60b83b28ad1f9a0f",
+                "min": -0.25999999046325684,
+                "max": 0.25999999046325684
+              },
+              "NORMAL": {
+                "count": 148,
+                "components": 3,
+                "finite": true,
+                "hash": "2fb040d1ff12b2ef71a4244108ff1832be7619902d9a19113fccfe3b508000a7",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 148,
+                "components": 2,
+                "finite": true,
+                "hash": "db0b613ff234a05c367c21d9d0e74be7655e57bba839e371bdd87ff6b10af1d6",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 36,
+              "components": 1,
+              "finite": true,
+              "hash": "e014923c09cad7f93c13e30c4e091e2649a31c5e748ded396ffe1a94c3b15117",
+              "min": 0,
+              "max": 23
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "1e3bd3fe140c5f00c8dec42b5368ab188a6b8a9466284622fd203eaa04b83efe",
+                "min": -0.2750000059604645,
+                "max": 0.2750000059604645
+              },
+              "NORMAL": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "d1ab51303ed98c220ab1198eda3bacb1d7a48f01c5ac2ca59204d7e8f15ad429",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 24,
+                "components": 2,
+                "finite": true,
+                "hash": "9e4769cf9c44598b2ef8688e292e5aa8d2f7cf835b8ff655f48f2f13b7d0377c",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 36,
+              "components": 1,
+              "finite": true,
+              "hash": "e014923c09cad7f93c13e30c4e091e2649a31c5e748ded396ffe1a94c3b15117",
+              "min": 0,
+              "max": 23
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "1e3bd3fe140c5f00c8dec42b5368ab188a6b8a9466284622fd203eaa04b83efe",
+                "min": -0.2750000059604645,
+                "max": 0.2750000059604645
+              },
+              "NORMAL": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "d1ab51303ed98c220ab1198eda3bacb1d7a48f01c5ac2ca59204d7e8f15ad429",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 24,
+                "components": 2,
+                "finite": true,
+                "hash": "9e4769cf9c44598b2ef8688e292e5aa8d2f7cf835b8ff655f48f2f13b7d0377c",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.009134058699157796,
+            0.009134058699157796,
+            0.010960094003125918,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.92,
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 0
+          }
+        },
+        "doubleSided": true,
+        "name": "Combed Cotton"
+      }
+    ],
+    "images": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "sha256": "a46ae21c37bf9f247017748c0e1a49d7fc56ba36fe42d559520a4f5282218481",
+        "colors": [
+          [
+            "24,24,27,255",
+            751941
+          ],
+          [
+            "0,0,255,255",
+            102933
+          ],
+          [
+            "255,0,0,255",
+            85110
+          ],
+          [
+            "20,104,78,255",
+            43666
+          ],
+          [
+            "16,185,129,255",
+            31722
+          ],
+          [
+            "136,92,64,255",
+            16989
+          ],
+          [
+            "255,255,255,255",
+            7608
+          ],
+          [
+            "136,220,192,255",
+            765
+          ],
+          [
+            "242,0,13,255",
+            276
+          ],
+          [
+            "13,0,242,255",
+            276
+          ],
+          [
+            "82,82,84,255",
+            275
+          ],
+          [
+            "209,0,46,255",
+            274
+          ]
+        ],
+        "center": [
+          16,
+          185,
+          129,
+          255
+        ]
+      }
+    ],
+    "surfaceSamples": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ],
+                  [
+                    "136,92,64,255",
+                    1
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ],
+                  [
+                    "255,0,0,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ],
+                  [
+                    "136,92,64,255",
+                    1
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ],
+                  [
+                    "255,0,0,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ],
+                  [
+                    "255,0,0,255",
+                    2
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ],
+                  [
+                    "255,0,0,255",
+                    2
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 32,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ],
+                  [
+                    "255,0,0,255",
+                    4
+                  ],
+                  [
+                    "0,0,255,255",
+                    4
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 32,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ],
+                  [
+                    "255,0,0,255",
+                    4
+                  ],
+                  [
+                    "0,0,255,255",
+                    4
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "y-": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    6
+                  ],
+                  [
+                    "24,24,27,255",
+                    5
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "0,0,255,255",
+                    6
+                  ],
+                  [
+                    "255,0,0,255",
+                    5
+                  ],
+                  [
+                    "209,0,46,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    7
+                  ],
+                  [
+                    "0,0,255,255",
+                    5
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 24,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    20
+                  ],
+                  [
+                    "20,104,78,255",
+                    4
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 24,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    20
+                  ],
+                  [
+                    "20,104,78,255",
+                    4
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "qa-reports/phase3/exports/blackbullet-test-2048.glb",
+    "validHeader": true,
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 384,
+              "components": 1,
+              "finite": true,
+              "hash": "984d82b5e715e4896bf4392fa9b3309f0ea2374ecbbe31b330f69d6e7f9de3dc",
+              "min": 0,
+              "max": 109
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 110,
+                "components": 3,
+                "finite": true,
+                "hash": "eca2b148446816777cd521ec969f3d5c3a988be491829a3bd431f15e9101ebaf",
+                "min": -0.75,
+                "max": 0.75
+              },
+              "NORMAL": {
+                "count": 110,
+                "components": 3,
+                "finite": true,
+                "hash": "f4f00be48014d5af21bffa7c089aad9801b58351c15f755bfe86945909ad655d",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 110,
+                "components": 2,
+                "finite": true,
+                "hash": "221531c18d40494d54a9b5a6b9ac86c29aadc59747b585994ce0ba0b3d5d967b",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 288,
+              "components": 1,
+              "finite": true,
+              "hash": "bf4edb3044d4d66ccfe10f0d00af7ca2f2105ee703a90a7cbbab161579fd077d",
+              "min": 0,
+              "max": 147
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 148,
+                "components": 3,
+                "finite": true,
+                "hash": "022efce05be5582798880d6ccb393da4b2904035567212ff60b83b28ad1f9a0f",
+                "min": -0.25999999046325684,
+                "max": 0.25999999046325684
+              },
+              "NORMAL": {
+                "count": 148,
+                "components": 3,
+                "finite": true,
+                "hash": "2fb040d1ff12b2ef71a4244108ff1832be7619902d9a19113fccfe3b508000a7",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 148,
+                "components": 2,
+                "finite": true,
+                "hash": "db0b613ff234a05c367c21d9d0e74be7655e57bba839e371bdd87ff6b10af1d6",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 36,
+              "components": 1,
+              "finite": true,
+              "hash": "e014923c09cad7f93c13e30c4e091e2649a31c5e748ded396ffe1a94c3b15117",
+              "min": 0,
+              "max": 23
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "1e3bd3fe140c5f00c8dec42b5368ab188a6b8a9466284622fd203eaa04b83efe",
+                "min": -0.2750000059604645,
+                "max": 0.2750000059604645
+              },
+              "NORMAL": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "d1ab51303ed98c220ab1198eda3bacb1d7a48f01c5ac2ca59204d7e8f15ad429",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 24,
+                "components": 2,
+                "finite": true,
+                "hash": "9e4769cf9c44598b2ef8688e292e5aa8d2f7cf835b8ff655f48f2f13b7d0377c",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 36,
+              "components": 1,
+              "finite": true,
+              "hash": "e014923c09cad7f93c13e30c4e091e2649a31c5e748ded396ffe1a94c3b15117",
+              "min": 0,
+              "max": 23
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "1e3bd3fe140c5f00c8dec42b5368ab188a6b8a9466284622fd203eaa04b83efe",
+                "min": -0.2750000059604645,
+                "max": 0.2750000059604645
+              },
+              "NORMAL": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "d1ab51303ed98c220ab1198eda3bacb1d7a48f01c5ac2ca59204d7e8f15ad429",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 24,
+                "components": 2,
+                "finite": true,
+                "hash": "9e4769cf9c44598b2ef8688e292e5aa8d2f7cf835b8ff655f48f2f13b7d0377c",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.009134058699157796,
+            0.009134058699157796,
+            0.010960094003125918,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.92,
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 0
+          }
+        },
+        "doubleSided": true,
+        "name": "Combed Cotton"
+      }
+    ],
+    "images": [
+      {
+        "width": 2048,
+        "height": 2048,
+        "sha256": "eead389ee3ef89a78b6d908e0fddb469d7c3cdf78c59ed3af94cc2ad9d2406be",
+        "colors": [
+          [
+            "24,24,27,255",
+            3008662
+          ],
+          [
+            "0,0,255,255",
+            413098
+          ],
+          [
+            "255,0,0,255",
+            341388
+          ],
+          [
+            "20,104,78,255",
+            175004
+          ],
+          [
+            "16,185,129,255",
+            127612
+          ],
+          [
+            "136,92,64,255",
+            68638
+          ],
+          [
+            "255,255,255,255",
+            32759
+          ],
+          [
+            "136,220,192,255",
+            2631
+          ],
+          [
+            "140,140,141,255",
+            1730
+          ],
+          [
+            "138,180,166,255",
+            1720
+          ],
+          [
+            "255,128,128,255",
+            1172
+          ],
+          [
+            "196,174,160,255",
+            931
+          ]
+        ],
+        "center": [
+          16,
+          185,
+          129,
+          255
+        ]
+      }
+    ],
+    "surfaceSamples": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ],
+                  [
+                    "136,92,64,255",
+                    1
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ],
+                  [
+                    "255,0,0,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ],
+                  [
+                    "136,92,64,255",
+                    1
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ],
+                  [
+                    "255,0,0,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ],
+                  [
+                    "255,0,0,255",
+                    2
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ],
+                  [
+                    "255,0,0,255",
+                    2
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 32,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ],
+                  [
+                    "255,0,0,255",
+                    4
+                  ],
+                  [
+                    "0,0,255,255",
+                    4
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 32,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ],
+                  [
+                    "255,0,0,255",
+                    4
+                  ],
+                  [
+                    "0,0,255,255",
+                    4
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "y-": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    6
+                  ],
+                  [
+                    "24,24,27,255",
+                    5
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "0,0,255,255",
+                    6
+                  ],
+                  [
+                    "255,0,0,255",
+                    5
+                  ],
+                  [
+                    "201,0,54,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    7
+                  ],
+                  [
+                    "0,0,255,255",
+                    5
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 24,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    20
+                  ],
+                  [
+                    "20,104,78,255",
+                    4
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 24,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    20
+                  ],
+                  [
+                    "20,104,78,255",
+                    4
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "qa-reports/phase3/exports/blackbullet-test-4096.glb",
+    "validHeader": true,
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 384,
+              "components": 1,
+              "finite": true,
+              "hash": "984d82b5e715e4896bf4392fa9b3309f0ea2374ecbbe31b330f69d6e7f9de3dc",
+              "min": 0,
+              "max": 109
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 110,
+                "components": 3,
+                "finite": true,
+                "hash": "eca2b148446816777cd521ec969f3d5c3a988be491829a3bd431f15e9101ebaf",
+                "min": -0.75,
+                "max": 0.75
+              },
+              "NORMAL": {
+                "count": 110,
+                "components": 3,
+                "finite": true,
+                "hash": "f4f00be48014d5af21bffa7c089aad9801b58351c15f755bfe86945909ad655d",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 110,
+                "components": 2,
+                "finite": true,
+                "hash": "221531c18d40494d54a9b5a6b9ac86c29aadc59747b585994ce0ba0b3d5d967b",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 288,
+              "components": 1,
+              "finite": true,
+              "hash": "bf4edb3044d4d66ccfe10f0d00af7ca2f2105ee703a90a7cbbab161579fd077d",
+              "min": 0,
+              "max": 147
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 148,
+                "components": 3,
+                "finite": true,
+                "hash": "022efce05be5582798880d6ccb393da4b2904035567212ff60b83b28ad1f9a0f",
+                "min": -0.25999999046325684,
+                "max": 0.25999999046325684
+              },
+              "NORMAL": {
+                "count": 148,
+                "components": 3,
+                "finite": true,
+                "hash": "2fb040d1ff12b2ef71a4244108ff1832be7619902d9a19113fccfe3b508000a7",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 148,
+                "components": 2,
+                "finite": true,
+                "hash": "db0b613ff234a05c367c21d9d0e74be7655e57bba839e371bdd87ff6b10af1d6",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 36,
+              "components": 1,
+              "finite": true,
+              "hash": "e014923c09cad7f93c13e30c4e091e2649a31c5e748ded396ffe1a94c3b15117",
+              "min": 0,
+              "max": 23
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "1e3bd3fe140c5f00c8dec42b5368ab188a6b8a9466284622fd203eaa04b83efe",
+                "min": -0.2750000059604645,
+                "max": 0.2750000059604645
+              },
+              "NORMAL": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "d1ab51303ed98c220ab1198eda3bacb1d7a48f01c5ac2ca59204d7e8f15ad429",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 24,
+                "components": 2,
+                "finite": true,
+                "hash": "9e4769cf9c44598b2ef8688e292e5aa8d2f7cf835b8ff655f48f2f13b7d0377c",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 36,
+              "components": 1,
+              "finite": true,
+              "hash": "e014923c09cad7f93c13e30c4e091e2649a31c5e748ded396ffe1a94c3b15117",
+              "min": 0,
+              "max": 23
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "1e3bd3fe140c5f00c8dec42b5368ab188a6b8a9466284622fd203eaa04b83efe",
+                "min": -0.2750000059604645,
+                "max": 0.2750000059604645
+              },
+              "NORMAL": {
+                "count": 24,
+                "components": 3,
+                "finite": true,
+                "hash": "d1ab51303ed98c220ab1198eda3bacb1d7a48f01c5ac2ca59204d7e8f15ad429",
+                "min": -1,
+                "max": 1
+              },
+              "TEXCOORD_0": {
+                "count": 24,
+                "components": 2,
+                "finite": true,
+                "hash": "9e4769cf9c44598b2ef8688e292e5aa8d2f7cf835b8ff655f48f2f13b7d0377c",
+                "min": 0,
+                "max": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.009134058699157796,
+            0.009134058699157796,
+            0.010960094003125918,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.92,
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 0
+          }
+        },
+        "doubleSided": true,
+        "name": "Combed Cotton"
+      }
+    ],
+    "images": [
+      {
+        "width": 4096,
+        "height": 4096,
+        "sha256": "386d1f6e7f215d56a2af0a3c84a3cd0aacc0390927d1817e693f7531c663a4f9",
+        "colors": [
+          [
+            "24,24,27,255",
+            12035646
+          ],
+          [
+            "0,0,255,255",
+            1653879
+          ],
+          [
+            "255,0,0,255",
+            1366786
+          ],
+          [
+            "20,104,78,255",
+            702482
+          ],
+          [
+            "16,185,129,255",
+            511788
+          ],
+          [
+            "136,92,64,255",
+            276579
+          ],
+          [
+            "255,255,255,255",
+            136705
+          ],
+          [
+            "136,220,192,255",
+            9714
+          ],
+          [
+            "140,140,141,255",
+            8131
+          ],
+          [
+            "138,180,166,255",
+            7619
+          ],
+          [
+            "255,128,128,255",
+            5044
+          ],
+          [
+            "196,174,160,255",
+            3691
+          ]
+        ],
+        "center": [
+          16,
+          185,
+          129,
+          255
+        ]
+      }
+    ],
+    "surfaceSamples": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ],
+                  [
+                    "136,92,64,255",
+                    1
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ],
+                  [
+                    "255,0,0,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ],
+                  [
+                    "136,92,64,255",
+                    1
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ],
+                  [
+                    "255,0,0,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ],
+                  [
+                    "255,0,0,255",
+                    2
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 16,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ],
+                  [
+                    "255,0,0,255",
+                    2
+                  ],
+                  [
+                    "0,0,255,255",
+                    2
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 32,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ],
+                  [
+                    "255,0,0,255",
+                    4
+                  ],
+                  [
+                    "0,0,255,255",
+                    4
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 32,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ],
+                  [
+                    "255,0,0,255",
+                    4
+                  ],
+                  [
+                    "0,0,255,255",
+                    4
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "y-": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    6
+                  ],
+                  [
+                    "24,24,27,255",
+                    5
+                  ],
+                  [
+                    "20,104,78,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "0,0,255,255",
+                    6
+                  ],
+                  [
+                    "255,0,0,255",
+                    5
+                  ],
+                  [
+                    "197,0,58,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 12,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    7
+                  ],
+                  [
+                    "0,0,255,255",
+                    5
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 24,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    20
+                  ],
+                  [
+                    "20,104,78,255",
+                    4
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 24,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    20
+                  ],
+                  [
+                    "20,104,78,255",
+                    4
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "255,0,0,255",
+                    1
+                  ],
+                  [
+                    "0,0,255,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "qa-reports/phase3/exports/durable-reopened.glb",
+    "validHeader": true,
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 89856,
+              "components": 1,
+              "finite": true,
+              "hash": "ae006cb03cfad230b288485ca10fe8b4b0f9f227d6c73af5a87eb01436cefcc2",
+              "min": 0,
+              "max": 15425
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 15426,
+                "components": 3,
+                "finite": true,
+                "hash": "b2b4bf011acee802c5e65175df24b077eabf19a1c39957cdde0c737b33125f14",
+                "min": -0.777429461479187,
+                "max": 2.324335813522339
+              },
+              "NORMAL": {
+                "count": 15426,
+                "components": 3,
+                "finite": true,
+                "hash": "c294f260ffc08e9bfb72537097b4893a4700ed6acb9d5dd7ad7b2d0d0384ae29",
+                "min": -0.9999923706054688,
+                "max": 0.9999923706054688
+              },
+              "TEXCOORD_0": {
+                "count": 15426,
+                "components": 2,
+                "finite": true,
+                "hash": "66d194f158583ec9d864865fddba34925de98dbfb6023c015625a0777a2a6430",
+                "min": 0.04592476785182953,
+                "max": 0.9361646771430969
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 99072,
+              "components": 1,
+              "finite": true,
+              "hash": "6bd3a636dc8cd537fd0a2b08eb3f704ca99e78db78a97b52f95b2f7d5b56071e",
+              "min": 0,
+              "max": 16769
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 16770,
+                "components": 3,
+                "finite": true,
+                "hash": "8483181eba3482c8386dfc4f881ec34090f98bb0c1f45a0c64f75304f25b1c45",
+                "min": -0.777429461479187,
+                "max": 2.386521339416504
+              },
+              "NORMAL": {
+                "count": 16770,
+                "components": 3,
+                "finite": true,
+                "hash": "09cf61536c4acfcfa3fdfa033a76a85569696bf0b34c79818a87cdcdfd8fa47c",
+                "min": -0.9999984502792358,
+                "max": 0.9999984502792358
+              },
+              "TEXCOORD_0": {
+                "count": 16770,
+                "components": 2,
+                "finite": true,
+                "hash": "bc999360452190cb44b1f5de28e0d1818a1e2e3a5371bd0ff3c438efed3e9f50",
+                "min": 0.04503351449966431,
+                "max": 0.9540752172470093
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 69504,
+              "components": 1,
+              "finite": true,
+              "hash": "77703e29cf92b6ed6a7928853c22e78b70bf6b3ee4a04d9129d799a9c9278b45",
+              "min": 0,
+              "max": 12279
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 12280,
+                "components": 3,
+                "finite": true,
+                "hash": "1456761cf9eebb6c4c32230a2afd3fe66f6d37b37094dbe5b19b965c38b1123b",
+                "min": -1.1650002002716064,
+                "max": 2.721090078353882
+              },
+              "NORMAL": {
+                "count": 12280,
+                "components": 3,
+                "finite": true,
+                "hash": "bcc95177ddd98dc3a3183c053acb107181aae9911a27d8a0833e0590d4158a40",
+                "min": -0.9999923706054688,
+                "max": 0.9999923706054688
+              },
+              "TEXCOORD_0": {
+                "count": 12280,
+                "components": 2,
+                "finite": true,
+                "hash": "af0b5df8ba764fa20ccb369356b457bad90a2466686a8125deceb00ab8513f5d",
+                "min": 0.11166659742593765,
+                "max": 0.8883333802223206
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 28944,
+              "components": 1,
+              "finite": true,
+              "hash": "e78402b0a6c8b4d918f51680191f72778451d5ff41fa0efe73c43cdd57ca5cc4",
+              "min": 0,
+              "max": 5105
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "ce15b04d3a8ba5a5bfe41b29de51c4b6683c25a2cf775a9fc501cacbfcf42a87",
+                "min": -0.2721098065376282,
+                "max": 3.030522346496582
+              },
+              "NORMAL": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "acf5b27cf38ebae924075d0de4ea3c7f9984542f05c6071b7b13022bee085134",
+                "min": -0.9993231296539307,
+                "max": 0.9993265867233276
+              },
+              "TEXCOORD_0": {
+                "count": 5106,
+                "components": 2,
+                "finite": true,
+                "hash": "cdc511e578af049ec596b006bacce411f42c8cd9c70ac7cbede0881260d95d01",
+                "min": 0.022412121295928955,
+                "max": 0.9466333985328674
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 28944,
+              "components": 1,
+              "finite": true,
+              "hash": "6eb5946d31577e0c020a8ca765aab3ade7a3d37bab6608453d158210c3039740",
+              "min": 0,
+              "max": 5105
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "bbcf5a7caf1058c1cc180953bbd69281281e997569657fbd4271fd88e089f78a",
+                "min": -1.339900255203247,
+                "max": 3.030522346496582
+              },
+              "NORMAL": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "87f395395d1d3315e6ca35c91aa6eaa8ba3ba4218abfe8e9a723493015bd11d2",
+                "min": -0.9993231296539307,
+                "max": 0.9993265867233276
+              },
+              "TEXCOORD_0": {
+                "count": 5106,
+                "components": 2,
+                "finite": true,
+                "hash": "50e38e296ce253d50beeb695794e7743583a32dd3b9bd7e7b9363daa6331ea0b",
+                "min": 0.022412121295928955,
+                "max": 0.39838707447052
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3504,
+              "components": 1,
+              "finite": true,
+              "hash": "c1bc63f57cf2677c90239f769113a6593ccffa13843c13986dbd98a04b3a442f",
+              "min": 0,
+              "max": 665
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "945c59b9f45d84805228ac426eb0e6a90cb0acad42ba2b44617cc6ecdee4cd7d",
+                "min": -0.1544647216796875,
+                "max": 2.754732847213745
+              },
+              "NORMAL": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "57e2ec5362c54e8df175cd84b543b017624032634d219d31b76f1120cd5d67c4",
+                "min": -0.9392991065979004,
+                "max": 0.9392991065979004
+              },
+              "TEXCOORD_0": {
+                "count": 666,
+                "components": 2,
+                "finite": true,
+                "hash": "da1b62823f00c4e30ce90a60f73d463c42cbe44fc8a4205436b8fbd35a5c6311",
+                "min": 0.11137652397155762,
+                "max": 0.9628278613090515
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3504,
+              "components": 1,
+              "finite": true,
+              "hash": "cb2c64a2558008a4a5fd35dd587ed9e5ad57f56dcb65cd67404a19a313eded4a",
+              "min": 0,
+              "max": 665
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "4db098289abdf2dad22ddb79066e19f0df56cd56779ec424cc3f67b2f32956f4",
+                "min": -1.3884835243225098,
+                "max": 2.754732847213745
+              },
+              "NORMAL": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "294cde4b7306c4d98741153cb937f5f66cee368e76f0dcabbe38f6521cd5c7dd",
+                "min": -0.9392991065979004,
+                "max": 0.9392991065979004
+              },
+              "TEXCOORD_0": {
+                "count": 666,
+                "components": 2,
+                "finite": true,
+                "hash": "a3fa359c989ffde580edf7bc7e74a84be3245e7145834d9fdabd52defb130c63",
+                "min": 0.03717215731739998,
+                "max": 0.36829179525375366
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3456,
+              "components": 1,
+              "finite": true,
+              "hash": "6461a3652fb372a9cfdbfeac323cd43a01147d5b879b4514f22a8f9d8a085f25",
+              "min": 0,
+              "max": 655
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 656,
+                "components": 3,
+                "finite": true,
+                "hash": "38de71a5eb723980d7f74bae5b220591ea8c1686de0c5734f44c3b957f06e746",
+                "min": -0.34270691871643066,
+                "max": 3.034336566925049
+              },
+              "NORMAL": {
+                "count": 656,
+                "components": 3,
+                "finite": true,
+                "hash": "116c41fd424ab86c7a86918e9cb60842bc29aac3672072551b6b2d1fd42e24b6",
+                "min": -0.9994252324104309,
+                "max": 0.9994252324104309
+              },
+              "TEXCOORD_0": {
+                "count": 656,
+                "components": 2,
+                "finite": true,
+                "hash": "0de7e14f7d4c7ce1c518afcf7ec7d0cf7aedc877ec79b3d0831f80b4299beb72",
+                "min": 0.021181762218475342,
+                "max": 0.6142356395721436
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 8448,
+              "components": 1,
+              "finite": true,
+              "hash": "e00b6e5d0176b925c24b503160084e1e41e29149db9e9c03fa3dae49e009804e",
+              "min": 0,
+              "max": 1517
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "7dd87842f5810a8635d795c6174ac3e4394859f8d4637784c43c2018859c8568",
+                "min": -0.34314748644828796,
+                "max": 2.969696521759033
+              },
+              "NORMAL": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "352355e2038434235d0df4804c90c54e062f0cfc6f93ff5ce2967afc5c7dc47e",
+                "min": -0.9934343099594116,
+                "max": 0.9934343099594116
+              },
+              "TEXCOORD_0": {
+                "count": 1518,
+                "components": 2,
+                "finite": true,
+                "hash": "2c0c7db792cf15803adc46efd757e69b1e74e16323a9f347b5652cb78f794f2a",
+                "min": 0.042033374309539795,
+                "max": 0.6143825054168701
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 8448,
+              "components": 1,
+              "finite": true,
+              "hash": "2db863111a1dd1d4e0a93053f8c3960fb8d2298d6fa4a62cd5c37321da48bdb1",
+              "min": 0,
+              "max": 1517
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "14681bec2fe0e75dd86efaf0b32643cb62efe0c60d4281bae4fd511e1db3ed9f",
+                "min": -0.34566730260849,
+                "max": 2.977266550064087
+              },
+              "NORMAL": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "5e2a0c1762780afd6aa8e7e42b453c46c9cedc3b5325ce7f7725a7acb1b8fd6a",
+                "min": -0.9974403977394104,
+                "max": 0.9974403977394104
+              },
+              "TEXCOORD_0": {
+                "count": 1518,
+                "components": 2,
+                "finite": true,
+                "hash": "8d215f9775d2918f37ec9e0f8e2aab6f6900885945744ef85c965e825ca0dcf5",
+                "min": 0.039591431617736816,
+                "max": 0.6143913865089417
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 4608,
+              "components": 1,
+              "finite": true,
+              "hash": "92a0cae850560925138b81a7f42aff8fe3695b34d89585b5807881a37a77fbad",
+              "min": 0,
+              "max": 881
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "2695a638315070fb2815519f3d7e9e3a36bea052230c672a23686e1cb8f8ef06",
+                "min": -2.4684325694579456e-8,
+                "max": 0.8298079371452332
+              },
+              "NORMAL": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "d75cac126989b25080b65d323770c5469d6c1bf8173d131e479a7ff3cc861dfa",
+                "min": -0.997183620929718,
+                "max": 0.997183620929718
+              },
+              "TEXCOORD_0": {
+                "count": 882,
+                "components": 2,
+                "finite": true,
+                "hash": "e5c8cca685c38d630be64ce5844f7fc1651ebbf6d485cc9094e4e74b9e8c4cd6",
+                "min": 0.5915968418121338,
+                "max": 0.9225592613220215
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 4608,
+              "components": 1,
+              "finite": true,
+              "hash": "92a0cae850560925138b81a7f42aff8fe3695b34d89585b5807881a37a77fbad",
+              "min": 0,
+              "max": 881
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "0e389fac167448e8c1b8272d6c298a2c31b4dc561092af0a20a526c40872a62a",
+                "min": -0.6921106576919556,
+                "max": 0.8298079371452332
+              },
+              "NORMAL": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "095d9247d8f5e198efeda847708a77dec4152783193da81077d1676788c0f69d",
+                "min": -0.997183620929718,
+                "max": 0.997183620929718
+              },
+              "TEXCOORD_0": {
+                "count": 882,
+                "components": 2,
+                "finite": true,
+                "hash": "098b34a962d805c4b9adcf7f45fb5f9768a1ec6a604639b9aa0e1d94400ac7a5",
+                "min": 0.26929643750190735,
+                "max": 0.9225592613220215
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.015996293361446288,
+            0.057805430183792694,
+            0.13286832154414627,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.92,
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 0
+          }
+        },
+        "normalTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "doubleSided": true,
+        "name": "shirt_front_Mat"
+      }
+    ],
+    "images": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "sha256": "369bc31aedc4ff28f56f4cf3028785aaf9b71d4b30c25d20d0eb5fd2a2edabf1",
+        "colors": [
+          [
+            "34,68,102,255",
+            798576
+          ],
+          [
+            "0,0,0,255",
+            240013
+          ],
+          [
+            "255,255,255,255",
+            7579
+          ],
+          [
+            "242,242,242,255",
+            245
+          ],
+          [
+            "93,93,93,255",
+            236
+          ],
+          [
+            "188,188,188,255",
+            223
+          ],
+          [
+            "156,156,156,255",
+            216
+          ],
+          [
+            "66,66,66,255",
+            172
+          ],
+          [
+            "228,228,228,255",
+            162
+          ],
+          [
+            "254,254,254,255",
+            68
+          ],
+          [
+            "13,13,13,255",
+            61
+          ],
+          [
+            "42,42,42,255",
+            50
+          ]
+        ],
+        "center": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "width": 8,
+        "height": 8,
+        "sha256": "b07095fe36d4f870d3ee94116cf05bfaa38770444e1d15b4dfcbe3d63c3f0eb0",
+        "colors": [
+          [
+            "128,128,255,255",
+            64
+          ]
+        ],
+        "center": [
+          128,
+          128,
+          255,
+          255
+        ]
+      }
+    ],
+    "surfaceSamples": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 3650,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    2644
+                  ],
+                  [
+                    "0,0,0,255",
+                    941
+                  ],
+                  [
+                    "255,255,255,255",
+                    41
+                  ],
+                  [
+                    "254,254,254,255",
+                    4
+                  ],
+                  [
+                    "53,53,53,255",
+                    3
+                  ],
+                  [
+                    "240,240,240,255",
+                    2
+                  ],
+                  [
+                    "75,75,75,255",
+                    2
+                  ],
+                  [
+                    "188,188,188,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 262,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    262
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 11192,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    8805
+                  ],
+                  [
+                    "0,0,0,255",
+                    2272
+                  ],
+                  [
+                    "255,255,255,255",
+                    83
+                  ],
+                  [
+                    "156,156,156,255",
+                    4
+                  ],
+                  [
+                    "242,242,242,255",
+                    4
+                  ],
+                  [
+                    "93,93,93,255",
+                    4
+                  ],
+                  [
+                    "188,188,188,255",
+                    2
+                  ],
+                  [
+                    "243,243,243,255",
+                    2
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 3650,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    2643
+                  ],
+                  [
+                    "0,0,0,255",
+                    948
+                  ],
+                  [
+                    "255,255,255,255",
+                    48
+                  ],
+                  [
+                    "249,249,249,255",
+                    1
+                  ],
+                  [
+                    "254,254,254,255",
+                    1
+                  ],
+                  [
+                    "250,250,250,255",
+                    1
+                  ],
+                  [
+                    "77,77,77,255",
+                    1
+                  ],
+                  [
+                    "214,214,214,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 11198,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    8809
+                  ],
+                  [
+                    "0,0,0,255",
+                    2277
+                  ],
+                  [
+                    "255,255,255,255",
+                    82
+                  ],
+                  [
+                    "188,188,188,255",
+                    5
+                  ],
+                  [
+                    "242,242,242,255",
+                    4
+                  ],
+                  [
+                    "156,156,156,255",
+                    3
+                  ],
+                  [
+                    "93,93,93,255",
+                    3
+                  ],
+                  [
+                    "228,228,228,255",
+                    2
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 4163,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    2865
+                  ],
+                  [
+                    "0,0,0,255",
+                    1294
+                  ],
+                  [
+                    "228,228,228,255",
+                    3
+                  ],
+                  [
+                    "66,66,66,255",
+                    1
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 12215,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    9838
+                  ],
+                  [
+                    "0,0,0,255",
+                    2304
+                  ],
+                  [
+                    "255,255,255,255",
+                    57
+                  ],
+                  [
+                    "156,156,156,255",
+                    4
+                  ],
+                  [
+                    "188,188,188,255",
+                    3
+                  ],
+                  [
+                    "93,93,93,255",
+                    2
+                  ],
+                  [
+                    "226,226,226,255",
+                    1
+                  ],
+                  [
+                    "66,66,66,255",
+                    1
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 261,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    261
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 4164,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    2866
+                  ],
+                  [
+                    "0,0,0,255",
+                    1293
+                  ],
+                  [
+                    "255,255,255,255",
+                    3
+                  ],
+                  [
+                    "66,66,66,255",
+                    1
+                  ],
+                  [
+                    "228,228,228,255",
+                    1
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 12221,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    9844
+                  ],
+                  [
+                    "0,0,0,255",
+                    2304
+                  ],
+                  [
+                    "255,255,255,255",
+                    57
+                  ],
+                  [
+                    "156,156,156,255",
+                    3
+                  ],
+                  [
+                    "188,188,188,255",
+                    3
+                  ],
+                  [
+                    "66,66,66,255",
+                    2
+                  ],
+                  [
+                    "93,93,93,255",
+                    2
+                  ],
+                  [
+                    "242,242,242,255",
+                    1
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 1822,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    1809
+                  ],
+                  [
+                    "0,0,0,255",
+                    13
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 372,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    372
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 9455,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    8860
+                  ],
+                  [
+                    "0,0,0,255",
+                    595
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 1822,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    1802
+                  ],
+                  [
+                    "0,0,0,255",
+                    20
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 9454,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    8858
+                  ],
+                  [
+                    "0,0,0,255",
+                    596
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 243,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    243
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 3847,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    3847
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 317,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    317
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 639,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    639
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 3847,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    3847
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 311,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    311
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 687,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    687
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 318,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    318
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 3843,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    3843
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 642,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    642
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 3842,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    3842
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 314,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    314
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 689,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    689
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 150,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    150
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 26,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    26
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 149,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    149
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 401,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    401
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 51,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    51
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 391,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    391
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 150,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    150
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 26,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    26
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 149,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    149
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 401,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    401
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 51,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    51
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 391,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    391
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 93,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    93
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 393,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    393
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 94,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    94
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 158,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    158
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 411,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    411
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 3,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    3
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 1406,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    1406
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    2
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    2
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 1406,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    1406
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z-": {
+                "triangles": 1385,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    1385
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 23,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    23
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 23,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    23
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 1385,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    1385
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    512
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    214
+                  ],
+                  [
+                    "0,0,0,255",
+                    42
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    512
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    214
+                  ],
+                  [
+                    "0,0,0,255",
+                    42
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    215
+                  ],
+                  [
+                    "0,0,0,255",
+                    41
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    512
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    215
+                  ],
+                  [
+                    "0,0,0,255",
+                    41
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "34,68,102,255",
+                    512
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "qa-reports/phase3/exports/multipart-customizer.glb",
+    "validHeader": true,
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 89856,
+              "components": 1,
+              "finite": true,
+              "hash": "ae006cb03cfad230b288485ca10fe8b4b0f9f227d6c73af5a87eb01436cefcc2",
+              "min": 0,
+              "max": 15425
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 15426,
+                "components": 3,
+                "finite": true,
+                "hash": "b2b4bf011acee802c5e65175df24b077eabf19a1c39957cdde0c737b33125f14",
+                "min": -0.777429461479187,
+                "max": 2.324335813522339
+              },
+              "NORMAL": {
+                "count": 15426,
+                "components": 3,
+                "finite": true,
+                "hash": "c294f260ffc08e9bfb72537097b4893a4700ed6acb9d5dd7ad7b2d0d0384ae29",
+                "min": -0.9999923706054688,
+                "max": 0.9999923706054688
+              },
+              "TEXCOORD_0": {
+                "count": 15426,
+                "components": 2,
+                "finite": true,
+                "hash": "66d194f158583ec9d864865fddba34925de98dbfb6023c015625a0777a2a6430",
+                "min": 0.04592476785182953,
+                "max": 0.9361646771430969
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 99072,
+              "components": 1,
+              "finite": true,
+              "hash": "6bd3a636dc8cd537fd0a2b08eb3f704ca99e78db78a97b52f95b2f7d5b56071e",
+              "min": 0,
+              "max": 16769
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 16770,
+                "components": 3,
+                "finite": true,
+                "hash": "8483181eba3482c8386dfc4f881ec34090f98bb0c1f45a0c64f75304f25b1c45",
+                "min": -0.777429461479187,
+                "max": 2.386521339416504
+              },
+              "NORMAL": {
+                "count": 16770,
+                "components": 3,
+                "finite": true,
+                "hash": "09cf61536c4acfcfa3fdfa033a76a85569696bf0b34c79818a87cdcdfd8fa47c",
+                "min": -0.9999984502792358,
+                "max": 0.9999984502792358
+              },
+              "TEXCOORD_0": {
+                "count": 16770,
+                "components": 2,
+                "finite": true,
+                "hash": "bc999360452190cb44b1f5de28e0d1818a1e2e3a5371bd0ff3c438efed3e9f50",
+                "min": 0.04503351449966431,
+                "max": 0.9540752172470093
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 69504,
+              "components": 1,
+              "finite": true,
+              "hash": "77703e29cf92b6ed6a7928853c22e78b70bf6b3ee4a04d9129d799a9c9278b45",
+              "min": 0,
+              "max": 12279
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 12280,
+                "components": 3,
+                "finite": true,
+                "hash": "1456761cf9eebb6c4c32230a2afd3fe66f6d37b37094dbe5b19b965c38b1123b",
+                "min": -1.1650002002716064,
+                "max": 2.721090078353882
+              },
+              "NORMAL": {
+                "count": 12280,
+                "components": 3,
+                "finite": true,
+                "hash": "bcc95177ddd98dc3a3183c053acb107181aae9911a27d8a0833e0590d4158a40",
+                "min": -0.9999923706054688,
+                "max": 0.9999923706054688
+              },
+              "TEXCOORD_0": {
+                "count": 12280,
+                "components": 2,
+                "finite": true,
+                "hash": "af0b5df8ba764fa20ccb369356b457bad90a2466686a8125deceb00ab8513f5d",
+                "min": 0.11166659742593765,
+                "max": 0.8883333802223206
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 28944,
+              "components": 1,
+              "finite": true,
+              "hash": "e78402b0a6c8b4d918f51680191f72778451d5ff41fa0efe73c43cdd57ca5cc4",
+              "min": 0,
+              "max": 5105
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "ce15b04d3a8ba5a5bfe41b29de51c4b6683c25a2cf775a9fc501cacbfcf42a87",
+                "min": -0.2721098065376282,
+                "max": 3.030522346496582
+              },
+              "NORMAL": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "acf5b27cf38ebae924075d0de4ea3c7f9984542f05c6071b7b13022bee085134",
+                "min": -0.9993231296539307,
+                "max": 0.9993265867233276
+              },
+              "TEXCOORD_0": {
+                "count": 5106,
+                "components": 2,
+                "finite": true,
+                "hash": "cdc511e578af049ec596b006bacce411f42c8cd9c70ac7cbede0881260d95d01",
+                "min": 0.022412121295928955,
+                "max": 0.9466333985328674
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 28944,
+              "components": 1,
+              "finite": true,
+              "hash": "6eb5946d31577e0c020a8ca765aab3ade7a3d37bab6608453d158210c3039740",
+              "min": 0,
+              "max": 5105
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "bbcf5a7caf1058c1cc180953bbd69281281e997569657fbd4271fd88e089f78a",
+                "min": -1.339900255203247,
+                "max": 3.030522346496582
+              },
+              "NORMAL": {
+                "count": 5106,
+                "components": 3,
+                "finite": true,
+                "hash": "87f395395d1d3315e6ca35c91aa6eaa8ba3ba4218abfe8e9a723493015bd11d2",
+                "min": -0.9993231296539307,
+                "max": 0.9993265867233276
+              },
+              "TEXCOORD_0": {
+                "count": 5106,
+                "components": 2,
+                "finite": true,
+                "hash": "50e38e296ce253d50beeb695794e7743583a32dd3b9bd7e7b9363daa6331ea0b",
+                "min": 0.022412121295928955,
+                "max": 0.39838707447052
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3504,
+              "components": 1,
+              "finite": true,
+              "hash": "c1bc63f57cf2677c90239f769113a6593ccffa13843c13986dbd98a04b3a442f",
+              "min": 0,
+              "max": 665
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "945c59b9f45d84805228ac426eb0e6a90cb0acad42ba2b44617cc6ecdee4cd7d",
+                "min": -0.1544647216796875,
+                "max": 2.754732847213745
+              },
+              "NORMAL": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "57e2ec5362c54e8df175cd84b543b017624032634d219d31b76f1120cd5d67c4",
+                "min": -0.9392991065979004,
+                "max": 0.9392991065979004
+              },
+              "TEXCOORD_0": {
+                "count": 666,
+                "components": 2,
+                "finite": true,
+                "hash": "da1b62823f00c4e30ce90a60f73d463c42cbe44fc8a4205436b8fbd35a5c6311",
+                "min": 0.11137652397155762,
+                "max": 0.9628278613090515
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3504,
+              "components": 1,
+              "finite": true,
+              "hash": "cb2c64a2558008a4a5fd35dd587ed9e5ad57f56dcb65cd67404a19a313eded4a",
+              "min": 0,
+              "max": 665
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "4db098289abdf2dad22ddb79066e19f0df56cd56779ec424cc3f67b2f32956f4",
+                "min": -1.3884835243225098,
+                "max": 2.754732847213745
+              },
+              "NORMAL": {
+                "count": 666,
+                "components": 3,
+                "finite": true,
+                "hash": "294cde4b7306c4d98741153cb937f5f66cee368e76f0dcabbe38f6521cd5c7dd",
+                "min": -0.9392991065979004,
+                "max": 0.9392991065979004
+              },
+              "TEXCOORD_0": {
+                "count": 666,
+                "components": 2,
+                "finite": true,
+                "hash": "a3fa359c989ffde580edf7bc7e74a84be3245e7145834d9fdabd52defb130c63",
+                "min": 0.03717215731739998,
+                "max": 0.36829179525375366
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 3456,
+              "components": 1,
+              "finite": true,
+              "hash": "6461a3652fb372a9cfdbfeac323cd43a01147d5b879b4514f22a8f9d8a085f25",
+              "min": 0,
+              "max": 655
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 656,
+                "components": 3,
+                "finite": true,
+                "hash": "38de71a5eb723980d7f74bae5b220591ea8c1686de0c5734f44c3b957f06e746",
+                "min": -0.34270691871643066,
+                "max": 3.034336566925049
+              },
+              "NORMAL": {
+                "count": 656,
+                "components": 3,
+                "finite": true,
+                "hash": "116c41fd424ab86c7a86918e9cb60842bc29aac3672072551b6b2d1fd42e24b6",
+                "min": -0.9994252324104309,
+                "max": 0.9994252324104309
+              },
+              "TEXCOORD_0": {
+                "count": 656,
+                "components": 2,
+                "finite": true,
+                "hash": "0de7e14f7d4c7ce1c518afcf7ec7d0cf7aedc877ec79b3d0831f80b4299beb72",
+                "min": 0.021181762218475342,
+                "max": 0.6142356395721436
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 8448,
+              "components": 1,
+              "finite": true,
+              "hash": "e00b6e5d0176b925c24b503160084e1e41e29149db9e9c03fa3dae49e009804e",
+              "min": 0,
+              "max": 1517
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "7dd87842f5810a8635d795c6174ac3e4394859f8d4637784c43c2018859c8568",
+                "min": -0.34314748644828796,
+                "max": 2.969696521759033
+              },
+              "NORMAL": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "352355e2038434235d0df4804c90c54e062f0cfc6f93ff5ce2967afc5c7dc47e",
+                "min": -0.9934343099594116,
+                "max": 0.9934343099594116
+              },
+              "TEXCOORD_0": {
+                "count": 1518,
+                "components": 2,
+                "finite": true,
+                "hash": "2c0c7db792cf15803adc46efd757e69b1e74e16323a9f347b5652cb78f794f2a",
+                "min": 0.042033374309539795,
+                "max": 0.6143825054168701
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 8448,
+              "components": 1,
+              "finite": true,
+              "hash": "2db863111a1dd1d4e0a93053f8c3960fb8d2298d6fa4a62cd5c37321da48bdb1",
+              "min": 0,
+              "max": 1517
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "14681bec2fe0e75dd86efaf0b32643cb62efe0c60d4281bae4fd511e1db3ed9f",
+                "min": -0.34566730260849,
+                "max": 2.977266550064087
+              },
+              "NORMAL": {
+                "count": 1518,
+                "components": 3,
+                "finite": true,
+                "hash": "5e2a0c1762780afd6aa8e7e42b453c46c9cedc3b5325ce7f7725a7acb1b8fd6a",
+                "min": -0.9974403977394104,
+                "max": 0.9974403977394104
+              },
+              "TEXCOORD_0": {
+                "count": 1518,
+                "components": 2,
+                "finite": true,
+                "hash": "8d215f9775d2918f37ec9e0f8e2aab6f6900885945744ef85c965e825ca0dcf5",
+                "min": 0.039591431617736816,
+                "max": 0.6143913865089417
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 4608,
+              "components": 1,
+              "finite": true,
+              "hash": "92a0cae850560925138b81a7f42aff8fe3695b34d89585b5807881a37a77fbad",
+              "min": 0,
+              "max": 881
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "2695a638315070fb2815519f3d7e9e3a36bea052230c672a23686e1cb8f8ef06",
+                "min": -2.4684325694579456e-8,
+                "max": 0.8298079371452332
+              },
+              "NORMAL": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "d75cac126989b25080b65d323770c5469d6c1bf8173d131e479a7ff3cc861dfa",
+                "min": -0.997183620929718,
+                "max": 0.997183620929718
+              },
+              "TEXCOORD_0": {
+                "count": 882,
+                "components": 2,
+                "finite": true,
+                "hash": "e5c8cca685c38d630be64ce5844f7fc1651ebbf6d485cc9094e4e74b9e8c4cd6",
+                "min": 0.5915968418121338,
+                "max": 0.9225592613220215
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "mode": 4,
+            "indices": {
+              "count": 4608,
+              "components": 1,
+              "finite": true,
+              "hash": "92a0cae850560925138b81a7f42aff8fe3695b34d89585b5807881a37a77fbad",
+              "min": 0,
+              "max": 881
+            },
+            "attributes": {
+              "POSITION": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "0e389fac167448e8c1b8272d6c298a2c31b4dc561092af0a20a526c40872a62a",
+                "min": -0.6921106576919556,
+                "max": 0.8298079371452332
+              },
+              "NORMAL": {
+                "count": 882,
+                "components": 3,
+                "finite": true,
+                "hash": "095d9247d8f5e198efeda847708a77dec4152783193da81077d1676788c0f69d",
+                "min": -0.997183620929718,
+                "max": 0.997183620929718
+              },
+              "TEXCOORD_0": {
+                "count": 882,
+                "components": 2,
+                "finite": true,
+                "hash": "098b34a962d805c4b9adcf7f45fb5f9768a1ec6a604639b9aa0e1d94400ac7a5",
+                "min": 0.26929643750190735,
+                "max": 0.9225592613220215
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.009134058699157796,
+            0.009134058699157796,
+            0.010960094003125918,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.92,
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 0
+          }
+        },
+        "normalTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "doubleSided": true,
+        "name": "shirt_front_Mat"
+      }
+    ],
+    "images": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "sha256": "cad8d8c16220f1fd92f789a61617a14416a2349e5790a6cd2328d8a428888cb2",
+        "colors": [
+          [
+            "24,24,27,255",
+            1048576
+          ]
+        ],
+        "center": [
+          24,
+          24,
+          27,
+          255
+        ]
+      },
+      {
+        "width": 8,
+        "height": 8,
+        "sha256": "b07095fe36d4f870d3ee94116cf05bfaa38770444e1d15b4dfcbe3d63c3f0eb0",
+        "colors": [
+          [
+            "128,128,255,255",
+            64
+          ]
+        ],
+        "center": [
+          128,
+          128,
+          255,
+          255
+        ]
+      }
+    ],
+    "surfaceSamples": [
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 3650,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    3650
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 262,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    262
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 11192,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11192
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 3650,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    3650
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 11198,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    11198
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 4163,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    4163
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 12215,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12215
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 261,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    261
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 4164,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    4164
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 12221,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    12221
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 1822,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    1822
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 372,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    372
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 9455,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    9455
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 1822,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    1822
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 9454,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    9454
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 243,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    243
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 3847,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    3847
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 317,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    317
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 639,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    639
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 3847,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    3847
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 311,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    311
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 687,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    687
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 318,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    318
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 3843,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    3843
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 642,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    642
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 3842,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    3842
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 314,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    314
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 689,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    689
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 150,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    150
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 26,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    26
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 149,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    149
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 401,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    401
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 51,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    51
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 391,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    391
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 150,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    150
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 26,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    26
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 149,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    149
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 401,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    401
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 51,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    51
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 391,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    391
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 93,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    93
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 393,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    393
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 94,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    94
+                  ]
+                ]
+              },
+              "y+": {
+                "triangles": 158,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    158
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 411,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    411
+                  ]
+                ]
+              },
+              "y-": {
+                "triangles": 3,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    3
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 1406,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    1406
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    2
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 2,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    2
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 1406,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    1406
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z-": {
+                "triangles": 1385,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    1385
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 23,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 23,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    23
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 1385,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    1385
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "z+": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    512
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    256
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    512
+                  ]
+                ]
+              },
+              "x-": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    256
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "primitives": [
+          {
+            "material": 0,
+            "sourceImage": 0,
+            "directions": {
+              "x-": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    256
+                  ]
+                ]
+              },
+              "z+": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    512
+                  ]
+                ]
+              },
+              "x+": {
+                "triangles": 256,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    256
+                  ]
+                ]
+              },
+              "z-": {
+                "triangles": 512,
+                "pixels": [
+                  [
+                    "24,24,27,255",
+                    512
+                  ]
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "geometryEqualToInput": true
+  }
+]

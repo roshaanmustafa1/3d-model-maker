@@ -1,0 +1,37 @@
+{
+  "verified": true,
+  "before": [
+    {
+      "width": 8,
+      "height": 8,
+      "pixelSHA256": "ccd1c5eed644226f2e4bf3e501652b9f65aaf8755fe9d0e98a200da429ab80ae"
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "pixelSHA256": "b07095fe36d4f870d3ee94116cf05bfaa38770444e1d15b4dfcbe3d63c3f0eb0"
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "pixelSHA256": "3d6876a0146de8576eb2395a858de1213d1b92c65b779df3a331cfd5a4584546"
+    }
+  ],
+  "after": [
+    {
+      "width": 8,
+      "height": 8,
+      "pixelSHA256": "3d6876a0146de8576eb2395a858de1213d1b92c65b779df3a331cfd5a4584546"
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "pixelSHA256": "ccd1c5eed644226f2e4bf3e501652b9f65aaf8755fe9d0e98a200da429ab80ae"
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "pixelSHA256": "b07095fe36d4f870d3ee94116cf05bfaa38770444e1d15b4dfcbe3d63c3f0eb0"
+    }
+  ]
+}

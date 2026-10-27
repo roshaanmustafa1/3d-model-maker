@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 2,
+  "assetId": "proj_customizer_1792869001433:1bb43d13-4511-4c60-afec-12809623fd7b",
+  "metadata": {
+    "id": "proj_customizer_1792869001433",
+    "name": "Streetwear Oversized Tee",
+    "version": "1.0.0",
+    "createdAt": "2026-10-24T19:09:45.170Z",
+    "updatedAt": "2026-10-24T19:10:01.696Z",
+    "workspace": "customizer"
+  },
+  "scene": {
+    "nodes": {
+      "node_b5e6bc75-dbb0-40ee-a943-01d95506c878": {
+        "id": "node_b5e6bc75-dbb0-40ee-a943-01d95506c878",
+        "name": "TShirt_Product",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_979081b6-67cd-4d0e-b3be-baac05326252",
+          "node_9896bd09-020f-4d61-bcff-8d0be2ed9030",
+          "node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce",
+          "node_9219296a-6b4e-4262-a77f-37b11d955498",
+          "node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999",
+          "node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {},
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "TShirt_Product"
+      },
+      "node_979081b6-67cd-4d0e-b3be-baac05326252": {
+        "id": "node_979081b6-67cd-4d0e-b3be-baac05326252",
+        "name": "Body_Main",
+        "type": "mesh",
+        "parentId": "node_b5e6bc75-dbb0-40ee-a943-01d95506c878",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 96,
+            "triangleCount": 32,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.6000000238418579,
+                -0.75,
+                0.14000000059604645
+              ],
+              "max": [
+                0.6000000238418579,
+                0.75,
+                0.14000000059604645
+              ],
+              "size": [
+                1.2000000476837158,
+                1.5,
+                0
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_979081b6-67cd-4d0e-b3be-baac05326252"
+        },
+        "materialId": "mat_node_979081b6-67cd-4d0e-b3be-baac05326252_0",
+        "materialIds": [
+          "mat_node_979081b6-67cd-4d0e-b3be-baac05326252_0"
+        ],
+        "userData": {
+          "partId": "shirt_front",
+          "customizableZone": "body_front",
+          "isCustomizable": true,
+          "blackBulletContract": {
+            "version": 1,
+            "profile": "shirt"
+          },
+          "customizationTarget": {
+            "uvBounds": {
+              "minU": 0.04,
+              "maxU": 0.46,
+              "minV": 0.06,
+              "maxV": 0.96
+            }
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_front",
+        "isCustomizable": true,
+        "semanticTag": "Body_Main"
+      },
+      "node_9896bd09-020f-4d61-bcff-8d0be2ed9030": {
+        "id": "node_9896bd09-020f-4d61-bcff-8d0be2ed9030",
+        "name": "Body_Back",
+        "type": "mesh",
+        "parentId": "node_b5e6bc75-dbb0-40ee-a943-01d95506c878",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 96,
+            "triangleCount": 32,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.6000000238418579,
+                -0.75,
+                -0.14000000059604645
+              ],
+              "max": [
+                0.6000000238418579,
+                0.75,
+                -0.14000000059604645
+              ],
+              "size": [
+                1.2000000476837158,
+                1.5,
+                0
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_9896bd09-020f-4d61-bcff-8d0be2ed9030"
+        },
+        "materialId": "mat_node_9896bd09-020f-4d61-bcff-8d0be2ed9030_1",
+        "materialIds": [
+          "mat_node_9896bd09-020f-4d61-bcff-8d0be2ed9030_1"
+        ],
+        "userData": {
+          "partId": "shirt_back",
+          "customizableZone": "body_back",
+          "isCustomizable": true,
+          "blackBulletContract": {
+            "version": 1,
+            "profile": "shirt"
+          },
+          "customizationTarget": {
+            "uvBounds": {
+              "minU": 0.54,
+              "maxU": 0.96,
+              "minV": 0.06,
+              "maxV": 0.96
+            }
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_back",
+        "isCustomizable": true,
+        "semanticTag": "Body_Back"
+      },
+      "node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce": {
+        "id": "node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce",
+        "name": "Body_Sides",
+        "type": "mesh",
+        "parentId": "node_b5e6bc75-dbb0-40ee-a943-01d95506c878",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 192,
+            "triangleCount": 64,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.6000000238418579,
+                -0.75,
+                -0.14000000059604645
+              ],
+              "max": [
+                0.6000000238418579,
+                0.75,
+                0.14000000059604645
+              ],
+              "size": [
+                1.2000000476837158,
+                1.5,
+                0.2800000011920929
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce"
+        },
+        "materialId": "mat_node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce_2",
+        "materialIds": [
+          "mat_node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce_2"
+        ],
+        "userData": {
+          "partId": "shirt_base",
+          "isCustomizable": false,
+          "blackBulletContract": {
+            "version": 1,
+            "profile": "shirt"
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "Body_Sides"
+      },
+      "node_9219296a-6b4e-4262-a77f-37b11d955498": {
+        "id": "node_9219296a-6b4e-4262-a77f-37b11d955498",
+        "name": "Collar_Rib",
+        "type": "mesh",
+        "parentId": "node_b5e6bc75-dbb0-40ee-a943-01d95506c878",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0.76,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 148,
+            "triangleCount": 96,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.25999999046325684,
+                -0.25999999046325684,
+                -0.03999999910593033
+              ],
+              "max": [
+                0.25999999046325684,
+                0.25999999046325684,
+                0.03999999910593033
+              ],
+              "size": [
+                0.5199999809265137,
+                0.5199999809265137,
+                0.07999999821186066
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_9219296a-6b4e-4262-a77f-37b11d955498"
+        },
+        "materialId": "mat_node_9219296a-6b4e-4262-a77f-37b11d955498_3",
+        "materialIds": [
+          "mat_node_9219296a-6b4e-4262-a77f-37b11d955498_3"
+        ],
+        "userData": {
+          "partId": "collar",
+          "isCustomizable": false,
+          "semanticTag": "Collar_Rib"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "collar",
+        "isCustomizable": false,
+        "semanticTag": "Collar_Rib"
+      },
+      "node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999": {
+        "id": "node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999",
+        "name": "Sleeve_Left",
+        "type": "mesh",
+        "parentId": "node_b5e6bc75-dbb0-40ee-a943-01d95506c878",
+        "children": [],
+        "transform": {
+          "position": [
+            -0.84,
+            0.52,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            11.459155902616466
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 24,
+            "triangleCount": 12,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.2750000059604645,
+                -0.22499999403953552,
+                -0.12999999523162842
+              ],
+              "max": [
+                0.2750000059604645,
+                0.22499999403953552,
+                0.12999999523162842
+              ],
+              "size": [
+                0.550000011920929,
+                0.44999998807907104,
+                0.25999999046325684
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999"
+        },
+        "materialId": "mat_node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999_4",
+        "materialIds": [
+          "mat_node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999_4"
+        ],
+        "userData": {
+          "partId": "shoulder_left",
+          "isCustomizable": true,
+          "customizableZone": "sleeve_left",
+          "semanticTag": "Sleeve_Left"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "sleeve_left",
+        "isCustomizable": true,
+        "semanticTag": "Sleeve_Left"
+      },
+      "node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5": {
+        "id": "node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5",
+        "name": "Sleeve_Right",
+        "type": "mesh",
+        "parentId": "node_b5e6bc75-dbb0-40ee-a943-01d95506c878",
+        "children": [],
+        "transform": {
+          "position": [
+            0.84,
+            0.52,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -11.459155902616466
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 24,
+            "triangleCount": 12,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.2750000059604645,
+                -0.22499999403953552,
+                -0.12999999523162842
+              ],
+              "max": [
+                0.2750000059604645,
+                0.22499999403953552,
+                0.12999999523162842
+              ],
+              "size": [
+                0.550000011920929,
+                0.44999998807907104,
+                0.25999999046325684
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5"
+        },
+        "materialId": "mat_node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5_5",
+        "materialIds": [
+          "mat_node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5_5"
+        ],
+        "userData": {
+          "partId": "shoulder_right",
+          "isCustomizable": true,
+          "customizableZone": "sleeve_right",
+          "semanticTag": "Sleeve_Right"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "sleeve_right",
+        "isCustomizable": true,
+        "semanticTag": "Sleeve_Right"
+      }
+    },
+    "rootNodeIds": [
+      "node_b5e6bc75-dbb0-40ee-a943-01d95506c878"
+    ],
+    "materials": {
+      "mat_default_studio": {
+        "id": "mat_default_studio",
+        "name": "Default Studio Material",
+        "color": "#38bdf8",
+        "roughness": 0.35,
+        "metalness": 0.1,
+        "emissive": "#000000",
+        "emissiveIntensity": 0,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": true
+      },
+      "mat_node_979081b6-67cd-4d0e-b3be-baac05326252_0": {
+        "id": "mat_node_979081b6-67cd-4d0e-b3be-baac05326252_0",
+        "importedMaterialKey": "mat_node_979081b6-67cd-4d0e-b3be-baac05326252_0",
+        "sourceType": "MeshStandardMaterial",
+        "importedTextureSlots": [],
+        "side": 0,
+        "alphaTest": 0,
+        "name": "Combed Cotton",
+        "color": "#18181b",
+        "roughness": 0.92,
+        "metalness": 0,
+        "emissive": "#000000",
+        "emissiveIntensity": 1,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": false
+      },
+      "mat_node_9896bd09-020f-4d61-bcff-8d0be2ed9030_1": {
+        "id": "mat_node_9896bd09-020f-4d61-bcff-8d0be2ed9030_1",
+        "importedMaterialKey": "mat_node_9896bd09-020f-4d61-bcff-8d0be2ed9030_1",
+        "sourceType": "MeshStandardMaterial",
+        "importedTextureSlots": [],
+        "side": 0,
+        "alphaTest": 0,
+        "name": "Combed Cotton",
+        "color": "#18181b",
+        "roughness": 0.92,
+        "metalness": 0,
+        "emissive": "#000000",
+        "emissiveIntensity": 1,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": false
+      },
+      "mat_node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce_2": {
+        "id": "mat_node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce_2",
+        "importedMaterialKey": "mat_node_23aef3ce-a2d1-401c-b9f3-ae331ed54bce_2",
+        "sourceType": "MeshStandardMaterial",
+        "importedTextureSlots": [],
+        "side": 0,
+        "alphaTest": 0,
+        "name": "Combed Cotton",
+        "color": "#18181b",
+        "roughness": 0.92,
+        "metalness": 0,
+        "emissive": "#000000",
+        "emissiveIntensity": 1,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": false
+      },
+      "mat_node_9219296a-6b4e-4262-a77f-37b11d955498_3": {
+        "id": "mat_node_9219296a-6b4e-4262-a77f-37b11d955498_3",
+        "importedMaterialKey": "mat_node_9219296a-6b4e-4262-a77f-37b11d955498_3",
+        "sourceType": "MeshStandardMaterial",
+        "importedTextureSlots": [],
+        "side": 0,
+        "alphaTest": 0,
+        "name": "Combed Cotton",
+        "color": "#18181b",
+        "roughness": 0.92,
+        "metalness": 0,
+        "emissive": "#000000",
+        "emissiveIntensity": 1,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": false
+      },
+      "mat_node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999_4": {
+        "id": "mat_node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999_4",
+        "importedMaterialKey": "mat_node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999_4",
+        "sourceType": "MeshStandardMaterial",
+        "importedTextureSlots": [],
+        "side": 0,
+        "alphaTest": 0,
+        "name": "Combed Cotton",
+        "color": "#18181b",
+        "roughness": 0.92,
+        "metalness": 0,
+        "emissive": "#000000",
+        "emissiveIntensity": 1,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": false
+      },
+      "mat_node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5_5": {
+        "id": "mat_node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5_5",
+        "importedMaterialKey": "mat_node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5_5",
+        "sourceType": "MeshStandardMaterial",
+        "importedTextureSlots": [],
+        "side": 0,
+        "alphaTest": 0,
+        "name": "Combed Cotton",
+        "color": "#18181b",
+        "roughness": 0.92,
+        "metalness": 0,
+        "emissive": "#000000",
+        "emissiveIntensity": 1,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": false
+      }
+    },
+    "environment": {
+      "preset": "studio",
+      "background": false,
+      "blur": 0.6,
+      "ambientIntensity": 0.7,
+      "directionalIntensity": 1.2,
+      "shadows": true,
+      "grid": true,
+      "axes": true
+    }
+  },
+  "customization": {
+    "id": "custom_proj_1792869001433",
+    "name": "Streetwear Oversized Tee",
+    "version": 4,
+    "sourceType": "preset",
+    "workspace": "customizer",
+    "createdAt": "2026-10-24T19:10:01.433Z",
+    "updatedAt": "2026-10-24T19:10:01.433Z",
+    "productId": "t-shirt-oversized",
+    "productName": "Streetwear Oversized Tee",
+    "productCategory": "t-shirt",
+    "activeZoneId": "body_front",
+    "zones": {
+      "body_front": {
+        "id": "body_front",
+        "name": "Front Chest",
+        "targetMeshNodeId": "node_979081b6-67cd-4d0e-b3be-baac05326252",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.04,
+          "maxU": 0.46,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [
+          {
+            "name": "Rectangle Shape",
+            "type": "shape",
+            "shapeType": "rectangle",
+            "fill": "#10b981",
+            "stroke": "#ffffff",
+            "strokeWidth": 2,
+            "cornerRadius": 12,
+            "x": 350,
+            "y": 350,
+            "width": 300,
+            "height": 300,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1,
+            "visible": true,
+            "locked": false,
+            "id": "layer_1792868996866_xbqlp",
+            "zIndex": 1
+          }
+        ],
+        "enabled": true,
+        "recommendedDimensions": {
+          "width": 350,
+          "height": 450,
+          "unit": "mm"
+        },
+        "targetMeshName": "Body_Main",
+        "target": {
+          "uvBounds": {
+            "minU": 0.04,
+            "maxU": 0.46,
+            "minV": 0.06,
+            "maxV": 0.96
+          },
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_979081b6-67cd-4d0e-b3be-baac05326252",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "compositionId": "node_979081b6-67cd-4d0e-b3be-baac05326252:0",
+          "blackBulletRegion": "shirt_front",
+          "textureFlipY": false
+        }
+      },
+      "body_back": {
+        "id": "body_back",
+        "name": "Back Center",
+        "targetMeshNodeId": "node_9896bd09-020f-4d61-bcff-8d0be2ed9030",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.54,
+          "maxU": 0.96,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true,
+        "recommendedDimensions": {
+          "width": 380,
+          "height": 480,
+          "unit": "mm"
+        },
+        "targetMeshName": "Body_Back",
+        "target": {
+          "uvBounds": {
+            "minU": 0.54,
+            "maxU": 0.96,
+            "minV": 0.06,
+            "maxV": 0.96
+          },
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_9896bd09-020f-4d61-bcff-8d0be2ed9030",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "compositionId": "node_9896bd09-020f-4d61-bcff-8d0be2ed9030:0",
+          "blackBulletRegion": "shirt_back",
+          "textureFlipY": false
+        }
+      },
+      "sleeve_left": {
+        "id": "sleeve_left",
+        "name": "Left Sleeve",
+        "targetMeshNodeId": "node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true,
+        "recommendedDimensions": {
+          "width": 100,
+          "height": 100,
+          "unit": "mm"
+        },
+        "targetMeshName": "Sleeve_Left",
+        "target": {
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0,
+            "maxU": 1,
+            "minV": 0,
+            "maxV": 1
+          },
+          "compositionId": "node_4e69862b-2a8e-4f5b-9af7-73dfe4d1a999:0",
+          "blackBulletRegion": "shoulder_left",
+          "textureFlipY": false
+        }
+      },
+      "sleeve_right": {
+        "id": "sleeve_right",
+        "name": "Right Sleeve",
+        "targetMeshNodeId": "node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0,
+          "maxU": 1,
+          "minV": 0,
+          "maxV": 1
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true,
+        "recommendedDimensions": {
+          "width": 100,
+          "height": 100,
+          "unit": "mm"
+        },
+        "targetMeshName": "Sleeve_Right",
+        "target": {
+          "version": 1,
+          "productId": "t-shirt-oversized",
+          "meshId": "node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0,
+            "maxU": 1,
+            "minV": 0,
+            "maxV": 1
+          },
+          "compositionId": "node_0b8ab8f3-2138-4b38-915d-f60ec43b82e5:0",
+          "blackBulletRegion": "shoulder_right",
+          "textureFlipY": false
+        }
+      }
+    },
+    "fabricColor": "#18181b",
+    "fabricRoughness": 0.92,
+    "fabricMetalness": 0,
+    "fabricPresetId": "cotton-heavyweight",
+    "partMaterials": {},
+    "textureResolution": 1024,
+    "blackBulletMode": "preserve-imported"
+  }
+}

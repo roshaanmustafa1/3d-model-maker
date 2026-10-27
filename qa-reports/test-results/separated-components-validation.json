@@ -1,0 +1,19 @@
+{
+  "byteSize": 4180,
+  "verified": true,
+  "reloadedMeshCount": 2,
+  "reloadedTriangleCount": 24,
+  "uvCheckPassed": true,
+  "hasMaterials": true,
+  "issues": [],
+  "warnings": [],
+  "exportedMaterials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "name": "Object_1_Mat"
+    }
+  ]
+}

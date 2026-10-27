@@ -1,0 +1,1919 @@
+{
+  "schemaVersion": 2,
+  "assetId": "proj_customizer_1792870853838:9ff36215-475b-4353-bf15-b7077b2c8f51",
+  "metadata": {
+    "id": "proj_customizer_1792870853838",
+    "name": "multipart-textured-input",
+    "version": "1.0.0",
+    "createdAt": "2026-10-24T19:40:23.887Z",
+    "updatedAt": "2026-10-24T19:40:53.945Z",
+    "workspace": "customizer"
+  },
+  "scene": {
+    "nodes": {
+      "node_6338a6cb-f317-4509-9453-d8f7566724f5": {
+        "id": "node_6338a6cb-f317-4509-9453-d8f7566724f5",
+        "name": "shirt_front_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_71841368-37f6-4706-9d8a-0c781757b285"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "shirt_front_group",
+          "partId": "shirt_front",
+          "nodeId": "node_89dba84a-e51a-4c78-a464-e0008886003c",
+          "semanticTag": "shirt_front_group",
+          "isCustomizable": true,
+          "customizableZone": "body_front"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_front",
+        "isCustomizable": true,
+        "semanticTag": "shirt_front_group"
+      },
+      "node_71841368-37f6-4706-9d8a-0c781757b285": {
+        "id": "node_71841368-37f6-4706-9d8a-0c781757b285",
+        "name": "shirt_front",
+        "type": "mesh",
+        "parentId": "node_6338a6cb-f317-4509-9453-d8f7566724f5",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 15426,
+            "triangleCount": 29952,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.777429461479187,
+                0.000014445821761910338,
+                -0.00001115771010518074
+              ],
+              "max": [
+                0.777429461479187,
+                2.324335813522339,
+                0.37426212430000305
+              ],
+              "size": [
+                1.554858922958374,
+                2.324321367700577,
+                0.37427328201010823
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_71841368-37f6-4706-9d8a-0c781757b285"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "shirt_front",
+          "partId": "shirt_front",
+          "nodeId": "node_f230a445-a42a-482b-a8d0-751a35eecf2a",
+          "semanticTag": "shirt_front",
+          "isCustomizable": true,
+          "customizableZone": "body_front"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_front",
+        "isCustomizable": true,
+        "semanticTag": "shirt_front"
+      },
+      "node_8e144d14-e901-4b24-aff9-36c8652f779f": {
+        "id": "node_8e144d14-e901-4b24-aff9-36c8652f779f",
+        "name": "shirt_back_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_af4fdc3f-dc69-4c6b-ba5d-2f540874c0d9"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "shirt_back_group",
+          "partId": "shirt_back",
+          "nodeId": "node_b1dfb0a8-8234-44c8-aea5-6297f60f96a4",
+          "semanticTag": "shirt_back_group",
+          "isCustomizable": true,
+          "customizableZone": "body_back"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_back",
+        "isCustomizable": true,
+        "semanticTag": "shirt_back_group"
+      },
+      "node_af4fdc3f-dc69-4c6b-ba5d-2f540874c0d9": {
+        "id": "node_af4fdc3f-dc69-4c6b-ba5d-2f540874c0d9",
+        "name": "shirt_back",
+        "type": "mesh",
+        "parentId": "node_8e144d14-e901-4b24-aff9-36c8652f779f",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 16770,
+            "triangleCount": 33024,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.777429461479187,
+                0.000014445821761910338,
+                -0.37420210242271423
+              ],
+              "max": [
+                0.777429461479187,
+                2.386521339416504,
+                3.171874496388227e-8
+              ],
+              "size": [
+                1.554858922958374,
+                2.386506893594742,
+                0.3742021341414592
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_af4fdc3f-dc69-4c6b-ba5d-2f540874c0d9"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "shirt_back",
+          "partId": "shirt_back",
+          "nodeId": "node_410fd992-7a5a-4f0b-9dbd-085783c1079e",
+          "semanticTag": "shirt_back",
+          "isCustomizable": true,
+          "customizableZone": "body_back"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_back",
+        "isCustomizable": true,
+        "semanticTag": "shirt_back"
+      },
+      "node_e1e7badc-73b3-49ed-ba3f-f33f2ab63818": {
+        "id": "node_e1e7badc-73b3-49ed-ba3f-f33f2ab63818",
+        "name": "shirt_base_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_89cec72a-e412-4927-b5d4-0b38cb6b259e"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "shirt_base_group",
+          "partId": "shirt_base",
+          "nodeId": "node_abd4fb4c-57ba-4099-80f2-3db57f413fec",
+          "semanticTag": "shirt_base_group",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shirt_base_group"
+      },
+      "node_89cec72a-e412-4927-b5d4-0b38cb6b259e": {
+        "id": "node_89cec72a-e412-4927-b5d4-0b38cb6b259e",
+        "name": "shirt_base",
+        "type": "mesh",
+        "parentId": "node_e1e7badc-73b3-49ed-ba3f-f33f2ab63818",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 12280,
+            "triangleCount": 23168,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -1.1650002002716064,
+                1.7442872524261475,
+                -0.3604980409145355
+              ],
+              "max": [
+                1.1650002002716064,
+                2.721090078353882,
+                0.36668258905410767
+              ],
+              "size": [
+                2.330000400543213,
+                0.9768028259277344,
+                0.7271806299686432
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_89cec72a-e412-4927-b5d4-0b38cb6b259e"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "shirt_base",
+          "partId": "shirt_base",
+          "nodeId": "node_fda0c827-5413-4361-9177-1ccf034b2e2f",
+          "semanticTag": "shirt_base",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shirt_base"
+      },
+      "node_2e0db767-28a9-4562-9f9e-5f1e9c44fd66": {
+        "id": "node_2e0db767-28a9-4562-9f9e-5f1e9c44fd66",
+        "name": "shoulder_left_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_4b12bfb8-de82-4a75-959d-8b9e72279e79"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "shoulder_left_group",
+          "partId": "shoulder_left",
+          "nodeId": "node_589af7d8-b7bd-4520-aa9a-57ed4414f5ef",
+          "semanticTag": "shoulder_left_group",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_left_group"
+      },
+      "node_4b12bfb8-de82-4a75-959d-8b9e72279e79": {
+        "id": "node_4b12bfb8-de82-4a75-959d-8b9e72279e79",
+        "name": "shoulder_left",
+        "type": "mesh",
+        "parentId": "node_2e0db767-28a9-4562-9f9e-5f1e9c44fd66",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 5106,
+            "triangleCount": 9648,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                0.32701051235198975,
+                1.8650001287460327,
+                -0.2721098065376282
+              ],
+              "max": [
+                1.339900255203247,
+                3.030522346496582,
+                0.2753925621509552
+              ],
+              "size": [
+                1.0128897428512573,
+                1.1655222177505493,
+                0.5475023686885834
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_4b12bfb8-de82-4a75-959d-8b9e72279e79"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "shoulder_left",
+          "partId": "shoulder_left",
+          "nodeId": "node_a54d1b59-f4b7-49e1-a5bc-648b4cbfb6cc",
+          "semanticTag": "shoulder_left",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_left"
+      },
+      "node_6f3b7722-f07d-4bcd-a561-ecd2513971ea": {
+        "id": "node_6f3b7722-f07d-4bcd-a561-ecd2513971ea",
+        "name": "shoulder_right_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_7dba906a-b0b5-44ac-a4bb-8b8131a925fd"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "shoulder_right_group",
+          "partId": "shoulder_right",
+          "nodeId": "node_c867c7dd-08c4-4c67-a8be-1bce167e78a2",
+          "semanticTag": "shoulder_right_group",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_right_group"
+      },
+      "node_7dba906a-b0b5-44ac-a4bb-8b8131a925fd": {
+        "id": "node_7dba906a-b0b5-44ac-a4bb-8b8131a925fd",
+        "name": "shoulder_right",
+        "type": "mesh",
+        "parentId": "node_6f3b7722-f07d-4bcd-a561-ecd2513971ea",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 5106,
+            "triangleCount": 9648,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -1.339900255203247,
+                1.8650001287460327,
+                -0.2721097767353058
+              ],
+              "max": [
+                -0.32701051235198975,
+                3.030522346496582,
+                0.2753925621509552
+              ],
+              "size": [
+                1.0128897428512573,
+                1.1655222177505493,
+                0.547502338886261
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_7dba906a-b0b5-44ac-a4bb-8b8131a925fd"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "shoulder_right",
+          "partId": "shoulder_right",
+          "nodeId": "node_b7d07230-4322-40b0-866f-2c232176d183",
+          "semanticTag": "shoulder_right",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_right"
+      },
+      "node_00515e75-8dd4-433a-befe-5445f312c7d1": {
+        "id": "node_00515e75-8dd4-433a-befe-5445f312c7d1",
+        "name": "shoulder_patch_left_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_952827d1-ed72-4f69-8f3a-572bb6c5e03a"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "shoulder_patch_left_group",
+          "partId": "shoulder_patch_left",
+          "nodeId": "node_7ef44c67-74d8-44f9-9c15-0d1098e8c6a5",
+          "semanticTag": "shoulder_patch_left_group",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_patch_left_group"
+      },
+      "node_952827d1-ed72-4f69-8f3a-572bb6c5e03a": {
+        "id": "node_952827d1-ed72-4f69-8f3a-572bb6c5e03a",
+        "name": "shoulder_patch_left",
+        "type": "mesh",
+        "parentId": "node_00515e75-8dd4-433a-befe-5445f312c7d1",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 666,
+            "triangleCount": 1168,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                0.8953518271446228,
+                1.9582953453063965,
+                -0.1544647216796875
+              ],
+              "max": [
+                1.3884835243225098,
+                2.754732847213745,
+                0.1544647216796875
+              ],
+              "size": [
+                0.49313169717788696,
+                0.7964375019073486,
+                0.308929443359375
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_952827d1-ed72-4f69-8f3a-572bb6c5e03a"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "shoulder_patch_left",
+          "partId": "shoulder_patch_left",
+          "nodeId": "node_494fc810-fe59-424a-b89e-4d063dd98bd3",
+          "semanticTag": "shoulder_patch_left",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_patch_left"
+      },
+      "node_5f1b0d11-3b4d-422d-bd27-facbae460b29": {
+        "id": "node_5f1b0d11-3b4d-422d-bd27-facbae460b29",
+        "name": "shoulder_patch_right_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_2c39bd7d-e8dd-4feb-bfd3-94c766a12ad7"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "shoulder_patch_right_group",
+          "partId": "shoulder_patch_right",
+          "nodeId": "node_d33326e6-ee37-48ca-841d-8d8e0880f440",
+          "semanticTag": "shoulder_patch_right_group",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_patch_right_group"
+      },
+      "node_2c39bd7d-e8dd-4feb-bfd3-94c766a12ad7": {
+        "id": "node_2c39bd7d-e8dd-4feb-bfd3-94c766a12ad7",
+        "name": "shoulder_patch_right",
+        "type": "mesh",
+        "parentId": "node_5f1b0d11-3b4d-422d-bd27-facbae460b29",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 666,
+            "triangleCount": 1168,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -1.3884835243225098,
+                1.9582953453063965,
+                -0.1544647216796875
+              ],
+              "max": [
+                -0.8953518271446228,
+                2.754732847213745,
+                0.1544647216796875
+              ],
+              "size": [
+                0.49313169717788696,
+                0.7964375019073486,
+                0.308929443359375
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_2c39bd7d-e8dd-4feb-bfd3-94c766a12ad7"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "shoulder_patch_right",
+          "partId": "shoulder_patch_right",
+          "nodeId": "node_9ff5771e-ebd8-462b-b451-908fbf06b8c4",
+          "semanticTag": "shoulder_patch_right",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "shoulder_patch_right"
+      },
+      "node_0c398074-6d1d-40b3-ba68-cfc8175fc3eb": {
+        "id": "node_0c398074-6d1d-40b3-ba68-cfc8175fc3eb",
+        "name": "collar_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_ba4a53dd-8211-4965-8485-47252dfc0179"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "collar_group",
+          "partId": "collar",
+          "nodeId": "node_f80500f4-7a67-4003-bccd-9549f8abbdb6",
+          "semanticTag": "collar_group",
+          "isCustomizable": true,
+          "customizableZone": "collar"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "collar",
+        "isCustomizable": true,
+        "semanticTag": "collar_group"
+      },
+      "node_ba4a53dd-8211-4965-8485-47252dfc0179": {
+        "id": "node_ba4a53dd-8211-4965-8485-47252dfc0179",
+        "name": "collar",
+        "type": "mesh",
+        "parentId": "node_0c398074-6d1d-40b3-ba68-cfc8175fc3eb",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 656,
+            "triangleCount": 1152,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.34270691871643066,
+                2.602501630783081,
+                -0.2635633647441864
+              ],
+              "max": [
+                0.34270691871643066,
+                3.034336566925049,
+                0.31197383999824524
+              ],
+              "size": [
+                0.6854138374328613,
+                0.4318349361419678,
+                0.5755372047424316
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_ba4a53dd-8211-4965-8485-47252dfc0179"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "collar",
+          "partId": "collar",
+          "nodeId": "node_ad53e129-cb8f-457a-a7c4-a24052fc4913",
+          "semanticTag": "collar",
+          "isCustomizable": true,
+          "customizableZone": "collar"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "collar",
+        "isCustomizable": true,
+        "semanticTag": "collar"
+      },
+      "node_94e90c16-e874-4c08-ac6c-8bac56ec2e10": {
+        "id": "node_94e90c16-e874-4c08-ac6c-8bac56ec2e10",
+        "name": "neck_patch_front_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_24a8e1ec-5095-45b8-ab71-e3b862cf5646"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "neck_patch_front_group",
+          "partId": "neck_patch_front",
+          "nodeId": "node_88499775-c490-48a4-9386-08b8f13e8c64",
+          "semanticTag": "neck_patch_front_group",
+          "isCustomizable": true,
+          "customizableZone": "body_front"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_front",
+        "isCustomizable": true,
+        "semanticTag": "neck_patch_front_group"
+      },
+      "node_24a8e1ec-5095-45b8-ab71-e3b862cf5646": {
+        "id": "node_24a8e1ec-5095-45b8-ab71-e3b862cf5646",
+        "name": "neck_patch_front",
+        "type": "mesh",
+        "parentId": "node_94e90c16-e874-4c08-ac6c-8bac56ec2e10",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 1518,
+            "triangleCount": 2816,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.34314748644828796,
+                2.395695209503174,
+                0.08719675242900848
+              ],
+              "max": [
+                0.34314751625061035,
+                2.969696521759033,
+                0.35965779423713684
+              ],
+              "size": [
+                0.6862950026988983,
+                0.5740013122558594,
+                0.27246104180812836
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_24a8e1ec-5095-45b8-ab71-e3b862cf5646"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "neck_patch_front",
+          "partId": "neck_patch_front",
+          "nodeId": "node_481e33f8-9915-4451-a96f-925cac878cdb",
+          "semanticTag": "neck_patch_front",
+          "isCustomizable": true,
+          "customizableZone": "body_front"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_front",
+        "isCustomizable": true,
+        "semanticTag": "neck_patch_front"
+      },
+      "node_b4b107ce-d9d8-4791-8382-a308a895ad27": {
+        "id": "node_b4b107ce-d9d8-4791-8382-a308a895ad27",
+        "name": "neck_patch_back_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_56bbe28d-258a-4e79-95ea-5135edf670ad"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "neck_patch_back_group",
+          "partId": "neck_patch_back",
+          "nodeId": "node_f1f0403a-a158-499c-ace9-01102a82d599",
+          "semanticTag": "neck_patch_back_group",
+          "isCustomizable": true,
+          "customizableZone": "body_back"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_back",
+        "isCustomizable": true,
+        "semanticTag": "neck_patch_back_group"
+      },
+      "node_56bbe28d-258a-4e79-95ea-5135edf670ad": {
+        "id": "node_56bbe28d-258a-4e79-95ea-5135edf670ad",
+        "name": "neck_patch_back",
+        "type": "mesh",
+        "parentId": "node_b4b107ce-d9d8-4791-8382-a308a895ad27",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 1518,
+            "triangleCount": 2816,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.34317412972450256,
+                2.505398750305176,
+                -0.34566730260849
+              ],
+              "max": [
+                0.3431740999221802,
+                2.977266550064087,
+                -0.08932328224182129
+              ],
+              "size": [
+                0.6863482296466827,
+                0.47186779975891113,
+                0.2563440203666687
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_56bbe28d-258a-4e79-95ea-5135edf670ad"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "neck_patch_back",
+          "partId": "neck_patch_back",
+          "nodeId": "node_c59a94ea-46af-4ed0-a6aa-3b290f6ebef1",
+          "semanticTag": "neck_patch_back",
+          "isCustomizable": true,
+          "customizableZone": "body_back"
+        },
+        "visible": true,
+        "locked": false,
+        "customizableZone": "body_back",
+        "isCustomizable": true,
+        "semanticTag": "neck_patch_back"
+      },
+      "node_5a38408e-ca66-4c78-a147-778f32725072": {
+        "id": "node_5a38408e-ca66-4c78-a147-778f32725072",
+        "name": "side_patch_left_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_ea339d31-ad0e-4818-82b0-21eeec2bf219"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "side_patch_left_group",
+          "partId": "side_patch_left",
+          "nodeId": "node_d0963bfe-fc20-449e-927a-c8697d9ba649",
+          "semanticTag": "side_patch_left_group",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "side_patch_left_group"
+      },
+      "node_ea339d31-ad0e-4818-82b0-21eeec2bf219": {
+        "id": "node_ea339d31-ad0e-4818-82b0-21eeec2bf219",
+        "name": "side_patch_left",
+        "type": "mesh",
+        "parentId": "node_5a38408e-ca66-4c78-a147-778f32725072",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 882,
+            "triangleCount": 1536,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                0.27479061484336853,
+                0.2400662750005722,
+                -2.4684325694579456e-8
+              ],
+              "max": [
+                0.6921106576919556,
+                0.8298079371452332,
+                0.2804418206214905
+              ],
+              "size": [
+                0.41732004284858704,
+                0.589741662144661,
+                0.2804418453058162
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_ea339d31-ad0e-4818-82b0-21eeec2bf219"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "side_patch_left",
+          "partId": "side_patch_left",
+          "nodeId": "node_c7f68743-55c5-4ba0-9117-b10b03d3942a",
+          "semanticTag": "side_patch_left",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "side_patch_left"
+      },
+      "node_5702ec92-d59c-4f74-b194-27c65947cef2": {
+        "id": "node_5702ec92-d59c-4f74-b194-27c65947cef2",
+        "name": "side_patch_right_group",
+        "type": "group",
+        "parentId": null,
+        "children": [
+          "node_e395c9a3-5aa9-48fe-90df-a35ce299e4ef"
+        ],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "userData": {
+          "name": "side_patch_right_group",
+          "partId": "side_patch_right",
+          "nodeId": "node_aa9eaf56-f7a2-45fd-8f5e-b2acd4a1edbb",
+          "semanticTag": "side_patch_right_group",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "side_patch_right_group"
+      },
+      "node_e395c9a3-5aa9-48fe-90df-a35ce299e4ef": {
+        "id": "node_e395c9a3-5aa9-48fe-90df-a35ce299e4ef",
+        "name": "side_patch_right",
+        "type": "mesh",
+        "parentId": "node_5702ec92-d59c-4f74-b194-27c65947cef2",
+        "children": [],
+        "transform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotationOrder": "XYZ"
+        },
+        "geometry": {
+          "type": "custom",
+          "params": {},
+          "stats": {
+            "vertexCount": 882,
+            "triangleCount": 1536,
+            "hasNormals": true,
+            "hasUVs": true,
+            "boundingBox": {
+              "min": [
+                -0.6921106576919556,
+                0.24006624519824982,
+                -3.399791381752948e-8
+              ],
+              "max": [
+                -0.27465537190437317,
+                0.8298079371452332,
+                0.27292555570602417
+              ],
+              "size": [
+                0.4174552857875824,
+                0.5897416919469833,
+                0.272925589703938
+              ]
+            }
+          },
+          "customGeometryKey": "custom_node_e395c9a3-5aa9-48fe-90df-a35ce299e4ef"
+        },
+        "materialId": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "materialIds": [
+          "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0"
+        ],
+        "userData": {
+          "name": "side_patch_right",
+          "partId": "side_patch_right",
+          "nodeId": "node_e4542965-6cb7-4668-9e2f-61a2a025f91a",
+          "semanticTag": "side_patch_right",
+          "isCustomizable": false,
+          "customizableZone": null
+        },
+        "visible": true,
+        "locked": false,
+        "isCustomizable": false,
+        "semanticTag": "side_patch_right"
+      }
+    },
+    "rootNodeIds": [
+      "node_6338a6cb-f317-4509-9453-d8f7566724f5",
+      "node_8e144d14-e901-4b24-aff9-36c8652f779f",
+      "node_e1e7badc-73b3-49ed-ba3f-f33f2ab63818",
+      "node_2e0db767-28a9-4562-9f9e-5f1e9c44fd66",
+      "node_6f3b7722-f07d-4bcd-a561-ecd2513971ea",
+      "node_00515e75-8dd4-433a-befe-5445f312c7d1",
+      "node_5f1b0d11-3b4d-422d-bd27-facbae460b29",
+      "node_0c398074-6d1d-40b3-ba68-cfc8175fc3eb",
+      "node_94e90c16-e874-4c08-ac6c-8bac56ec2e10",
+      "node_b4b107ce-d9d8-4791-8382-a308a895ad27",
+      "node_5a38408e-ca66-4c78-a147-778f32725072",
+      "node_5702ec92-d59c-4f74-b194-27c65947cef2"
+    ],
+    "materials": {
+      "mat_default_studio": {
+        "id": "mat_default_studio",
+        "name": "Default Studio Material",
+        "color": "#38bdf8",
+        "roughness": 0.35,
+        "metalness": 0.1,
+        "emissive": "#000000",
+        "emissiveIntensity": 0,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": true
+      },
+      "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0": {
+        "id": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "importedMaterialKey": "mat_node_71841368-37f6-4706-9d8a-0c781757b285_0",
+        "sourceType": "MeshStandardMaterial",
+        "importedTextureSlots": [
+          "map",
+          "normalMap"
+        ],
+        "side": 2,
+        "alphaTest": 0,
+        "name": "shirt_front_Mat",
+        "color": "#09090b",
+        "roughness": 0.65,
+        "metalness": 0,
+        "emissive": "#000000",
+        "emissiveIntensity": 1,
+        "opacity": 1,
+        "transparent": false,
+        "wireframe": false,
+        "doubleSided": true
+      }
+    },
+    "environment": {
+      "preset": "studio",
+      "background": false,
+      "blur": 0.6,
+      "ambientIntensity": 0.7,
+      "directionalIntensity": 1.2,
+      "shadows": true,
+      "grid": true,
+      "axes": true
+    }
+  },
+  "customization": {
+    "id": "custom_proj_1792870853838",
+    "name": "multipart-textured-input",
+    "version": 4,
+    "sourceType": "imported",
+    "workspace": "customizer",
+    "createdAt": "2026-10-24T19:40:53.838Z",
+    "updatedAt": "2026-10-24T19:40:53.838Z",
+    "productId": "custom_1792870830394",
+    "productName": "multipart-textured-input",
+    "productCategory": "other",
+    "activeZoneId": "zone_1792870846396_qa_durable_zone",
+    "zones": {
+      "body_front": {
+        "id": "body_front",
+        "name": "shirt_front",
+        "targetMeshNodeId": "node_71841368-37f6-4706-9d8a-0c781757b285",
+        "targetMeshName": "shirt_front",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.04,
+          "maxU": 0.46,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_71841368-37f6-4706-9d8a-0c781757b285",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.04,
+            "maxU": 0.46,
+            "minV": 0.06,
+            "maxV": 0.96
+          },
+          "compositionId": "node_71841368-37f6-4706-9d8a-0c781757b285:0",
+          "blackBulletRegion": "shirt_front",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [
+          {
+            "name": "persistent",
+            "type": "image",
+            "assetId": "f0e4798d-bdaa-41e0-81ea-041eaed8de5f",
+            "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22red%22%2F%3E%3C%2Fsvg%3E",
+            "mimeType": "image/svg+xml",
+            "originalWidth": 64,
+            "originalHeight": 64,
+            "isSvg": true,
+            "x": 250,
+            "y": 250,
+            "width": 500,
+            "height": 500,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1,
+            "visible": true,
+            "locked": false,
+            "id": "layer_1792870838012_wzlt1",
+            "zIndex": 1
+          },
+          {
+            "name": "persistent",
+            "type": "image",
+            "assetId": "e9dd83e7-674e-4eba-a674-8b8cab88f734",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAO0lEQVR4AezXwQkAMAgDwND9d27rBD4FOdB3wv1yktzJrwI/f+4UIECAAAECBAgQIECAAAEC+wW63f0AAAD//+3aM8YAAAAGSURBVAMABkQgIT13JVIAAAAASUVORK5CYII=",
+            "mimeType": "image/png",
+            "originalWidth": 32,
+            "originalHeight": 32,
+            "isSvg": false,
+            "x": 250,
+            "y": 250,
+            "width": 500,
+            "height": 500,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1,
+            "visible": true,
+            "locked": false,
+            "id": "layer_1792870840481_ai2hk",
+            "zIndex": 2
+          },
+          {
+            "name": "Text \"PERSISTENT T\"",
+            "type": "text",
+            "text": "PERSISTENT TEXT",
+            "fontFamily": "sans-serif",
+            "fontSize": 54,
+            "fontWeight": "bold",
+            "fontStyle": "normal",
+            "fill": "#ffffff",
+            "align": "center",
+            "letterSpacing": 0,
+            "lineHeight": 1.2,
+            "x": 300,
+            "y": 460,
+            "width": 400,
+            "height": 80,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1,
+            "visible": true,
+            "locked": false,
+            "id": "layer_1792870842222_gfmqg",
+            "zIndex": 3
+          }
+        ],
+        "enabled": true
+      },
+      "body_back": {
+        "id": "body_back",
+        "name": "shirt_back",
+        "targetMeshNodeId": "node_af4fdc3f-dc69-4c6b-ba5d-2f540874c0d9",
+        "targetMeshName": "shirt_back",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.54,
+          "maxU": 0.96,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_af4fdc3f-dc69-4c6b-ba5d-2f540874c0d9",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.54,
+            "maxU": 0.96,
+            "minV": 0.06,
+            "maxV": 0.96
+          },
+          "compositionId": "node_af4fdc3f-dc69-4c6b-ba5d-2f540874c0d9:0",
+          "blackBulletRegion": "shirt_back",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_2_shirt_base": {
+        "id": "zone_2_shirt_base",
+        "name": "shirt_base",
+        "targetMeshNodeId": "node_89cec72a-e412-4927-b5d4-0b38cb6b259e",
+        "targetMeshName": "shirt_base",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.11166659742593765,
+          "maxU": 0.8883333802223206,
+          "minV": 0.5626733303070068,
+          "maxV": 0.8777710199356079
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_89cec72a-e412-4927-b5d4-0b38cb6b259e",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.11166659742593765,
+            "maxU": 0.8883333802223206,
+            "minV": 0.5626733303070068,
+            "maxV": 0.8777710199356079
+          },
+          "compositionId": "node_89cec72a-e412-4927-b5d4-0b38cb6b259e:0",
+          "blackBulletRegion": "shirt_base",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_3_shoulder_left": {
+        "id": "zone_3_shoulder_left",
+        "name": "shoulder_left",
+        "targetMeshNodeId": "node_4b12bfb8-de82-4a75-959d-8b9e72279e79",
+        "targetMeshName": "shoulder_left",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.609003484249115,
+          "maxU": 0.9466333985328674,
+          "minV": 0.60161292552948,
+          "maxV": 0.977587878704071
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_4b12bfb8-de82-4a75-959d-8b9e72279e79",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.609003484249115,
+            "maxU": 0.9466333985328674,
+            "minV": 0.60161292552948,
+            "maxV": 0.977587878704071
+          },
+          "compositionId": "node_4b12bfb8-de82-4a75-959d-8b9e72279e79:0",
+          "blackBulletRegion": "shoulder_left",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_4_shoulder_right": {
+        "id": "zone_4_shoulder_right",
+        "name": "shoulder_right",
+        "targetMeshNodeId": "node_7dba906a-b0b5-44ac-a4bb-8b8131a925fd",
+        "targetMeshName": "shoulder_right",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.053366582840681076,
+          "maxU": 0.3909964859485626,
+          "minV": 0.60161292552948,
+          "maxV": 0.977587878704071
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_7dba906a-b0b5-44ac-a4bb-8b8131a925fd",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.053366582840681076,
+            "maxU": 0.3909964859485626,
+            "minV": 0.60161292552948,
+            "maxV": 0.977587878704071
+          },
+          "compositionId": "node_7dba906a-b0b5-44ac-a4bb-8b8131a925fd:0",
+          "blackBulletRegion": "shoulder_right",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_5_shoulder_patch_left": {
+        "id": "zone_5_shoulder_patch_left",
+        "name": "shoulder_patch_left",
+        "targetMeshNodeId": "node_952827d1-ed72-4f69-8f3a-572bb6c5e03a",
+        "targetMeshName": "shoulder_patch_left",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.7984505891799927,
+          "maxU": 0.9628278613090515,
+          "minV": 0.6317082047462463,
+          "maxV": 0.8886234760284424
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_952827d1-ed72-4f69-8f3a-572bb6c5e03a",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.7984505891799927,
+            "maxU": 0.9628278613090515,
+            "minV": 0.6317082047462463,
+            "maxV": 0.8886234760284424
+          },
+          "compositionId": "node_952827d1-ed72-4f69-8f3a-572bb6c5e03a:0",
+          "blackBulletRegion": "shoulder_patch_left",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_6_shoulder_patch_right": {
+        "id": "zone_6_shoulder_patch_right",
+        "name": "shoulder_patch_right",
+        "targetMeshNodeId": "node_2c39bd7d-e8dd-4feb-bfd3-94c766a12ad7",
+        "targetMeshName": "shoulder_patch_right",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.03717215731739998,
+          "maxU": 0.20154939591884613,
+          "minV": 0.6317082047462463,
+          "maxV": 0.8886234760284424
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_2c39bd7d-e8dd-4feb-bfd3-94c766a12ad7",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.03717215731739998,
+            "maxU": 0.20154939591884613,
+            "minV": 0.6317082047462463,
+            "maxV": 0.8886234760284424
+          },
+          "compositionId": "node_2c39bd7d-e8dd-4feb-bfd3-94c766a12ad7:0",
+          "blackBulletRegion": "shoulder_patch_right",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "collar": {
+        "id": "collar",
+        "name": "collar",
+        "targetMeshNodeId": "node_ba4a53dd-8211-4965-8485-47252dfc0179",
+        "targetMeshName": "collar",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.38576436042785645,
+          "maxU": 0.6142356395721436,
+          "minV": 0.8395166397094727,
+          "maxV": 0.9788182377815247
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_ba4a53dd-8211-4965-8485-47252dfc0179",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.38576436042785645,
+            "maxU": 0.6142356395721436,
+            "minV": 0.8395166397094727,
+            "maxV": 0.9788182377815247
+          },
+          "compositionId": "node_ba4a53dd-8211-4965-8485-47252dfc0179:0",
+          "blackBulletRegion": "collar",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "body_front_8_0": {
+        "id": "body_front_8_0",
+        "name": "neck_patch_front",
+        "targetMeshNodeId": "node_24a8e1ec-5095-45b8-ab71-e3b862cf5646",
+        "targetMeshName": "neck_patch_front",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.3856174945831299,
+          "maxU": 0.6143825054168701,
+          "minV": 0.7728049159049988,
+          "maxV": 0.9579666256904602
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_24a8e1ec-5095-45b8-ab71-e3b862cf5646",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.3856174945831299,
+            "maxU": 0.6143825054168701,
+            "minV": 0.7728049159049988,
+            "maxV": 0.9579666256904602
+          },
+          "compositionId": "node_24a8e1ec-5095-45b8-ab71-e3b862cf5646:0",
+          "blackBulletRegion": "neck_patch_front",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "body_back_9_0": {
+        "id": "body_back_9_0",
+        "name": "neck_patch_back",
+        "targetMeshNodeId": "node_56bbe28d-258a-4e79-95ea-5135edf670ad",
+        "targetMeshName": "neck_patch_back",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.38560861349105835,
+          "maxU": 0.6143913865089417,
+          "minV": 0.8081931471824646,
+          "maxV": 0.9604085683822632
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_56bbe28d-258a-4e79-95ea-5135edf670ad",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.38560861349105835,
+            "maxU": 0.6143913865089417,
+            "minV": 0.8081931471824646,
+            "maxV": 0.9604085683822632
+          },
+          "compositionId": "node_56bbe28d-258a-4e79-95ea-5135edf670ad:0",
+          "blackBulletRegion": "neck_patch_back",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_10_side_patch_left": {
+        "id": "zone_10_side_patch_left",
+        "name": "side_patch_left",
+        "targetMeshNodeId": "node_ea339d31-ad0e-4818-82b0-21eeec2bf219",
+        "targetMeshName": "side_patch_left",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.5915968418121338,
+          "maxU": 0.7307035326957703,
+          "minV": 0.07744073867797852,
+          "maxV": 0.26767998933792114
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_ea339d31-ad0e-4818-82b0-21eeec2bf219",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.5915968418121338,
+            "maxU": 0.7307035326957703,
+            "minV": 0.07744073867797852,
+            "maxV": 0.26767998933792114
+          },
+          "compositionId": "node_ea339d31-ad0e-4818-82b0-21eeec2bf219:0",
+          "blackBulletRegion": "side_patch_left",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_11_side_patch_right": {
+        "id": "zone_11_side_patch_right",
+        "name": "side_patch_right",
+        "targetMeshNodeId": "node_e395c9a3-5aa9-48fe-90df-a35ce299e4ef",
+        "targetMeshName": "side_patch_right",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.26929643750190735,
+          "maxU": 0.4084482192993164,
+          "minV": 0.07744073867797852,
+          "maxV": 0.26767998933792114
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_e395c9a3-5aa9-48fe-90df-a35ce299e4ef",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.26929643750190735,
+            "maxU": 0.4084482192993164,
+            "minV": 0.07744073867797852,
+            "maxV": 0.26767998933792114
+          },
+          "compositionId": "node_e395c9a3-5aa9-48fe-90df-a35ce299e4ef:0",
+          "blackBulletRegion": "side_patch_right",
+          "textureFlipY": false,
+          "intentionalSharedUVs": false
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      },
+      "zone_1792870846396_qa_durable_zone": {
+        "id": "zone_1792870846396_qa_durable_zone",
+        "name": "QA Durable Zone",
+        "targetMeshNodeId": "node_71841368-37f6-4706-9d8a-0c781757b285",
+        "targetMeshName": "shirt_front",
+        "materialSlotIndex": 0,
+        "uvBounds": {
+          "minU": 0.04,
+          "maxU": 0.46,
+          "minV": 0.06,
+          "maxV": 0.96
+        },
+        "target": {
+          "version": 1,
+          "productId": "custom_1792870830394",
+          "meshId": "node_71841368-37f6-4706-9d8a-0c781757b285",
+          "materialSlot": 0,
+          "uvChannel": 0,
+          "uvBounds": {
+            "minU": 0.04,
+            "maxU": 0.46,
+            "minV": 0.06,
+            "maxV": 0.96
+          },
+          "compositionId": "node_71841368-37f6-4706-9d8a-0c781757b285:0",
+          "blackBulletRegion": "shirt_front",
+          "textureFlipY": false,
+          "intentionalSharedUVs": true
+        },
+        "canvasWidth": 1024,
+        "canvasHeight": 1024,
+        "layers": [],
+        "enabled": true
+      }
+    },
+    "fabricColor": "#224466",
+    "fabricRoughness": 0.65,
+    "fabricMetalness": 0,
+    "partMaterials": {
+      "node_71841368-37f6-4706-9d8a-0c781757b285:0": {
+        "color": "#224466"
+      }
+    },
+    "textureResolution": 1024,
+    "blackBulletMode": "preserve-imported"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "createdUtc": "2026-10-24T19:55:11.676Z",
+  "sourceFiles": [
+    {
+      "path": "package.json",
+      "sha256": "d6d8f4fee53f88691b6578da1cbfaa0d7023f19973b9b80570bedfa1981571a2"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "68c463d41938fcb2ca3848e5754ed8d040e4550a28c3517d590f006e8a789f94"
+    },
+    {
+      "path": "types/customization.ts",
+      "sha256": "e4314a05aac5bf21aede2e832305b34cd3a04fc58e1203b0eb8872a1e7955ba5"
+    },
+    {
+      "path": "types/scene.ts",
+      "sha256": "8f347adb1bdf0486b261a60ade902c0ba960e9755b5fc3407ca369c34f90a1b7"
+    },
+    {
+      "path": "types/editor.ts",
+      "sha256": "c24878133ac262e36186192199d93d949311d217d36a8e29a2c7902ec8399c77"
+    },
+    {
+      "path": "types/project.ts",
+      "sha256": "dd0154ef900cc2a8dd337d6479fa0055ce22567ab3206e4c0bf9c2237e76c45b"
+    },
+    {
+      "path": "engine/customization/artwork-renderer.ts",
+      "sha256": "c04bb20aedd3bbc3461788686499de16a784ef25f99b694a3c6a4c16531d1f03"
+    },
+    {
+      "path": "engine/customization/blackbullet-contract.ts",
+      "sha256": "a5d9075f1331ae6cfb1aa60fddff7d3f77e2d2ad25e6677a8cb8315875122d88"
+    },
+    {
+      "path": "engine/customization/catalog-surfaces.ts",
+      "sha256": "231c305a993fe1e4f184de372da0e7e5135428a6f9bfc5d9ccfdc60f8389b029"
+    },
+    {
+      "path": "engine/customization/customization-exporter.ts",
+      "sha256": "e49b79ca056c42f4d13b7453129e97a5dbde70cc05f22cd4127e43c0c18c7aea"
+    },
+    {
+      "path": "engine/customization/material-composition.ts",
+      "sha256": "1daedd95c24b55e328286c3d24e3c423b433876b66f47cf731921fbb436a9f73"
+    },
+    {
+      "path": "engine/customization/product-catalog.ts",
+      "sha256": "a96b55a650936f076cf4aa9219f4d7fef020e52bd552f6ae144902040a70709d"
+    },
+    {
+      "path": "engine/customization/svg-sanitizer.ts",
+      "sha256": "88bef0a25c97a1ec96334469a963a27b6f802be8389d540175075e2cc2708d28"
+    },
+    {
+      "path": "engine/customization/targets.ts",
+      "sha256": "79df98331c5afba6498bd52767f4ae1d418226e70be173994e15d0ffbd4b716c"
+    },
+    {
+      "path": "engine/customization/texture-composer.ts",
+      "sha256": "3733ba702d2b15f30d806173369fa608275b5778ab81a36ba2f4ff7529ecb662"
+    },
+    {
+      "path": "engine/customization/upload-validation.ts",
+      "sha256": "9f29acb3a32b986c2a05ece71df58b6c61d0b76a0969f7f41de4db2654efc20f"
+    },
+    {
+      "path": "engine/customization/uv-overlap.ts",
+      "sha256": "308e4a6ff6072ac5bb689bcbeb161755eb64c86971021bfbc1fec3d4858a2f97"
+    },
+    {
+      "path": "engine/customization/zone-mapper.ts",
+      "sha256": "c91d17aff08e5529f273db779583119f316e9d21c103e26824887d5e48b5a398"
+    },
+    {
+      "path": "engine/scene/material-manager.ts",
+      "sha256": "b46dd1657fe8dc0717a7836acf10a8bb5650315a2f9440471115984b12cfecb0"
+    },
+    {
+      "path": "engine/scene/resource-lifecycle.ts",
+      "sha256": "dab5a8916cf0f92d8b0f6acbddef057bc1b5a4b8b84b47d850fd35d87597b0ad"
+    },
+    {
+      "path": "engine/scene/workspaces.ts",
+      "sha256": "1a9bf1f10348502bf1db0d83008a47a1d08b6b8cb77f11356082bd572dcc6683"
+    },
+    {
+      "path": "engine/validation/blackbullet-validator.ts",
+      "sha256": "6dedf326f589a014c2666e650a026a612e85f42c3256ffa91a6223be80ef2ed9"
+    },
+    {
+      "path": "stores/customizer-store.ts",
+      "sha256": "1756c73a4c83354477251d0576617ac3dcef4c8c42fa449d76eb3db58ac80eef"
+    },
+    {
+      "path": "stores/editor-store.ts",
+      "sha256": "1ffe12060188ada95753d753f60570e87863b81f969307529504acbb0c797b30"
+    },
+    {
+      "path": "stores/project-store.ts",
+      "sha256": "2ee1280c08100384005cc88e63dd840b74345fc54871325552150823f0298b08"
+    },
+    {
+      "path": "stores/derived-material-store.ts",
+      "sha256": "006d49aebfbad0cde60fb4b1b10703549f113e9ef14e29f6a60b4d78abab4877"
+    },
+    {
+      "path": "components/customizer/artwork-canvas.tsx",
+      "sha256": "f8824ba7bf9231e33a1200f8c742871fbb03ca56e00437973ef92a9ecc18d976"
+    },
+    {
+      "path": "components/customizer/artwork-toolbar.tsx",
+      "sha256": "67f8ed9da58373e9a85d320d1fab2ec851669cf2416db2bddc9f937011cf7816"
+    },
+    {
+      "path": "components/customizer/design-zone-panel.tsx",
+      "sha256": "cdcedafeb413b6e6fb39c2470767f0b0486f468329de05046794bc177eaa8f49"
+    },
+    {
+      "path": "components/customizer/material-panel.tsx",
+      "sha256": "b1a205c2156ddbf0cf70463581c13e559e8797a4647e17effd55726991234ca1"
+    },
+    {
+      "path": "components/customizer/preview-controls.tsx",
+      "sha256": "cb2c394ca7270459327b8559ab0b01b8a0cce257f3c8f6096b136c9e6536af49"
+    },
+    {
+      "path": "components/customizer/product-customizer-view.tsx",
+      "sha256": "49a31bee891f999bd7d77a1fbb9d36ce724f8046f678d0bf28cca23d036d9da4"
+    },
+    {
+      "path": "components/customizer/product-library.tsx",
+      "sha256": "75226c4d26e3e6a1581858650fc50aeee1732ee2d38ed4a4f2ceb5776ad8b23e"
+    },
+    {
+      "path": "components/customizer/texture-pipeline.tsx",
+      "sha256": "c4832b221f414d308c8d2f262b3e454a0e3609084c3af5f20f54926c0b5bde0f"
+    },
+    {
+      "path": "components/viewport/camera-controller.tsx",
+      "sha256": "fc537e2b285338fc494409d7de44dffc363932c42a184e50ac2db09668ce7e9d"
+    },
+    {
+      "path": "components/viewport/scene-renderer.tsx",
+      "sha256": "a14a7c81f79bd762d58f3446273ecabcc4f930ae957a717630a580a9a9bb9491"
+    },
+    {
+      "path": "components/viewport/viewport-canvas.tsx",
+      "sha256": "5e1a34ddc1dde19ff1d017fb2979fbcd8ea6a2f4dd3bde3e164b20441a559e0f"
+    },
+    {
+      "path": "components/editor/editor-layout.tsx",
+      "sha256": "663ba776de4b290f48c3f830d1140640553e3e87384ec21506ab1893c6bc8bd2"
+    },
+    {
+      "path": "docs/customization-targets.md",
+      "sha256": "33607ca076fa977a0313a29e4f65059bf9511aca74a7cbc3a82c940504d16bef"
+    }
+  ],
+  "qaFiles": [
+    "scripts/qa/phase3-support.mjs",
+    "scripts/qa/phase3_5-pixels.mjs",
+    "scripts/qa/phase3_5-fixtures.mjs",
+    "scripts/qa/phase3_5-trace-summary.mjs",
+    "scripts/qa/phase3_5-manifest.mjs",
+    "scripts/qa/phase3_5-summary.mjs",
+    "tests/qa/phase3-regressions.test.mjs",
+    "tests/qa/phase3_5.test.mjs",
+    "tests/qa/browser/phase3.spec.mjs",
+    "tests/qa/browser/phase3-pointer.spec.mjs",
+    "tests/qa/browser/phase3-blackbullet.spec.mjs",
+    "tests/qa/browser/phase3-durability.spec.mjs",
+    "tests/qa/browser/phase3_5.spec.mjs",
+    "tests/qa/browser/phase3_5-blackbullet.spec.mjs",
+    "tests/qa/browser/phase3_5-alignment.spec.mjs",
+    "tests/qa/browser/phase3_5-materials.spec.mjs"
+  ],
+  "productionAsset": {
+    "path": "C:/Users/Roshaan's Pc/Documents/Projects/blackbullet-3d/src/assets/modals/subdivision.glb",
+    "sha256": "41917204466a7a872bef865b6dfb4546c380044fd752afdc93700a31a485d0c1",
+    "unchangedFromPhase2_5": true
+  },
+  "blackBulletSourceModified": false,
+  "notes": [
+    "Existing unrelated source changes were preserved. No production GLBs were modified.",
+    "Generated QA evidence and the stabilization report are additional outputs."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "result": {
+    "editor": {
+      "minX": 0,
+      "minY": 178.17600000000002,
+      "maxX": 235.52,
+      "maxY": 452.608,
+      "count": 8273
+    },
+    "texture": {
+      "minX": 0.09523809523809319,
+      "minY": 177.8222222222222,
+      "maxX": 235.80952380952377,
+      "maxY": 453.3777777777778,
+      "count": 13165
+    }
+  },
+  "layers": [
+    {
+      "name": "Triangle Shape",
+      "type": "shape",
+      "shapeType": "triangle",
+      "fill": "#10b981",
+      "stroke": "#ffffff",
+      "strokeWidth": 2,
+      "x": 100,
+      "y": 100,
+      "width": 300,
+      "height": 240,
+      "rotation": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "id": "layer_1792928298823_mjk4l",
+      "zIndex": 1
+    }
+  ]
+}

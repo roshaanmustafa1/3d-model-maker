@@ -1,0 +1,21 @@
+✔ Completion: connected face selection grows one ring and shrinks its boundary (4.0023ms)
+✔ Completion: partition conserves every triangle, winding, UVs, normals and secondary attributes (4.6068ms)
+✔ Completion: selected separation keeps transforms, materials, visibility and undo/redo (13.1908ms)
+✔ Completion: split by material retains slot assignments after a geometry transaction (7.0557ms)
+✔ Completion: viewport picking resolves material-sorted faces to stable IDs (1.0679ms)
+✔ Completion: explicit seams partition islands and persist in geometry metadata (6.8364ms)
+✔ Completion: packing removes cross-island overlap and supports undo/redo (10.2789ms)
+✔ Completion: UV edits retain secondary UV attributes (3.971ms)
+✔ Completion: GLB handoff rejects corrupt length, truncated chunks and non-GLB files (1.9588ms)
+✔ Completion: front/back names alone never establish BlackBullet runtime compatibility (11.507ms)
+✔ Completion: registered atlas passes runtime contract; UV drift and forged names fail (17.8268ms)
+✔ Completion: independent slot assignment is undoable and preserves other materials (5.4677ms)
+✔ Completion: separated material parts survive save/reopen and GLB export/reimport (39.8565ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1436.7966

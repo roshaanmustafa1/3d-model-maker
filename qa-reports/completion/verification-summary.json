@@ -1,0 +1,422 @@
+{
+  "engine": {
+    "total": 121,
+    "passed": 118,
+    "skipped": 3,
+    "failed": 0
+  },
+  "browser": {
+    "unique": 50,
+    "passed": 50,
+    "failed": 0
+  },
+  "newCoverage": {
+    "engine": 15,
+    "browser": 2
+  },
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "buildWarnings": 2,
+  "attempts": [
+    {
+      "run": "baseline-browser",
+      "total": 21,
+      "passed": 20,
+      "failed": 1
+    },
+    {
+      "run": "final-browser",
+      "total": 14,
+      "passed": 13,
+      "failed": 1
+    },
+    {
+      "run": "appearance-browser",
+      "total": 7,
+      "passed": 3,
+      "failed": 4
+    },
+    {
+      "run": "blackbullet-browser",
+      "total": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "run": "legacy-producer-browser",
+      "total": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "run": "legacy-consumer-browser",
+      "total": 3,
+      "passed": 2,
+      "failed": 1
+    },
+    {
+      "run": "final-smoke",
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "run": "final-confirmation",
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    }
+  ],
+  "cases": [
+    {
+      "key": "advanced.spec.mjs:actual scene selection, material isolation and geometry overlays",
+      "file": "advanced.spec.mjs",
+      "title": "actual scene selection, material isolation and geometry overlays",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "advanced.spec.mjs:real garment renders black through all six camera presets",
+      "file": "advanced.spec.mjs",
+      "title": "real garment renders black through all six camera presets",
+      "status": "passed",
+      "run": "final-smoke"
+    },
+    {
+      "key": "advanced.spec.mjs:base-color and normal image uploads survive real browser GLB export/reimport",
+      "file": "advanced.spec.mjs",
+      "title": "base-color and normal image uploads survive real browser GLB export/reimport",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "advanced.spec.mjs:UV edits survive an export independently of undo",
+      "file": "advanced.spec.mjs",
+      "title": "UV edits survive an export independently of undo",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "advanced.spec.mjs:mesh-size rendering FPS and selection latency are measured",
+      "file": "advanced.spec.mjs",
+      "title": "mesh-size rendering FPS and selection latency are measured",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "advanced.spec.mjs:Shift click synchronizes multiple Scene Explorer selections",
+      "file": "advanced.spec.mjs",
+      "title": "Shift click synchronizes multiple Scene Explorer selections",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "advanced.spec.mjs:imported packed PBR texture channels survive browser GLB export",
+      "file": "advanced.spec.mjs",
+      "title": "imported packed PBR texture channels survive browser GLB export",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:initial editor renders with usable side panels and WebGL",
+      "file": "editor.spec.mjs",
+      "title": "initial editor renders with usable side panels and WebGL",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:empty viewport click deselects object and clears inspector",
+      "file": "editor.spec.mjs",
+      "title": "empty viewport click deselects object and clears inspector",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:Escape deselects and Scene Explorer empty space deselects",
+      "file": "editor.spec.mjs",
+      "title": "Escape deselects and Scene Explorer empty space deselects",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:camera orbit, pan and zoom retain object selection",
+      "file": "editor.spec.mjs",
+      "title": "camera orbit, pan and zoom retain object selection",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:all four shading modes are interactive and render without page errors",
+      "file": "editor.spec.mjs",
+      "title": "all four shading modes are interactive and render without page errors",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:Edit Mode selection and Escape behavior",
+      "file": "editor.spec.mjs",
+      "title": "Edit Mode selection and Escape behavior",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:GLB browser import, export and reimport",
+      "file": "editor.spec.mjs",
+      "title": "GLB browser import, export and reimport",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:front, right and top camera presets work on an imported garment",
+      "file": "editor.spec.mjs",
+      "title": "front, right and top camera presets work on an imported garment",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:back, left and bottom camera presets are exposed in the viewport UI",
+      "file": "editor.spec.mjs",
+      "title": "back, left and bottom camera presets are exposed in the viewport UI",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:UV Lab displays layout and exports a real PNG",
+      "file": "editor.spec.mjs",
+      "title": "UV Lab displays layout and exports a real PNG",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "editor.spec.mjs:BlackBullet validation report is accessible",
+      "file": "editor.spec.mjs",
+      "title": "BlackBullet validation report is accessible",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "stabilization.spec.mjs:actual Model Maker exports a multi-part black PBR garment with textures",
+      "file": "stabilization.spec.mjs",
+      "title": "actual Model Maker exports a multi-part black PBR garment with textures",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "stabilization.spec.mjs:IndexedDB reconstructs edited textured geometry after browser process restart",
+      "file": "stabilization.spec.mjs",
+      "title": "IndexedDB reconstructs edited textured geometry after browser process restart",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "stabilization.spec.mjs:repeated real imports/removals retain bounded renderer geometry resources",
+      "file": "stabilization.spec.mjs",
+      "title": "repeated real imports/removals retain bounded renderer geometry resources",
+      "status": "passed",
+      "run": "baseline-browser"
+    },
+    {
+      "key": "completion.spec.mjs:Completion: local generated GLB inspection and Studio handoff require no generation provider",
+      "file": "completion.spec.mjs",
+      "title": "Completion: local generated GLB inspection and Studio handoff require no generation provider",
+      "status": "passed",
+      "run": "final-confirmation"
+    },
+    {
+      "key": "completion.spec.mjs:Completion: material split, undo/redo, UV packing and durable save use actual controls",
+      "file": "completion.spec.mjs",
+      "title": "Completion: material split, undo/redo, UV packing and durable save use actual controls",
+      "status": "passed",
+      "run": "final-confirmation"
+    },
+    {
+      "key": "phase3_5-alignment.spec.mjs:Phase 3.5 canonical Rectangle coordinates match preview texture pixels",
+      "file": "phase3_5-alignment.spec.mjs",
+      "title": "Phase 3.5 canonical Rectangle coordinates match preview texture pixels",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5-alignment.spec.mjs:Phase 3.5 canonical Circle coordinates match preview texture pixels",
+      "file": "phase3_5-alignment.spec.mjs",
+      "title": "Phase 3.5 canonical Circle coordinates match preview texture pixels",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5-alignment.spec.mjs:Phase 3.5 canonical Star coordinates match preview texture pixels",
+      "file": "phase3_5-alignment.spec.mjs",
+      "title": "Phase 3.5 canonical Star coordinates match preview texture pixels",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5-alignment.spec.mjs:Phase 3.5 canonical Triangle coordinates match preview texture pixels",
+      "file": "phase3_5-alignment.spec.mjs",
+      "title": "Phase 3.5 canonical Triangle coordinates match preview texture pixels",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5-alignment.spec.mjs:Phase 3.5 canonical Text coordinates match preview texture pixels",
+      "file": "phase3_5-alignment.spec.mjs",
+      "title": "Phase 3.5 canonical Text coordinates match preview texture pixels",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5-alignment.spec.mjs:Phase 3.5 canonical Image coordinates match preview texture pixels",
+      "file": "phase3_5-alignment.spec.mjs",
+      "title": "Phase 3.5 canonical Image coordinates match preview texture pixels",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5-alignment.spec.mjs:Phase 3.5 repeated artwork/export/replacement releases GPU allocations",
+      "file": "phase3_5-alignment.spec.mjs",
+      "title": "Phase 3.5 repeated artwork/export/replacement releases GPU allocations",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5-materials.spec.mjs:Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork",
+      "file": "phase3_5-materials.spec.mjs",
+      "title": "Phase 3.5 imported material slots preserve unrelated gold PBR during blue-slot artwork",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5.spec.mjs:Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport",
+      "file": "phase3_5.spec.mjs",
+      "title": "Phase 3.5 acceptance: actual front/back/sleeve pixels, source factors and reimport",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5.spec.mjs:Phase 3.5 undo/redo updates actual texture and exported pixels",
+      "file": "phase3_5.spec.mjs",
+      "title": "Phase 3.5 undo/redo updates actual texture and exported pixels",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "phase3_5.spec.mjs:Phase 3.5 imported source plus editable artwork survives browser process restart",
+      "file": "phase3_5.spec.mjs",
+      "title": "Phase 3.5 imported source plus editable artwork survives browser process restart",
+      "status": "passed",
+      "run": "final-smoke"
+    },
+    {
+      "key": "phase4-ai-generator.spec.mjs:E2E workflow: Upload reference -> Gemini analysis -> 3D Generation -> Mesh Processing -> Studio Handoff",
+      "file": "phase4-ai-generator.spec.mjs",
+      "title": "E2E workflow: Upload reference -> Gemini analysis -> 3D Generation -> Mesh Processing -> Studio Handoff",
+      "status": "passed",
+      "run": "final-browser"
+    },
+    {
+      "key": "appearance-modes.spec.mjs:Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint",
+      "file": "appearance-modes.spec.mjs",
+      "title": "Phase 2.5 BlackBullet preserves multipart PBR and runtime artwork without double tint",
+      "status": "passed",
+      "run": "appearance-browser"
+    },
+    {
+      "key": "appearance-modes.spec.mjs:Phase 2.5 BlackBullet existing catalog retains runtime default",
+      "file": "appearance-modes.spec.mjs",
+      "title": "Phase 2.5 BlackBullet existing catalog retains runtime default",
+      "status": "passed",
+      "run": "appearance-browser"
+    },
+    {
+      "key": "blackbullet.spec.mjs:BlackBullet actual customizer preserves imported black fabric before user color choice",
+      "file": "blackbullet.spec.mjs",
+      "title": "BlackBullet actual customizer preserves imported black fabric before user color choice",
+      "status": "passed",
+      "run": "appearance-browser"
+    },
+    {
+      "key": "phase3_5-blackbullet.spec.mjs:Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork",
+      "file": "phase3_5-blackbullet.spec.mjs",
+      "title": "Phase 3.5 actual BlackBullet resolves regions, preserves import, isolates runtime colors/artwork",
+      "status": "passed",
+      "run": "final-confirmation"
+    },
+    {
+      "key": "phase3-blackbullet.spec.mjs:Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+      "file": "phase3-blackbullet.spec.mjs",
+      "title": "Phase 3 newly customized Model Maker GLB in actual BlackBullet imported and runtime modes",
+      "status": "passed",
+      "run": "legacy-consumer-browser"
+    },
+    {
+      "key": "phase3-blackbullet.spec.mjs:Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes",
+      "file": "phase3-blackbullet.spec.mjs",
+      "title": "Phase 3 UV-ready customized multipart export supports both BlackBullet appearance modes",
+      "status": "passed",
+      "run": "legacy-consumer-browser"
+    },
+    {
+      "key": "phase3-blackbullet.spec.mjs:Phase 3 customized export reimports into Model Maker with artwork textures",
+      "file": "phase3-blackbullet.spec.mjs",
+      "title": "Phase 3 customized export reimports into Model Maker with artwork textures",
+      "status": "passed",
+      "run": "final-confirmation"
+    },
+    {
+      "key": "phase3-durability.spec.mjs:Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors",
+      "file": "phase3-durability.spec.mjs",
+      "title": "Phase 3 uploaded PNG JPEG WebP SVG, keyboard protection and malformed input errors",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    },
+    {
+      "key": "phase3-durability.spec.mjs:Phase 3 editable project survives a new browser process with durable image assets",
+      "file": "phase3-durability.spec.mjs",
+      "title": "Phase 3 editable project survives a new browser process with durable image assets",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    },
+    {
+      "key": "phase3-pointer.spec.mjs:Phase 3 pointer movement updates layer coordinates and actual texture pixels",
+      "file": "phase3-pointer.spec.mjs",
+      "title": "Phase 3 pointer movement updates layer coordinates and actual texture pixels",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    },
+    {
+      "key": "phase3-pointer.spec.mjs:Phase 3 star has matching 2D canvas and actual 3D texture coordinates",
+      "file": "phase3-pointer.spec.mjs",
+      "title": "Phase 3 star has matching 2D canvas and actual 3D texture coordinates",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    },
+    {
+      "key": "phase3.spec.mjs:workspace initialization corresponds to selected product",
+      "file": "phase3.spec.mjs",
+      "title": "workspace initialization corresponds to selected product",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    },
+    {
+      "key": "phase3.spec.mjs:catalog geometry, live textures, camera controls and resource cycles",
+      "file": "phase3.spec.mjs",
+      "title": "catalog geometry, live textures, camera controls and resource cycles",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    },
+    {
+      "key": "phase3.spec.mjs:real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+      "file": "phase3.spec.mjs",
+      "title": "real artwork controls, durable layers, UV isolation, export resolutions and BlackBullet",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    },
+    {
+      "key": "phase3.spec.mjs:UV-ready multipart import preserves original albedo and PBR",
+      "file": "phase3.spec.mjs",
+      "title": "UV-ready multipart import preserves original albedo and PBR",
+      "status": "passed",
+      "run": "legacy-producer-browser"
+    }
+  ]
+}

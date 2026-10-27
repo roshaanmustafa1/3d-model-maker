@@ -1,0 +1,31 @@
+{
+  "byteSize": 4025,
+  "verified": true,
+  "reloadedMeshCount": 1,
+  "reloadedTriangleCount": 12,
+  "uvCheckPassed": true,
+  "hasMaterials": true,
+  "issues": [],
+  "warnings": [],
+  "exportedMaterials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0027317428517647058,
+          0.0027317428517647058,
+          0.0033465357620980074,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.65
+      },
+      "doubleSided": true,
+      "name": "QA Black Cotton",
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 0
+        }
+      }
+    }
+  ]
+}

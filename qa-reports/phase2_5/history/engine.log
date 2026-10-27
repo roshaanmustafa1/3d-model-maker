@@ -1,0 +1,71 @@
+[zustand persist middleware] Unable to update item '3d_model_maker_projects_meta', the given storage is currently unavailable.
+✔ QA forward extrude: changed geometry remains exportable before history actions (49.9247ms)
+✔ QA topology extrude: geometry, graph, undo, redo and GLB (10.8866ms)
+✔ QA forward inset: changed geometry remains exportable before history actions (9.3777ms)
+✔ QA topology inset: geometry, graph, undo, redo and GLB (11.5776ms)
+✔ QA forward subdivide: changed geometry remains exportable before history actions (8.3486ms)
+✔ QA topology subdivide: geometry, graph, undo, redo and GLB (8.4319ms)
+✔ QA forward merge: changed geometry remains exportable before history actions (6.9966ms)
+✔ QA topology merge: geometry, graph, undo, redo and GLB (14.6756ms)
+✔ QA forward weld: changed geometry remains exportable before history actions (8.5407ms)
+✔ QA topology weld: geometry, graph, undo, redo and GLB (9.1818ms)
+✔ QA forward delete: changed geometry remains exportable before history actions (5.8075ms)
+✔ QA topology delete: geometry, graph, undo, redo and GLB (5.9733ms)
+✔ QA forward flip: changed geometry remains exportable before history actions (5.0957ms)
+✔ QA topology flip: geometry, graph, undo, redo and GLB (6.4609ms)
+✔ QA flip normals updates per-corner shading normals as well as winding (0.5079ms)
+✖ QA adding a primitive keeps primary and multi-selection IDs synchronized (8.6922ms)
+✔ QA connected component separation: geometry, history and GLB (11.0758ms)
+✔ QA forward UV box: edited data survives GLB independently of undo (6.806ms)
+✔ QA forward UV planar: edited data survives GLB independently of undo (7.4733ms)
+✔ QA forward UV cylindrical: edited data survives GLB independently of undo (6.8707ms)
+✔ QA UV box: finite data, undo/redo and GLB (6.1369ms)
+✔ QA UV planar: finite data, undo/redo and GLB (10.5658ms)
+✔ QA UV cylindrical: finite data, undo/redo and GLB (8.2395ms)
+✔ QA UV translate: actual data changes and undo restores it (6.2673ms)
+✔ QA UV rotate: actual data changes and undo restores it (6.2558ms)
+✔ QA UV scale: actual data changes and undo restores it (6.8787ms)
+✔ QA material slots: assign selected faces, remove slot, valid groups and GLB (17.479ms)
+✔ QA material face assignment undo from a primitive restores geometry and slots (6.2694ms)
+✔ QA GLTF embedded JSON export reloads with black fabric and customization metadata (56.9701ms)
+✔ QA UV diagnostics rejects non-finite coordinates and distinguishes missing UVs (1.6715ms)
+✔ QA persistence: supported primitive transforms and materials survive JSON save/load (54.3052ms)
+✔ QA persistence: edited/imported geometry bytes survive a fresh process (700.6299ms)
+﹣ QA unsupported feature inventory: joinMeshes (0.1623ms) # joinMeshes is not implemented in the editor store
+﹣ QA unsupported feature inventory: bevelSelectedEdges (0.0791ms) # bevelSelectedEdges is not implemented in the editor store
+﹣ QA unsupported feature inventory: duplicateMaterial (0.0794ms) # duplicateMaterial is not implemented in the editor store
+ℹ tests 35
+ℹ suites 0
+ℹ pass 31
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 2261.4709
+
+✖ failing tests:
+
+test at tests\qa\engine.test.mjs:105:1
+✖ QA adding a primitive keeps primary and multi-selection IDs synchronized (8.6922ms)
+  AssertionError [ERR_ASSERTION]: New primitive becomes primary selection but stale selectedNodeIds still reference the previous object
+  + actual - expected
+  
+    [
+  +   'node_init_cube'
+  -   'node_1792848809455_251'
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/Users/Roshaan's%20Pc/Documents/Projects/3d-model-maker/tests/qa/engine.test.mjs:110:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 'node_init_cube' ],
+    expected: [ 'node_1792848809455_251' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

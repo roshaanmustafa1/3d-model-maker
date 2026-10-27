@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "status": {
+    "available": false,
+    "message": "Blender executable not found. Advanced Blender UV smart unwrapping & headless packing require BLENDER_EXECUTABLE_PATH to be configured in .env.local."
+  }
+}

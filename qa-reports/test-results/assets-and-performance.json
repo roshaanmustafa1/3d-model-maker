@@ -1,0 +1,122 @@
+{
+  "measuredAt": "2026-10-24T12:51:36.414Z",
+  "environment": {
+    "node": "v24.21.0",
+    "os": "win32 10.0.19045",
+    "cpu": "Intel(R) Xeon(R) CPU E5-2687W v2 @ 3.40GHz",
+    "memoryBytes": 25711394816
+  },
+  "performance": [
+    {
+      "label": "small",
+      "triangles": 1000,
+      "importMs": 13.22479999999996,
+      "graphMs": 17.015500000000202,
+      "subdivideTwoFacesMs": 12.04379999999992,
+      "selection100PairsMs": 32.259199999999964,
+      "exportAndVerifyMs": 64.86920000000009,
+      "verified": true,
+      "issues": [],
+      "heapBefore": 38881440,
+      "heapAfter": 44905392,
+      "rss": 143884288
+    },
+    {
+      "label": "medium",
+      "triangles": 20000,
+      "importMs": 32.715200000000095,
+      "graphMs": 320.3484000000003,
+      "subdivideTwoFacesMs": 283.7943,
+      "selection100PairsMs": 112.73070000000007,
+      "exportAndVerifyMs": 528.4574000000002,
+      "verified": true,
+      "issues": [],
+      "heapBefore": 45102736,
+      "heapAfter": 81022416,
+      "rss": 227221504
+    },
+    {
+      "label": "large",
+      "triangles": 80000,
+      "importMs": 107.36199999999963,
+      "graphMs": 814.0286999999998,
+      "subdivideTwoFacesMs": 597.969,
+      "selection100PairsMs": 46.44769999999971,
+      "exportAndVerifyMs": 684.3862000000008,
+      "verified": true,
+      "issues": [],
+      "heapBefore": 81028768,
+      "heapAfter": 222990016,
+      "rss": 452263936
+    }
+  ],
+  "garments": [
+    {
+      "file": "subdivision.glb",
+      "source": "/C:/Users/Roshaan's%20Pc/Documents/Projects/blackbullet-3d/src/assets/modals/subdivision.glb",
+      "sourceSHA256": "41917204466a7a872bef865b6dfb4546c380044fd752afdc93700a31a485d0c1",
+      "sourceMaterials": [
+        {
+          "name": "tripo_mat_6d28b199",
+          "color": "#e7e7e7",
+          "roughness": 0.5,
+          "metalness": 0,
+          "doubleSided": true
+        }
+      ],
+      "output": "qa-reports/exported-models/black-subdivision.glb",
+      "verified": false,
+      "issues": [
+        "athletic_shirt_3d_model: missing uv attribute.",
+        "athletic_shirt_3d_model: 1 degenerate triangles.",
+        "athletic_shirt_3d_model: uv vertex count/attribute changed.",
+        "Mesh \"athletic_shirt_3d_model\" is missing UV coordinates."
+      ],
+      "warnings": [
+        "athletic_shirt_3d_model: 297 triangles have normals opposing winding; inspect orientation before repair."
+      ],
+      "sourceMeshes": 1,
+      "reimportedMeshes": 1,
+      "reimportedMaterials": [
+        {
+          "name": "tripo_mat_6d28b199",
+          "color": "#09090b",
+          "roughness": 0.65,
+          "metalness": 0,
+          "doubleSided": true
+        }
+      ],
+      "durationMs": 469.85450000000037
+    },
+    {
+      "file": "raglan_shirt.glb",
+      "source": "/C:/Users/Roshaan's%20Pc/Documents/Projects/blackbullet-3d/src/assets/modals/raglan_shirt.glb",
+      "sourceSHA256": "0cfae488f39088f7bc043e8e3b397837049ebfae8b4e4e80c2739a05b647223d",
+      "sourceMaterials": [
+        {
+          "name": "shirt_front_Mat",
+          "color": "#ffffff",
+          "roughness": 1,
+          "metalness": 1,
+          "doubleSided": false
+        }
+      ],
+      "output": "qa-reports/exported-models/black-raglan_shirt.glb",
+      "verified": true,
+      "issues": [],
+      "warnings": [],
+      "sourceMeshes": 12,
+      "reimportedMeshes": 12,
+      "reimportedMaterials": [
+        {
+          "name": "shirt_front_Mat",
+          "color": "#09090b",
+          "roughness": 0.65,
+          "metalness": 0,
+          "doubleSided": true
+        }
+      ],
+      "durationMs": 928.9548000000004
+    }
+  ]
+}
